@@ -43,6 +43,53 @@ except ImportError:
     HAS_NUMPY = False
     logger.warning("未找到numpy库，部分高级功能可能不可用")
 
+# 强制使用简单分词方法（临时解决方案）
+HAS_JIEBA = False
+logger.info("强制使用简单分词方法代替jieba")
+
+# 添加一些常用的中文停用词
+STOPWORDS = set([
+    "的", "了", "和", "是", "在", "有", "与", "这", "那", "个", "们", "中", "to", "the", "and", "in", "of", "a", "for",
+    "我", "你", "他", "她", "它", "我们", "你们", "他们", "她们", "它们", "自己", "什么", "哪些", "怎么", "怎样", "如何",
+    "因为", "所以", "但是", "可是", "然而", "而且", "并且", "或者", "如果", "虽然", "就是", "只是", "还是", "也是", 
+    "不是", "没有", "可以", "应该", "需要", "一个", "一种", "一些", "这个", "这些", "那个", "那些", "以及", "或者"
+])
+
+# 简单的中文分词函数
+def simple_chinese_tokenize(text):
+    """简单的中文分词函数，不依赖jieba"""
+    if not text:
+        return []
+    
+    # 标点符号和空格
+    punctuations = set('''，。！？；：""''（）【】《》、…—·,.!?;:()[]<>"\'/\\''')
+    
+    # 存储分词结果
+    tokens = []
+    current_token = ""
+    
+    for char in text:
+        if char in punctuations or char.isspace():
+            if current_token:
+                tokens.append(current_token)
+                current_token = ""
+        else:
+            # 中文字符单独成词
+            if ord(char) > 127:
+                if current_token:
+                    tokens.append(current_token)
+                    current_token = ""
+                tokens.append(char)
+            else:
+                # 英文和数字连续成词
+                current_token += char
+    
+    # 处理最后一个token
+    if current_token:
+        tokens.append(current_token)
+    
+    return tokens
+
 # 加载环境变量
 load_dotenv()
 
@@ -1038,18 +1085,41 @@ def extract_keywords(text, top_k=5):
         except Exception as e:
             logger.error(f"使用jieba提取关键词失败: {str(e)}")
     
-    # 如果jieba不可用或提取失败，使用简单的方法
-    # 分词并过滤
+    # 使用简单的分词和词频统计方法提取关键词
+    try:
+        # 使用我们的简单分词函数
+        tokens = simple_chinese_tokenize(text)
+        
+        # 过滤停用词和单字词
+        filtered_tokens = [
+            token.lower() for token in tokens 
+            if len(token) > 1 and token.lower() not in STOPWORDS and not token.isdigit()
+        ]
+        
+        # 统计词频
+        word_freq = {}
+        for token in filtered_tokens:
+            word_freq[token] = word_freq.get(token, 0) + 1
+        
+        # 按词频排序
+        sorted_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+        
+        # 提取前top_k个关键词
+        keywords = [word for word, freq in sorted_words[:top_k]]
+        
+        logger.info(f"使用简单分词提取关键词: {keywords}")
+        return keywords
+        
+    except Exception as e:
+        logger.error(f"使用简单分词提取关键词失败: {str(e)}")
+    
+    # 如果前面的方法都失败了，使用最简单的方法
     words = text.split()
-    
-    # 过滤掉常见的停用词和标点符号
-    stop_words = ["的", "了", "和", "是", "在", "有", "与", "这", "那", "个", "们", "中", "to", "the", "and", "in", "of", "a", "for"]
-    filtered_words = []
-    
-    for word in words:
-        word = word.strip(",.?!;:\"'()[]{}").lower()
-        if len(word) > 1 and word not in stop_words and not word.isdigit():
-            filtered_words.append(word)
+    filtered_words = [
+        word.strip(",.?!;:\"'()[]{}").lower() 
+        for word in words 
+        if len(word) > 1 and word.strip(",.?!;:\"'()[]{}").lower() not in STOPWORDS
+    ]
     
     # 统计词频
     word_freq = {}
