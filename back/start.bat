@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 > nul
 echo 正在启动PPT生成服务 - Flask后端...
 
 REM 检查Python是否安装

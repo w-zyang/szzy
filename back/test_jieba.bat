@@ -1,4 +1,4 @@
 @echo off
-call .\.venv\Scripts\activate
+chcp 65001 > nul
 python test_jieba.py
 pause 

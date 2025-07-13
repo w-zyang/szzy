@@ -447,7 +447,7 @@ def generate_ppt_without_template(slides_data, output_path):
                 create_content_slide(prs, slide_data)
                 
             # 默认创建内容页
-                                else:
+            else:
                 logger.info(f"创建内容页(默认): {slide_data.get('title', '未命名')}")
                 create_content_slide(prs, slide_data)
         

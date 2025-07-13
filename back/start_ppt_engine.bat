@@ -1,32 +1,30 @@
 @echo off
-echo === PPT引擎启动脚本 ===
-echo.
+chcp 65001 > nul
+echo 启动PPT引擎服务...
 
-rem 检查Python环境
-python --version
-if %ERRORLEVEL% neq 0 (
-    echo 错误: Python未安装或不在PATH中
-    exit /b 1
+REM 检查Python是否安装
+where python >nul 2>nul
+if %errorlevel% neq 0 (
+    echo Python未安装，请先安装Python 3.8或更高版本。
+    pause
+    exit /b
 )
 
-rem 检查是否需要安装依赖
-if not exist ppt_engine (
-    echo 未找到ppt_engine目录，开始安装...
-    python setup_ppt_engine.py
-    if %ERRORLEVEL% neq 0 (
-        echo 安装依赖失败，请手动运行setup_ppt_engine.py
-        exit /b 1
-    )
+REM 创建虚拟环境(如果不存在)
+if not exist venv (
+    echo 创建虚拟环境...
+    python -m venv venv
 )
 
-echo.
-echo === PPT引擎使用说明 ===
-echo.
-echo 命令行方式:
-echo python -m ppt_engine.unified_generator -o 大纲.json -t 模板.pptx -p 输出.pptx
-echo.
-echo API方式:
-echo POST /api/aiPpt/generate-html-ppt
-echo.
-echo 按任意键退出...
-pause > nul 
+REM 激活虚拟环境
+call venv\Scripts\activate.bat
+
+REM 安装依赖
+echo 安装依赖...
+pip install -r requirements.txt
+
+REM 运行PPT引擎设置脚本
+python setup_ppt_engine.py
+
+echo PPT引擎服务已启动!
+pause 

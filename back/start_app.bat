@@ -1,4 +1,4 @@
 @echo off
-call .\.venv\Scripts\activate
-python app.py
+chcp 65001 > nul
+python run.py
 pause 

@@ -1742,6 +1742,26 @@ def default_image(filename):
 # 导入改进的PPT生成器
 from improved_ppt_generator import generate_ppt
 
+# 添加资源API端点
+@app.route('/api/resource', methods=['GET'])
+def get_resources():
+    resource_type = request.args.get('type', 'all')
+    # 返回示例数据
+    if resource_type == 'custom':
+        return jsonify([
+            {
+                'id': 1,
+                'title': '示例定制资源',
+                'desc': '这是一个示例的定制资源',
+                'cover': '/default_images/default.jpg',
+                'created_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+        ])
+    elif resource_type == 'undefined':
+        # 处理前端可能发送的undefined类型请求
+        return jsonify([])
+    return jsonify([])  # 默认返回空数组
+
 # 如果直接运行此文件，则启动应用
 if __name__ == '__main__':
     # 获取端口，默认为5000
