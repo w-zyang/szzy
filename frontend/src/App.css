@@ -1,0 +1,16 @@
+.logo {
+  height: 48px;
+  margin: 16px;
+  background: linear-gradient(90deg, #4f8cff 0%, #6ed6ff 100%);
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+body {
+  background: #f4f8fb;
+} 

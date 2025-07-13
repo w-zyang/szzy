@@ -1,0 +1,3316 @@
+{
+  "name": "绿色圆点.pptx",
+  "slide_count": 23,
+  "slide_width": 12192000,
+  "slide_height": 6858000,
+  "slides": [
+    {
+      "index": 0,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16",
+          "left": 1881600,
+          "top": 4927829,
+          "width": 693143,
+          "height": 693143,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1",
+          "left": 7941329,
+          "top": 1109510,
+          "width": 1605859,
+          "height": 1429988
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 179",
+          "left": 2574743,
+          "top": 2626991,
+          "width": 7174452,
+          "height": 1200329,
+          "has_text": true,
+          "text": "简约绿色小清新"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 181",
+          "left": 2971800,
+          "top": 3928627,
+          "width": 6575388,
+          "height": 584775,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 182",
+          "left": 4831618,
+          "top": 4758815,
+          "width": 2750281,
+          "height": 461665,
+          "has_text": true,
+          "text": "汇报人：第一PPT"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 183",
+          "left": 3784637,
+          "top": 1886490,
+          "width": 5138874,
+          "height": 707886,
+          "has_text": true,
+          "text": "POWERPOINT"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "cover"
+      ]
+    },
+    {
+      "index": 1,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 19",
+          "left": 1955284,
+          "top": 4968814,
+          "width": 858164,
+          "height": 764334
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 1",
+          "left": -1308935,
+          "top": -1149509,
+          "width": 5552470,
+          "height": 5552470,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2",
+          "left": 6986610,
+          "top": 2043560,
+          "width": 1173612,
+          "height": 400110,
+          "has_text": true,
+          "text": "Part 01"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3",
+          "left": 8330067,
+          "top": 2043560,
+          "width": 2132757,
+          "height": 523220,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4",
+          "left": 6919764,
+          "top": 2779589,
+          "width": 1389211,
+          "height": 400110,
+          "has_text": true,
+          "text": "Part 02"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 5",
+          "left": 8330067,
+          "top": 2779589,
+          "width": 2132757,
+          "height": 523220,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 6",
+          "left": 6919765,
+          "top": 3515618,
+          "width": 1307302,
+          "height": 400110,
+          "has_text": true,
+          "text": "Part 03"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 7",
+          "left": 8330067,
+          "top": 3515618,
+          "width": 2132757,
+          "height": 523220,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 8",
+          "left": 6937279,
+          "top": 4250230,
+          "width": 1307302,
+          "height": 400110,
+          "has_text": true,
+          "text": "Part 04"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9",
+          "left": 8347581,
+          "top": 4250230,
+          "width": 2132757,
+          "height": 523220,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10",
+          "left": 6400801,
+          "top": 1630017,
+          "width": 225286,
+          "height": 3604592
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 17",
+          "left": 2813448,
+          "top": 2222224,
+          "width": 2076735,
+          "height": 2076735,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18",
+          "left": 259409,
+          "top": 546577,
+          "width": 1415772,
+          "height": 2520297,
+          "has_text": true,
+          "text": "CONTENT"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 2,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3",
+          "left": 5186369,
+          "top": 1535627,
+          "width": 1896317,
+          "height": 830997,
+          "has_text": true,
+          "text": "Part 01"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4",
+          "left": 3422483,
+          "top": 3080005,
+          "width": 5424095,
+          "height": 830997,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5",
+          "left": 3514781,
+          "top": 4037308,
+          "width": 5239496,
+          "height": 738664,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 6",
+          "left": 5563169,
+          "top": 2590369,
+          "width": 1065661,
+          "height": 45719,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 3,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16",
+          "left": 2641252,
+          "top": 1237523,
+          "width": 2990982,
+          "height": 2990982,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 4829026,
+          "top": 2502192,
+          "width": 3467616,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加页面标题内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Google Shape;86;p19",
+          "left": 4829026,
+          "top": 2067922,
+          "width": 3183654,
+          "height": 434269,
+          "has_text": true,
+          "text": "YOUR TITLE HERE"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 24",
+          "left": 4829026,
+          "top": 3200676,
+          "width": 5906784,
+          "height": 1061813,
+          "has_text": true,
+          "text": "请在此处添加具体内容，文字尽量言简意赅，简单说明即可，不必过于繁琐，注意板面美观度。请在此处添加具体内容，文字尽量言简意赅，简单说明即可，不必过于繁琐，注意板面美观度。"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 5",
+          "left": 5557213,
+          "top": 4878385,
+          "width": 2268667,
+          "height": 923330,
+          "has_text": true,
+          "text": "48."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 6",
+          "left": 5557213,
+          "top": 5821360,
+          "width": 2122795,
+          "height": 369332,
+          "has_text": true,
+          "text": "Short Text Here"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 7",
+          "left": 2676720,
+          "top": 5821360,
+          "width": 2122795,
+          "height": 369332,
+          "has_text": true,
+          "text": "Short Text Here"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 8",
+          "left": 2676720,
+          "top": 4878385,
+          "width": 2268667,
+          "height": 923330,
+          "has_text": true,
+          "text": "36."
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 5",
+          "left": 8271554,
+          "top": 4878385,
+          "width": 2268667,
+          "height": 923330,
+          "has_text": true,
+          "text": "52."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 6",
+          "left": 8271554,
+          "top": 5821360,
+          "width": 2122795,
+          "height": 369332,
+          "has_text": true,
+          "text": "Short Text Here"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 17",
+          "left": 1652224,
+          "top": 2794579,
+          "width": 1592712,
+          "height": 1592712,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 4,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 7",
+          "left": 3442097,
+          "top": 1649013,
+          "width": 5307806,
+          "height": 537142,
+          "has_text": true,
+          "text": "PROBLEM SOLVING"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 8",
+          "left": 1571603,
+          "top": 2186155,
+          "width": 9048794,
+          "height": 845296,
+          "has_text": true,
+          "text": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. "
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 9",
+          "left": 805883,
+          "top": 3247895,
+          "width": 10573316,
+          "height": 2680983
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 5,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 7",
+          "left": 1803720,
+          "top": 5370734,
+          "width": 1815460,
+          "height": 415864,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8",
+          "left": 2036445,
+          "top": 5378611,
+          "width": 1350011,
+          "height": 400110,
+          "has_text": true,
+          "text": "标题添加"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9",
+          "left": 1121296,
+          "top": 4435297,
+          "width": 3217444,
+          "height": 840230,
+          "has_text": true,
+          "text": "We never can have a true view of man unless we have a love for him."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10",
+          "left": 5188270,
+          "top": 5370734,
+          "width": 1815460,
+          "height": 415864,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11",
+          "left": 5420995,
+          "top": 5378611,
+          "width": 1350011,
+          "height": 400110,
+          "has_text": true,
+          "text": "标题添加"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12",
+          "left": 4487278,
+          "top": 4435297,
+          "width": 3217444,
+          "height": 840230,
+          "has_text": true,
+          "text": "We never can have a true view of man unless we have a love for him."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 13",
+          "left": 8572820,
+          "top": 5370734,
+          "width": 1815460,
+          "height": 415864,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14",
+          "left": 8805545,
+          "top": 5378611,
+          "width": 1350011,
+          "height": 400110,
+          "has_text": true,
+          "text": "标题添加"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15",
+          "left": 7871828,
+          "top": 4435297,
+          "width": 3217444,
+          "height": 840230,
+          "has_text": true,
+          "text": "We never can have a true view of man unless we have a love for him."
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 16",
+          "left": 1761917,
+          "top": 2043219,
+          "width": 1908384,
+          "height": 1908384
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 19",
+          "left": 5141808,
+          "top": 2043219,
+          "width": 1908384,
+          "height": 1908384
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 22",
+          "left": 8526358,
+          "top": 2043219,
+          "width": 1908384,
+          "height": 1908384
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 25",
+          "left": 1786286,
+          "top": 2403671,
+          "width": 1879356,
+          "height": 1107996,
+          "has_text": true,
+          "text": "01"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 26",
+          "left": 5153402,
+          "top": 2403671,
+          "width": 1879356,
+          "height": 1107996,
+          "has_text": true,
+          "text": "02"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 27",
+          "left": 8543792,
+          "top": 2403671,
+          "width": 1879356,
+          "height": 1107996,
+          "has_text": true,
+          "text": "03"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 6,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 7",
+          "left": 7435249,
+          "top": 1658320,
+          "width": 3584045,
+          "height": 4440264,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1273638,
+          "top": 2232562,
+          "width": 3467616,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加页面标题内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Google Shape;86;p19",
+          "left": 1273638,
+          "top": 1798292,
+          "width": 3183654,
+          "height": 434269,
+          "has_text": true,
+          "text": "YOUR TITLE HERE"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 24",
+          "left": 1273637,
+          "top": 3030569,
+          "width": 5245357,
+          "height": 1569644,
+          "has_text": true,
+          "text": "请在此处添加具体内容，文字尽量言简意赅，简单说明即可，不必过于繁琐，注意板面美观度。请在此处添加具体内容，文字尽量言简意赅，简单说明即可，不必过于繁琐，注意板面美观度。"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 11",
+          "left": 3505408,
+          "top": 5253923,
+          "width": 727071,
+          "height": 727071
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 14",
+          "left": 2429290,
+          "top": 5253924,
+          "width": 727071,
+          "height": 727071
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17",
+          "left": 1353172,
+          "top": 5253925,
+          "width": 727071,
+          "height": 727071
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 20",
+          "left": 7963651,
+          "top": 2780507,
+          "width": 2635910,
+          "height": 890693,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 21",
+          "left": 7963648,
+          "top": 2356962,
+          "width": 2436689,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 22",
+          "left": 7963651,
+          "top": 4518290,
+          "width": 2635910,
+          "height": 890693,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 23",
+          "left": 7963648,
+          "top": 4094745,
+          "width": 2436689,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 7,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3",
+          "left": 5186369,
+          "top": 1535627,
+          "width": 1896317,
+          "height": 830997,
+          "has_text": true,
+          "text": "Part 02"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4",
+          "left": 3422483,
+          "top": 3080005,
+          "width": 5424095,
+          "height": 830997,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5",
+          "left": 3514781,
+          "top": 4037308,
+          "width": 5239496,
+          "height": 738664,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 6",
+          "left": 5563169,
+          "top": 2590369,
+          "width": 1065661,
+          "height": 45719,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 16",
+          "left": 234338,
+          "top": 6393319,
+          "width": 1800200,
+          "height": 123111,
+          "has_text": true,
+          "text": "PPT模板 http://www.1ppt.com/moban/ "
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 8,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 1",
+          "left": 1388547,
+          "top": 2190750,
+          "width": 6137637,
+          "height": 2150025
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "PA_文本框 30",
+          "left": 1560513,
+          "top": 5031811,
+          "width": 9902580,
+          "height": 702244,
+          "has_text": true,
+          "text": "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. We never can have a true view of man unless we have a love for him."
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 30",
+          "left": 837443,
+          "top": 4760527,
+          "width": 618294,
+          "height": 556362,
+          "is_image": true
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 32",
+          "left": 8599318,
+          "top": -1727914,
+          "width": 4842125,
+          "height": 4842125,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 33",
+          "left": 9018672,
+          "top": 1871376,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 9,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1",
+          "left": 1148313,
+          "top": 4743607,
+          "width": 771684,
+          "height": 771788
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 59",
+          "left": 2185586,
+          "top": 4740670,
+          "width": 772319,
+          "height": 772423,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 84",
+          "left": 2405418,
+          "top": 4959403,
+          "width": 340833,
+          "height": 340831,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 31",
+          "left": 1148314,
+          "top": 2173287,
+          "width": 3900990,
+          "height": 2533077
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17",
+          "left": 5940426,
+          "top": 2016876,
+          "width": 1080000,
+          "height": 1577166
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 23",
+          "left": 7862922,
+          "top": 2016877,
+          "width": 1091933,
+          "height": 1577165
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 29",
+          "left": 9700888,
+          "top": 2016876,
+          "width": 1080000,
+          "height": 1577166
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 35",
+          "left": 5931718,
+          "top": 4115177,
+          "width": 412092,
+          "height": 263579,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 36",
+          "left": 5931718,
+          "top": 5144792,
+          "width": 412092,
+          "height": 263579,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37",
+          "left": 6485981,
+          "top": 3965451,
+          "width": 2234380,
+          "height": 461665,
+          "has_text": true,
+          "text": "标题文本"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 34",
+          "left": 6501221,
+          "top": 4262206,
+          "width": 4865286,
+          "height": 613694,
+          "has_text": true,
+          "text": "lorem ipsum dolor sit amet, consectetur adipisicing elit, sed ea commodoconsequat."
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 39",
+          "left": 6501221,
+          "top": 5120365,
+          "width": 2234380,
+          "height": 461665,
+          "has_text": true,
+          "text": "标题文本"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 34",
+          "left": 6516461,
+          "top": 5401880,
+          "width": 4865286,
+          "height": 613694,
+          "has_text": true,
+          "text": "lorem ipsum dolor sit amet, consectetur adipisicing elit, sed ea commodoconsequat."
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 10,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7",
+          "left": 1131272,
+          "top": 2795649,
+          "width": 2778793,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8",
+          "left": 1108110,
+          "top": 2207539,
+          "width": 2825116,
+          "height": 581057,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9",
+          "left": 4459237,
+          "top": 2795649,
+          "width": 2778793,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 10",
+          "left": 4436075,
+          "top": 2207539,
+          "width": 2825116,
+          "height": 581057,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11",
+          "left": 1131272,
+          "top": 4866088,
+          "width": 2778793,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12",
+          "left": 1108110,
+          "top": 4277978,
+          "width": 2825116,
+          "height": 581057,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13",
+          "left": 4459237,
+          "top": 4866088,
+          "width": 2778793,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14",
+          "left": 4436075,
+          "top": 4277978,
+          "width": 2825116,
+          "height": 581057,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15",
+          "left": 9396897,
+          "top": 1600337,
+          "width": 805837,
+          "height": 805837,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16",
+          "left": 8662827,
+          "top": 2967998,
+          "width": 4842125,
+          "height": 4842125,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 17",
+          "left": 8101828,
+          "top": 2795649,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 11,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 45",
+          "left": 6786836,
+          "top": 2036091,
+          "width": 414624,
+          "height": 414624,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 45",
+          "left": 6786836,
+          "top": 3119870,
+          "width": 414624,
+          "height": 414624,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 45",
+          "left": 6786836,
+          "top": 4203648,
+          "width": 414624,
+          "height": 414624,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 45",
+          "left": 6786836,
+          "top": 5287426,
+          "width": 414624,
+          "height": 414624,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11",
+          "left": 7457760,
+          "top": 2317890,
+          "width": 3755419,
+          "height": 646331,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12",
+          "left": 7425376,
+          "top": 1900695,
+          "width": 4222222,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13",
+          "left": 7457760,
+          "top": 3400856,
+          "width": 3755419,
+          "height": 646331,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14",
+          "left": 7425376,
+          "top": 2983661,
+          "width": 4222222,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15",
+          "left": 7490144,
+          "top": 4532740,
+          "width": 3755419,
+          "height": 646331,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16",
+          "left": 7457760,
+          "top": 4115545,
+          "width": 4222222,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 17",
+          "left": 7490144,
+          "top": 5634227,
+          "width": 3755419,
+          "height": 646331,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text here.Please enter text here.Please enter"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18",
+          "left": 7457760,
+          "top": 5217032,
+          "width": 4222222,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 19",
+          "left": 1206846,
+          "top": 2406957,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 20",
+          "left": 3492593,
+          "top": 2221819,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 21",
+          "left": -787925,
+          "top": 4366181,
+          "width": 1411380,
+          "height": 1411380,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 12,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3",
+          "left": 5186369,
+          "top": 1535627,
+          "width": 1896317,
+          "height": 830997,
+          "has_text": true,
+          "text": "Part 03"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4",
+          "left": 3422483,
+          "top": 3080005,
+          "width": 5424095,
+          "height": 830997,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5",
+          "left": 3514781,
+          "top": 4037308,
+          "width": 5239496,
+          "height": 738664,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 6",
+          "left": 5563169,
+          "top": 2590369,
+          "width": 1065661,
+          "height": 45719,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 13,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 9",
+          "left": 8327390,
+          "top": 2078355,
+          "width": 1750060,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 30",
+          "left": 8357235,
+          "top": 2337435,
+          "width": 2748915,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 9",
+          "left": 8542655,
+          "top": 3366770,
+          "width": 1750060,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 30",
+          "left": 8572500,
+          "top": 3625850,
+          "width": 2748915,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 9",
+          "left": 8357235,
+          "top": 4754880,
+          "width": 1750060,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 30",
+          "left": 8387080,
+          "top": 5013960,
+          "width": 2748915,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 17",
+          "left": 2108200,
+          "top": 2078355,
+          "width": 1859280,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 34",
+          "left": 1049020,
+          "top": 2361565,
+          "width": 2921000,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 17",
+          "left": 1878965,
+          "top": 3366770,
+          "width": 1859280,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 34",
+          "left": 819785,
+          "top": 3649980,
+          "width": 2921000,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 17",
+          "left": 1881505,
+          "top": 4754880,
+          "width": 1859280,
+          "height": 324485,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 34",
+          "left": 822325,
+          "top": 5038090,
+          "width": 2921000,
+          "height": 646331,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 19",
+          "left": 5189665,
+          "top": 2541494,
+          "width": 2324290,
+          "height": 2299522,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 20",
+          "left": 4933364,
+          "top": 3691255,
+          "width": 1460654,
+          "height": 1460654,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 14,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 144",
+          "left": 1100187,
+          "top": 1948154,
+          "width": 3709494,
+          "height": 3710459,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 145",
+          "left": 4241253,
+          "top": 1948154,
+          "width": 3709494,
+          "height": 3710459,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 146",
+          "left": 7411770,
+          "top": 1948154,
+          "width": 3709494,
+          "height": 3710459,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Shape 150",
+          "left": 2577380,
+          "top": 2636109,
+          "width": 734274,
+          "height": 439871
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Shape 155",
+          "left": 5737272,
+          "top": 2606533,
+          "width": 734274,
+          "height": 498754
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Shape 162",
+          "left": 8896641,
+          "top": 2603773,
+          "width": 734274,
+          "height": 498752
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 31",
+          "left": 1704940,
+          "top": 3420284,
+          "width": 2470538,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 32",
+          "left": 4860731,
+          "top": 3420284,
+          "width": 2470538,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 33",
+          "left": 8001797,
+          "top": 3405246,
+          "width": 2470538,
+          "height": 460375,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 34",
+          "left": 1755990,
+          "top": 3865621,
+          "width": 2470538,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text Please enter text Please enter text Please enter text"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 35",
+          "left": 4779089,
+          "top": 3966529,
+          "width": 2470538,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text Please enter text Please enter text Please enter text"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 36",
+          "left": 8028509,
+          "top": 3966529,
+          "width": 2470538,
+          "height": 1167692,
+          "has_text": true,
+          "text": "Please enter text here.Please enter text here.Please enter text Please enter text Please enter text Please enter text"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 15,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 82",
+          "left": 1388110,
+          "top": 2317897,
+          "width": 282575,
+          "height": 389890
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 106",
+          "left": 7996555,
+          "top": 2345202,
+          "width": 531495,
+          "height": 335280,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 86",
+          "left": 4749800,
+          "top": 2371872,
+          "width": 440690,
+          "height": 282575
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 91",
+          "left": 8160385,
+          "top": 4330212,
+          "width": 367665,
+          "height": 323850
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149",
+          "left": 4779010,
+          "top": 4301002,
+          "width": 382270,
+          "height": 382270,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 97",
+          "left": 1417320,
+          "top": 4278777,
+          "width": 257810,
+          "height": 375285
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 100",
+          "left": 1908810,
+          "top": 2223282,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 101",
+          "left": 1908810,
+          "top": 2717947,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 102",
+          "left": 5483225,
+          "top": 2223282,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 103",
+          "left": 5483225,
+          "top": 2717947,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 104",
+          "left": 8769350,
+          "top": 2223282,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 105",
+          "left": 8768715,
+          "top": 2717947,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 106",
+          "left": 1908810,
+          "top": 4185432,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 107",
+          "left": 1908810,
+          "top": 4679462,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 108",
+          "left": 5483225,
+          "top": 4278142,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 109",
+          "left": 5483225,
+          "top": 4772807,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 110",
+          "left": 8769350,
+          "top": 4278142,
+          "width": 1462405,
+          "height": 494665,
+          "has_text": true,
+          "text": "01. Product "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 111",
+          "left": 8768715,
+          "top": 4772807,
+          "width": 2235200,
+          "height": 1200329,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet volutpat t ferme Lorem ipsum dolor sit amet,consectetur adipiscing elit"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 16,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 5785649,
+          "top": 1949115,
+          "width": 5445084,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 5785649,
+          "top": 2413936,
+          "width": 5445084,
+          "height": 757130,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 5785649,
+          "top": 3359016,
+          "width": 5445084,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 5785649,
+          "top": 3823837,
+          "width": 5445084,
+          "height": 757130,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 5785649,
+          "top": 4808929,
+          "width": 5445084,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 5785649,
+          "top": 5273750,
+          "width": 5445084,
+          "height": 757130,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 1317813,
+          "top": 2466466,
+          "width": 2646878,
+          "height": 2646878,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 2741994,
+          "top": 3923794,
+          "width": 1651395,
+          "height": 1651395,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15",
+          "left": 4218578,
+          "top": 2277615,
+          "width": 656592,
+          "height": 656592,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 17,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3",
+          "left": 5186369,
+          "top": 1535627,
+          "width": 1896317,
+          "height": 830997,
+          "has_text": true,
+          "text": "Part 04"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4",
+          "left": 3422483,
+          "top": 3080005,
+          "width": 5424095,
+          "height": 830997,
+          "has_text": true,
+          "text": "请输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5",
+          "left": 3514781,
+          "top": 4037308,
+          "width": 5239496,
+          "height": 738664,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 6",
+          "left": 5563169,
+          "top": 2590369,
+          "width": 1065661,
+          "height": 45719,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 18,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 1",
+          "left": 1878911,
+          "top": 2323829,
+          "width": 2116965,
+          "height": 1672663,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 42",
+          "left": 2164177,
+          "top": 3285535,
+          "width": 1742785,
+          "height": 646331,
+          "has_text": true,
+          "text": "89,750"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 2",
+          "left": 1878913,
+          "top": 4296645,
+          "width": 2098384,
+          "height": 1379152
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 36",
+          "left": 2718999,
+          "top": 2585507,
+          "width": 355768,
+          "height": 517480
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 15",
+          "left": 8455135,
+          "top": 4428747,
+          "width": 2053253,
+          "height": 1323439,
+          "has_text": true,
+          "text": "Phenomenon whereby something new and somehow valuable"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 16",
+          "left": 8449420,
+          "top": 4167762,
+          "width": 1134110,
+          "height": 337185,
+          "has_text": true,
+          "text": "内容1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 17",
+          "left": 5534660,
+          "top": 2584179,
+          "width": 2312670,
+          "height": 1077218,
+          "has_text": true,
+          "text": "Phenomenon whereby something new and somehow valuable"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 18",
+          "left": 5528945,
+          "top": 2323829,
+          "width": 1134110,
+          "height": 337185,
+          "has_text": true,
+          "text": "内容1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 19",
+          "left": 8455135,
+          "top": 2584179,
+          "width": 2412367,
+          "height": 830997,
+          "has_text": true,
+          "text": "Phenomenon whereby something new and somehow valuable"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 20",
+          "left": 8449420,
+          "top": 2323829,
+          "width": 1134110,
+          "height": 337185,
+          "has_text": true,
+          "text": "内容1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 21",
+          "left": 5534660,
+          "top": 4474467,
+          "width": 2182793,
+          "height": 1077218,
+          "has_text": true,
+          "text": "Phenomenon whereby something new and somehow valuable"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 22",
+          "left": 5528945,
+          "top": 4213482,
+          "width": 1134110,
+          "height": 337185,
+          "has_text": true,
+          "text": "内容1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 23",
+          "left": 8109695,
+          "top": 4238247,
+          "width": 64770,
+          "height": 683895,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24",
+          "left": 5189220,
+          "top": 4238247,
+          "width": 64770,
+          "height": 683895,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 25",
+          "left": 8109695,
+          "top": 2388599,
+          "width": 64770,
+          "height": 683895,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26",
+          "left": 5189220,
+          "top": 2396854,
+          "width": 64770,
+          "height": 683895,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 19,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 17",
+          "left": 5151003,
+          "top": 2076888,
+          "width": 1889994,
+          "height": 1889994,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 18",
+          "left": 8492482,
+          "top": 2135208,
+          "width": 1889994,
+          "height": 1889994,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16",
+          "left": 1809524,
+          "top": 2099623,
+          "width": 1889994,
+          "height": 1889994,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 1379932,
+          "top": 4632890,
+          "width": 2749178,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 1379932,
+          "top": 5097710,
+          "width": 2749178,
+          "height": 1181542,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 4778452,
+          "top": 4632890,
+          "width": 2749178,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 4778452,
+          "top": 5097710,
+          "width": 2749178,
+          "height": 1181542,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 8041605,
+          "top": 4632890,
+          "width": 2749178,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 8041605,
+          "top": 5097710,
+          "width": 2749178,
+          "height": 1181542,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 144",
+          "left": 2310632,
+          "top": 2658421,
+          "width": 804420,
+          "height": 697586,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 113",
+          "left": 5664274,
+          "top": 2679378,
+          "width": 873554,
+          "height": 685014,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 105",
+          "left": 8989433,
+          "top": 2562822,
+          "width": 867266,
+          "height": 854692,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 20,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 7",
+          "left": 3822716,
+          "top": 1885071,
+          "width": 2149814,
+          "height": 3432517,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 8",
+          "left": 6186390,
+          "top": 1844329,
+          "width": 2149814,
+          "height": 3432517,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 9",
+          "left": 8605849,
+          "top": 1844329,
+          "width": 2149814,
+          "height": 3432517,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 10",
+          "left": 1419866,
+          "top": 1885071,
+          "width": 2149814,
+          "height": 3432517,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 2114773,
+          "top": 3168541,
+          "width": 718146,
+          "height": 215444,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 1378018,
+          "top": 3367758,
+          "width": 2191662,
+          "height": 947952,
+          "has_text": true,
+          "text": "There are many variations\n of passages of lorem\n ipsum available"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 4488344,
+          "top": 3168541,
+          "width": 718146,
+          "height": 215444,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 3751589,
+          "top": 3367758,
+          "width": 2191662,
+          "height": 947952,
+          "has_text": true,
+          "text": "There are many variations\n of passages of lorem\n ipsum available"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 6957536,
+          "top": 3168541,
+          "width": 718146,
+          "height": 215444,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 6220781,
+          "top": 3367758,
+          "width": 2191662,
+          "height": 947952,
+          "has_text": true,
+          "text": "There are many variations\n of passages of lorem\n ipsum available"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 9356835,
+          "top": 3168541,
+          "width": 718146,
+          "height": 215444,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 3",
+          "left": 8620080,
+          "top": 3367758,
+          "width": 2191662,
+          "height": 947952,
+          "has_text": true,
+          "text": "There are many variations\n of passages of lorem\n ipsum available"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 79",
+          "left": 2287195,
+          "top": 2283945,
+          "width": 373786,
+          "height": 543689,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 102",
+          "left": 4698027,
+          "top": 2287446,
+          "width": 501214,
+          "height": 503337,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 36",
+          "left": 9531607,
+          "top": 2297951,
+          "width": 505461,
+          "height": 382282
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 55",
+          "left": 7116557,
+          "top": 2298319,
+          "width": 482099,
+          "height": 378034,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 27",
+          "left": 2075863,
+          "top": 4909734,
+          "width": 888663,
+          "height": 888663,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 28",
+          "left": 4488344,
+          "top": 4878529,
+          "width": 888663,
+          "height": 888663,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 29",
+          "left": 6872277,
+          "top": 4878529,
+          "width": 888663,
+          "height": 888663,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 30",
+          "left": 9186318,
+          "top": 4878528,
+          "width": 888663,
+          "height": 888663,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 31",
+          "left": 1932560,
+          "top": 4992659,
+          "width": 1162700,
+          "height": 707886,
+          "has_text": true,
+          "text": "1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 32",
+          "left": 4340313,
+          "top": 4974394,
+          "width": 1162700,
+          "height": 707886,
+          "has_text": true,
+          "text": "2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 33",
+          "left": 6718263,
+          "top": 4974394,
+          "width": 1162700,
+          "height": 707886,
+          "has_text": true,
+          "text": "3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 34",
+          "left": 9033811,
+          "top": 4956997,
+          "width": 1162700,
+          "height": 707886,
+          "has_text": true,
+          "text": "4"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 21,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 7",
+          "left": 1317813,
+          "top": 464097,
+          "width": 2646878,
+          "height": 584775,
+          "has_text": true,
+          "text": "添加标题内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 499886,
+          "top": 464097,
+          "width": 656562,
+          "height": 584775
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 2891547,
+          "top": 2418903,
+          "width": 3670935,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 2891547,
+          "top": 2883723,
+          "width": 3670935,
+          "height": 978729,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape",
+          "left": 2053347,
+          "top": 2751643,
+          "width": 660400,
+          "height": 660400,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape",
+          "left": 2053347,
+          "top": 4551414,
+          "width": 660400,
+          "height": 660400,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27",
+          "left": 2891547,
+          "top": 4273919,
+          "width": 3670935,
+          "height": 497957,
+          "has_text": true,
+          "text": "输入标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28",
+          "left": 2891547,
+          "top": 4738739,
+          "width": 3670935,
+          "height": 978729,
+          "has_text": true,
+          "text": "Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. Vivamus quam dolor, tempor ac gravida sit amet, porta fermentum magna. "
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 10256865,
+          "top": 991855,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 7125015,
+          "top": 4875113,
+          "width": 3013638,
+          "height": 3013638,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15",
+          "left": 8903997,
+          "top": 3638738,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 22,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7",
+          "left": -1030667,
+          "top": -883488,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11",
+          "left": -914400,
+          "top": 1721688,
+          "width": 1828800,
+          "height": 1828800,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12",
+          "left": 1652783,
+          "top": -747030,
+          "width": 1984058,
+          "height": 1984058,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13",
+          "left": 10062902,
+          "top": 3911002,
+          "width": 3519576,
+          "height": 3519576,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14",
+          "left": 8846578,
+          "top": 5580202,
+          "width": 2229921,
+          "height": 2229921,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15",
+          "left": 8754276,
+          "top": 5327591,
+          "width": 792912,
+          "height": 792912,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16",
+          "left": 1881600,
+          "top": 4927829,
+          "width": 693143,
+          "height": 693143,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1",
+          "left": 7941329,
+          "top": 1109510,
+          "width": 1605859,
+          "height": 1429988
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 179",
+          "left": 2574743,
+          "top": 2626991,
+          "width": 7174452,
+          "height": 1200329,
+          "has_text": true,
+          "text": "感谢您的观看"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 181",
+          "left": 2876550,
+          "top": 3928627,
+          "width": 6670638,
+          "height": 584775,
+          "has_text": true,
+          "text": " Life isn't about waiting for the storm to pass. it's about learning to dance Life isn't it's about learning to dance in the rain."
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 182",
+          "left": 4831619,
+          "top": 4873115,
+          "width": 2467896,
+          "height": 400110,
+          "has_text": true,
+          "text": "汇报人：第一PPT"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 183",
+          "left": 3784637,
+          "top": 1886490,
+          "width": 5138874,
+          "height": 707886,
+          "has_text": true,
+          "text": "POWERPOINT"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "conclusion",
+        "summary"
+      ]
+    }
+  ],
+  "suitable_for": {
+    "cover": true,
+    "content": false,
+    "keypoints": false,
+    "image": true,
+    "table": false,
+    "chart": false,
+    "summary": true
+  }
+}

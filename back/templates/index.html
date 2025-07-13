@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT生成服务</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        
+        input, select, textarea {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        button:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+        }
+        
+        .result {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            min-height: 50px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        
+        .templates-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .template-btn {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .template-btn.selected {
+            background-color: #2ecc71;
+            color: white;
+            border-color: #27ae60;
+        }
+        
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        
+        .checkbox-label {
+            display: inline-block;
+            margin-right: 20px;
+            width: auto;
+        }
+        
+        input[type="checkbox"] {
+            width: auto;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PPT生成服务</h1>
+    
+        <div class="section">
+            <h2>模板选择</h2>
+            <div id="templates-container" class="templates-container"></div>
+            <div class="result" id="templates-result"></div>
+        </div>
+        
+        <div class="section">
+            <h2>模板管理</h2>
+            <div>
+                <label for="template-upload">上传模板:</label>
+                <input type="file" id="template-upload" accept=".pptx">
+                <button id="upload-btn">上传</button>
+            </div>
+            <div>
+                <label for="template-select">选择模板:</label>
+                <select id="template-select">
+                    <option value="">-- 请选择 --</option>
+                </select>
+                <button id="analyze-template-btn">分析模板</button>
+            </div>
+            <div class="result" id="template-result"></div>
+    </div>
+    
+        <div class="section">
+            <h2>生成PPT大纲</h2>
+            <div>
+                <label for="topic">主题:</label>
+                <input type="text" id="topic" placeholder="请输入PPT主题">
+            </div>
+            <div>
+                <label for="background">背景信息:</label>
+                <textarea id="background" rows="3" style="width: 300px;" placeholder="请输入背景信息或补充说明"></textarea>
+            </div>
+            <div>
+                <label for="pages">页数:</label>
+                <select id="pages">
+                    <option value="精简">精简（约5页）</option>
+                    <option value="8" selected>标准（约8页）</option>
+                    <option value="详细">详细（约12页）</option>
+                    <option value="15">扩展（约15页）</option>
+                </select>
+            </div>
+            <div>
+                <label for="role">角色:</label>
+                <select id="role">
+                    <option value="教师" selected>教师</option>
+                    <option value="学生">学生</option>
+                    <option value="企业">企业</option>
+                    <option value="通用">通用</option>
+                </select>
+            </div>
+            <div>
+                <label for="scene">场景:</label>
+                <select id="scene">
+                    <option value="教学" selected>教学</option>
+                    <option value="演讲">演讲</option>
+                    <option value="汇报">汇报</option>
+                    <option value="通用">通用</option>
+                </select>
+            </div>
+            <div class="checkbox-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="deepThink"> 深度思考
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="webSearch"> 网络搜索
+                </label>
+            </div>
+            <button id="generate-btn">生成大纲</button>
+            <div class="result" id="generate-result"></div>
+        </div>
+        
+        <div class="section">
+            <h2>生成PPT文件</h2>
+            <button id="gen-ppt-btn" disabled>生成PPT</button>
+            <button id="gen-ppt-no-template-btn" disabled>生成PPT（无模板）</button>
+            <button id="gen-ppt-enhanced-btn" disabled>生成PPT（增强版）</button>
+            <div class="result" id="ppt-result"></div>
+        </div>
+    
+        <div class="section">
+            <h2>健康检查</h2>
+            <button id="health-check-btn">检查健康状态</button>
+            <div class="result" id="health-result"></div>
+        </div>
+    </div>
+    
+    <script>
+        // 全局变量
+        let currentOutline = null;
+        let selectedTemplate = null;
+        
+        // 加载模板列表
+        async function loadTemplates() {
+            try {
+                const response = await fetch('/api/aiPpt/ppt/templates');
+                const data = await response.json();
+                
+                const templatesContainer = document.getElementById('templates-container');
+                templatesContainer.innerHTML = '';
+                
+                const templateSelect = document.getElementById('template-select');
+                templateSelect.innerHTML = '<option value="">-- 请选择 --</option>';
+                
+                if (data.templates && data.templates.length > 0) {
+                    data.templates.forEach(template => {
+                        if (template.endsWith('.pptx')) {
+                            const button = document.createElement('button');
+                            button.textContent = template;
+                            button.classList.add('template-btn');
+                            button.dataset.template = template;
+                            templatesContainer.appendChild(button);
+                            
+                            // 添加到下拉列表
+                            const option = document.createElement('option');
+                            option.value = template;
+                            option.textContent = template;
+                            templateSelect.appendChild(option);
+                        }
+                    });
+                
+                    document.getElementById('templates-result').textContent = `已加载 ${data.templates.length} 个模板`;
+                } else {
+                    document.getElementById('templates-result').textContent = '没有可用的模板';
+                }
+            } catch (error) {
+                document.getElementById('templates-result').textContent = `加载模板失败: ${error.message}`;
+            }
+        }
+        
+        // 初始加载
+        loadTemplates();
+        
+        // 模板选择（使用事件委托）
+        document.getElementById('templates-container').addEventListener('click', (e) => {
+            if (e.target.classList.contains('template-btn')) {
+                // 移除其他按钮的选中状态
+                document.querySelectorAll('.template-btn').forEach(btn => {
+                    btn.classList.remove('selected');
+                });
+                
+                // 添加选中状态
+                e.target.classList.add('selected');
+                
+                // 保存选中的模板
+                selectedTemplate = e.target.dataset.template;
+        
+                // 同步下拉列表选择
+                document.getElementById('template-select').value = selectedTemplate;
+            }
+        });
+        
+        // 模板下拉列表选择
+        document.getElementById('template-select').addEventListener('change', (e) => {
+            selectedTemplate = e.target.value;
+            
+            // 同步按钮选择状态
+            document.querySelectorAll('.template-btn').forEach(btn => {
+                if (btn.dataset.template === selectedTemplate) {
+                    btn.classList.add('selected');
+                } else {
+                    btn.classList.remove('selected');
+                }
+            });
+        });
+        
+        // 模板上传
+        document.getElementById('upload-btn').addEventListener('click', async () => {
+            const fileInput = document.getElementById('template-upload');
+            if (!fileInput.files || !fileInput.files[0]) {
+                alert('请选择模板文件');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            
+            document.getElementById('template-result').textContent = '正在上传模板，请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/ppt/upload-template', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                document.getElementById('template-result').textContent = JSON.stringify(data, null, 2);
+                
+                if (data.success) {
+                    // 重新加载模板列表
+                    loadTemplates();
+                }
+            } catch (error) {
+                document.getElementById('template-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 分析模板
+        document.getElementById('analyze-template-btn').addEventListener('click', async () => {
+            const template = document.getElementById('template-select').value;
+            if (!template) {
+                alert('请选择模板');
+                return;
+            }
+            
+            document.getElementById('template-result').textContent = '正在分析模板，请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/ppt/analyze-template', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        template: template
+                    })
+                });
+                
+                const data = await response.json();
+                
+                // 创建可折叠的JSON视图
+                const resultDiv = document.getElementById('template-result');
+                resultDiv.innerHTML = '';
+                
+                if (data.success) {
+                    const heading = document.createElement('h3');
+                    heading.textContent = `模板分析结果: ${data.template}`;
+                    resultDiv.appendChild(heading);
+                    
+                    // 添加JSON查看链接
+                    const jsonLink = document.createElement('a');
+                    jsonLink.href = data.jsonPath;
+                    jsonLink.textContent = '下载模板分析JSON';
+                    jsonLink.target = '_blank';
+                    resultDiv.appendChild(jsonLink);
+                    resultDiv.appendChild(document.createElement('br'));
+                    resultDiv.appendChild(document.createElement('br'));
+                    
+                    // 显示布局信息
+                    const layoutsHeading = document.createElement('h4');
+                    layoutsHeading.textContent = `布局信息 (${data.templateInfo.layouts.length}种)`;
+                    resultDiv.appendChild(layoutsHeading);
+                    
+                    const layoutsList = document.createElement('ul');
+                    data.templateInfo.layouts.forEach(layout => {
+                        const layoutItem = document.createElement('li');
+                        layoutItem.textContent = `${layout.name} (${layout.placeholders.length}个占位符)`;
+                        layoutsList.appendChild(layoutItem);
+                    });
+                    resultDiv.appendChild(layoutsList);
+                    
+                    // 显示占位符信息
+                    const placeholdersHeading = document.createElement('h4');
+                    placeholdersHeading.textContent = '占位符类型分布';
+                    resultDiv.appendChild(placeholdersHeading);
+                    
+                    const placeholdersList = document.createElement('ul');
+                    Object.entries(data.templateInfo.placeholders).forEach(([type, placeholders]) => {
+                        const placeholderItem = document.createElement('li');
+                        placeholderItem.textContent = `${type}: ${placeholders.length}个`;
+                        placeholdersList.appendChild(placeholderItem);
+                    });
+                    resultDiv.appendChild(placeholdersList);
+                } else {
+                    resultDiv.textContent = JSON.stringify(data, null, 2);
+                }
+            } catch (error) {
+                document.getElementById('template-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 生成大纲
+        document.getElementById('generate-btn').addEventListener('click', async () => {
+            const topic = document.getElementById('topic').value;
+            if (!topic) {
+                alert('请输入PPT主题');
+                return;
+            }
+            
+            const background = document.getElementById('background').value;
+            const pages = document.getElementById('pages').value;
+            const role = document.getElementById('role').value;
+            const scene = document.getElementById('scene').value;
+            const deepThink = document.getElementById('deepThink').checked;
+            const webSearch = document.getElementById('webSearch').checked;
+            
+            document.getElementById('generate-result').textContent = '正在生成大纲，请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/generate-outline', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        topic,
+                        background,
+                        pages,
+                        role,
+                        scene,
+                        deepThink,
+                        webSearch,
+                        template: selectedTemplate
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('generate-result').textContent = JSON.stringify(data, null, 2);
+                
+                if (data.outline) {
+                    currentOutline = data.outline;
+                    document.getElementById('gen-ppt-btn').disabled = false;
+                    document.getElementById('gen-ppt-no-template-btn').disabled = false;
+                    document.getElementById('gen-ppt-enhanced-btn').disabled = false;
+                }
+            } catch (error) {
+                document.getElementById('generate-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 生成PPT
+        document.getElementById('gen-ppt-btn').addEventListener('click', async () => {
+            if (!currentOutline) {
+                alert('请先生成大纲');
+                return;
+            }
+            
+            if (!selectedTemplate) {
+                alert('请选择模板');
+                return;
+            }
+            
+            document.getElementById('ppt-result').textContent = '正在生成PPT，请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/gen-pptx-python', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        outline: currentOutline,
+                        template: selectedTemplate,
+                        topic: document.getElementById('topic').value
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('ppt-result').textContent = JSON.stringify(data, null, 2);
+                
+                if (data.pptUrl) {
+                    const link = document.createElement('a');
+                    link.href = data.pptUrl;
+                    link.textContent = '下载生成的PPT';
+                    link.target = '_blank';
+                    document.getElementById('ppt-result').appendChild(document.createElement('br'));
+                    document.getElementById('ppt-result').appendChild(link);
+                }
+            } catch (error) {
+                document.getElementById('ppt-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 不使用模板生成PPT
+        document.getElementById('gen-ppt-no-template-btn').addEventListener('click', async () => {
+            if (!currentOutline) {
+                alert('请先生成大纲');
+                return;
+            }
+            
+            document.getElementById('ppt-result').textContent = '正在生成PPT（无模板），请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/gen-pptx-without-template', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        outline: currentOutline,
+                        topic: document.getElementById('topic').value
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('ppt-result').textContent = JSON.stringify(data, null, 2);
+                
+                if (data.pptUrl) {
+                    const link = document.createElement('a');
+                    link.href = data.pptUrl;
+                    link.textContent = '下载生成的PPT（无模板）';
+                    link.target = '_blank';
+                    document.getElementById('ppt-result').appendChild(document.createElement('br'));
+                    document.getElementById('ppt-result').appendChild(link);
+                }
+            } catch (error) {
+                document.getElementById('ppt-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 使用增强版生成器生成PPT
+        document.getElementById('gen-ppt-enhanced-btn').addEventListener('click', async () => {
+            if (!currentOutline) {
+                alert('请先生成大纲');
+                return;
+            }
+            
+            document.getElementById('ppt-result').textContent = '正在生成PPT（增强版），请稍候...';
+            
+            try {
+                const response = await fetch('/api/aiPpt/gen-pptx-enhanced', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        outline: currentOutline,
+                        template: selectedTemplate,
+                        topic: document.getElementById('topic').value
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('ppt-result').textContent = JSON.stringify(data, null, 2);
+                
+                if (data.pptUrl) {
+                    const link = document.createElement('a');
+                    link.href = data.pptUrl;
+                    link.textContent = '下载生成的PPT（增强版）';
+                    link.target = '_blank';
+                    document.getElementById('ppt-result').appendChild(document.createElement('br'));
+                    document.getElementById('ppt-result').appendChild(link);
+                }
+            } catch (error) {
+                document.getElementById('ppt-result').textContent = `错误: ${error.message}`;
+            }
+        });
+        
+        // 健康检查
+        document.getElementById('health-check-btn').addEventListener('click', async () => {
+            document.getElementById('health-result').textContent = '正在检查健康状态，请稍候...';
+            
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+                document.getElementById('health-result').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('health-result').textContent = `错误: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html> 

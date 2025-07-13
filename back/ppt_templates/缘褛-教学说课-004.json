@@ -1,0 +1,2697 @@
+{
+  "name": "缘褛-教学说课-004.pptx",
+  "slide_count": 24,
+  "slide_width": 9144000,
+  "slide_height": 5144770,
+  "slides": [
+    {
+      "index": 0,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 158",
+          "left": 4329605,
+          "top": 2132838,
+          "width": 4130827,
+          "height": 681220,
+          "has_text": true,
+          "text": "教育培训PPT模板"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 159",
+          "left": 4175956,
+          "top": 2868740,
+          "width": 4500500,
+          "height": 296500,
+          "has_text": true,
+          "text": "CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 160",
+          "left": 5233349,
+          "top": 3331025,
+          "width": 2507003,
+          "height": 187325,
+          "has_text": true,
+          "text": "汇报人：代用名   时间：202x年x月x日"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 158",
+          "left": 5544108,
+          "top": 1207828,
+          "width": 1659255,
+          "height": 895350,
+          "has_text": true,
+          "text": "202x"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "bamboo",
+          "left": -684584,
+          "top": 987400,
+          "width": 609600,
+          "height": 609600,
+          "is_image": true
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": -83265,
+          "top": 987400,
+          "width": 5004556,
+          "height": 3288995,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "cover"
+      ]
+    },
+    {
+      "index": 1,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 3095836,
+          "top": 2176500,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8",
+          "left": 1223628,
+          "top": 2356520,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学背景"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 11",
+          "left": 3095836,
+          "top": 3090160,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13",
+          "left": 1223628,
+          "top": 3270181,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学分析"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17",
+          "left": 6912260,
+          "top": 2176500,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18",
+          "left": 5040052,
+          "top": 2356520,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学过程"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17",
+          "left": 6912260,
+          "top": 3090160,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 28",
+          "left": 5040052,
+          "top": 3270180,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学过程"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "箭头: 五边形 22",
+          "left": 0,
+          "top": 355054,
+          "width": 2192732,
+          "height": 525302,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 23",
+          "left": 89181,
+          "top": 367299,
+          "width": 891183,
+          "height": 432812,
+          "has_text": true,
+          "text": "目 录"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 29",
+          "left": 1036700,
+          "top": 484312,
+          "width": 1051024,
+          "height": 259687,
+          "has_text": true,
+          "text": "CONTENTS"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 2,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 5652120,
+          "top": 1780456,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7",
+          "left": 3779912,
+          "top": 1960476,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学背景"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10",
+          "left": 3948276,
+          "top": 2572544,
+          "width": 3038517,
+          "height": 412421,
+          "has_text": true,
+          "text": "点击此处添加文本内容，如关键词、部分简单介绍等。点击此处添加文本内容，如关键词、部分简单介绍等。"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": 855364,
+          "top": 1780456,
+          "width": 3797837,
+          "height": 2495939,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 3,
+      "layout_name": "1_空白",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1",
+          "left": 4658289,
+          "top": 1513896,
+          "width": 3394025,
+          "height": 1965552
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8",
+          "left": 899592,
+          "top": 2012136,
+          "width": 2960185,
+          "height": 1956300
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15",
+          "left": 2724547,
+          "top": 1654769,
+          "width": 3505537,
+          "height": 2213125
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 4,
+      "layout_name": "1_空白",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "流程图: 联系 2",
+          "left": 5329315,
+          "top": 2785086,
+          "width": 417517,
+          "height": 417646,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "流程图: 联系 3",
+          "left": 4446526,
+          "top": 3677700,
+          "width": 414788,
+          "height": 413551,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "流程图: 联系 44",
+          "left": 4447892,
+          "top": 1904753,
+          "width": 413423,
+          "height": 413552,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 35",
+          "left": 3566467,
+          "top": 2787814,
+          "width": 414788,
+          "height": 413551
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 38",
+          "left": 3891202,
+          "top": 2224130,
+          "width": 1530894,
+          "height": 1532732
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 41",
+          "left": 3131840,
+          "top": 1089510,
+          "width": 2906556,
+          "height": 760890
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 67",
+          "left": 5697136,
+          "top": 2756729,
+          "width": 2907312,
+          "height": 757564
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 70",
+          "left": 2843808,
+          "top": 4174522,
+          "width": 3695052,
+          "height": 702278
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 73",
+          "left": 587829,
+          "top": 2792730,
+          "width": 2978639,
+          "height": 727668
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 5,
+      "layout_name": "1_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 1590533,
+          "top": 2716047,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 6",
+          "left": 1590533,
+          "top": 3958027,
+          "width": 1801344,
+          "height": 405302,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 3686474,
+          "top": 926479,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76",
+          "left": 1734657,
+          "top": 4045261,
+          "width": 1513095,
+          "height": 276999,
+          "has_text": true,
+          "text": "单击编辑标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 23",
+          "left": 1628373,
+          "top": 3044135,
+          "width": 1698421,
+          "height": 632481,
+          "has_text": true,
+          "text": "Please add your text description to the flying impression plane."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 3679028,
+          "top": 2694010,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 6",
+          "left": 3671328,
+          "top": 3976005,
+          "width": 1801344,
+          "height": 405302,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 5752124,
+          "top": 894706,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 27",
+          "left": 3722790,
+          "top": 3076863,
+          "width": 1698421,
+          "height": 632481,
+          "has_text": true,
+          "text": "Please add your text description to the flying impression plane."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 5752124,
+          "top": 2694010,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76",
+          "left": 3815453,
+          "top": 4110460,
+          "width": 1513095,
+          "height": 276999,
+          "has_text": true,
+          "text": "单击编辑标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5",
+          "left": 1525450,
+          "top": 926479,
+          "width": 1801344,
+          "height": 1647282,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 6",
+          "left": 5752124,
+          "top": 3947343,
+          "width": 1801344,
+          "height": 405302,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76",
+          "left": 5896248,
+          "top": 4034576,
+          "width": 1513095,
+          "height": 276999,
+          "has_text": true,
+          "text": "单击编辑标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 33",
+          "left": 5803585,
+          "top": 3029617,
+          "width": 1698421,
+          "height": 632481,
+          "has_text": true,
+          "text": "Please add your text description to the flying impression plane."
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 6,
+      "layout_name": "1_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 18",
+          "left": 3875470,
+          "top": 3707262,
+          "width": 1218525,
+          "height": 1214438,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 19",
+          "left": 2813057,
+          "top": 1145657,
+          "width": 836724,
+          "height": 832668,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 20",
+          "left": 5306750,
+          "top": 2126083,
+          "width": 836982,
+          "height": 832412,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 21",
+          "left": 2814443,
+          "top": 3033492,
+          "width": 836724,
+          "height": 832668,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 22",
+          "left": 5306750,
+          "top": 3868445,
+          "width": 836982,
+          "height": 832412,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 28",
+          "left": 3875470,
+          "top": 2849817,
+          "width": 1218525,
+          "height": 1214438,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 30",
+          "left": 3875470,
+          "top": 1942281,
+          "width": 1218525,
+          "height": 1214438,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 32",
+          "left": 3985230,
+          "top": 1167947,
+          "width": 999005,
+          "height": 1214438,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 33",
+          "left": 5539540,
+          "top": 2276584,
+          "width": 364979,
+          "height": 540986
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 13",
+          "left": 5554963,
+          "top": 4008453,
+          "width": 319172,
+          "height": 546899,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 19",
+          "left": 3003210,
+          "top": 3224455,
+          "width": 449994,
+          "height": 450741,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 39",
+          "left": 3013987,
+          "top": 1332930,
+          "width": 428441,
+          "height": 412150
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 42",
+          "left": 4236082,
+          "top": 1766557,
+          "width": 464171,
+          "height": 346356,
+          "has_text": true,
+          "text": "01"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 43",
+          "left": 4236082,
+          "top": 2683152,
+          "width": 464171,
+          "height": 346356,
+          "has_text": true,
+          "text": "02"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 44",
+          "left": 4252647,
+          "top": 3547660,
+          "width": 464171,
+          "height": 346356,
+          "has_text": true,
+          "text": "03"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 45",
+          "left": 4252647,
+          "top": 4458799,
+          "width": 464171,
+          "height": 346356,
+          "has_text": true,
+          "text": "04"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 46",
+          "left": 3979666,
+          "top": 1443681,
+          "width": 957634,
+          "height": 253916,
+          "has_text": true,
+          "text": "Content title"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 47",
+          "left": 3979666,
+          "top": 2423324,
+          "width": 957634,
+          "height": 253916,
+          "has_text": true,
+          "text": "Content title"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 48",
+          "left": 3989266,
+          "top": 3288383,
+          "width": 957634,
+          "height": 253916,
+          "has_text": true,
+          "text": "Content title"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 49",
+          "left": 3989266,
+          "top": 4268027,
+          "width": 957634,
+          "height": 253916,
+          "has_text": true,
+          "text": "Content title"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 89",
+          "left": 6544123,
+          "top": 2011339,
+          "width": 1643457,
+          "height": 773289,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或通过复制您的文本后您的内容打在这里，或通过复制您的文本后"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 89",
+          "left": 936982,
+          "top": 1131961,
+          "width": 1697147,
+          "height": 773289,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或通过复制您的文本后您的内容打在这里，或通过复制您的文本后"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 89",
+          "left": 6544123,
+          "top": 3726265,
+          "width": 1643457,
+          "height": 773289,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或通过复制您的文本后您的内容打在这里，或通过复制您的文本后"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 89",
+          "left": 936982,
+          "top": 3011109,
+          "width": 1697147,
+          "height": 773289,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或通过复制您的文本后您的内容打在这里，或通过复制您的文本后"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 7,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 5544108,
+          "top": 1780456,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7",
+          "left": 3671900,
+          "top": 1960476,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学分析"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10",
+          "left": 3840264,
+          "top": 2572544,
+          "width": 3038517,
+          "height": 412421,
+          "has_text": true,
+          "text": "点击此处添加文本内容，如关键词、部分简单介绍等。点击此处添加文本内容，如关键词、部分简单介绍等。"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": 855364,
+          "top": 1780456,
+          "width": 3797837,
+          "height": 2495939,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 8,
+      "layout_name": "2_空白",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 32",
+          "left": 755576,
+          "top": 3872222,
+          "width": 1764196,
+          "height": 1000274,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n\n"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 33",
+          "left": 2881600,
+          "top": 3872222,
+          "width": 1764196,
+          "height": 1000274,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n\n"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 34",
+          "left": 5027464,
+          "top": 3872222,
+          "width": 1764196,
+          "height": 1000274,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n\n"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 35",
+          "left": 7056276,
+          "top": 3876526,
+          "width": 1764196,
+          "height": 1000274,
+          "has_text": true,
+          "text": "点击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n\n"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 4824027,
+          "top": 1523667,
+          "width": 1686729,
+          "height": 1988514
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 12",
+          "left": 2720107,
+          "top": 1495957,
+          "width": 1686729,
+          "height": 1988514
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 21",
+          "left": 631875,
+          "top": 1495957,
+          "width": 1686729,
+          "height": 1988514
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 30",
+          "left": 6912259,
+          "top": 1523667,
+          "width": 1686729,
+          "height": 1988514
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 9,
+      "layout_name": "2_空白",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "图表 104",
+          "left": 2934581,
+          "top": 1491552,
+          "width": 6309471,
+          "height": 1565418,
+          "is_chart": true,
+          "chart_type": "BAR_CLUSTERED (57)"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "圆角矩形 99",
+          "left": 843799,
+          "top": 1280578,
+          "width": 2202882,
+          "height": 2754611,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 107",
+          "left": 3206345,
+          "top": 3176292,
+          "width": 1589507,
+          "height": 877567
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 108",
+          "left": 4934537,
+          "top": 3176292,
+          "width": 1589507,
+          "height": 877567
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 111",
+          "left": 6721419,
+          "top": 3176292,
+          "width": 1589507,
+          "height": 877577
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 115",
+          "left": 4910301,
+          "top": 3270060,
+          "width": 0,
+          "height": 817900
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 116",
+          "left": 6647548,
+          "top": 3270060,
+          "width": 0,
+          "height": 817900
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 119",
+          "left": 979731,
+          "top": 3014735,
+          "width": 1931016,
+          "height": 828617
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 120",
+          "left": 961426,
+          "top": 1376112,
+          "width": 1967625,
+          "height": 1576255,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": true,
+      "suitable_for": [
+        "image",
+        "chart"
+      ]
+    },
+    {
+      "index": 10,
+      "layout_name": "2_空白",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "AutoShape 4",
+          "left": 434104,
+          "top": 1870539,
+          "width": 2697736,
+          "height": 434863,
+          "has_text": true,
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 39",
+          "left": 1100453,
+          "top": 1412195,
+          "width": 1107996,
+          "height": 276999,
+          "has_text": true,
+          "text": "单击添加标题"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4",
+          "left": 3860644,
+          "top": 987879,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7",
+          "left": 3160746,
+          "top": 2219229,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10",
+          "left": 4560540,
+          "top": 2219229,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 13",
+          "left": 5260438,
+          "top": 3450577,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 16",
+          "left": 3860644,
+          "top": 3450577,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 19",
+          "left": 2460849,
+          "top": 3450577,
+          "width": 1399795,
+          "height": 1400227
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "AutoShape 4",
+          "left": 6156176,
+          "top": 1870539,
+          "width": 2697736,
+          "height": 434863,
+          "has_text": true,
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 39",
+          "left": 6822525,
+          "top": 1412195,
+          "width": 1107996,
+          "height": 276999,
+          "has_text": true,
+          "text": "单击添加标题"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 11,
+      "layout_name": "2_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Isosceles Triangle 7",
+          "left": 5320904,
+          "top": 1808556,
+          "width": 1150144,
+          "height": 990734,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Isosceles Triangle 8",
+          "left": 4048125,
+          "top": 1808556,
+          "width": 1148955,
+          "height": 990734,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Isosceles Triangle 9",
+          "left": 2774156,
+          "top": 1808556,
+          "width": 1150144,
+          "height": 990734,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Isosceles Triangle 10",
+          "left": 3415905,
+          "top": 2049094,
+          "width": 1148954,
+          "height": 990734,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Isosceles Triangle 11",
+          "left": 4689875,
+          "top": 2049094,
+          "width": 1148954,
+          "height": 990734,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Group 12",
+          "left": 3227785,
+          "top": 2022898,
+          "width": 255984,
+          "height": 256019,
+          "is_image": true
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Group 15",
+          "left": 3849292,
+          "top": 2580187,
+          "width": 260747,
+          "height": 265545,
+          "is_image": true
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Group 18",
+          "left": 4526756,
+          "top": 1981220,
+          "width": 204788,
+          "height": 292933,
+          "is_image": true
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Group 21",
+          "left": 5093496,
+          "top": 2607573,
+          "width": 320279,
+          "height": 223868,
+          "is_image": true
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Group 30",
+          "left": 5774534,
+          "top": 1995509,
+          "width": 241697,
+          "height": 259591,
+          "is_image": true
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 33",
+          "left": 2516983,
+          "top": 1571589,
+          "width": 832248,
+          "height": 0
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 34",
+          "left": 4622006,
+          "top": 2811198,
+          "width": 0,
+          "height": 621590
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 35",
+          "left": 3348037,
+          "top": 1569207,
+          "width": 0,
+          "height": 239348
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 36",
+          "left": 5888833,
+          "top": 1571589,
+          "width": 832248,
+          "height": 0
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 37",
+          "left": 5891213,
+          "top": 1569207,
+          "width": 0,
+          "height": 239348
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 38",
+          "left": 3158729,
+          "top": 3274413,
+          "width": 832248,
+          "height": 0
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 39",
+          "left": 3989785,
+          "top": 3037447,
+          "width": 0,
+          "height": 240538
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 40",
+          "left": 5262563,
+          "top": 3274413,
+          "width": 831056,
+          "height": 0
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 41",
+          "left": 5263754,
+          "top": 3037447,
+          "width": 0,
+          "height": 240538
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 42",
+          "left": 862015,
+          "top": 1177440,
+          "width": 1635919,
+          "height": 284644,
+          "has_text": true,
+          "text": "添加标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 43",
+          "left": 852488,
+          "top": 1485853,
+          "width": 1664494,
+          "height": 746228,
+          "has_text": true,
+          "text": "在此录入图表的描述说明，在此录入图表的描述说明，在此录入上述图表的描述说明。"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 44",
+          "left": 1510904,
+          "top": 2864784,
+          "width": 1501378,
+          "height": 284644,
+          "has_text": true,
+          "text": "添加标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45",
+          "left": 1491856,
+          "top": 3173197,
+          "width": 1663303,
+          "height": 746228,
+          "has_text": true,
+          "text": "在此录入图表的描述说明，在此录入图表的描述说明，在此录入上述图表的描述说明。"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 46",
+          "left": 6098384,
+          "top": 2798099,
+          "width": 2378869,
+          "height": 284644,
+          "has_text": true,
+          "text": "添加标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 47",
+          "left": 6099575,
+          "top": 3092222,
+          "width": 1834753,
+          "height": 746228,
+          "has_text": true,
+          "text": "在此录入图表的描述说明，在此录入图表的描述说明，在此录入上述图表的描述说明。\n"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 48",
+          "left": 6719887,
+          "top": 1132190,
+          "width": 1796654,
+          "height": 284644,
+          "has_text": true,
+          "text": "添加标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 49",
+          "left": 6721080,
+          "top": 1407260,
+          "width": 1833563,
+          "height": 746228,
+          "has_text": true,
+          "text": "在此录入图表的描述说明，在此录入图表的描述说明，在此录入上述图表的描述说明。\n"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 50",
+          "left": 4170762,
+          "top": 3578064,
+          "width": 1339453,
+          "height": 284644,
+          "has_text": true,
+          "text": "添加标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 51",
+          "left": 3762377,
+          "top": 3891239,
+          "width": 1882379,
+          "height": 771616,
+          "has_text": true,
+          "text": "在此录入图表的描述说明，在此录入图表的描述说明，在此录入上述图表的描述说明。\n"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 12,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 5796136,
+          "top": 1780456,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7",
+          "left": 3923928,
+          "top": 1960476,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学过程"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10",
+          "left": 4092292,
+          "top": 2572544,
+          "width": 3038517,
+          "height": 412421,
+          "has_text": true,
+          "text": "点击此处添加文本内容，如关键词、部分简单介绍等。点击此处添加文本内容，如关键词、部分简单介绍等。"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": 855364,
+          "top": 1780456,
+          "width": 3797837,
+          "height": 2495939,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 13,
+      "layout_name": "3_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 21",
+          "left": 5230917,
+          "top": 1131939,
+          "width": 1088567,
+          "height": 1087268,
+          "has_text": true,
+          "text": "标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 23",
+          "left": 2742263,
+          "top": 1131939,
+          "width": 1088567,
+          "height": 1087268,
+          "has_text": true,
+          "text": "标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 24",
+          "left": 5230917,
+          "top": 3423781,
+          "width": 1088567,
+          "height": 1087267,
+          "has_text": true,
+          "text": "标题"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 25",
+          "left": 2742263,
+          "top": 3423781,
+          "width": 1088567,
+          "height": 1087267,
+          "has_text": true,
+          "text": "标题"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "文本框 12",
+          "left": 3813329,
+          "top": 2079142,
+          "width": 1435089,
+          "height": 1437433,
+          "has_text": true,
+          "text": "标题"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 27",
+          "left": 6464742,
+          "top": 1228236,
+          "width": 2005624,
+          "height": 641924,
+          "has_text": true,
+          "text": "请在此处输入您的文本\n请在此处输入您的文本\n请在此处输入您的文本"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 29",
+          "left": 6464742,
+          "top": 3537583,
+          "width": 2005624,
+          "height": 641924,
+          "has_text": true,
+          "text": "请在此处输入您的文本\n请在此处输入您的文本\n请在此处输入您的文本"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 30",
+          "left": 1162220,
+          "top": 3520077,
+          "width": 1573576,
+          "height": 641924,
+          "has_text": true,
+          "text": "请在此处输入您的文本\n请在此处输入您的文本\n请在此处输入您的文本"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 31",
+          "left": 1162220,
+          "top": 1228236,
+          "width": 1573576,
+          "height": 641924,
+          "has_text": true,
+          "text": "请在此处输入您的文本\n请在此处输入您的文本\n请在此处输入您的文本"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 14,
+      "layout_name": "3_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 15",
+          "left": 611560,
+          "top": 1595102,
+          "width": 1078632,
+          "height": 1079298,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 16",
+          "left": 1709243,
+          "top": 1595102,
+          "width": 2862758,
+          "height": 1079298,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24",
+          "left": 1853258,
+          "top": 1695025,
+          "width": 2574727,
+          "height": 882678,
+          "has_text": true,
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 18",
+          "left": 611560,
+          "top": 2822680,
+          "width": 1078632,
+          "height": 1079298,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 19",
+          "left": 1709243,
+          "top": 2822680,
+          "width": 2862758,
+          "height": 1079298,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24",
+          "left": 1853258,
+          "top": 2922602,
+          "width": 2574727,
+          "height": 882678,
+          "has_text": true,
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 21",
+          "left": 4716016,
+          "top": 1595102,
+          "width": 3814915,
+          "height": 2306876,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 14",
+          "left": 1040291,
+          "top": 2001078,
+          "width": 221171,
+          "height": 267346,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 19",
+          "left": 1017690,
+          "top": 3227444,
+          "width": 267181,
+          "height": 269769,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 15,
+      "layout_name": "3_空白",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1",
+          "left": 2027074,
+          "top": 1378459,
+          "width": 1277489,
+          "height": 3072057
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 25",
+          "left": 4032555,
+          "top": 1811809,
+          "width": 395025,
+          "height": 395079,
+          "has_text": true,
+          "text": "A"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 26",
+          "left": 4032553,
+          "top": 2703073,
+          "width": 395025,
+          "height": 395079,
+          "has_text": true,
+          "text": "B"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 27",
+          "left": 4032554,
+          "top": 3594336,
+          "width": 395025,
+          "height": 395079,
+          "has_text": true,
+          "text": "C"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 28",
+          "left": 4482183,
+          "top": 1853475,
+          "width": 2105691,
+          "height": 346199,
+          "has_text": true,
+          "text": "您的内容打在这里，或通过复制文本后在此选择粘贴，并选择只保留文字。 "
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 29",
+          "left": 4478195,
+          "top": 2750551,
+          "width": 2105691,
+          "height": 346199,
+          "has_text": true,
+          "text": "您的内容打在这里，或通过复制文本后在此选择粘贴，并选择只保留文字。 "
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 30",
+          "left": 4480379,
+          "top": 3616149,
+          "width": 2105691,
+          "height": 346199,
+          "has_text": true,
+          "text": "您的内容打在这里，或通过复制文本后在此选择粘贴，并选择只保留文字。 "
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 16,
+      "layout_name": "3_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 37",
+          "left": 0,
+          "top": 1348408,
+          "width": 3743005,
+          "height": 3796234,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 7",
+          "left": 0,
+          "top": 3930050,
+          "width": 9144000,
+          "height": 1214592,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 35",
+          "left": 4648909,
+          "top": 1301980,
+          "width": 3852181,
+          "height": 1136668
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 22",
+          "left": 4623964,
+          "top": 2326978,
+          "width": 642942,
+          "height": 1714743
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 23",
+          "left": 5624096,
+          "top": 2326978,
+          "width": 642942,
+          "height": 1714743
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 34",
+          "left": 6624228,
+          "top": 2326978,
+          "width": 642942,
+          "height": 1714743
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 36",
+          "left": 642910,
+          "top": 4215840,
+          "width": 7772401,
+          "height": 554073,
+          "has_text": true,
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Praesent sodales odio sit amet odio tristique quis tempus odio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales odio sit amet odio tristique quis tempus odio Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 17,
+      "layout_name": "3_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10",
+          "left": 1492250,
+          "top": 3447376,
+          "width": 3117850,
+          "height": 1103461,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 11",
+          "left": 1525589,
+          "top": 3271139,
+          "width": 2778125,
+          "height": 925638
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15",
+          "left": 1525589,
+          "top": 2774184,
+          "width": 2778125,
+          "height": 925637
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 19",
+          "left": 1525589,
+          "top": 2277230,
+          "width": 2778125,
+          "height": 925638
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 23",
+          "left": 1525589,
+          "top": 1780275,
+          "width": 2778125,
+          "height": 925637
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 29",
+          "left": 4932363,
+          "top": 1891414,
+          "width": 2952750,
+          "height": 400105,
+          "has_text": true,
+          "text": "随着计算机技术的发展及印刷技术的进步，平面设计在视觉感观领域的表现也越来越丰富。"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 30",
+          "left": 4022725,
+          "top": 2067651,
+          "width": 836613,
+          "height": 0
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 31",
+          "left": 3851275,
+          "top": 1986677,
+          "width": 171450,
+          "height": 169885,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 32",
+          "left": 4932363,
+          "top": 2383606,
+          "width": 2952750,
+          "height": 400105,
+          "has_text": true,
+          "text": "随着计算机技术的发展及印刷技术的进步，平面设计在视觉感观领域的表现也越来越丰富。"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 33",
+          "left": 4022725,
+          "top": 2558255,
+          "width": 836613,
+          "height": 0
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 34",
+          "left": 3851275,
+          "top": 2474107,
+          "width": 171450,
+          "height": 171473,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 35",
+          "left": 4932363,
+          "top": 2877385,
+          "width": 2952750,
+          "height": 400105,
+          "has_text": true,
+          "text": "随着计算机技术的发展及印刷技术的进步，平面设计在视觉感观领域的表现也越来越丰富。"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 36",
+          "left": 4022725,
+          "top": 3047272,
+          "width": 836613,
+          "height": 0
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 37",
+          "left": 3849689,
+          "top": 2963123,
+          "width": 169862,
+          "height": 171473,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 38",
+          "left": 4932363,
+          "top": 3371164,
+          "width": 2952750,
+          "height": 400105,
+          "has_text": true,
+          "text": "随着计算机技术的发展及印刷技术的进步，平面设计在视觉感观领域的表现也越来越丰富。"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 39",
+          "left": 4022725,
+          "top": 3536288,
+          "width": 836613,
+          "height": 0
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 40",
+          "left": 3854450,
+          "top": 3452139,
+          "width": 171450,
+          "height": 169886,
+          "has_text": true,
+          "text": ""
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 18,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5",
+          "left": 5616116,
+          "top": 1780456,
+          "width": 1168003,
+          "height": 728760
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7",
+          "left": 3743908,
+          "top": 1960476,
+          "width": 1584178,
+          "height": 438580,
+          "has_text": true,
+          "text": "教学过程"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10",
+          "left": 3912272,
+          "top": 2572544,
+          "width": 3038517,
+          "height": 412421,
+          "has_text": true,
+          "text": "点击此处添加文本内容，如关键词、部分简单介绍等。点击此处添加文本内容，如关键词、部分简单介绍等。"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": 855364,
+          "top": 1780456,
+          "width": 3797837,
+          "height": 2495939,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 19,
+      "layout_name": "4_空白",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "Group 58",
+          "left": 4807787,
+          "top": 1469360,
+          "width": 2993194,
+          "height": 3148202
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 62",
+          "left": 1183835,
+          "top": 1747393,
+          "width": 1028837,
+          "height": 250290,
+          "has_text": true,
+          "text": "请替换文字内容"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 64",
+          "left": 1180334,
+          "top": 1935553,
+          "width": 3374056,
+          "height": 287216,
+          "has_text": true,
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 65",
+          "left": 1242946,
+          "top": 2741238,
+          "width": 515196,
+          "height": 515294,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 66",
+          "left": 1389262,
+          "top": 2881668,
+          "width": 222562,
+          "height": 234434,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 67",
+          "left": 1369101,
+          "top": 3966420,
+          "width": 252666,
+          "height": 204324,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 68",
+          "left": 3317228,
+          "top": 3964626,
+          "width": 168804,
+          "height": 247339,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 69",
+          "left": 3310024,
+          "top": 2890809,
+          "width": 178480,
+          "height": 216152,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 70",
+          "left": 3144034,
+          "top": 3820227,
+          "width": 515196,
+          "height": 515294,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 71",
+          "left": 1239092,
+          "top": 3820334,
+          "width": 515196,
+          "height": 515294,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 72",
+          "left": 3139976,
+          "top": 2741238,
+          "width": 515196,
+          "height": 515294,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 73",
+          "left": 1771056,
+          "top": 2960305,
+          "width": 644183,
+          "height": 250290,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 74",
+          "left": 1771055,
+          "top": 2768820,
+          "width": 386145,
+          "height": 250290,
+          "has_text": true,
+          "text": "80%"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 75",
+          "left": 3689637,
+          "top": 2960306,
+          "width": 644183,
+          "height": 250290,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76",
+          "left": 3689636,
+          "top": 2768820,
+          "width": 386145,
+          "height": 250290,
+          "has_text": true,
+          "text": "60%"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 77",
+          "left": 1771056,
+          "top": 4045629,
+          "width": 644183,
+          "height": 250290,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 78",
+          "left": 1771055,
+          "top": 3842355,
+          "width": 386145,
+          "height": 250290,
+          "has_text": true,
+          "text": "93%"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 79",
+          "left": 3689637,
+          "top": 4045629,
+          "width": 644183,
+          "height": 250290,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 80",
+          "left": 3689636,
+          "top": 3842355,
+          "width": 386145,
+          "height": 250290,
+          "has_text": true,
+          "text": "55%"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 81",
+          "left": 1205172,
+          "top": 3263864,
+          "width": 1706862,
+          "height": 397997,
+          "has_text": true,
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 82",
+          "left": 1205172,
+          "top": 4347480,
+          "width": 1706862,
+          "height": 397997,
+          "has_text": true,
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 83",
+          "left": 3099794,
+          "top": 3263864,
+          "width": 1706862,
+          "height": 397997,
+          "has_text": true,
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly."
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 84",
+          "left": 3095436,
+          "top": 4347480,
+          "width": 1706862,
+          "height": 397997,
+          "has_text": true,
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly."
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 20,
+      "layout_name": "4_空白",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "Group 155",
+          "left": 1120271,
+          "top": 1861441,
+          "width": 3680804,
+          "height": 2121155
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 279",
+          "left": 1442530,
+          "top": 2258519,
+          "width": 482633,
+          "height": 482721
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 279",
+          "left": 2004983,
+          "top": 1591302,
+          "width": 482633,
+          "height": 482721
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 279",
+          "left": 2666692,
+          "top": 1351387,
+          "width": 482633,
+          "height": 482721
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 64",
+          "left": 1456441,
+          "top": 4084323,
+          "width": 461585,
+          "height": 166170,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 72",
+          "left": 2072892,
+          "top": 4084323,
+          "width": 461585,
+          "height": 166170,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76",
+          "left": 2689342,
+          "top": 4084323,
+          "width": 461585,
+          "height": 166170,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 6",
+          "left": 1594657,
+          "top": 2153576,
+          "width": 1296080,
+          "height": 1820332,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 6",
+          "left": 2843286,
+          "top": 2153576,
+          "width": 1296080,
+          "height": 1820332,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 6",
+          "left": 1193487,
+          "top": 2836200,
+          "width": 987490,
+          "height": 1137708,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 6",
+          "left": 2180978,
+          "top": 1926036,
+          "width": 1458090,
+          "height": 2047873,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 6",
+          "left": 3504995,
+          "top": 2469723,
+          "width": 1296080,
+          "height": 1504185,
+          "has_text": true,
+          "text": ""
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 279",
+          "left": 3255406,
+          "top": 1588408,
+          "width": 482633,
+          "height": 482720
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 279",
+          "left": 3915671,
+          "top": 1877962,
+          "width": 482633,
+          "height": 482720
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 172",
+          "left": 3305792,
+          "top": 4084323,
+          "width": 461585,
+          "height": 166170,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 173",
+          "left": 3922244,
+          "top": 4084323,
+          "width": 461585,
+          "height": 166170,
+          "has_text": true,
+          "text": "文字内容"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 164",
+          "left": 7360602,
+          "top": 3697666,
+          "width": 512872,
+          "height": 369268,
+          "has_text": true,
+          "text": "80%"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 165",
+          "left": 7360602,
+          "top": 3035831,
+          "width": 512872,
+          "height": 369268,
+          "has_text": true,
+          "text": "50%"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 87",
+          "left": 4984209,
+          "top": 3625870,
+          "width": 2228438,
+          "height": 468897
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 212",
+          "left": 5016213,
+          "top": 2969646,
+          "width": 2155141,
+          "height": 496242
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 228",
+          "left": 5591326,
+          "top": 1812336,
+          "width": 2508454,
+          "height": 332341,
+          "has_text": true,
+          "text": "添加适当的文字，一页的文字最好不要超过200,添加适当的文字添添加适当的文字"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 229",
+          "left": 5001711,
+          "top": 1563006,
+          "width": 1339490,
+          "height": 221561,
+          "has_text": true,
+          "text": "请替换文字内容"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 230",
+          "left": 4986281,
+          "top": 1805480,
+          "width": 512872,
+          "height": 369268,
+          "has_text": true,
+          "text": "80%"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 231",
+          "left": 4986281,
+          "top": 2320560,
+          "width": 3033182,
+          "height": 498511,
+          "has_text": true,
+          "text": "添加适当的文字，一页的文字最好不要超过200,添加适当的文字添添加适当的文字，一页的文字最好不要超过200,添加适当的文字添添加适当的文字"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 21,
+      "layout_name": "4_空白",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 1",
+          "left": 590178,
+          "top": 1774711,
+          "width": 3851193,
+          "height": 2561193,
+          "is_image": true
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 30",
+          "left": 4810097,
+          "top": 1709179,
+          "width": 959231,
+          "height": 315469,
+          "has_text": true,
+          "text": "活动宗旨"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 37",
+          "left": 4810095,
+          "top": 1985788,
+          "width": 3648105,
+          "height": 586312,
+          "has_text": true,
+          "text": "此处添加详细文本描述，建议与标题相关并符合整体语言风格，语言描述尽量简洁生动。尽量将每页幻灯片的字数控制在200字以内，据统计每页幻灯片的播放时间最好控制在5分钟之内。"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 39",
+          "left": 4810097,
+          "top": 3265187,
+          "width": 959231,
+          "height": 315469,
+          "has_text": true,
+          "text": "活动目标"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 3",
+          "left": 503548,
+          "top": 3294877,
+          "width": 3984529,
+          "height": 1080145
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 47",
+          "left": 4810095,
+          "top": 3541794,
+          "width": 3648105,
+          "height": 586312,
+          "has_text": true,
+          "text": "此处添加详细文本描述，建议与标题相关并符合整体语言风格，语言描述尽量简洁生动。尽量将每页幻灯片的字数控制在200字以内，据统计每页幻灯片的播放时间最好控制在5分钟之内。"
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 22,
+      "layout_name": "4_空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 1204",
+          "left": 738621,
+          "top": 4419781,
+          "width": 7861912,
+          "height": 276999,
+          "has_text": true,
+          "text": "输入您的内容输入您的内容输入您的输入您的内容输入您的内容输入您的内容输入您的内容内容输入您的内容.输入您的内容输入您的内容输入您的输入您的内容输入您的内容输入您的内容输入您的内容内容"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2",
+          "left": 1786124,
+          "top": 1136678,
+          "width": 3627834,
+          "height": 3043315
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 23",
+          "left": 4896036,
+          "top": 1852464,
+          "width": 2074664,
+          "height": 1600098
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": false,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": []
+    },
+    {
+      "index": 23,
+      "layout_name": "标题和内容",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 158",
+          "left": 4319972,
+          "top": 2132838,
+          "width": 4691878,
+          "height": 681220,
+          "has_text": true,
+          "text": "演讲完毕  谢谢观看"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 159",
+          "left": 4283968,
+          "top": 2868740,
+          "width": 4500500,
+          "height": 296500,
+          "has_text": true,
+          "text": "CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 160",
+          "left": 5341361,
+          "top": 3331025,
+          "width": 2507003,
+          "height": 187325,
+          "has_text": true,
+          "text": "汇报人：代用名    时间：2019年x月x日"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 158",
+          "left": 5544108,
+          "top": 1207828,
+          "width": 1659255,
+          "height": 895350,
+          "has_text": true,
+          "text": "202x"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 11",
+          "left": -83265,
+          "top": 987400,
+          "width": 5004556,
+          "height": 3288995,
+          "is_image": true
+        }
+      ],
+      "placeholders": [],
+      "has_title": false,
+      "has_content": false,
+      "has_image": true,
+      "has_table": false,
+      "has_chart": false,
+      "suitable_for": [
+        "conclusion",
+        "summary"
+      ]
+    }
+  ],
+  "suitable_for": {
+    "cover": true,
+    "content": false,
+    "keypoints": false,
+    "image": true,
+    "table": false,
+    "chart": true,
+    "summary": true
+  }
+}

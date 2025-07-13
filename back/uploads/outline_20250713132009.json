@@ -1,0 +1,32 @@
+[
+  {
+    "title": "植物细胞",
+    "content": "探索构成植物基础的生命单位 - 植物细胞的独特结构及其功能。",
+    "layout": "cover",
+    "type": "",
+    "keypoints": [
+      "探索构成植物基础的生命单位 - 植物细胞的独特结构及其功能。"
+    ]
+  },
+  {
+    "title": "植物细胞与动物细胞的主要区别",
+    "content": "",
+    "layout": "compare",
+    "type": "",
+    "keypoints": [
+      "{'side': 'left', 'text': '具有细胞壁'}",
+      "{'side': 'right', 'text': '没有细胞壁'}",
+      "{'side': 'left', 'text': '含中央液泡'}",
+      "{'side': 'right', 'text': '较小的液泡或无明显液泡'}",
+      "{'side': 'left', 'text': '叶绿体存在'}",
+      "{'side': 'right', 'text': '通常不存在叶绿体'}"
+    ]
+  },
+  {
+    "title": "关键结构及功能简介",
+    "content": "",
+    "layout": "table",
+    "type": "",
+    "keypoints": []
+  }
+]

@@ -1,0 +1,2553 @@
+2025-07-12 01:22:58,869 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:22:58,877 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:23:31,123 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:23:31,872 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:23:31,880 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:23:44,984 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:23:46,150 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:23:46,162 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:23:48,194 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:23:48,953 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:23:48,961 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:25:02,506 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:25:03,290 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:25:03,297 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:25:28,472 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:25:29,548 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:25:29,558 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:25:34,608 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:25:35,368 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:25:35,375 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:26:50,993 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.16:5000
+2025-07-12 01:26:50,993 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 01:26:50,994 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:26:51,815 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:26:51,823 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:28:06,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\ppt_fill_template.py', reloading
+2025-07-12 01:28:06,460 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:28:07,148 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:28:07,156 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:28:39,221 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.16:5000
+2025-07-12 01:28:39,221 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 01:28:39,222 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:28:40,008 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:28:40,018 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:28:50,749 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 01:28:50,749 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 01:28:50,750 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:28:50,750 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 01:28:50,750 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 01:28:50,750 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 01:28:50,751 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 01:28:50,751 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 01:28:50,751 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 01:28:50,751 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 01:28:50,751 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 01:28:50,751 - ppt_generation - INFO - AIÌáÊ¾´Ê³¤¶È: 1470
+2025-07-12 01:28:50,751 - ppt_generation - DEBUG - AIÌáÊ¾´Ê: ÄãÊÇ×¨ÒµµÄPPTÄÚÈİ²ß»®Ê¦£¬ÇëÑÏ¸ñ°´ÕÕÒÔÏÂÒªÇóÉú³É½á¹¹»¯¡¢·Öµã¡¢ÄÚÈİ·á¸»ÇÒÃÀ¹ÛµÄPPT´ó¸Ù£º
+
+¡¾Ä£°å·ç¸ñÒªÇó¡¿
+ÎŞÌØÊâ·ç¸ñÒªÇó
+
+¡¾¸ñÊ½Óë½á¹¹ÒªÇó¡¿
+- ±ØĞëÑÏ¸ñÊä³öJSONÊı×é£¬Ã¿¸öÔªËØÎªÒ»Ò³£¬½á¹¹Îª£º{"type":"Ò³ÃæÀàĞÍ","title":"Ò³Ãæ±êÌâ","content":"Ò³ÃæÏêÏ¸ÄÚÈİ","keypoints":["Òªµã1",...],"difficulties":["ÖØÄÑµã1",...],"image":"Í¼Æ¬URL(ÈçÓĞ)","remark":"±¸×¢(ÈçÓĞ)","layout":"ÅÅ°æ½¨Òé","color":"ÅäÉ«½¨Òé","icon":"Í¼±ê½¨Òé","objective":"½ÌÑ§Ä¿±ê","table":±í¸ñÊı¾İ½á¹¹£¨ÈçÓĞ£©£¬"chart":Í¼±íÊı¾İ½á¹¹£¨ÈçÓĞ£©£¬"quote":"ÃûÑÔ/ÒıÓÃ£¨ÈçÓĞ£©"}¡£
+- JSONÖĞÑÏ½ûÊ¹ÓÃÌØÊâÊıÑ§·ûºÅ£¨Èç¦Ğ¡¢¡Ì¡¢¡ãµÈ£©£¬ÇëÓÃÎÄ×ÖÌæ´ú£¨Èçpi¡¢sqrt¡¢¶ÈµÈ£©¡£
+- ËùÓĞÎÄ±¾ÄÚÈİ±ØĞëÊÇÓĞĞ§µÄJSON×Ö·û´®£¬²»ÄÜ°üº¬»»ĞĞ·û¡¢ÖÆ±í·û»òÌØÊâUnicode×Ö·û¡£
+- type×Ö¶Î±ØĞëÎª£ºcover£¨·âÃæ£©¡¢keypoints£¨ÒªµãÒ³£©¡¢co...
+2025-07-12 01:28:50,751 - ppt_generation - INFO - ¿ªÊ¼µ÷ÓÃ°¢ÀïÔÆ°ÙÁ¶API
+2025-07-12 01:28:50,751 - ppt_generation - INFO - API Key³¤¶È: 35
+2025-07-12 01:28:50,755 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:29:28,301 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:29:28,302 - ppt_generation - INFO - APIÏìÓ¦×´Ì¬Âë: 200
+2025-07-12 01:29:28,302 - ppt_generation - INFO - APIµ÷ÓÃ³É¹¦£¬¿ªÊ¼½âÎöÏìÓ¦
+2025-07-12 01:29:28,302 - ppt_generation - DEBUG - AIÔ­Ê¼Êä³ö: [
+  {
+    "type": "cover",
+    "title": "Ö²ÎïÏ¸°û½á¹¹Óë¹¦ÄÜ",
+    "content": "±¾PPT½«È«Ãæ½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢¹¦ÄÜ¼°ÆäÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£",
+    "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾×é³É", "ÕÆÎÕÏ¸°û¸÷²¿·ÖµÄ¹¦ÄÜ", "Àí½âÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ"],
+    "difficulties": ["Çø·Ö²»Í¬Ï¸°ûÆ÷µÄ½á¹¹ºÍ¹¦ÄÜ", "Àí½âÏ¸°û±ÚµÄ×÷ÓÃ»úÖÆ"],
+    "image": "https://images.unsplash.com/photo-1596743024864-2c9f39e8a7e6?auto=format&fit=crop&w=600&q=60",
+    "remark": "·âÃæÍ¼Ñ¡ÓÃÖ²ÎïÏ¸°ûÏÔÎ¢Í¼Ïñ£¬Í»³öÖ÷Ìâ",
+    "layout": "´óÍ¼Ò³",
+    "color": "ÂÌÉ«ÇåĞÂ·ç",
+    "icon": "cell",
+    "objective": "Òıµ¼Ñ§Éú½øÈëÖ²ÎïÏ¸°ûÑ§Ï°Ö÷Ìâ",
+    "table": null,
+    "chart": n...
+2025-07-12 01:29:28,304 - ppt_generation - DEBUG - ¹ıÂËºóµÄAIÊä³ö: [
+  {
+    "type": "cover",
+    "title": "Ö²ÎïÏ¸°û½á¹¹Óë¹¦ÄÜ",
+    "content": "±¾PPT½«È«Ãæ½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢¹¦ÄÜ¼°ÆäÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£",
+    "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾×é³É", "ÕÆÎÕÏ¸°û¸÷²¿·ÖµÄ¹¦ÄÜ", "Àí½âÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ"],
+    "difficulties": ["Çø·Ö²»Í¬Ï¸°ûÆ÷µÄ½á¹¹ºÍ¹¦ÄÜ", "Àí½âÏ¸°û±ÚµÄ×÷ÓÃ»úÖÆ"],
+    "image": "https://images.unsplash.com/photo-1596743024864-2c9f39e8a7e6?auto=format&fit=crop&w=600&q=60",
+    "remark": "·âÃæÍ¼Ñ¡ÓÃÖ²ÎïÏ¸°ûÏÔÎ¢Í¼Ïñ£¬Í»³öÖ÷Ìâ",
+    "layout": "´óÍ¼Ò³",
+    "color": "ÂÌÉ«ÇåĞÂ·ç",
+    "icon": "cell",
+    "objective": "Òıµ¼Ñ§Éú½øÈëÖ²ÎïÏ¸°ûÑ§Ï°Ö÷Ìâ",
+    "table": null,
+    "chart": n...
+2025-07-12 01:29:28,304 - ppt_generation - INFO - ¿ªÊ¼ÇåÀíºÍ½âÎöJSON
+2025-07-12 01:29:28,304 - ppt_generation - DEBUG - ÇåÀíºóµÄJSONÎÄ±¾: [ { "type": "cover", "title": "Ö²ÎïÏ¸°û½á¹¹Óë¹¦ÄÜ", "content": "±¾PPT½«È«Ãæ½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢¹¦ÄÜ¼°ÆäÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£", "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾×é³É", "ÕÆÎÕÏ¸°û¸÷²¿·ÖµÄ¹¦ÄÜ", "Àí½âÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ"], "difficulties": ["Çø·Ö²»Í¬Ï¸°ûÆ÷µÄ½á¹¹ºÍ¹¦ÄÜ", "Àí½âÏ¸°û±ÚµÄ×÷ÓÃ»úÖÆ"], "image": "https://images.unsplash.com/photo-1596743024864-2c9f39e8a7e6?auto=format&fit=crop&w=600&q=60", "remark": "·âÃæÍ¼Ñ¡ÓÃÖ²ÎïÏ¸°ûÏÔÎ¢Í¼Ïñ£¬Í»³öÖ÷Ìâ", "layout": "´óÍ¼Ò³", "color": "ÂÌÉ«ÇåĞÂ·ç", "icon": "cell", "objective": "Òıµ¼Ñ§Éú½øÈëÖ²ÎïÏ¸°ûÑ§Ï°Ö÷Ìâ", "table": null, "chart": null, "quote": "Ï¸°ûÊÇÉúÃüµÄ»ù±¾µ¥Î»¡£" }, { "type": "keypoints", ...
+2025-07-12 01:29:28,304 - ppt_generation - INFO - ³É¹¦½âÎöJSONÊı×é£¬°üº¬10¸öÔªËØ
+2025-07-12 01:29:28,305 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:29:28] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 01:29:28,310 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 01:29:28,311 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"chart": null, "color": "ÂÌÉ«ÇåĞÂ·ç", "content": "±¾PPT½«È«Ãæ½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢¹¦ÄÜ¼°ÆäÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£", "difficulties": ["Çø·Ö²»Í¬Ï¸°ûÆ÷µÄ½á¹¹ºÍ¹¦ÄÜ", "Àí½âÏ¸°û±ÚµÄ×÷ÓÃ»úÖÆ"], "icon": "cell", "image": "https://images.unsplash.com/ph...
+2025-07-12 01:29:28,311 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:29:28,311 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:29:28,311 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 10
+2025-07-12 01:29:28,311 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:29:28,311 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 01:29:28,312 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712012928.pptx
+2025-07-12 01:29:28,312 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712012928.pptx
+2025-07-12 01:29:28,313 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 01:29:28,313 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 01:29:29,107 - ppt_generation - INFO - ½Å±¾Ö´ĞĞ½á¹û: 0
+2025-07-12 01:29:29,107 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 220183 ×Ö½Ú
+2025-07-12 01:29:29,107 - ppt_generation - INFO - PPT URL: /uploads/20250712012928.pptx
+2025-07-12 01:29:29,107 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 01:29:29,107 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:29:29] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 01:29:29,111 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:29:29] "[33mPOST /api/resource HTTP/1.1[0m" 404 -
+2025-07-12 01:33:16,796 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:33:16,869 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:33:17,585 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:33:17,592 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:33:47,715 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 01:33:47,715 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 01:33:47,715 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:33:47,715 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 01:33:47,715 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 01:33:47,715 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 01:33:47,715 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 01:33:47,715 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 01:33:47,715 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 01:33:47,715 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 01:33:47,715 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 01:33:47,716 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:33:47,716 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:33:47,718 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:34:00,458 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:34:00,458 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1436
+2025-07-12 01:34:00,458 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£ºÌ½Ë÷ÉúÃüµÄÎ¢¹ÛÊÀ½ç  
+- **×÷Õß/ÊÚ¿ÎÈË**£ºXXX  
+- **ÈÕÆÚ**£ºXXXXÄêXXÔÂXXÈÕ  
+- **¿Î³ÌÄ¿±ê¼òÊö**£ºÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹Óë¹¦ÄÜ£¬ÕÆÎÕÆäÓë¶¯ÎïÏ¸°ûµÄÇø±ğ¡£
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ - Ê²Ã´ÊÇÏ¸°û£¿**
+- **ÄÚÈİÃèÊö**£º  
+  ¼òÒª½éÉÜÏ¸°ûÊÇÉúÃüµÄ»ù±¾µ¥Î»£¬Òı³öÖ²ÎïÏ¸°û×÷ÎªÖ²ÎïÌå»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»µÄÖØÒªĞÔ¡£  
+  - Ï¸°ûµÄ¶¨ÒåÓë·ÖÀà£¨¶¯Ö²ÎïÏ¸°û£©  
+  - Ö²ÎïÏ¸°ûÔÚÉúÌ¬ÏµÍ³ÖĞµÄ×÷ÓÃ  
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ×ÜÌå½á¹¹¸ÅÊö**
+- **ÄÚÈİÃèÊö**£º  
+  Õ¹Ê¾Ö²ÎïÏ¸°ûµÄÕûÌå½á¹¹Í¼£¬½éÉÜÖ÷Òª×é³É²¿·Ö¡£  
+  - Ï¸°û±Ú  
+  - Ï¸°ûÄ¤  
+  - Ï¸°ûÖÊ  
+  - Ï¸°ûºË  
+  - Ò¶ÂÌÌå£¨ÌØÓĞ½á¹¹£©  
+  - ÒºÅİ  
+
+---
+
+### **µÚ4Ò³£ºÏ¸°û±Ú - Ö²ÎïÏ¸°ûµÄ¡°¿ø¼×¡±**
+- **ÄÚÈİÃèÊö**£º  
+  ÏêÏ¸½²½âÏ¸°û±ÚµÄ×é³É¡¢½á¹¹Óë¹¦ÄÜ¡£  
+  - ³É·Ö...
+2025-07-12 01:34:00,458 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:34:00,458 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:34:00,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:34:30,175 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:34:30,175 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 4056
+2025-07-12 01:34:30,176 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: {
+  "type": "cover",
+  "title": "Ö²ÎïÏ¸°û",
+  "content": "Ì½Ë÷ÉúÃüµÄÎ¢¹ÛÊÀ½ç",
+  "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹", "ÕÆÎÕÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ", "Àí½âÏ¸°û¸÷²¿·ÖµÄ¹¦ÄÜ"],
+  "difficulties": ["Ï¸°ûÆ÷¹¦ÄÜ¸´ÔÓ£¬Ğè½áºÏÍ¼Ê¾Àí½â", "Ï¸°û±ÚÓëÒ¶ÂÌÌåµÄÌØÊâĞÔÈİÒ×»ìÏı"],
+  "image": "Ò»ÕÅÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ß·Ö±æÂÊÍ¼Æ¬£¬±³¾°ÎªÂÌÉ«£¬Õ¹Ê¾Ï¸°û±Ú¡¢Ï¸°ûÖÊºÍÒºÅİµÈ½á¹¹",
+  "remark": "·âÃæÒ³Ó¦¼ò½à´óÆø£¬Í»³öÖ÷Ìâ",
+  "layout": "cover",
+  "color": "Ç³ÂÌÉ«Óë°×É«´îÅä",
+  "icon": "Ö²ÎïÍ¼±ê",
+  "objective": "¼¤·¢Ñ§Éú¶ÔÖ²ÎïÏ¸°ûµÄĞËÈ¤£¬Ã÷È·¿Î³ÌÄ¿±ê"
+},
+{
+  "type": "keypoints",
+  "title": "Ê²Ã´ÊÇÏ¸°û£¿",
+  "content": "Ï¸°ûÊÇÉúÃüµÄ»ù±¾µ¥Î»£¬ËùÓĞÉúÎïÌå¶¼ÓÉÏ¸°û¹¹³É¡£Ö²ÎïÏ¸°û×÷ÎªÖ²ÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»£¬³Ğµ£×ÅÉú³¤¡¢·¢Óı¡¢´úĞ»µÈ¶àÖÖ¹¦ÄÜ¡£",
+  "k...
+2025-07-12 01:34:30,178 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 01:34:30,178 - ppt_generation - WARNING - Ö±½Ó½âÎöJSONÊ§°Ü: Extra data: line 1 column 48 (char 47)
+2025-07-12 01:34:30,179 - ppt_generation - WARNING - ÕıÔòÌáÈ¡JSONÊ§°Ü: Extra data: line 1 column 48 (char 47)
+2025-07-12 01:34:30,179 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 64 (char 63)
+2025-07-12 01:34:30,179 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 90 (char 89)
+2025-07-12 01:34:30,179 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 68 (char 67)
+2025-07-12 01:34:30,179 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 64 (char 63)
+2025-07-12 01:34:30,180 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 58 (char 57)
+2025-07-12 01:34:30,180 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 68 (char 67)
+2025-07-12 01:34:30,180 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 53 (char 52)
+2025-07-12 01:34:30,180 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 65 (char 64)
+2025-07-12 01:34:30,180 - ppt_generation - WARNING - ËùÓĞJSON½âÎö·½·¨¶¼Ê§°Ü£¬Ê¹ÓÃÎÄ±¾½âÎö
+2025-07-12 01:34:30,181 - ppt_generation - INFO - ³É¹¦½âÎö³ö 110 Ò³ÄÚÈİ
+2025-07-12 01:34:30,181 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 01:34:30,187 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:34:30] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 01:34:30,194 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 01:34:30,195 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "À¶É«¿Æ¼¼·ç", "content": "\"type\": \"cover\",", "difficulties": [], "keypoints": ["\"type\": \"cover\","], "layout": "keypoints", "objective": "Àí½âÏà¹ØÄÚÈİ", "title": "\"type\": \"cover\...
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:34:30,195 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 110
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712013430.pptx
+2025-07-12 01:34:30,195 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712013430.pptx
+2025-07-12 01:34:30,196 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 01:34:30,196 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 01:34:30,199 - ppt_generation - ERROR - PPTÉú³É¹ı³ÌÖĞ·¢ÉúÒì³£: [WinError 206] ÎÄ¼şÃû»òÀ©Õ¹ÃûÌ«³¤¡£
+2025-07-12 01:34:30,202 - ppt_generation - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\app.py", line 581, in gen_pptx_python
+    result = subprocess.run([
+        'python',
+    ...<3 lines>...
+        outline_json
+    ], check=True, capture_output=True, text=True)
+  File "D:\py\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 206] ÎÄ¼şÃû»òÀ©Õ¹ÃûÌ«³¤¡£
+
+2025-07-12 01:34:30,202 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:34:30] "[35m[1mPOST /api/aiPpt/gen-pptx-python HTTP/1.1[0m" 500 -
+2025-07-12 01:36:04,081 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:36:04,239 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:36:05,309 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:36:05,319 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:36:06,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:36:06,402 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:36:07,117 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:36:07,124 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:37:39,695 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 01:37:39,695 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 01:37:39,696 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:37:39,696 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 01:37:39,696 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 01:37:39,696 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 01:37:39,696 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 01:37:39,696 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 01:37:39,696 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 01:37:39,696 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 01:37:39,696 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 01:37:39,696 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:37:39,696 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:37:39,698 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:37:48,173 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:37:48,174 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1128
+2025-07-12 01:37:48,174 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£ºÌ½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»  
+- **ÄÚÈİÃèÊö**£º½éÉÜ±¾½Ú¿ÎµÄÖ÷Ìâ£¬Ã÷È·Ñ§Ï°Ä¿±êÓë½ÌÑ§Ä¿µÄ£¬¼¤·¢Ñ§ÉúĞËÈ¤¡£
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ¡ª¡ªÊ²Ã´ÊÇÏ¸°û£¿**
+- **±êÌâ**£ºÏ¸°û£ºÉúÃüµÄ»ù±¾µ¥Î»  
+- **ÄÚÈİÃèÊö**£º¼òÒª½éÉÜÏ¸°ûµÄ¸ÅÄî£¬ËµÃ÷Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»£¬Òı³öÖ²ÎïÏ¸°ûµÄÌØÊâĞÔ¡£
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓë·ÖÀà**
+- **±êÌâ**£ºÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓëÀàĞÍ  
+- **ÄÚÈİÃèÊö**£º¶¨ÒåÖ²ÎïÏ¸°û£¬Çø·Ö²»Í¬ÀàĞÍµÄÖ²ÎïÏ¸°û£¨Èç±íÆ¤Ï¸°û¡¢Ò¶ÈâÏ¸°û¡¢µ¼¹ÜÏ¸°ûµÈ£©£¬ËµÃ÷ÆäÔÚÖ²ÎïÌåÖĞµÄ×÷ÓÃ¡£
+
+---
+
+### **µÚ4Ò³£ºÖ²ÎïÏ¸°ûµÄ½á¹¹Óë¹¦ÄÜ**
+- **±êÌâ**£ºÖ²ÎïÏ¸°ûµÄÖ÷Òª½á¹¹Óë¹¦ÄÜ  
+- **ÄÚÈİÃèÊö**£ºÏêÏ¸½éÉÜÖ²ÎïÏ¸°ûµÄ¸÷²¿·Ö½á¹¹£¨Ï¸°û±Ú¡¢Ï¸°ûÄ¤¡¢Ï¸°ûÖÊ¡¢Ï¸°ûºË¡¢ÒºÅİ¡¢Ò¶ÂÌÌåµÈ£©¼°Æä¹¦ÄÜ£¬Ç¿µ÷Ö²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ²»Í¬Ö®´¦¡£
+
+---
+
+### **µÚ5Ò³£ºÏ¸°û±ÚµÄ×÷ÓÃÓëÌØµã**
+- **±êÌâ**£ºÏ¸°û±Ú£ºÖ²Îï...
+2025-07-12 01:37:48,174 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:37:48,174 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:37:48,177 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:38:16,859 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:38:16,859 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 4240
+2025-07-12 01:38:16,859 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: [
+  {
+    "type": "cover",
+    "title": "Ö²ÎïÏ¸°û",
+    "content": "Ì½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»",
+    "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾¸ÅÄî", "ÕÆÎÕÖ²ÎïÏ¸°ûµÄ½á¹¹Óë¹¦ÄÜ", "Àí½âÖ²ÎïÏ¸°ûÔÚÉúÌ¬ÏµÍ³ÖĞµÄ×÷ÓÃ"],
+    "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ²îÒì", "Àí½âÒ¶ÂÌÌåÓë¹âºÏ×÷ÓÃµÄ¹ØÏµ"],
+    "image": "Ò»ÕÅÕ¹Ê¾ÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ßÇåÍ¼Æ¬£¬±³¾°ÎªÂÌÉ«£¬Í»³öÏ¸°û±ÚºÍÏ¸°ûÖÊµÄÏ¸½Ú",
+    "remark": "ÊÊºÏÓÃÓÚ¿Î³Ìµ¼Èë£¬¼¤·¢Ñ§ÉúĞËÈ¤",
+    "layout": "´óÍ¼Ò³",
+    "color": "Ç³ÂÌÉ«Óë°×É«´îÅä",
+    "icon": "Ö²ÎïÍ¼±ê¡¢ÏÔÎ¢¾µÍ¼±ê",
+    "objective": "ÒıÈë¿Î³ÌÖ÷Ìâ£¬Ã÷È·Ñ§Ï°Ä¿±ê"
+  },
+  {
+    "type": "keypoints",
+    "title": "Ï¸°û£ºÉúÃüµÄ»ù±¾µ¥Î»",
+    "content": "Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£Ö²ÎïÏ¸°û¾ßÓĞ¶ÀÌØµÄ½á¹¹...
+2025-07-12 01:38:16,861 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 01:38:16,861 - ppt_generation - INFO - ³É¹¦½âÎö³ö 10 Ò³ÄÚÈİ
+2025-07-12 01:38:16,861 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 01:38:16,863 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:38:16] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 01:38:16,869 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 01:38:16,869 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "Ç³ÂÌÉ«Óë°×É«´îÅä", "content": "Ì½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»", "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ²îÒì", "Àí½âÒ¶ÂÌÌåÓë¹âºÏ×÷ÓÃµÄ¹ØÏµ"], "icon": "Ö²ÎïÍ¼±ê¡¢ÏÔÎ¢¾µÍ¼±ê", "image": "Ò»ÕÅÕ¹Ê¾ÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ßÇåÍ¼Æ¬£¬±³¾°ÎªÂÌÉ«£¬Í»³öÏ¸°û±ÚºÍÏ¸°ûÖÊµÄÏ¸½Ú", "keypoints": ["ÁË½â...
+2025-07-12 01:38:16,869 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:38:16,869 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:38:16,869 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 10
+2025-07-12 01:38:16,869 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:38:16,869 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 01:38:16,869 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712013816.pptx
+2025-07-12 01:38:16,870 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712013816.pptx
+2025-07-12 01:38:16,870 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 01:38:16,870 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 01:38:17,706 - ppt_generation - INFO - ½Å±¾Ö´ĞĞ½á¹û: 0
+2025-07-12 01:38:17,706 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 219327 ×Ö½Ú
+2025-07-12 01:38:17,706 - ppt_generation - INFO - PPT URL: /uploads/20250712013816.pptx
+2025-07-12 01:38:17,706 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 01:38:17,706 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:38:17] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 01:42:28,123 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 01:42:28,185 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:42:28,881 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:42:28,889 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:43:25,309 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\ppt_fill_template.py', reloading
+2025-07-12 01:43:25,366 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:43:26,045 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:43:26,053 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:43:42,650 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.16:5000
+2025-07-12 01:43:42,650 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 01:43:42,651 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 01:43:43,352 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 01:43:43,359 - werkzeug - INFO -  * Debugger PIN: 136-800-191
+2025-07-12 01:43:53,500 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 01:43:53,500 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 01:43:53,501 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:43:53,501 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 01:43:53,501 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 01:43:53,501 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 01:43:53,501 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 01:43:53,501 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 01:43:53,501 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 01:43:53,501 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 01:43:53,501 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 01:43:53,501 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:43:53,501 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 01:43:53,506 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:44:04,148 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:44:04,149 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1182
+2025-07-12 01:44:04,149 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£ºÌ½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»  
+- **×÷Õß/ÊÚ¿Î½ÌÊ¦ĞÕÃû**  
+- **ÈÕÆÚ/¿Î³ÌÃû³Æ**
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ - Ê²Ã´ÊÇÏ¸°û£¿**
+- **ÄÚÈİÃèÊö**£º  
+  ¼òÒª½éÉÜÏ¸°ûµÄ¸ÅÄî£¬ËµÃ÷Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£  
+  Òı³öÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ£¬Ç¿µ÷ÑĞ¾¿Ö²ÎïÏ¸°ûµÄÖØÒªĞÔ¡£
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓë»ù±¾ÌØÕ÷**
+- **ÄÚÈİÃèÊö**£º  
+  ¶¨ÒåÖ²ÎïÏ¸°û£¬ÁĞ¾ÙÆäÖ÷ÒªÌØÕ÷£¬ÈçÏ¸°û±Ú¡¢Ò¶ÂÌÌå¡¢´óÒºÅİµÈ¡£  
+  ¶Ô±È¶¯ÎïÏ¸°û£¬Í»³öÖ²ÎïÏ¸°ûµÄ¶ÀÌØĞÔ¡£
+
+---
+
+### **µÚ4Ò³£ºÖ²ÎïÏ¸°ûµÄ½á¹¹Óë×é³É**
+- **ÄÚÈİÃèÊö**£º  
+  ·Ö±ğ½éÉÜÖ²ÎïÏ¸°ûµÄÖ÷Òª½á¹¹£º  
+  - Ï¸°û±Ú  
+  - Ï¸°ûÄ¤  
+  - Ï¸°ûÖÊ  
+  - Ï¸°ûºË  
+  - Ò¶ÂÌÌå  
+  - ÒºÅİ  
+  - ÏßÁ£Ìå  
+  - ¸ß¶û»ùÌåµÈ
+
+---
+
+### **µÚ5Ò³£ºÏ¸°û±ÚµÄ¹¦ÄÜÓë¹¹³É**
+- **ÄÚÈİÃèÊö**£º  
+...
+2025-07-12 01:44:04,149 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:44:04,149 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 01:44:04,150 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 01:44:31,591 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 01:44:31,592 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 4266
+2025-07-12 01:44:31,592 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: [
+  {
+    "type": "cover",
+    "title": "Ö²ÎïÏ¸°û",
+    "content": "Ì½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»",
+    "keypoints": ["Ö²ÎïÏ¸°ûÊÇÉúÃüµÄ»ù´¡½á¹¹", "Àí½âÖ²ÎïÏ¸°ûµÄ¶ÀÌØĞÔ", "ÕÆÎÕÖ²ÎïÏ¸°ûµÄ¹¦ÄÜÓë×÷ÓÃ"],
+    "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ²îÒì", "Àí½âÏ¸°û±ÚµÄ¸´ÔÓ×é³ÉÓë¹¦ÄÜ"],
+    "image": "Ò»ÕÅÕ¹Ê¾ÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ß·Ö±æÂÊÍ¼Ïñ£¬±³¾°ÎªÂÌÉ«½¥±ä£¬Í»³öÏ¸°û±ÚºÍÒ¶ÂÌÌåµÄ½á¹¹",
+    "remark": "·âÃæÓ¦¼ò½à´ó·½£¬±êÌâĞÑÄ¿£¬¸±±êÌâ¸¨ÖúËµÃ÷Ö÷Ìâ",
+    "layout": "´óÍ¼Ò³",
+    "color": "ÂÌÉ«¿Æ¼¼·ç",
+    "icon": "Ö²Îï/Ï¸°ûÍ¼±ê",
+    "objective": "¼¤·¢Ñ§Éú¶ÔÖ²ÎïÏ¸°ûµÄĞËÈ¤£¬Ã÷È·¿Î³ÌÄ¿±ê"
+  },
+  {
+    "type": "keypoints",
+    "title": "ÒıÑÔ - Ê²Ã´ÊÇÏ¸°û£¿",
+    "content": "Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£Ö²ÎïÏ¸...
+2025-07-12 01:44:31,593 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 01:44:31,594 - ppt_generation - INFO - ³É¹¦½âÎö³ö 10 Ò³ÄÚÈİ
+2025-07-12 01:44:31,594 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 01:44:31,595 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:44:31] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 01:44:31,601 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 01:44:31,601 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "ÂÌÉ«¿Æ¼¼·ç", "content": "Ì½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»", "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ²îÒì", "Àí½âÏ¸°û±ÚµÄ¸´ÔÓ×é³ÉÓë¹¦ÄÜ"], "icon": "Ö²Îï/Ï¸°ûÍ¼±ê", "image": "Ò»ÕÅÕ¹Ê¾ÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ß·Ö±æÂÊÍ¼Ïñ£¬±³¾°ÎªÂÌÉ«½¥±ä£¬Í»³öÏ¸°û±ÚºÍÒ¶ÂÌÌåµÄ½á¹¹", "keypoints": ["Ö²ÎïÏ¸°û...
+2025-07-12 01:44:31,601 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 01:44:31,601 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:44:31,601 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 10
+2025-07-12 01:44:31,601 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:44:31,601 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 01:44:31,602 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712014431.pptx
+2025-07-12 01:44:31,602 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712014431.pptx
+2025-07-12 01:44:31,603 - ppt_generation - INFO - ´ó¸ÙÊı¾İÒÑĞ´ÈëÁÙÊ±ÎÄ¼ş: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712014431.json
+2025-07-12 01:44:31,603 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 01:44:31,603 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 01:44:31,708 - ppt_template_fill - INFO - === ¿ªÊ¼Ìî³äPPTÄ£°å ===
+2025-07-12 01:44:31,708 - ppt_template_fill - INFO - Ä£°åÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 01:44:31,708 - ppt_template_fill - INFO - Êä³öÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712014431.pptx
+2025-07-12 01:44:31,708 - ppt_template_fill - INFO - »ÃµÆÆ¬Êı¾İ: 10 Ò³
+2025-07-12 01:44:31,708 - ppt_template_fill - INFO - ¼ÓÔØPPTÄ£°å
+2025-07-12 01:44:31,735 - ppt_template_fill - INFO - Ä£°å¼ÓÔØ³É¹¦£¬°üº¬ 23 ÕÅ»ÃµÆÆ¬
+2025-07-12 01:44:31,735 - ppt_template_fill - INFO - ¿ªÊ¼´¦Àí 10 ÕÅ»ÃµÆÆ¬
+2025-07-12 01:44:31,735 - ppt_template_fill - INFO - ´¦ÀíµÚ 1 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: cover
+2025-07-12 01:44:31,735 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 0
+2025-07-12 01:44:31,736 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,737 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,737 - ppt_template_fill - INFO - ´¦ÀíµÚ 2 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,737 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,738 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,738 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,738 - ppt_template_fill - INFO - ´¦ÀíµÚ 3 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,738 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,739 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,739 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,740 - ppt_template_fill - INFO - ´¦ÀíµÚ 4 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,740 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,741 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,741 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,741 - ppt_template_fill - INFO - ´¦ÀíµÚ 5 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,741 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,742 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,742 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,742 - ppt_template_fill - INFO - ´¦ÀíµÚ 6 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,742 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,743 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,743 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,744 - ppt_template_fill - INFO - ´¦ÀíµÚ 7 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,744 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,744 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,745 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,745 - ppt_template_fill - INFO - ´¦ÀíµÚ 8 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,745 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,746 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,746 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,746 - ppt_template_fill - INFO - ´¦ÀíµÚ 9 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 01:44:31,746 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 01:44:31,747 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,748 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,748 - ppt_template_fill - INFO - ´¦ÀíµÚ 10 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: summary
+2025-07-12 01:44:31,748 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 4
+2025-07-12 01:44:31,749 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 01:44:31,749 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 01:44:31,749 - ppt_template_fill - INFO - ±£´æPPTµ½: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712014431.pptx
+2025-07-12 01:44:31,783 - ppt_template_fill - INFO - === PPTÄ£°åÌî³äÍê³É ===
+2025-07-12 01:44:31,783 - ppt_generation - INFO - PPTÉú³Éº¯ÊıÖ´ĞĞ³É¹¦
+2025-07-12 01:44:31,784 - ppt_generation - INFO - ÁÙÊ±ÎÄ¼şÒÑÉ¾³ı: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712014431.json
+2025-07-12 01:44:31,784 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 219327 ×Ö½Ú
+2025-07-12 01:44:31,784 - ppt_generation - INFO - PPT URL: /uploads/20250712014431.pptx
+2025-07-12 01:44:31,784 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 01:44:31,784 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:44:31] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 01:44:36,296 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712014431.pptx ===
+2025-07-12 01:44:36,296 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712014431.pptx
+2025-07-12 01:44:36,297 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 219327 ×Ö½Ú
+2025-07-12 01:44:36,367 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 01:44:36,367 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712014431.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '219327', 'Last-Modified': 'Fri, 11 Jul 2025 17:44:31 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752255871.783123-219327-3302235844"', 'Date': 'Fri, 11 Jul 2025 17:44:36 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 01:44:36,367 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 01:44:36,367 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 01:44:36] "GET /uploads/20250712014431.pptx HTTP/1.1" 200 -
+2025-07-12 11:08:43,462 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.16:5000
+2025-07-12 11:08:43,462 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 11:08:43,464 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 11:08:44,312 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 11:08:44,319 - werkzeug - INFO -  * Debugger PIN: 116-242-130
+2025-07-12 11:09:15,747 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 11:09:15,748 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 11:09:15,750 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:09:15,750 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 11:09:15,750 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 11:09:15,750 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 11:09:15,750 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 11:09:15,750 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 11:09:15,750 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 11:09:15,750 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 11:09:15,750 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 11:09:15,750 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:09:15,751 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:09:15,757 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:09:17,798 - ppt_generation - ERROR - Éú³É´ó¸Ù¹ı³ÌÖĞ·¢ÉúÒì³£: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EDDC83DFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+2025-07-12 11:09:17,810 - ppt_generation - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+        (self._dns_host, self.port), self.timeout, **extra_kw
+    )
+  File "D:\py\Lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\py\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+        self, "Failed to establish a new connection: %s" % e
+    )
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001EDDC83DFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\py\Lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EDDC83DFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\app.py", line 301, in generate_outline
+    outline_response = requests.post(
+        API_URL,
+    ...<7 lines>...
+        }
+    )
+  File "D:\py\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\py\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\py\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\py\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EDDC83DFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+
+2025-07-12 11:09:17,813 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:09:17] "[35m[1mPOST /api/aiPpt/generate-outline HTTP/1.1[0m" 500 -
+2025-07-12 11:13:03,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.16:5000
+2025-07-12 11:13:03,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 11:13:03,941 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 11:13:04,614 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 11:13:04,622 - werkzeug - INFO -  * Debugger PIN: 116-242-130
+2025-07-12 11:13:09,455 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 11:13:09,455 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 11:13:09,456 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:13:09,456 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 11:13:09,456 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 11:13:09,456 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 11:13:09,456 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 11:13:09,456 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 11:13:09,456 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 11:13:09,456 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 11:13:09,456 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 11:13:09,456 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:13:09,456 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:13:09,458 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:13:11,500 - ppt_generation - ERROR - Éú³É´ó¸Ù¹ı³ÌÖĞ·¢ÉúÒì³£: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001547ECCDFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+2025-07-12 11:13:11,505 - ppt_generation - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+        (self._dns_host, self.port), self.timeout, **extra_kw
+    )
+  File "D:\py\Lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\py\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "D:\py\Lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+        self, "Failed to establish a new connection: %s" % e
+    )
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001547ECCDFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\py\Lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\py\Lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001547ECCDFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\app.py", line 301, in generate_outline
+    outline_response = requests.post(
+        API_URL,
+    ...<7 lines>...
+        }
+    )
+  File "D:\py\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\py\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\py\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\py\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001547ECCDFD0>: Failed to establish a new connection: [WinError 10061] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ı¼«¾Ü¾ø£¬ÎŞ·¨Á¬½Ó¡£')))
+
+2025-07-12 11:13:11,506 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:13:11] "[35m[1mPOST /api/aiPpt/generate-outline HTTP/1.1[0m" 500 -
+2025-07-12 11:14:53,909 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 11:14:53,909 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 11:14:53,909 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:14:53,909 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 11:14:53,909 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 11:14:53,909 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 11:14:53,909 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 11:14:53,909 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 11:14:53,909 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 11:14:53,910 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 11:14:53,910 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 11:14:53,910 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:14:53,910 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:14:53,911 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:15:07,053 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:15:07,055 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1438
+2025-07-12 11:15:07,055 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£ºÈÏÊ¶ÉúÃüµÄ»ù±¾µ¥Î»  
+- **×÷Õß/¿Î³ÌÃû³Æ/ÈÕÆÚ**£¨¸ù¾İĞèÒªÌîĞ´£©  
+- **Éè¼Æ½¨Òé**£ºÊ¹ÓÃÖ²ÎïÏ¸°ûµÄÏÔÎ¢Í¼Ïñ×÷Îª±³¾°£¬Í»³öÖ÷Ìâ¡£
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ¡ª¡ªÊ²Ã´ÊÇÏ¸°û£¿**
+- **ÄÚÈİÃèÊö**£º  
+  ¼òÒª½éÉÜÏ¸°ûµÄ¸ÅÄî£¬ËµÃ÷Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£  
+  Òı³öÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ£¬ÎªºóĞøÑ§Ï°×öÆÌµæ¡£  
+  ÌáÎÊÒıµ¼Ñ§ÉúË¼¿¼£º¡°ÎªÊ²Ã´Ö²ÎïÄÜ½øĞĞ¹âºÏ×÷ÓÃ£¿¡±
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓë»ù±¾ÌØÕ÷**
+- **ÄÚÈİÃèÊö**£º  
+  ¶¨ÒåÖ²ÎïÏ¸°û£¬Ç¿µ÷Æä×÷ÎªÕæºËÏ¸°ûµÄÌØµã¡£  
+  ÁĞ¾ÙÖ²ÎïÏ¸°ûµÄ»ù±¾ÌØÕ÷£¬Èç¾ßÓĞÏ¸°û±Ú¡¢ÒºÅİ¡¢Ò¶ÂÌÌåµÈ¡£  
+  ¶Ô±È¶¯ÎïÏ¸°û£¬°ïÖúÑ§ÉúÀí½â²îÒì¡£
+
+---
+
+### **µÚ4Ò³£ºÖ²ÎïÏ¸°ûµÄÖ÷Òª½á¹¹Óë¹¦ÄÜ**
+- **ÄÚÈİÃèÊö**£º  
+  ·Öµã½éÉÜÖ²ÎïÏ¸°ûµÄÖØÒª½á¹¹¼°Æä¹¦ÄÜ£º  
+  - Ï¸°û±Ú£º±£»¤ºÍÖ§³Ö  
+  - Ï¸°ûÄ¤£º¿ØÖÆÎïÖÊ½ø³ö  
+  - Ï¸°ûÖÊ£ºÏ¸...
+2025-07-12 11:15:07,055 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:15:07,055 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:15:07,056 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:15:34,244 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:15:34,244 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 3833
+2025-07-12 11:15:34,244 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: {
+  "type": "cover",
+  "title": "Ö²ÎïÏ¸°û",
+  "content": "ÈÏÊ¶ÉúÃüµÄ»ù±¾µ¥Î»",
+  "keypoints": ["ÁË½âÏ¸°ûµÄ»ù±¾¸ÅÄî", "ÕÆÎÕÖ²ÎïÏ¸°ûµÄ½á¹¹Óë¹¦ÄÜ", "Àí½âÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÇø±ğ"],
+  "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄ¹Ø¼üÌØÕ÷", "Àí½âÒ¶ÂÌÌåÔÚ¹âºÏ×÷ÓÃÖĞµÄ×÷ÓÃ"],
+  "image": "Ò»ÕÅ¸ßÇåÎú¶ÈµÄÖ²ÎïÏ¸°ûÏÔÎ¢Í¼Ïñ£¬ÏÔÊ¾Ï¸°û±Ú¡¢Ï¸°ûÖÊ¡¢ÒºÅİºÍÒ¶ÂÌÌåµÈ½á¹¹£¬±³¾°ÎªÇ³ÂÌÉ«»ò°×É«",
+  "remark": "",
+  "layout": "cover",
+  "color": "ÂÌÉ«Ïµ´îÅä°×É«",
+  "icon": "Ö²ÎïÒ¶Æ¬Í¼±ê",
+  "objective": "¼¤·¢Ñ§Éú¶ÔÖ²ÎïÏ¸°ûµÄĞËÈ¤£¬½¨Á¢»ù±¾¸ÅÄî¿ò¼Ü"
+},
+{
+  "type": "keypoints",
+  "title": "ÒıÑÔ¡ª¡ªÊ²Ã´ÊÇÏ¸°û£¿",
+  "content": "Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£Ö²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°û´æÔÚÏÔÖø²îÒì£¬ÀıÈçÖ²ÎïÏ¸°û¾ßÓĞÏ¸°û±ÚºÍÒ¶ÂÌÌå¡£",
+  "keypoints"...
+2025-07-12 11:15:34,246 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - Ö±½Ó½âÎöJSONÊ§°Ü: Extra data: line 1 column 48 (char 47)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ÕıÔòÌáÈ¡JSONÊ§°Ü: Extra data: line 1 column 48 (char 47)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 44 (char 43)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 41 (char 40)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 70 (char 69)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 43 (char 42)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 47 (char 46)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 40 (char 39)
+2025-07-12 11:15:34,247 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 48 (char 47)
+2025-07-12 11:15:34,248 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 44 (char 43)
+2025-07-12 11:15:34,248 - ppt_generation - WARNING - ËùÓĞJSON½âÎö·½·¨¶¼Ê§°Ü£¬Ê¹ÓÃÎÄ±¾½âÎö
+2025-07-12 11:15:34,248 - ppt_generation - INFO - ³É¹¦½âÎö³ö 110 Ò³ÄÚÈİ
+2025-07-12 11:15:34,248 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 11:15:34,250 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:15:34] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 11:15:34,257 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 11:15:34,257 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "À¶É«¿Æ¼¼·ç", "content": "\"type\": \"cover\",", "difficulties": [], "keypoints": ["\"type\": \"cover\","], "layout": "keypoints", "objective": "Àí½âÏà¹ØÄÚÈİ", "title": "\"type\": \"cover\...
+2025-07-12 11:15:34,257 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:15:34,257 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:15:34,257 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 110
+2025-07-12 11:15:34,257 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:15:34,258 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 11:15:34,258 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712111534.pptx
+2025-07-12 11:15:34,258 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111534.pptx
+2025-07-12 11:15:34,260 - ppt_generation - INFO - ´ó¸ÙÊı¾İÒÑĞ´ÈëÁÙÊ±ÎÄ¼ş: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712111534.json
+2025-07-12 11:15:34,260 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 11:15:34,260 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 11:15:34,390 - ppt_template_fill - INFO - === ¿ªÊ¼Ìî³äPPTÄ£°å ===
+2025-07-12 11:15:34,390 - ppt_template_fill - INFO - Ä£°åÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:15:34,390 - ppt_template_fill - INFO - Êä³öÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111534.pptx
+2025-07-12 11:15:34,390 - ppt_template_fill - INFO - »ÃµÆÆ¬Êı¾İ: 110 Ò³
+2025-07-12 11:15:34,390 - ppt_template_fill - INFO - ¼ÓÔØPPTÄ£°å
+2025-07-12 11:15:34,415 - ppt_template_fill - INFO - Ä£°å¼ÓÔØ³É¹¦£¬°üº¬ 23 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:15:34,415 - ppt_template_fill - INFO - ¿ªÊ¼´¦Àí 110 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:15:34,416 - ppt_template_fill - INFO - ´¦ÀíµÚ 1 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,416 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,417 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,417 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,418 - ppt_template_fill - INFO - ´¦ÀíµÚ 2 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,418 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,418 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,419 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,419 - ppt_template_fill - INFO - ´¦ÀíµÚ 3 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,419 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,419 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,420 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,420 - ppt_template_fill - INFO - ´¦ÀíµÚ 4 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,420 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,420 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,421 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,421 - ppt_template_fill - INFO - ´¦ÀíµÚ 5 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,421 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,421 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,422 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,422 - ppt_template_fill - INFO - ´¦ÀíµÚ 6 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,422 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,423 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,423 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,423 - ppt_template_fill - INFO - ´¦ÀíµÚ 7 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,423 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,424 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,424 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,424 - ppt_template_fill - INFO - ´¦ÀíµÚ 8 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,424 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,425 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,425 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,425 - ppt_template_fill - INFO - ´¦ÀíµÚ 9 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,425 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,426 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,426 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,426 - ppt_template_fill - INFO - ´¦ÀíµÚ 10 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,426 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,427 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,427 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,427 - ppt_template_fill - INFO - ´¦ÀíµÚ 11 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,427 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,428 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,428 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,428 - ppt_template_fill - INFO - ´¦ÀíµÚ 12 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,428 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,429 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,429 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,429 - ppt_template_fill - INFO - ´¦ÀíµÚ 13 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,429 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,430 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,430 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,430 - ppt_template_fill - INFO - ´¦ÀíµÚ 14 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,430 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,431 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,431 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,431 - ppt_template_fill - INFO - ´¦ÀíµÚ 15 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,431 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,432 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,432 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,432 - ppt_template_fill - INFO - ´¦ÀíµÚ 16 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,432 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,433 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,433 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,433 - ppt_template_fill - INFO - ´¦ÀíµÚ 17 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,433 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,434 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,434 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,434 - ppt_template_fill - INFO - ´¦ÀíµÚ 18 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,434 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,435 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,435 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,437 - ppt_template_fill - INFO - ´¦ÀíµÚ 19 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,437 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,438 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,438 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,438 - ppt_template_fill - INFO - ´¦ÀíµÚ 20 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,438 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,439 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,439 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,439 - ppt_template_fill - INFO - ´¦ÀíµÚ 21 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,439 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,440 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,440 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,440 - ppt_template_fill - INFO - ´¦ÀíµÚ 22 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,441 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,441 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,441 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,442 - ppt_template_fill - INFO - ´¦ÀíµÚ 23 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,442 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,442 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,442 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,443 - ppt_template_fill - INFO - ´¦ÀíµÚ 24 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,443 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,443 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,443 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,444 - ppt_template_fill - INFO - ´¦ÀíµÚ 25 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,444 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,444 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,444 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,445 - ppt_template_fill - INFO - ´¦ÀíµÚ 26 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,445 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,445 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,445 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,446 - ppt_template_fill - INFO - ´¦ÀíµÚ 27 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,446 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,446 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,447 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,447 - ppt_template_fill - INFO - ´¦ÀíµÚ 28 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,447 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,447 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,448 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,448 - ppt_template_fill - INFO - ´¦ÀíµÚ 29 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,448 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,448 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,449 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,449 - ppt_template_fill - INFO - ´¦ÀíµÚ 30 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,449 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,450 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,450 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,450 - ppt_template_fill - INFO - ´¦ÀíµÚ 31 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,450 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,451 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,453 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,453 - ppt_template_fill - INFO - ´¦ÀíµÚ 32 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,453 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,454 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,454 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,454 - ppt_template_fill - INFO - ´¦ÀíµÚ 33 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,454 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,455 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,455 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,455 - ppt_template_fill - INFO - ´¦ÀíµÚ 34 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,455 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,456 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,456 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,456 - ppt_template_fill - INFO - ´¦ÀíµÚ 35 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,456 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,457 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,457 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,457 - ppt_template_fill - INFO - ´¦ÀíµÚ 36 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,457 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,458 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,458 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,459 - ppt_template_fill - INFO - ´¦ÀíµÚ 37 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,459 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,459 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,459 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,460 - ppt_template_fill - INFO - ´¦ÀíµÚ 38 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,460 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,460 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,461 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,461 - ppt_template_fill - INFO - ´¦ÀíµÚ 39 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,461 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,461 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,462 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,462 - ppt_template_fill - INFO - ´¦ÀíµÚ 40 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,462 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,463 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,463 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,463 - ppt_template_fill - INFO - ´¦ÀíµÚ 41 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,463 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,464 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,464 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,464 - ppt_template_fill - INFO - ´¦ÀíµÚ 42 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,464 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,465 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,465 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,465 - ppt_template_fill - INFO - ´¦ÀíµÚ 43 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,465 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,466 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,466 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,466 - ppt_template_fill - INFO - ´¦ÀíµÚ 44 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,468 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,469 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,469 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,469 - ppt_template_fill - INFO - ´¦ÀíµÚ 45 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,469 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,470 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,470 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,470 - ppt_template_fill - INFO - ´¦ÀíµÚ 46 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,470 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,471 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,471 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,472 - ppt_template_fill - INFO - ´¦ÀíµÚ 47 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,472 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,472 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,473 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,473 - ppt_template_fill - INFO - ´¦ÀíµÚ 48 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,473 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,474 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,474 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,474 - ppt_template_fill - INFO - ´¦ÀíµÚ 49 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,474 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,475 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,475 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,475 - ppt_template_fill - INFO - ´¦ÀíµÚ 50 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,475 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,477 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,477 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,477 - ppt_template_fill - INFO - ´¦ÀíµÚ 51 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,477 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,478 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,478 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,479 - ppt_template_fill - INFO - ´¦ÀíµÚ 52 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,479 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,479 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,479 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,480 - ppt_template_fill - INFO - ´¦ÀíµÚ 53 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,480 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,480 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,480 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,481 - ppt_template_fill - INFO - ´¦ÀíµÚ 54 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,481 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,481 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,482 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,482 - ppt_template_fill - INFO - ´¦ÀíµÚ 55 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,482 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,482 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,483 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,483 - ppt_template_fill - INFO - ´¦ÀíµÚ 56 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,483 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,484 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,484 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,484 - ppt_template_fill - INFO - ´¦ÀíµÚ 57 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,484 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,485 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,485 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,485 - ppt_template_fill - INFO - ´¦ÀíµÚ 58 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,485 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,486 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,486 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,486 - ppt_template_fill - INFO - ´¦ÀíµÚ 59 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,486 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,487 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,487 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,487 - ppt_template_fill - INFO - ´¦ÀíµÚ 60 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,487 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,488 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,488 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,488 - ppt_template_fill - INFO - ´¦ÀíµÚ 61 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,489 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,489 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,489 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,490 - ppt_template_fill - INFO - ´¦ÀíµÚ 62 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,490 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,490 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,491 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,491 - ppt_template_fill - INFO - ´¦ÀíµÚ 63 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,491 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,491 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,492 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,492 - ppt_template_fill - INFO - ´¦ÀíµÚ 64 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,492 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,493 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,493 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,493 - ppt_template_fill - INFO - ´¦ÀíµÚ 65 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,493 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,494 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,494 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,494 - ppt_template_fill - INFO - ´¦ÀíµÚ 66 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,494 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,495 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,495 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,495 - ppt_template_fill - INFO - ´¦ÀíµÚ 67 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,495 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,496 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,497 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,497 - ppt_template_fill - INFO - ´¦ÀíµÚ 68 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,497 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,498 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,498 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,498 - ppt_template_fill - INFO - ´¦ÀíµÚ 69 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,500 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,500 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,501 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,501 - ppt_template_fill - INFO - ´¦ÀíµÚ 70 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,501 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,502 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,502 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,502 - ppt_template_fill - INFO - ´¦ÀíµÚ 71 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,502 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,503 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,503 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,504 - ppt_template_fill - INFO - ´¦ÀíµÚ 72 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,504 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,505 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,505 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,506 - ppt_template_fill - INFO - ´¦ÀíµÚ 73 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,506 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,507 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,507 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,508 - ppt_template_fill - INFO - ´¦ÀíµÚ 74 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,508 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,509 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,510 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,510 - ppt_template_fill - INFO - ´¦ÀíµÚ 75 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,510 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,511 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,511 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,511 - ppt_template_fill - INFO - ´¦ÀíµÚ 76 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,511 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,512 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,512 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,512 - ppt_template_fill - INFO - ´¦ÀíµÚ 77 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,512 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,513 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,513 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,514 - ppt_template_fill - INFO - ´¦ÀíµÚ 78 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,514 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,514 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,515 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,515 - ppt_template_fill - INFO - ´¦ÀíµÚ 79 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,515 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,516 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,516 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,516 - ppt_template_fill - INFO - ´¦ÀíµÚ 80 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,516 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,517 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,517 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,517 - ppt_template_fill - INFO - ´¦ÀíµÚ 81 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,517 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,518 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,518 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,518 - ppt_template_fill - INFO - ´¦ÀíµÚ 82 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,518 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,519 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,519 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,519 - ppt_template_fill - INFO - ´¦ÀíµÚ 83 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,519 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,520 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,520 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,521 - ppt_template_fill - INFO - ´¦ÀíµÚ 84 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,521 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,521 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,522 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,522 - ppt_template_fill - INFO - ´¦ÀíµÚ 85 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,522 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,523 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,523 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,523 - ppt_template_fill - INFO - ´¦ÀíµÚ 86 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,523 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,524 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,524 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,524 - ppt_template_fill - INFO - ´¦ÀíµÚ 87 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,524 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,525 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,525 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,525 - ppt_template_fill - INFO - ´¦ÀíµÚ 88 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,525 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,526 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,526 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,526 - ppt_template_fill - INFO - ´¦ÀíµÚ 89 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,526 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,527 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,527 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,527 - ppt_template_fill - INFO - ´¦ÀíµÚ 90 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,528 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,528 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,528 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,529 - ppt_template_fill - INFO - ´¦ÀíµÚ 91 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,529 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,529 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,530 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,531 - ppt_template_fill - INFO - ´¦ÀíµÚ 92 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,531 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,532 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,532 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,533 - ppt_template_fill - INFO - ´¦ÀíµÚ 93 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,533 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,533 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,534 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,534 - ppt_template_fill - INFO - ´¦ÀíµÚ 94 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,534 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,535 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,535 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,535 - ppt_template_fill - INFO - ´¦ÀíµÚ 95 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,535 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,536 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,536 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,536 - ppt_template_fill - INFO - ´¦ÀíµÚ 96 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,536 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,537 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,537 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,537 - ppt_template_fill - INFO - ´¦ÀíµÚ 97 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,537 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,538 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,538 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,538 - ppt_template_fill - INFO - ´¦ÀíµÚ 98 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,538 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,539 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,539 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,540 - ppt_template_fill - INFO - ´¦ÀíµÚ 99 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,540 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,541 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,541 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,541 - ppt_template_fill - INFO - ´¦ÀíµÚ 100 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,541 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,542 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,542 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,542 - ppt_template_fill - INFO - ´¦ÀíµÚ 101 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,542 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,543 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,543 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,543 - ppt_template_fill - INFO - ´¦ÀíµÚ 102 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,543 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,544 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,544 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,544 - ppt_template_fill - INFO - ´¦ÀíµÚ 103 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,544 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,545 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,545 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,545 - ppt_template_fill - INFO - ´¦ÀíµÚ 104 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,545 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,546 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,546 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,547 - ppt_template_fill - INFO - ´¦ÀíµÚ 105 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,547 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,548 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,548 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,548 - ppt_template_fill - INFO - ´¦ÀíµÚ 106 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,548 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,549 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,549 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,549 - ppt_template_fill - INFO - ´¦ÀíµÚ 107 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,549 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,550 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,550 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,550 - ppt_template_fill - INFO - ´¦ÀíµÚ 108 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,550 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,551 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,551 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,551 - ppt_template_fill - INFO - ´¦ÀíµÚ 109 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,551 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,552 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,552 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,552 - ppt_template_fill - INFO - ´¦ÀíµÚ 110 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:15:34,552 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:15:34,553 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:15:34,553 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:15:34,553 - ppt_template_fill - INFO - ±£´æPPTµ½: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111534.pptx
+2025-07-12 11:15:34,597 - ppt_template_fill - INFO - === PPTÄ£°åÌî³äÍê³É ===
+2025-07-12 11:15:34,597 - ppt_generation - INFO - PPTÉú³Éº¯ÊıÖ´ĞĞ³É¹¦
+2025-07-12 11:15:34,597 - ppt_generation - INFO - ÁÙÊ±ÎÄ¼şÒÑÉ¾³ı: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712111534.json
+2025-07-12 11:15:34,597 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 301018 ×Ö½Ú
+2025-07-12 11:15:34,598 - ppt_generation - INFO - PPT URL: /uploads/20250712111534.pptx
+2025-07-12 11:15:34,598 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 11:15:34,598 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:15:34] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 11:16:43,996 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712111534.pptx ===
+2025-07-12 11:16:43,997 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111534.pptx
+2025-07-12 11:16:43,997 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 301018 ×Ö½Ú
+2025-07-12 11:16:44,067 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 11:16:44,067 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712111534.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '301018', 'Last-Modified': 'Sat, 12 Jul 2025 03:15:34 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752290134.596469-301018-3302891206"', 'Date': 'Sat, 12 Jul 2025 03:16:44 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 11:16:44,067 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 11:16:44,067 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:16:44] "HEAD /uploads/20250712111534.pptx HTTP/1.1" 200 -
+2025-07-12 11:16:44,097 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712111534.pptx ===
+2025-07-12 11:16:44,097 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111534.pptx
+2025-07-12 11:16:44,097 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 301018 ×Ö½Ú
+2025-07-12 11:16:44,098 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 11:16:44,098 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712111534.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '301018', 'Last-Modified': 'Sat, 12 Jul 2025 03:15:34 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752290134.596469-301018-3302891206"', 'Date': 'Sat, 12 Jul 2025 03:16:44 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 11:16:44,098 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 11:16:44,098 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:16:44] "GET /uploads/20250712111534.pptx HTTP/1.1" 200 -
+2025-07-12 11:17:49,582 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 11:17:49,582 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 11:17:49,583 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:17:49,583 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 11:17:49,583 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 11:17:49,583 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 11:17:49,583 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 11:17:49,583 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 11:17:49,583 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 11:17:49,583 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 11:17:49,583 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 11:17:49,583 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:17:49,583 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:17:49,585 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:18:00,029 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:18:00,030 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1204
+2025-07-12 11:18:00,030 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£ºÌ½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»  
+- **×÷Õß/ÊÚ¿ÎÈËĞÅÏ¢**£¨¿ÉÑ¡£©  
+- **ÈÕÆÚÓë¿Î³ÌÃû³Æ**£¨¿ÉÑ¡£©
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ - Ê²Ã´ÊÇÏ¸°û£¿**
+- **ÄÚÈİÃèÊö**£º  
+  ¼òÒª½éÉÜÏ¸°û×÷ÎªÉúÎïÌå»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»µÄ¸ÅÄî£¬Òı³öÖ²ÎïÏ¸°ûµÄÌØÊâĞÔ¡£  
+  °üÀ¨£ºÏ¸°ûµÄ·¢ÏÖÀúÊ·¡¢Ï¸°ûÑ§ËµµÄ»ù±¾¹Ûµã¡¢¶¯Ö²ÎïÏ¸°ûµÄÇø±ğ¸ÅÊö¡£
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓë·ÖÀà**
+- **ÄÚÈİÃèÊö**£º  
+  ¶¨ÒåÖ²ÎïÏ¸°û£¬ËµÃ÷ÆäÔÚÖ²ÎïÌåÖĞµÄ×÷ÓÃ¡£  
+  ·ÖÀà£º¸ù¾İ¹¦ÄÜ»ò½á¹¹·ÖÎªÓªÑøÏ¸°û¡¢·ÖÉú×éÖ¯Ï¸°û¡¢Êäµ¼×éÖ¯Ï¸°ûµÈ¡£
+
+---
+
+### **µÚ4Ò³£ºÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹**
+- **ÄÚÈİÃèÊö**£º  
+  ÏêÏ¸ÁĞ³ö²¢½âÊÍÖ²ÎïÏ¸°ûµÄÖ÷Òª½á¹¹×é³É²¿·Ö£¬°üÀ¨£º
+  - Ï¸°û±Ú
+  - Ï¸°ûÄ¤
+  - Ï¸°ûÖÊ
+  - Ï¸°ûºË
+  - ÒºÅİ
+  - Ò¶ÂÌÌå£¨ÖØµã½²½â£©
+  - ÏßÁ£Ìå
+  - ¸ß¶û»ùÌå
+  - ÄÚÖÊÍø
+
+---
+
+### **µÚ5Ò³£ºÏ¸°û±Ú...
+2025-07-12 11:18:00,030 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:18:00,030 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:18:00,032 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:18:27,066 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:18:27,066 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 4034
+2025-07-12 11:18:27,066 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: {
+  "type": "cover",
+  "title": "Ö²ÎïÏ¸°û",
+  "content": "Ì½Ë÷ÉúÃüµÄ»ù±¾µ¥Î»",
+  "keypoints": ["ÁË½âÏ¸°û×÷ÎªÉúÎïÌå»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»µÄ¸ÅÄî", "ÕÆÎÕÖ²ÎïÏ¸°ûµÄ¶¨ÒåÓë·ÖÀà", "Àí½âÖ²ÎïÏ¸°ûµÄ½á¹¹Óë¹¦ÄÜ"],
+  "difficulties": ["Çø·Ö¶¯Ö²ÎïÏ¸°ûµÄÒìÍ¬µã", "Àí½âÒ¶ÂÌÌåÔÚ¹âºÏ×÷ÓÃÖĞµÄ×÷ÓÃ"],
+  "image": "Ò»ÕÅÕ¹ÏÖÏÔÎ¢¾µÏÂÖ²ÎïÏ¸°ûµÄ¸ßÇåÎúÍ¼Ïñ£¬±³¾°Îª×ÔÈ»ÂÌÉ«µ÷£¬Í»³öÏ¸°û±Ú¡¢Ï¸°ûÖÊºÍÏ¸°ûºËµÈ½á¹¹",
+  "remark": "ÊÊºÏÓÃÓÚ¿Î³Ìµ¼Èë£¬¼¤·¢Ñ§ÉúĞËÈ¤",
+  "layout": "´óÍ¼Ò³",
+  "color": "ÂÌÉ«Óë°×É«´îÅä",
+  "icon": "Ö²ÎïÒ¶Æ¬Í¼±ê",
+  "objective": "Òıµ¼Ñ§Éú½øÈëÖ²ÎïÏ¸°ûµÄÑ§Ï°Ö÷Ìâ"
+},
+{
+  "type": "keypoints",
+  "title": "ÒıÑÔ - Ê²Ã´ÊÇÏ¸°û£¿",
+  "content": "Ï¸°ûÊÇ¹¹³ÉËùÓĞÉúÎïÌåµÄ»ù±¾µ¥Î»£¬¾ßÓĞ½á¹¹ºÍ¹¦ÄÜµÄË«ÖØ×÷ÓÃ¡£Ö²ÎïÏ¸°û¾ßÓĞ¶ÀÌØµÄ½á¹¹£¬ÈçÏ¸°û±ÚºÍÒ¶ÂÌÌå£¬Ê¹ÆäÇø±ğÓÚ...
+2025-07-12 11:18:27,067 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - Ö±½Ó½âÎöJSONÊ§°Ü: Extra data: line 1 column 58 (char 57)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ÕıÔòÌáÈ¡JSONÊ§°Ü: Extra data: line 1 column 58 (char 57)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 51 (char 50)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 59 (char 58)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 70 (char 69)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 44 (char 43)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 45 (char 44)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 60 (char 59)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 46 (char 45)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 73 (char 72)
+2025-07-12 11:18:27,067 - ppt_generation - WARNING - ËùÓĞJSON½âÎö·½·¨¶¼Ê§°Ü£¬Ê¹ÓÃÎÄ±¾½âÎö
+2025-07-12 11:18:27,068 - ppt_generation - INFO - ³É¹¦½âÎö³ö 110 Ò³ÄÚÈİ
+2025-07-12 11:18:27,068 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 11:18:27,069 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:18:27] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 11:18:27,077 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 11:18:27,079 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "À¶É«¿Æ¼¼·ç", "content": "\"type\": \"cover\",", "difficulties": [], "keypoints": ["\"type\": \"cover\","], "layout": "keypoints", "objective": "Àí½âÏà¹ØÄÚÈİ", "title": "\"type\": \"cover\...
+2025-07-12 11:18:27,079 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:18:27,079 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:18:27,079 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 110
+2025-07-12 11:18:27,079 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:18:27,079 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 11:18:27,080 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712111827.pptx
+2025-07-12 11:18:27,080 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111827.pptx
+2025-07-12 11:18:27,082 - ppt_generation - INFO - ´ó¸ÙÊı¾İÒÑĞ´ÈëÁÙÊ±ÎÄ¼ş: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712111827.json
+2025-07-12 11:18:27,083 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 11:18:27,083 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 11:18:27,083 - ppt_template_fill - INFO - === ¿ªÊ¼Ìî³äPPTÄ£°å ===
+2025-07-12 11:18:27,083 - ppt_template_fill - INFO - Ä£°åÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:18:27,084 - ppt_template_fill - INFO - Êä³öÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111827.pptx
+2025-07-12 11:18:27,084 - ppt_template_fill - INFO - »ÃµÆÆ¬Êı¾İ: 110 Ò³
+2025-07-12 11:18:27,084 - ppt_template_fill - INFO - ¼ÓÔØPPTÄ£°å
+2025-07-12 11:18:27,120 - ppt_template_fill - INFO - Ä£°å¼ÓÔØ³É¹¦£¬°üº¬ 23 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:18:27,120 - ppt_template_fill - INFO - ¿ªÊ¼´¦Àí 110 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:18:27,121 - ppt_template_fill - INFO - ´¦ÀíµÚ 1 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,122 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,130 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,130 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,131 - ppt_template_fill - INFO - ´¦ÀíµÚ 2 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,131 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,134 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,134 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,135 - ppt_template_fill - INFO - ´¦ÀíµÚ 3 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,135 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,139 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,141 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,141 - ppt_template_fill - INFO - ´¦ÀíµÚ 4 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,141 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,145 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,149 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,149 - ppt_template_fill - INFO - ´¦ÀíµÚ 5 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,149 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,152 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,152 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,153 - ppt_template_fill - INFO - ´¦ÀíµÚ 6 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,153 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,154 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,155 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,155 - ppt_template_fill - INFO - ´¦ÀíµÚ 7 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,155 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,157 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,157 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,158 - ppt_template_fill - INFO - ´¦ÀíµÚ 8 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,158 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,159 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,159 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,160 - ppt_template_fill - INFO - ´¦ÀíµÚ 9 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,160 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,161 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,162 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,162 - ppt_template_fill - INFO - ´¦ÀíµÚ 10 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,162 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,164 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,164 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,165 - ppt_template_fill - INFO - ´¦ÀíµÚ 11 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,165 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,166 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,167 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,167 - ppt_template_fill - INFO - ´¦ÀíµÚ 12 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,167 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,169 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,169 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,170 - ppt_template_fill - INFO - ´¦ÀíµÚ 13 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,170 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,171 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,172 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,172 - ppt_template_fill - INFO - ´¦ÀíµÚ 14 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,172 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,174 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,174 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,174 - ppt_template_fill - INFO - ´¦ÀíµÚ 15 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,174 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,176 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,176 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,177 - ppt_template_fill - INFO - ´¦ÀíµÚ 16 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,177 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,178 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,178 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,179 - ppt_template_fill - INFO - ´¦ÀíµÚ 17 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,179 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,180 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,181 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,182 - ppt_template_fill - INFO - ´¦ÀíµÚ 18 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,182 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,184 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,184 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,184 - ppt_template_fill - INFO - ´¦ÀíµÚ 19 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,184 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,186 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,186 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,186 - ppt_template_fill - INFO - ´¦ÀíµÚ 20 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,187 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,188 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,189 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,189 - ppt_template_fill - INFO - ´¦ÀíµÚ 21 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,189 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,190 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,191 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,191 - ppt_template_fill - INFO - ´¦ÀíµÚ 22 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,191 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,193 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,193 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,194 - ppt_template_fill - INFO - ´¦ÀíµÚ 23 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,194 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,195 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,196 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,197 - ppt_template_fill - INFO - ´¦ÀíµÚ 24 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,197 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,198 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,199 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,199 - ppt_template_fill - INFO - ´¦ÀíµÚ 25 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,199 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,201 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,201 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,202 - ppt_template_fill - INFO - ´¦ÀíµÚ 26 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,202 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,203 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,203 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,204 - ppt_template_fill - INFO - ´¦ÀíµÚ 27 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,204 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,206 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,206 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,206 - ppt_template_fill - INFO - ´¦ÀíµÚ 28 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,206 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,208 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,208 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,209 - ppt_template_fill - INFO - ´¦ÀíµÚ 29 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,209 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,210 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,211 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,211 - ppt_template_fill - INFO - ´¦ÀíµÚ 30 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,211 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,213 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,214 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,214 - ppt_template_fill - INFO - ´¦ÀíµÚ 31 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,214 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,216 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,216 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,216 - ppt_template_fill - INFO - ´¦ÀíµÚ 32 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,216 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,219 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,219 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,220 - ppt_template_fill - INFO - ´¦ÀíµÚ 33 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,220 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,221 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,221 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,222 - ppt_template_fill - INFO - ´¦ÀíµÚ 34 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,222 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,224 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,224 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,224 - ppt_template_fill - INFO - ´¦ÀíµÚ 35 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,224 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,226 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,226 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,227 - ppt_template_fill - INFO - ´¦ÀíµÚ 36 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,227 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,228 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,229 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,229 - ppt_template_fill - INFO - ´¦ÀíµÚ 37 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,229 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,231 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,231 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,231 - ppt_template_fill - INFO - ´¦ÀíµÚ 38 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,231 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,233 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,233 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,234 - ppt_template_fill - INFO - ´¦ÀíµÚ 39 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,234 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,235 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,236 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,236 - ppt_template_fill - INFO - ´¦ÀíµÚ 40 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,236 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,238 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,238 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,239 - ppt_template_fill - INFO - ´¦ÀíµÚ 41 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,239 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,240 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,240 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,241 - ppt_template_fill - INFO - ´¦ÀíµÚ 42 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,241 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,243 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,243 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,244 - ppt_template_fill - INFO - ´¦ÀíµÚ 43 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,244 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,245 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,246 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,246 - ppt_template_fill - INFO - ´¦ÀíµÚ 44 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,246 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,248 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,248 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,249 - ppt_template_fill - INFO - ´¦ÀíµÚ 45 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,249 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,250 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,250 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,251 - ppt_template_fill - INFO - ´¦ÀíµÚ 46 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,251 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,252 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,253 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,253 - ppt_template_fill - INFO - ´¦ÀíµÚ 47 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,253 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,256 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,256 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,256 - ppt_template_fill - INFO - ´¦ÀíµÚ 48 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,256 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,258 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,258 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,259 - ppt_template_fill - INFO - ´¦ÀíµÚ 49 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,259 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,261 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,261 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,261 - ppt_template_fill - INFO - ´¦ÀíµÚ 50 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,262 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,263 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,263 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,264 - ppt_template_fill - INFO - ´¦ÀíµÚ 51 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,264 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,265 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,266 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,266 - ppt_template_fill - INFO - ´¦ÀíµÚ 52 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,267 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,268 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,268 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,269 - ppt_template_fill - INFO - ´¦ÀíµÚ 53 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,269 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,270 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,271 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,271 - ppt_template_fill - INFO - ´¦ÀíµÚ 54 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,271 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,273 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,273 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,274 - ppt_template_fill - INFO - ´¦ÀíµÚ 55 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,274 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,276 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,276 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,277 - ppt_template_fill - INFO - ´¦ÀíµÚ 56 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,277 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,279 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,279 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,279 - ppt_template_fill - INFO - ´¦ÀíµÚ 57 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,279 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,281 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,281 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,282 - ppt_template_fill - INFO - ´¦ÀíµÚ 58 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,282 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,284 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,285 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,285 - ppt_template_fill - INFO - ´¦ÀíµÚ 59 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,285 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,287 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,287 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,288 - ppt_template_fill - INFO - ´¦ÀíµÚ 60 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,288 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,290 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,290 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,291 - ppt_template_fill - INFO - ´¦ÀíµÚ 61 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,292 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,293 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,294 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,294 - ppt_template_fill - INFO - ´¦ÀíµÚ 62 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,294 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,297 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,297 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,297 - ppt_template_fill - INFO - ´¦ÀíµÚ 63 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,297 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,299 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,299 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,300 - ppt_template_fill - INFO - ´¦ÀíµÚ 64 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,300 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,301 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,302 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,302 - ppt_template_fill - INFO - ´¦ÀíµÚ 65 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,303 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,304 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,305 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,305 - ppt_template_fill - INFO - ´¦ÀíµÚ 66 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,305 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,307 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,307 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,308 - ppt_template_fill - INFO - ´¦ÀíµÚ 67 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,308 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,310 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,310 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,311 - ppt_template_fill - INFO - ´¦ÀíµÚ 68 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,311 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,312 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,313 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,313 - ppt_template_fill - INFO - ´¦ÀíµÚ 69 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,313 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,315 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,315 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,316 - ppt_template_fill - INFO - ´¦ÀíµÚ 70 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,316 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,317 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,318 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,318 - ppt_template_fill - INFO - ´¦ÀíµÚ 71 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,318 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,320 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,320 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,321 - ppt_template_fill - INFO - ´¦ÀíµÚ 72 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,321 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,323 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,323 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,323 - ppt_template_fill - INFO - ´¦ÀíµÚ 73 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,323 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,325 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,326 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,326 - ppt_template_fill - INFO - ´¦ÀíµÚ 74 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,326 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,329 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,329 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,329 - ppt_template_fill - INFO - ´¦ÀíµÚ 75 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,329 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,331 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,331 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,332 - ppt_template_fill - INFO - ´¦ÀíµÚ 76 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,332 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,334 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,334 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,334 - ppt_template_fill - INFO - ´¦ÀíµÚ 77 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,334 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,336 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,336 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,337 - ppt_template_fill - INFO - ´¦ÀíµÚ 78 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,337 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,339 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,339 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,340 - ppt_template_fill - INFO - ´¦ÀíµÚ 79 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,340 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,342 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,342 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,343 - ppt_template_fill - INFO - ´¦ÀíµÚ 80 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,343 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,345 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,345 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,345 - ppt_template_fill - INFO - ´¦ÀíµÚ 81 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,346 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,347 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,347 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,348 - ppt_template_fill - INFO - ´¦ÀíµÚ 82 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,348 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,349 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,350 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,350 - ppt_template_fill - INFO - ´¦ÀíµÚ 83 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,350 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,352 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,352 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,353 - ppt_template_fill - INFO - ´¦ÀíµÚ 84 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,353 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,355 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,355 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,355 - ppt_template_fill - INFO - ´¦ÀíµÚ 85 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,356 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,358 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,358 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,358 - ppt_template_fill - INFO - ´¦ÀíµÚ 86 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,358 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,360 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,360 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,361 - ppt_template_fill - INFO - ´¦ÀíµÚ 87 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,361 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,362 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,363 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,364 - ppt_template_fill - INFO - ´¦ÀíµÚ 88 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,364 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,366 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,366 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,366 - ppt_template_fill - INFO - ´¦ÀíµÚ 89 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,366 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,368 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,368 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,369 - ppt_template_fill - INFO - ´¦ÀíµÚ 90 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,369 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,371 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,371 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,372 - ppt_template_fill - INFO - ´¦ÀíµÚ 91 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,372 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,374 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,374 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,375 - ppt_template_fill - INFO - ´¦ÀíµÚ 92 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,375 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,377 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,377 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,378 - ppt_template_fill - INFO - ´¦ÀíµÚ 93 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,378 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,379 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,380 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,380 - ppt_template_fill - INFO - ´¦ÀíµÚ 94 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,380 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,382 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,382 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,382 - ppt_template_fill - INFO - ´¦ÀíµÚ 95 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,383 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,384 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,384 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,385 - ppt_template_fill - INFO - ´¦ÀíµÚ 96 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,385 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,389 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,389 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,390 - ppt_template_fill - INFO - ´¦ÀíµÚ 97 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,390 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,392 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,392 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,393 - ppt_template_fill - INFO - ´¦ÀíµÚ 98 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,393 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,395 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,396 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,396 - ppt_template_fill - INFO - ´¦ÀíµÚ 99 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,396 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,398 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,398 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,398 - ppt_template_fill - INFO - ´¦ÀíµÚ 100 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,398 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,401 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,401 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,402 - ppt_template_fill - INFO - ´¦ÀíµÚ 101 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,402 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,403 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,404 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,404 - ppt_template_fill - INFO - ´¦ÀíµÚ 102 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,404 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,406 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,406 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,407 - ppt_template_fill - INFO - ´¦ÀíµÚ 103 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,407 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,409 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,409 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,409 - ppt_template_fill - INFO - ´¦ÀíµÚ 104 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,409 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,412 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,412 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,412 - ppt_template_fill - INFO - ´¦ÀíµÚ 105 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,412 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,414 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,414 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,415 - ppt_template_fill - INFO - ´¦ÀíµÚ 106 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,415 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,417 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,417 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,417 - ppt_template_fill - INFO - ´¦ÀíµÚ 107 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,418 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,419 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,420 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,420 - ppt_template_fill - INFO - ´¦ÀíµÚ 108 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,420 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,422 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,422 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,423 - ppt_template_fill - INFO - ´¦ÀíµÚ 109 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,423 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,425 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,425 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,425 - ppt_template_fill - INFO - ´¦ÀíµÚ 110 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:18:27,425 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:18:27,427 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:18:27,427 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:18:27,428 - ppt_template_fill - INFO - ±£´æPPTµ½: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712111827.pptx
+2025-07-12 11:18:27,521 - ppt_template_fill - INFO - === PPTÄ£°åÌî³äÍê³É ===
+2025-07-12 11:18:27,521 - ppt_generation - INFO - PPTÉú³Éº¯ÊıÖ´ĞĞ³É¹¦
+2025-07-12 11:18:27,522 - ppt_generation - INFO - ÁÙÊ±ÎÄ¼şÒÑÉ¾³ı: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712111827.json
+2025-07-12 11:18:27,522 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 301018 ×Ö½Ú
+2025-07-12 11:18:27,523 - ppt_generation - INFO - PPT URL: /uploads/20250712111827.pptx
+2025-07-12 11:18:27,523 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 11:18:27,523 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:18:27] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 11:27:16,516 - ppt_generation - INFO - === ¿ªÊ¼Éú³É´ó¸Ù ===
+2025-07-12 11:27:16,516 - ppt_generation - INFO - ½ÓÊÕµ½FormData¸ñÊ½ÇëÇó
+2025-07-12 11:27:16,518 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:27:16,518 - ppt_generation - INFO - ±³¾°: None
+2025-07-12 11:27:16,518 - ppt_generation - INFO - Ò³Êı: 10
+2025-07-12 11:27:16,518 - ppt_generation - INFO - ½ÇÉ«: None
+2025-07-12 11:27:16,518 - ppt_generation - INFO - ³¡¾°: None
+2025-07-12 11:27:16,518 - ppt_generation - INFO - Éî¶ÈË¼¿¼: False
+2025-07-12 11:27:16,518 - ppt_generation - INFO - ÍøÂçËÑË÷: False
+2025-07-12 11:27:16,518 - ppt_generation - INFO - Ä£°å: None
+2025-07-12 11:27:16,518 - ppt_generation - INFO - Ä¿±êÒ³Êı: 10
+2025-07-12 11:27:16,518 - ppt_generation - INFO - µÚÒ»²½£ºÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:27:16,518 - ppt_generation - INFO - µ÷ÓÃAIÉú³É»ù´¡´ó¸Ù
+2025-07-12 11:27:16,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:27:26,253 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:27:26,254 - ppt_generation - INFO - »ù´¡´ó¸ÙÉú³É³É¹¦£¬³¤¶È: 1180
+2025-07-12 11:27:26,254 - ppt_generation - DEBUG - »ù´¡´ó¸ÙÄÚÈİ: **½ÌÑ§´ó¸Ù£ºÖ²ÎïÏ¸°û**
+
+---
+
+### **µÚ1Ò³£º±êÌâÒ³**
+- **±êÌâ**£ºÖ²ÎïÏ¸°û  
+- **¸±±êÌâ**£º½á¹¹¡¢¹¦ÄÜÓëÉúÃü»î¶¯  
+- **ÄÚÈİÃèÊö**£º±¾¿Î½«ÏµÍ³½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢Ö÷ÒªÏ¸°ûÆ÷µÄ¹¦ÄÜ£¬ÒÔ¼°Ö²ÎïÏ¸°ûÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£ÊÊÓÃÓÚÖĞÑ§ÉúÎï¿Î³Ì¡£
+
+---
+
+### **µÚ2Ò³£ºÒıÑÔ ¡ª¡ª Ê²Ã´ÊÇÏ¸°û£¿**
+- **±êÌâ**£ºÏ¸°ûÊÇÉúÃüµÄ»ù±¾µ¥Î»  
+- **ÄÚÈİÃèÊö**£º¼òÒª½éÉÜÏ¸°ûµÄ¸ÅÄî£¬ËµÃ÷Ï¸°ûÊÇËùÓĞÉúÎïÌåµÄ»ù±¾½á¹¹ºÍ¹¦ÄÜµ¥Î»¡£ÒıÈëÖ²ÎïÏ¸°û×÷ÎªÑĞ¾¿¶ÔÏóµÄ±³¾°ÓëÖØÒªĞÔ¡£
+
+---
+
+### **µÚ3Ò³£ºÖ²ÎïÏ¸°ûµÄ×ÜÌå½á¹¹**
+- **±êÌâ**£ºÖ²ÎïÏ¸°ûµÄµäĞÍ½á¹¹  
+- **ÄÚÈİÃèÊö**£º¸ÅÊöÖ²ÎïÏ¸°ûµÄÖ÷Òª×é³É²¿·Ö£¬°üÀ¨Ï¸°û±Ú¡¢Ï¸°ûÄ¤¡¢Ï¸°ûÖÊ¡¢Ï¸°ûºËµÈ£¬²¢Ö¸³öÆäÓë¶¯ÎïÏ¸°ûµÄ²»Í¬Ö®´¦¡£
+
+---
+
+### **µÚ4Ò³£ºÏ¸°û±Ú ¡ª¡ª Ö²ÎïÏ¸°ûµÄ¶ÀÌØ½á¹¹**
+- **±êÌâ**£ºÏ¸°û±ÚµÄ×÷ÓÃÓë×é³É  
+- **ÄÚÈİÃèÊö**£ºÏêÏ¸½²½âÏ¸°û±ÚµÄ×é³É£¨ÏËÎ¬ËØ¡¢°ëÏËÎ¬ËØ¡¢Ä¾ÖÊËØµÈ£©£¬Æä¹¦ÄÜÈçÌá¹©Ö§³Ö¡¢±£»¤¡¢·ÀÖ¹¹ı¶ÈÅòÕÍµÈ¡£
+
+---
+
+### **µÚ5Ò³£ºÏ¸°ûÄ¤ÓëÏ¸°û...
+2025-07-12 11:27:26,254 - ppt_generation - INFO - µÚ¶ş²½£º»ùÓÚ´ó¸Ù·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:27:26,254 - ppt_generation - INFO - µ÷ÓÃAI·á¸»ÄÚÈİ²¢Éú³ÉJSON½á¹¹
+2025-07-12 11:27:26,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): dashscope.aliyuncs.com:443
+2025-07-12 11:27:58,617 - urllib3.connectionpool - DEBUG - https://dashscope.aliyuncs.com:443 "POST /api/v1/services/aigc/text-generation/generation HTTP/1.1" 200 None
+2025-07-12 11:27:58,617 - ppt_generation - INFO - ÄÚÈİ·á¸»»¯³É¹¦£¬³¤¶È: 4829
+2025-07-12 11:27:58,617 - ppt_generation - DEBUG - ·á¸»»¯ÄÚÈİ: [
+  {
+    "type": "cover",
+    "title": "Ö²ÎïÏ¸°û",
+    "content": "±¾¿Î½«ÏµÍ³½éÉÜÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹¡¢Ö÷ÒªÏ¸°ûÆ÷µÄ¹¦ÄÜ£¬ÒÔ¼°Ö²ÎïÏ¸°ûÔÚÉúÃü»î¶¯ÖĞµÄ×÷ÓÃ¡£ÊÊÓÃÓÚÖĞÑ§ÉúÎï¿Î³Ì¡£",
+    "keypoints": ["ÁË½âÖ²ÎïÏ¸°ûµÄ»ù±¾½á¹¹", "ÕÆÎÕÏ¸°ûÆ÷µÄ¹¦ÄÜ", "Àí½âÏ¸°û½á¹¹Óë¹¦ÄÜµÄ¹ØÏµ"],
+    "difficulties": ["Çø·ÖÖ²ÎïÏ¸°ûÓë¶¯ÎïÏ¸°ûµÄÒìÍ¬", "Àí½âÏ¸°ûÆ÷Ö®¼äµÄĞ­Í¬×÷ÓÃ"],
+    "image": "Ò»ÕÅÕ¹Ê¾Ö²ÎïÏ¸°û½á¹¹µÄ3DÄ£ĞÍÍ¼£¬±³¾°ÎªÂÌÉ«Ö²ÎïÒ¶Æ¬£¬Í»³öÏ¸°û±Ú¡¢Ï¸°ûÄ¤ºÍÏ¸°ûºËµÈ¹Ø¼ü½á¹¹¡£",
+    "remark": "",
+    "layout": "·âÃæÒ³",
+    "color": "Ç³ÂÌÉ«¿Æ¼¼·ç",
+    "icon": "Ï¸°ûÍ¼±ê",
+    "objective": "¼¤·¢Ñ§Éú¶ÔÖ²ÎïÏ¸°ûµÄĞËÈ¤£¬½¨Á¢»ù±¾¸ÅÄî¿ò¼Ü¡£",
+    "table": null,
+    "chart": null,
+    "quote": ""
+  },
+  {
+    "type": ...
+2025-07-12 11:27:58,618 - ppt_generation - INFO - µÚÈı²½£º½âÎöJSON²¢ÎªÃ¿Ò³ÄÚÈİËÑË÷Ïà¹ØÍ¼Æ¬
+2025-07-12 11:27:58,618 - ppt_generation - WARNING - Ö±½Ó½âÎöJSONÊ§°Ü: Expecting ',' delimiter: line 1 column 3869 (char 3868)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ÕıÔòÌáÈ¡JSONÊ§°Ü: Expecting ',' delimiter: line 1 column 3869 (char 3868)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 44 (char 43)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 41 (char 40)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 45 (char 44)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 37 (char 36)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 46 (char 45)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 42 (char 41)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 36 (char 35)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 45 (char 44)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 38 (char 37)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ½âÎöµ¥¸öJSON¶ÔÏóÊ§°Ü: Extra data: line 1 column 50 (char 49)
+2025-07-12 11:27:58,619 - ppt_generation - WARNING - ËùÓĞJSON½âÎö·½·¨¶¼Ê§°Ü£¬Ê¹ÓÃÎÄ±¾½âÎö
+2025-07-12 11:27:58,619 - ppt_generation - INFO - ³É¹¦½âÎö³ö 140 Ò³ÄÚÈİ
+2025-07-12 11:27:58,619 - ppt_generation - INFO - ÄÚÈİ´¦ÀíÍê³É£¬·µ»Ø½á¹û
+2025-07-12 11:27:58,621 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:27:58] "POST /api/aiPpt/generate-outline HTTP/1.1" 200 -
+2025-07-12 11:27:58,636 - ppt_generation - INFO - === ¿ªÊ¼Éú³ÉPPT ===
+2025-07-12 11:27:58,637 - ppt_generation - INFO - ½ÓÊÕµ½µÄÇëÇóÊı¾İ: {"outline": [{"color": "À¶É«¿Æ¼¼·ç", "content": "\"type\": \"cover\",", "difficulties": [], "keypoints": ["\"type\": \"cover\","], "layout": "keypoints", "objective": "Àí½âÏà¹ØÄÚÈİ", "title": "\"type\": \"cover\...
+2025-07-12 11:27:58,637 - ppt_generation - INFO - Ö÷Ìâ: Ö²ÎïÏ¸°û
+2025-07-12 11:27:58,637 - ppt_generation - INFO - Ä£°åÃû³Æ: ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:27:58,637 - ppt_generation - INFO - ´ó¸ÙÒ³Êı: 140
+2025-07-12 11:27:58,637 - ppt_generation - INFO - Ä£°åÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:27:58,638 - ppt_generation - INFO - Ä£°åÄ¿Â¼ÄÚÈİ: ['ÂÌÉ«Ô²µã.json', 'ÂÌÉ«Ô²µã.pptx']
+2025-07-12 11:27:58,638 - ppt_generation - INFO - Êä³öÎÄ¼şÃû: 20250712112758.pptx
+2025-07-12 11:27:58,638 - ppt_generation - INFO - Êä³öÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:27:58,640 - ppt_generation - INFO - ´ó¸ÙÊı¾İÒÑĞ´ÈëÁÙÊ±ÎÄ¼ş: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712112758.json
+2025-07-12 11:27:58,640 - ppt_generation - INFO - ½Å±¾Â·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_fill_template.py
+2025-07-12 11:27:58,640 - ppt_generation - INFO - ¿ªÊ¼Ö´ĞĞPPTÉú³É½Å±¾
+2025-07-12 11:27:58,640 - ppt_template_fill - INFO - === ¿ªÊ¼Ìî³äPPTÄ£°å ===
+2025-07-12 11:27:58,640 - ppt_template_fill - INFO - Ä£°åÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\ppt_templates\ÂÌÉ«Ô²µã.pptx
+2025-07-12 11:27:58,640 - ppt_template_fill - INFO - Êä³öÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:27:58,640 - ppt_template_fill - INFO - »ÃµÆÆ¬Êı¾İ: 140 Ò³
+2025-07-12 11:27:58,640 - ppt_template_fill - INFO - ¼ÓÔØPPTÄ£°å
+2025-07-12 11:27:58,665 - ppt_template_fill - INFO - Ä£°å¼ÓÔØ³É¹¦£¬°üº¬ 23 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:27:58,665 - ppt_template_fill - INFO - ¿ªÊ¼´¦Àí 140 ÕÅ»ÃµÆÆ¬
+2025-07-12 11:27:58,665 - ppt_template_fill - INFO - ´¦ÀíµÚ 1 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,665 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,666 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,666 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,667 - ppt_template_fill - INFO - ´¦ÀíµÚ 2 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,667 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,668 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,668 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,668 - ppt_template_fill - INFO - ´¦ÀíµÚ 3 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,668 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,669 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,669 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,669 - ppt_template_fill - INFO - ´¦ÀíµÚ 4 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,669 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,670 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,671 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,671 - ppt_template_fill - INFO - ´¦ÀíµÚ 5 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,671 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,672 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,672 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,672 - ppt_template_fill - INFO - ´¦ÀíµÚ 6 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,672 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,673 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,673 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,674 - ppt_template_fill - INFO - ´¦ÀíµÚ 7 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,674 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,674 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,674 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,675 - ppt_template_fill - INFO - ´¦ÀíµÚ 8 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,675 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,675 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,676 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,676 - ppt_template_fill - INFO - ´¦ÀíµÚ 9 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,676 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,676 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,677 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,677 - ppt_template_fill - INFO - ´¦ÀíµÚ 10 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,677 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,678 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,678 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,678 - ppt_template_fill - INFO - ´¦ÀíµÚ 11 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,678 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,679 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,679 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,680 - ppt_template_fill - INFO - ´¦ÀíµÚ 12 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,680 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,680 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,680 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,681 - ppt_template_fill - INFO - ´¦ÀíµÚ 13 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,681 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,682 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,682 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,682 - ppt_template_fill - INFO - ´¦ÀíµÚ 14 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,682 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,683 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,683 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,684 - ppt_template_fill - INFO - ´¦ÀíµÚ 15 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,684 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,685 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,685 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,685 - ppt_template_fill - INFO - ´¦ÀíµÚ 16 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,685 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,686 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,686 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,686 - ppt_template_fill - INFO - ´¦ÀíµÚ 17 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,686 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,687 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,687 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,688 - ppt_template_fill - INFO - ´¦ÀíµÚ 18 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,688 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,688 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,689 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,689 - ppt_template_fill - INFO - ´¦ÀíµÚ 19 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,689 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,690 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,690 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,690 - ppt_template_fill - INFO - ´¦ÀíµÚ 20 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,691 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,691 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,692 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,692 - ppt_template_fill - INFO - ´¦ÀíµÚ 21 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,692 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,693 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,694 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,694 - ppt_template_fill - INFO - ´¦ÀíµÚ 22 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,694 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,695 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,695 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,695 - ppt_template_fill - INFO - ´¦ÀíµÚ 23 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,695 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,696 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,696 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,697 - ppt_template_fill - INFO - ´¦ÀíµÚ 24 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,697 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,700 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,700 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,701 - ppt_template_fill - INFO - ´¦ÀíµÚ 25 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,701 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,702 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,702 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,702 - ppt_template_fill - INFO - ´¦ÀíµÚ 26 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,702 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,703 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,703 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,703 - ppt_template_fill - INFO - ´¦ÀíµÚ 27 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,703 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,705 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,705 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,705 - ppt_template_fill - INFO - ´¦ÀíµÚ 28 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,705 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,706 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,706 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,707 - ppt_template_fill - INFO - ´¦ÀíµÚ 29 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,707 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,708 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,708 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,708 - ppt_template_fill - INFO - ´¦ÀíµÚ 30 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,708 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,709 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,709 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,710 - ppt_template_fill - INFO - ´¦ÀíµÚ 31 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,710 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,711 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,711 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,711 - ppt_template_fill - INFO - ´¦ÀíµÚ 32 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,711 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,712 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,712 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,713 - ppt_template_fill - INFO - ´¦ÀíµÚ 33 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,713 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,714 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,714 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,714 - ppt_template_fill - INFO - ´¦ÀíµÚ 34 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,714 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,716 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,716 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,717 - ppt_template_fill - INFO - ´¦ÀíµÚ 35 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,717 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,717 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,718 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,718 - ppt_template_fill - INFO - ´¦ÀíµÚ 36 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,718 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,719 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,719 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,719 - ppt_template_fill - INFO - ´¦ÀíµÚ 37 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,719 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,720 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,720 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,720 - ppt_template_fill - INFO - ´¦ÀíµÚ 38 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,720 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,721 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,721 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,722 - ppt_template_fill - INFO - ´¦ÀíµÚ 39 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,722 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,723 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,723 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,723 - ppt_template_fill - INFO - ´¦ÀíµÚ 40 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,723 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,724 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,724 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,724 - ppt_template_fill - INFO - ´¦ÀíµÚ 41 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,724 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,725 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,725 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,725 - ppt_template_fill - INFO - ´¦ÀíµÚ 42 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,725 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,726 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,726 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,727 - ppt_template_fill - INFO - ´¦ÀíµÚ 43 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,727 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,728 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,728 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,728 - ppt_template_fill - INFO - ´¦ÀíµÚ 44 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,728 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,729 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,729 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,729 - ppt_template_fill - INFO - ´¦ÀíµÚ 45 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,729 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,731 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,731 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,731 - ppt_template_fill - INFO - ´¦ÀíµÚ 46 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,732 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,732 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,732 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,733 - ppt_template_fill - INFO - ´¦ÀíµÚ 47 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,733 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,733 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,734 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,734 - ppt_template_fill - INFO - ´¦ÀíµÚ 48 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,734 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,735 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,735 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,735 - ppt_template_fill - INFO - ´¦ÀíµÚ 49 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,735 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,736 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,736 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,736 - ppt_template_fill - INFO - ´¦ÀíµÚ 50 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,736 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,737 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,737 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,737 - ppt_template_fill - INFO - ´¦ÀíµÚ 51 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,737 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,738 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,738 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,738 - ppt_template_fill - INFO - ´¦ÀíµÚ 52 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,738 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,739 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,739 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,739 - ppt_template_fill - INFO - ´¦ÀíµÚ 53 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,739 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,740 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,740 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,740 - ppt_template_fill - INFO - ´¦ÀíµÚ 54 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,740 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,741 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,741 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,742 - ppt_template_fill - INFO - ´¦ÀíµÚ 55 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,742 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,742 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,743 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,743 - ppt_template_fill - INFO - ´¦ÀíµÚ 56 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,743 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,744 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,744 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,744 - ppt_template_fill - INFO - ´¦ÀíµÚ 57 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,744 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,745 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,745 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,745 - ppt_template_fill - INFO - ´¦ÀíµÚ 58 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,745 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,746 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,746 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,746 - ppt_template_fill - INFO - ´¦ÀíµÚ 59 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,746 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,747 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,747 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,747 - ppt_template_fill - INFO - ´¦ÀíµÚ 60 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,747 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,748 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,748 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,749 - ppt_template_fill - INFO - ´¦ÀíµÚ 61 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,749 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,749 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,749 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,750 - ppt_template_fill - INFO - ´¦ÀíµÚ 62 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,750 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,751 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,751 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,751 - ppt_template_fill - INFO - ´¦ÀíµÚ 63 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,751 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,752 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,752 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,752 - ppt_template_fill - INFO - ´¦ÀíµÚ 64 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,752 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,753 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,753 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,753 - ppt_template_fill - INFO - ´¦ÀíµÚ 65 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,753 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,754 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,754 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,754 - ppt_template_fill - INFO - ´¦ÀíµÚ 66 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,754 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,755 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,755 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,755 - ppt_template_fill - INFO - ´¦ÀíµÚ 67 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,756 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,756 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,756 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,757 - ppt_template_fill - INFO - ´¦ÀíµÚ 68 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,757 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,757 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,758 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,758 - ppt_template_fill - INFO - ´¦ÀíµÚ 69 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,758 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,759 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,759 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,759 - ppt_template_fill - INFO - ´¦ÀíµÚ 70 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,759 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,760 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,760 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,760 - ppt_template_fill - INFO - ´¦ÀíµÚ 71 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,761 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,762 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,762 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,762 - ppt_template_fill - INFO - ´¦ÀíµÚ 72 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,762 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,763 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,763 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,763 - ppt_template_fill - INFO - ´¦ÀíµÚ 73 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,763 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,764 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,764 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,764 - ppt_template_fill - INFO - ´¦ÀíµÚ 74 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,764 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,765 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,765 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,766 - ppt_template_fill - INFO - ´¦ÀíµÚ 75 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,766 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,766 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,767 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,767 - ppt_template_fill - INFO - ´¦ÀíµÚ 76 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,767 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,767 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,768 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,768 - ppt_template_fill - INFO - ´¦ÀíµÚ 77 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,768 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,769 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,769 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,769 - ppt_template_fill - INFO - ´¦ÀíµÚ 78 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,769 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,770 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,770 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,770 - ppt_template_fill - INFO - ´¦ÀíµÚ 79 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,770 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,771 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,771 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,771 - ppt_template_fill - INFO - ´¦ÀíµÚ 80 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,771 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,772 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,772 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,772 - ppt_template_fill - INFO - ´¦ÀíµÚ 81 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,772 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,773 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,773 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,773 - ppt_template_fill - INFO - ´¦ÀíµÚ 82 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,773 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,774 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,774 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,774 - ppt_template_fill - INFO - ´¦ÀíµÚ 83 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,774 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,775 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,775 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,776 - ppt_template_fill - INFO - ´¦ÀíµÚ 84 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,776 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,776 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,777 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,777 - ppt_template_fill - INFO - ´¦ÀíµÚ 85 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,777 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,778 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,778 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,778 - ppt_template_fill - INFO - ´¦ÀíµÚ 86 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,778 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,779 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,779 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,779 - ppt_template_fill - INFO - ´¦ÀíµÚ 87 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,779 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,780 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,780 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,780 - ppt_template_fill - INFO - ´¦ÀíµÚ 88 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,780 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,781 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,781 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,782 - ppt_template_fill - INFO - ´¦ÀíµÚ 89 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,782 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,782 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,783 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,783 - ppt_template_fill - INFO - ´¦ÀíµÚ 90 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,783 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,784 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,784 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,784 - ppt_template_fill - INFO - ´¦ÀíµÚ 91 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,784 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,785 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,785 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,785 - ppt_template_fill - INFO - ´¦ÀíµÚ 92 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,785 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,786 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,786 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,786 - ppt_template_fill - INFO - ´¦ÀíµÚ 93 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,786 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,787 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,787 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,787 - ppt_template_fill - INFO - ´¦ÀíµÚ 94 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,788 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,788 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,788 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,789 - ppt_template_fill - INFO - ´¦ÀíµÚ 95 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,789 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,790 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,790 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,790 - ppt_template_fill - INFO - ´¦ÀíµÚ 96 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,790 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,791 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,791 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,792 - ppt_template_fill - INFO - ´¦ÀíµÚ 97 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,792 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,793 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,793 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,793 - ppt_template_fill - INFO - ´¦ÀíµÚ 98 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,793 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,794 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,794 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,795 - ppt_template_fill - INFO - ´¦ÀíµÚ 99 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,795 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,796 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,797 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,797 - ppt_template_fill - INFO - ´¦ÀíµÚ 100 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,797 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,798 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,798 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,798 - ppt_template_fill - INFO - ´¦ÀíµÚ 101 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,798 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,799 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,800 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,800 - ppt_template_fill - INFO - ´¦ÀíµÚ 102 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,800 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,801 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,801 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,801 - ppt_template_fill - INFO - ´¦ÀíµÚ 103 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,801 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,802 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,803 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,803 - ppt_template_fill - INFO - ´¦ÀíµÚ 104 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,803 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,804 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,804 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,804 - ppt_template_fill - INFO - ´¦ÀíµÚ 105 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,804 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,805 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,805 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,806 - ppt_template_fill - INFO - ´¦ÀíµÚ 106 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,806 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,806 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,807 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,807 - ppt_template_fill - INFO - ´¦ÀíµÚ 107 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,807 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,808 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,808 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,809 - ppt_template_fill - INFO - ´¦ÀíµÚ 108 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,809 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,810 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,810 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,810 - ppt_template_fill - INFO - ´¦ÀíµÚ 109 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,810 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,811 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,812 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,812 - ppt_template_fill - INFO - ´¦ÀíµÚ 110 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,812 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,813 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,813 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,813 - ppt_template_fill - INFO - ´¦ÀíµÚ 111 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,813 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,814 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,814 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,815 - ppt_template_fill - INFO - ´¦ÀíµÚ 112 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,815 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,816 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,816 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,816 - ppt_template_fill - INFO - ´¦ÀíµÚ 113 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,816 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,817 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,817 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,818 - ppt_template_fill - INFO - ´¦ÀíµÚ 114 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,818 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,818 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,819 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,819 - ppt_template_fill - INFO - ´¦ÀíµÚ 115 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,819 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,820 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,820 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,821 - ppt_template_fill - INFO - ´¦ÀíµÚ 116 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,821 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,822 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,822 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,822 - ppt_template_fill - INFO - ´¦ÀíµÚ 117 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,822 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,824 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,824 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,825 - ppt_template_fill - INFO - ´¦ÀíµÚ 118 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,825 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,826 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,826 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,826 - ppt_template_fill - INFO - ´¦ÀíµÚ 119 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,826 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,827 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,827 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,828 - ppt_template_fill - INFO - ´¦ÀíµÚ 120 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,828 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,829 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,829 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,829 - ppt_template_fill - INFO - ´¦ÀíµÚ 121 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,829 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,831 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,831 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,832 - ppt_template_fill - INFO - ´¦ÀíµÚ 122 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,832 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,833 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,834 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,834 - ppt_template_fill - INFO - ´¦ÀíµÚ 123 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,834 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,835 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,835 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,836 - ppt_template_fill - INFO - ´¦ÀíµÚ 124 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,836 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,836 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,837 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,837 - ppt_template_fill - INFO - ´¦ÀíµÚ 125 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,838 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,840 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,840 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,840 - ppt_template_fill - INFO - ´¦ÀíµÚ 126 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,840 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,842 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,842 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,842 - ppt_template_fill - INFO - ´¦ÀíµÚ 127 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,842 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,844 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,844 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,844 - ppt_template_fill - INFO - ´¦ÀíµÚ 128 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,844 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,845 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,846 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,846 - ppt_template_fill - INFO - ´¦ÀíµÚ 129 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,846 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,847 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,848 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,848 - ppt_template_fill - INFO - ´¦ÀíµÚ 130 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,848 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,849 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,850 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,851 - ppt_template_fill - INFO - ´¦ÀíµÚ 131 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,851 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,852 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,852 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,852 - ppt_template_fill - INFO - ´¦ÀíµÚ 132 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,852 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,853 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,854 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,854 - ppt_template_fill - INFO - ´¦ÀíµÚ 133 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,854 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,855 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,855 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,855 - ppt_template_fill - INFO - ´¦ÀíµÚ 134 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,855 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,857 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,857 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,857 - ppt_template_fill - INFO - ´¦ÀíµÚ 135 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,857 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,858 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,858 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,859 - ppt_template_fill - INFO - ´¦ÀíµÚ 136 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,859 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,860 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,860 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,860 - ppt_template_fill - INFO - ´¦ÀíµÚ 137 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,860 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,861 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,861 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,862 - ppt_template_fill - INFO - ´¦ÀíµÚ 138 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,862 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,863 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,863 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,863 - ppt_template_fill - INFO - ´¦ÀíµÚ 139 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,863 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,864 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,864 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,865 - ppt_template_fill - INFO - ´¦ÀíµÚ 140 ÕÅ»ÃµÆÆ¬£¬ÀàĞÍ: keypoints
+2025-07-12 11:27:58,865 - ppt_template_fill - INFO - Ê¹ÓÃÄ£°åÒ³Ë÷Òı: 1
+2025-07-12 11:27:58,866 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬ÎÄ±¾
+2025-07-12 11:27:58,866 - ppt_template_fill - INFO - ´¦Àí»ÃµÆÆ¬Í¼Æ¬
+2025-07-12 11:27:58,866 - ppt_template_fill - INFO - ±£´æPPTµ½: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:27:58,922 - ppt_template_fill - INFO - === PPTÄ£°åÌî³äÍê³É ===
+2025-07-12 11:27:58,922 - ppt_generation - INFO - PPTÉú³Éº¯ÊıÖ´ĞĞ³É¹¦
+2025-07-12 11:27:58,922 - ppt_generation - INFO - ÁÙÊ±ÎÄ¼şÒÑÉ¾³ı: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\outline_20250712112758.json
+2025-07-12 11:27:58,923 - ppt_generation - INFO - PPTÎÄ¼şÒÑÉú³É£¬´óĞ¡: 325611 ×Ö½Ú
+2025-07-12 11:27:58,923 - ppt_generation - INFO - PPT URL: /uploads/20250712112758.pptx
+2025-07-12 11:27:58,923 - ppt_generation - INFO - === PPTÉú³ÉÍê³É ===
+2025-07-12 11:27:58,923 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:27:58] "POST /api/aiPpt/gen-pptx-python HTTP/1.1" 200 -
+2025-07-12 11:28:12,955 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712112758.pptx ===
+2025-07-12 11:28:12,955 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:28:12,956 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 325611 ×Ö½Ú
+2025-07-12 11:28:12,956 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 11:28:12,956 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712112758.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '325611', 'Last-Modified': 'Sat, 12 Jul 2025 03:27:58 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752290878.9220772-325611-3307019983"', 'Date': 'Sat, 12 Jul 2025 03:28:12 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 11:28:12,956 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 11:28:12,957 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:28:12] "HEAD /uploads/20250712112758.pptx HTTP/1.1" 200 -
+2025-07-12 11:28:12,978 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712112758.pptx ===
+2025-07-12 11:28:12,978 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:28:12,978 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 325611 ×Ö½Ú
+2025-07-12 11:28:12,979 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 11:28:12,979 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712112758.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '325611', 'Last-Modified': 'Sat, 12 Jul 2025 03:27:58 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752290878.9220772-325611-3307019983"', 'Date': 'Sat, 12 Jul 2025 03:28:12 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 11:28:12,979 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 11:28:12,979 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:28:12] "GET /uploads/20250712112758.pptx HTTP/1.1" 200 -
+2025-07-12 11:28:48,554 - ppt_generation - INFO - === ÇëÇó·ÃÎÊÎÄ¼ş: 20250712112758.pptx ===
+2025-07-12 11:28:48,554 - ppt_generation - INFO - ÎÄ¼şÍêÕûÂ·¾¶: C:\Users\18037\Desktop\Êı×Ö×ÊÔ´Éú³É\back\uploads\20250712112758.pptx
+2025-07-12 11:28:48,554 - ppt_generation - INFO - ÎÄ¼ş´æÔÚ£¬´óĞ¡: 325611 ×Ö½Ú
+2025-07-12 11:28:48,555 - ppt_generation - INFO - ÉèÖÃPPTXÎÄ¼şµÄContent-TypeºÍContent-Disposition
+2025-07-12 11:28:48,555 - ppt_generation - INFO - ÏìÓ¦Í·: {'Content-Disposition': 'attachment; filename="20250712112758.pptx"', 'Content-Type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'Content-Length': '325611', 'Last-Modified': 'Sat, 12 Jul 2025 03:27:58 GMT', 'Cache-Control': 'no-cache', 'ETag': '"1752290878.9220772-325611-3307019983"', 'Date': 'Sat, 12 Jul 2025 03:28:48 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'}
+2025-07-12 11:28:48,555 - ppt_generation - INFO - === ÎÄ¼ş·ÃÎÊ³É¹¦ ===
+2025-07-12 11:28:48,555 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 11:28:48] "GET /uploads/20250712112758.pptx HTTP/1.1" 200 -
+2025-07-12 13:12:04,334 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\knowledge_retrieval.py', reloading
+2025-07-12 13:12:04,549 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 13:12:05,453 - werkzeug - WARNING -  * Debugger is active!
+2025-07-12 13:12:05,460 - werkzeug - INFO -  * Debugger PIN: 116-242-130
+2025-07-12 13:13:31,246 - werkzeug - INFO -  * Detected change in 'C:\\Users\\18037\\Desktop\\Êı×Ö×ÊÔ´Éú³É\\back\\app.py', reloading
+2025-07-12 13:13:31,313 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 13:14:41,835 - werkzeug - INFO -  * Restarting with stat
+2025-07-12 13:15:11,051 - werkzeug - INFO -  * Restarting with stat

@@ -1,0 +1,299 @@
+2025-07-12 01:29:28,974 - ppt_template_fill - INFO - === 脚本开始执行 ===
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712012928.pptx
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - JSON数据长度: 5446 字符
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - 解析JSON数据
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - JSON解析成功，包含 10 个幻灯片数据
+2025-07-12 01:29:28,975 - ppt_template_fill - INFO - === 开始填充PPT模板 ===
+2025-07-12 01:29:28,976 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 01:29:28,976 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712012928.pptx
+2025-07-12 01:29:28,976 - ppt_template_fill - INFO - 幻灯片数据: 10 页
+2025-07-12 01:29:28,976 - ppt_template_fill - INFO - 加载PPT模板
+2025-07-12 01:29:28,999 - ppt_template_fill - INFO - 模板加载成功，包含 23 张幻灯片
+2025-07-12 01:29:28,999 - ppt_template_fill - INFO - 开始处理 10 张幻灯片
+2025-07-12 01:29:28,999 - ppt_template_fill - INFO - 处理第 1 张幻灯片，类型: cover
+2025-07-12 01:29:28,999 - ppt_template_fill - INFO - 使用模板页索引: 0
+2025-07-12 01:29:29,000 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,000 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,000 - ppt_template_fill - INFO - 处理第 2 张幻灯片，类型: keypoints
+2025-07-12 01:29:29,000 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:29:29,001 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,001 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,002 - ppt_template_fill - INFO - 处理第 3 张幻灯片，类型: compare
+2025-07-12 01:29:29,002 - ppt_template_fill - INFO - 使用模板页索引: 2
+2025-07-12 01:29:29,002 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,002 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,003 - ppt_template_fill - INFO - 处理幻灯片表格
+2025-07-12 01:29:29,003 - ppt_template_fill - INFO - 表格数据为一维数组，转换为: 1行 x 3列
+2025-07-12 01:29:29,003 - ppt_template_fill - WARNING - 未找到表格占位框，使用默认位置和大小
+2025-07-12 01:29:29,003 - ppt_template_fill - INFO - 创建表格: 1行 x 3列
+2025-07-12 01:29:29,003 - ppt_template_fill - DEBUG - 填充单元格 [0,0]: {'animal': '无', 'item': '细胞壁', 'plant': '有'}
+2025-07-12 01:29:29,003 - ppt_template_fill - DEBUG - 填充单元格 [0,1]: {'animal': '无', 'item': '叶绿体', 'plant': '有'}
+2025-07-12 01:29:29,003 - ppt_template_fill - DEBUG - 填充单元格 [0,2]: {'animal': '小而分散', 'item': '液泡', 'plant': '大而集中'}
+2025-07-12 01:29:29,004 - ppt_template_fill - INFO - 表格创建完成
+2025-07-12 01:29:29,004 - ppt_template_fill - INFO - 处理第 4 张幻灯片，类型: flow
+2025-07-12 01:29:29,004 - ppt_template_fill - INFO - 使用模板页索引: 5
+2025-07-12 01:29:29,004 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,005 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,005 - ppt_template_fill - INFO - 处理第 5 张幻灯片，类型: chart
+2025-07-12 01:29:29,005 - ppt_template_fill - INFO - 使用模板页索引: 6
+2025-07-12 01:29:29,005 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,006 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,006 - ppt_template_fill - INFO - 检测到图表数据，但当前版本不支持图表生成
+2025-07-12 01:29:29,006 - ppt_template_fill - INFO - 处理第 6 张幻灯片，类型: table
+2025-07-12 01:29:29,006 - ppt_template_fill - INFO - 使用模板页索引: 7
+2025-07-12 01:29:29,007 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,007 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,007 - ppt_template_fill - INFO - 处理幻灯片表格
+2025-07-12 01:29:29,007 - ppt_template_fill - INFO - 表格数据为一维数组，转换为: 1行 x 6列
+2025-07-12 01:29:29,007 - ppt_template_fill - WARNING - 未找到表格占位框，使用默认位置和大小
+2025-07-12 01:29:29,007 - ppt_template_fill - INFO - 创建表格: 1行 x 6列
+2025-07-12 01:29:29,007 - ppt_template_fill - DEBUG - 填充单元格 [0,0]: {'function': '控制物质交换，保护细胞', 'organelle': '细胞膜'}
+2025-07-12 01:29:29,008 - ppt_template_fill - DEBUG - 填充单元格 [0,1]: {'function': '进行代谢反应', 'organelle': '细胞质'}
+2025-07-12 01:29:29,008 - ppt_template_fill - DEBUG - 填充单元格 [0,2]: {'function': '储存遗传信息', 'organelle': '细胞核'}
+2025-07-12 01:29:29,008 - ppt_template_fill - DEBUG - 填充单元格 [0,3]: {'function': '进行呼吸作用，产生能量', 'organelle': '线粒体'}
+2025-07-12 01:29:29,008 - ppt_template_fill - DEBUG - 填充单元格 [0,4]: {'function': '进行光合作用，制造养分', 'organelle': '叶绿体'}
+2025-07-12 01:29:29,008 - ppt_template_fill - DEBUG - 填充单元格 [0,5]: {'function': '储存水分和营养', 'organelle': '液泡'}
+2025-07-12 01:29:29,008 - ppt_template_fill - INFO - 表格创建完成
+2025-07-12 01:29:29,008 - ppt_template_fill - INFO - 处理第 7 张幻灯片，类型: image
+2025-07-12 01:29:29,008 - ppt_template_fill - INFO - 使用模板页索引: 3
+2025-07-12 01:29:29,009 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,009 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,009 - ppt_template_fill - INFO - 处理第 8 张幻灯片，类型: summary
+2025-07-12 01:29:29,009 - ppt_template_fill - INFO - 使用模板页索引: 4
+2025-07-12 01:29:29,010 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,010 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,010 - ppt_template_fill - INFO - 处理第 9 张幻灯片，类型: quote
+2025-07-12 01:29:29,010 - ppt_template_fill - INFO - 使用模板页索引: 8
+2025-07-12 01:29:29,011 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,011 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,011 - ppt_template_fill - INFO - 处理第 10 张幻灯片，类型: flow
+2025-07-12 01:29:29,011 - ppt_template_fill - INFO - 使用模板页索引: 5
+2025-07-12 01:29:29,012 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:29:29,012 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:29:29,012 - ppt_template_fill - INFO - 保存PPT到: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712012928.pptx
+2025-07-12 01:29:29,043 - ppt_template_fill - INFO - === PPT模板填充完成 ===
+2025-07-12 01:29:29,043 - ppt_template_fill - INFO - === 脚本执行成功 ===
+2025-07-12 01:38:17,573 - ppt_template_fill - INFO - === 脚本开始执行 ===
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712013816.pptx
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - JSON数据长度: 3738 字符
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 解析JSON数据
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - JSON解析成功，包含 10 个幻灯片数据
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - === 开始填充PPT模板 ===
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712013816.pptx
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 幻灯片数据: 10 页
+2025-07-12 01:38:17,574 - ppt_template_fill - INFO - 加载PPT模板
+2025-07-12 01:38:17,601 - ppt_template_fill - INFO - 模板加载成功，包含 23 张幻灯片
+2025-07-12 01:38:17,601 - ppt_template_fill - INFO - 开始处理 10 张幻灯片
+2025-07-12 01:38:17,601 - ppt_template_fill - INFO - 处理第 1 张幻灯片，类型: cover
+2025-07-12 01:38:17,601 - ppt_template_fill - INFO - 使用模板页索引: 0
+2025-07-12 01:38:17,602 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,602 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,602 - ppt_template_fill - INFO - 处理第 2 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,602 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,603 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,603 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,603 - ppt_template_fill - INFO - 处理第 3 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,604 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,604 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,605 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,605 - ppt_template_fill - INFO - 处理第 4 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,605 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,606 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,606 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,606 - ppt_template_fill - INFO - 处理第 5 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,606 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,607 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,607 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,607 - ppt_template_fill - INFO - 处理第 6 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,607 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,608 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,608 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,608 - ppt_template_fill - INFO - 处理第 7 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,608 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,609 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,609 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,609 - ppt_template_fill - INFO - 处理第 8 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,609 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,610 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,610 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,610 - ppt_template_fill - INFO - 处理第 9 张幻灯片，类型: keypoints
+2025-07-12 01:38:17,610 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 01:38:17,611 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,611 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,611 - ppt_template_fill - INFO - 处理第 10 张幻灯片，类型: summary
+2025-07-12 01:38:17,611 - ppt_template_fill - INFO - 使用模板页索引: 4
+2025-07-12 01:38:17,612 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 01:38:17,612 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 01:38:17,613 - ppt_template_fill - INFO - 保存PPT到: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712013816.pptx
+2025-07-12 01:38:17,643 - ppt_template_fill - INFO - === PPT模板填充完成 ===
+2025-07-12 01:38:17,643 - ppt_template_fill - INFO - === 脚本执行成功 ===
+2025-07-12 13:50:26,261 - ppt_template_fill - INFO - === 脚本开始执行 ===
+2025-07-12 13:50:26,262 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 13:50:26,262 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712135023.pptx
+2025-07-12 13:50:26,262 - ppt_template_fill - INFO - 从文件读取JSON数据: C:\Users\18037\Desktop\数字资源生成\back\uploads\outline_20250712135023.json
+2025-07-12 13:50:26,262 - ppt_template_fill - INFO - 解析JSON数据
+2025-07-12 13:50:26,262 - ppt_template_fill - INFO - JSON解析成功，包含 1 个幻灯片数据
+2025-07-12 13:50:26,263 - ppt_template_fill - INFO - === 开始填充PPT模板 ===
+2025-07-12 13:50:26,263 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 13:50:26,263 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712135023.pptx
+2025-07-12 13:50:26,263 - ppt_template_fill - INFO - 幻灯片数据: 1 页
+2025-07-12 13:50:26,263 - ppt_template_fill - INFO - 加载PPT模板
+2025-07-12 13:50:26,319 - ppt_template_fill - INFO - 模板加载成功，包含 23 张幻灯片
+2025-07-12 13:50:26,319 - ppt_template_fill - INFO - 开始处理 1 张幻灯片
+2025-07-12 13:50:26,319 - ppt_template_fill - INFO - 处理第 1 张幻灯片，类型: 
+2025-07-12 13:50:26,320 - ppt_template_fill - INFO - 使用模板页索引: 1
+2025-07-12 13:50:26,323 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 13:50:26,324 - ppt_template_fill - DEBUG - 替换标题: 
+2025-07-12 13:50:26,324 - ppt_template_fill - ERROR - PPT模板填充失败: value must be in range 100 to 400000 inclusive, got 0
+2025-07-12 13:50:26,330 - ppt_template_fill - ERROR - 异常详情: Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 102, in fill_template
+    p.runs[0].font.size = p.runs[0].font.size or 32
+    ^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\text\text.py", line 407, in size
+    self._rPr.sz = sz
+    ^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\xmlchemy.py", line 214, in set_attr_value
+    str_value = self._simple_type.to_xml(value)
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 26, in to_xml
+    cls.validate(value)
+    ~~~~~~~~~~~~^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 672, in validate
+    cls.validate_int_in_range(value, 100, 400000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 56, in validate_int_in_range
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: value must be in range 100 to 400000 inclusive, got 0
+
+2025-07-12 13:50:26,330 - ppt_template_fill - ERROR - 错误: value must be in range 100 to 400000 inclusive, got 0
+2025-07-12 13:50:26,332 - ppt_template_fill - ERROR - 异常详情: Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 292, in <module>
+    fill_template(template_path, output_path, slides_data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 102, in fill_template
+    p.runs[0].font.size = p.runs[0].font.size or 32
+    ^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\text\text.py", line 407, in size
+    self._rPr.sz = sz
+    ^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\xmlchemy.py", line 214, in set_attr_value
+    str_value = self._simple_type.to_xml(value)
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 26, in to_xml
+    cls.validate(value)
+    ~~~~~~~~~~~~^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 672, in validate
+    cls.validate_int_in_range(value, 100, 400000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\oxml\simpletypes.py", line 56, in validate_int_in_range
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: value must be in range 100 to 400000 inclusive, got 0
+
+2025-07-12 14:50:30,821 - ppt_template_fill - INFO - === 脚本开始执行 ===
+2025-07-12 14:50:30,832 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 14:50:30,832 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712145029.pptx
+2025-07-12 14:50:30,832 - ppt_template_fill - INFO - 从文件读取JSON数据: C:\Users\18037\Desktop\数字资源生成\back\uploads\outline_20250712145029.json
+2025-07-12 14:50:30,832 - ppt_template_fill - INFO - 解析JSON数据
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - JSON解析成功，包含 5 个幻灯片数据
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - === 开始填充PPT模板 ===
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - 模板路径: C:\Users\18037\Desktop\数字资源生成\back\ppt_templates\绿色圆点.pptx
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - 输出路径: C:\Users\18037\Desktop\数字资源生成\back\uploads\20250712145029.pptx
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - 幻灯片数据: 5 页
+2025-07-12 14:50:30,833 - ppt_template_fill - DEBUG - 幻灯片数据内容: [{"title": "植物细胞的讲解", "content": "探索植物细胞的独特结构与功能", "layout": "cover", "type": "", "keypoints": ["探索植物细胞的独特结构与功能"]}, {"title": "植物细胞概述", "content": "植物细胞是构成植物体的基本单位，具有细胞壁、中央液泡和叶绿体等独特结构。", "layout": "keypoints", "type": "", "keypoints": ["植物细胞与动物细胞的区别", "支持光合作用及维持细胞形态", "基本组成包括：细胞壁、细胞膜、细胞质、细胞核、叶绿体等"]}, {"title": "主要细胞器的功能对比", "content": "", "layout": "compare", "type": "", "keypoints": [["叶绿体", "进行光合作用，合成有机物"], ["线粒体", "细胞呼吸的主要场所，产生ATP"], ["高尔基体", "蛋白质修饰、分类和包装；参与细胞壁形成"]]}, {"title": "细胞壁与细胞膜的作用", ...
+2025-07-12 14:50:30,833 - ppt_template_fill - INFO - 加载PPT模板
+2025-07-12 14:50:30,872 - ppt_template_fill - INFO - 模板加载成功，包含 23 张幻灯片
+2025-07-12 14:50:30,873 - ppt_template_fill - DEBUG - 模板幻灯片 0: 包含 11 个文本框
+2025-07-12 14:50:30,873 - ppt_template_fill - DEBUG - 模板幻灯片 1: 包含 11 个文本框
+2025-07-12 14:50:30,874 - ppt_template_fill - DEBUG - 模板幻灯片 2: 包含 10 个文本框
+2025-07-12 14:50:30,874 - ppt_template_fill - DEBUG - 模板幻灯片 3: 包含 12 个文本框
+2025-07-12 14:50:30,875 - ppt_template_fill - DEBUG - 模板幻灯片 4: 包含 3 个文本框
+2025-07-12 14:50:30,875 - ppt_template_fill - DEBUG - 模板幻灯片 5: 包含 13 个文本框
+2025-07-12 14:50:30,876 - ppt_template_fill - DEBUG - 模板幻灯片 6: 包含 9 个文本框
+2025-07-12 14:50:30,876 - ppt_template_fill - DEBUG - 模板幻灯片 7: 包含 11 个文本框
+2025-07-12 14:50:30,877 - ppt_template_fill - DEBUG - 模板幻灯片 8: 包含 4 个文本框
+2025-07-12 14:50:30,877 - ppt_template_fill - DEBUG - 模板幻灯片 9: 包含 9 个文本框
+2025-07-12 14:50:30,878 - ppt_template_fill - DEBUG - 模板幻灯片 10: 包含 12 个文本框
+2025-07-12 14:50:30,879 - ppt_template_fill - DEBUG - 模板幻灯片 11: 包含 16 个文本框
+2025-07-12 14:50:30,879 - ppt_template_fill - DEBUG - 模板幻灯片 12: 包含 10 个文本框
+2025-07-12 14:50:30,880 - ppt_template_fill - DEBUG - 模板幻灯片 13: 包含 15 个文本框
+2025-07-12 14:50:30,881 - ppt_template_fill - DEBUG - 模板幻灯片 14: 包含 10 个文本框
+2025-07-12 14:50:30,882 - ppt_template_fill - DEBUG - 模板幻灯片 15: 包含 15 个文本框
+2025-07-12 14:50:30,882 - ppt_template_fill - DEBUG - 模板幻灯片 16: 包含 10 个文本框
+2025-07-12 14:50:30,883 - ppt_template_fill - DEBUG - 模板幻灯片 17: 包含 10 个文本框
+2025-07-12 14:50:30,883 - ppt_template_fill - DEBUG - 模板幻灯片 18: 包含 15 个文本框
+2025-07-12 14:50:30,884 - ppt_template_fill - DEBUG - 模板幻灯片 19: 包含 13 个文本框
+2025-07-12 14:50:30,886 - ppt_template_fill - DEBUG - 模板幻灯片 20: 包含 24 个文本框
+2025-07-12 14:50:30,887 - ppt_template_fill - DEBUG - 模板幻灯片 21: 包含 10 个文本框
+2025-07-12 14:50:30,887 - ppt_template_fill - DEBUG - 模板幻灯片 22: 包含 11 个文本框
+2025-07-12 14:50:30,888 - ppt_template_fill - INFO - 已删除模板中的示例幻灯片，开始处理 5 张幻灯片
+2025-07-12 14:50:30,888 - ppt_template_fill - INFO - 处理第 1 张幻灯片，类型: 
+2025-07-12 14:50:30,888 - ppt_template_fill - INFO - 使用布局索引: 0
+2025-07-12 14:50:30,890 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 14:50:30,891 - ppt_template_fill - DEBUG - 找到标题文本框: title 1
+2025-07-12 14:50:30,891 - ppt_template_fill - DEBUG - 使用第一个非标题文本框作为内容: Subtitle 2
+2025-07-12 14:50:30,891 - ppt_template_fill - DEBUG - 替换标题: 植物细胞的讲解
+2025-07-12 14:50:30,892 - ppt_template_fill - DEBUG - 替换内容: 探索植物细胞的独特结构与功能...
+2025-07-12 14:50:30,892 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 14:50:30,893 - ppt_template_fill - INFO - 处理第 2 张幻灯片，类型: 
+2025-07-12 14:50:30,893 - ppt_template_fill - INFO - 使用布局索引: 1
+2025-07-12 14:50:30,894 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 14:50:30,894 - ppt_template_fill - DEBUG - 找到标题占位符: TITLE (1)
+2025-07-12 14:50:30,895 - ppt_template_fill - DEBUG - 找到内容文本框: content placeholder 2
+2025-07-12 14:50:30,895 - ppt_template_fill - DEBUG - 替换标题: 植物细胞概述
+2025-07-12 14:50:30,895 - ppt_template_fill - DEBUG - 替换内容: 植物细胞是构成植物体的基本单位，具有细胞壁、中央液泡和叶绿体等独特结构。...
+2025-07-12 14:50:30,896 - ppt_template_fill - INFO - 处理幻灯片图片
+2025-07-12 14:50:30,896 - ppt_template_fill - INFO - 处理第 3 张幻灯片，类型: 
+2025-07-12 14:50:30,896 - ppt_template_fill - INFO - 使用布局索引: 2
+2025-07-12 14:50:30,899 - ppt_template_fill - INFO - 处理幻灯片文本
+2025-07-12 14:50:30,899 - ppt_template_fill - DEBUG - 找到标题占位符: TITLE (1)
+2025-07-12 14:50:30,899 - ppt_template_fill - DEBUG - 找到内容占位符: BODY (2)
+2025-07-12 14:50:30,899 - ppt_template_fill - DEBUG - 替换标题: 主要细胞器的功能对比
+2025-07-12 14:50:30,899 - ppt_template_fill - DEBUG - 内容为空
+2025-07-12 14:50:30,900 - ppt_template_fill - ERROR - PPT模板填充失败: expected unicode string, got <class 'list'> value ['叶绿体', '进行光合作用，合成有机物']
+2025-07-12 14:50:30,903 - ppt_template_fill - ERROR - 异常详情: Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\pptx\compat\python3.py", line 38, in to_unicode
+    return text.decode("utf-8")
+           ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'decode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 223, in fill_template
+    run.text = point
+    ^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\text\text.py", line 715, in text
+    self._r.text = to_unicode(str)
+                   ~~~~~~~~~~^^^^^
+  File "D:\py\Lib\site-packages\pptx\compat\python3.py", line 40, in to_unicode
+    raise TypeError("expected unicode string, got %s value %s" % (type(text), text))
+TypeError: expected unicode string, got <class 'list'> value ['叶绿体', '进行光合作用，合成有机物']
+
+2025-07-12 14:50:30,903 - ppt_template_fill - ERROR - 错误: expected unicode string, got <class 'list'> value ['叶绿体', '进行光合作用，合成有机物']
+2025-07-12 14:50:30,904 - ppt_template_fill - ERROR - 异常详情: Traceback (most recent call last):
+  File "D:\py\Lib\site-packages\pptx\compat\python3.py", line 38, in to_unicode
+    return text.decode("utf-8")
+           ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'decode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 405, in <module>
+    fill_template(template_path, output_path, slides_data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\18037\Desktop\数字资源生成\back\ppt_fill_template.py", line 223, in fill_template
+    run.text = point
+    ^^^^^^^^
+  File "D:\py\Lib\site-packages\pptx\text\text.py", line 715, in text
+    self._r.text = to_unicode(str)
+                   ~~~~~~~~~~^^^^^
+  File "D:\py\Lib\site-packages\pptx\compat\python3.py", line 40, in to_unicode
+    raise TypeError("expected unicode string, got %s value %s" % (type(text), text))
+TypeError: expected unicode string, got <class 'list'> value ['叶绿体', '进行光合作用，合成有机物']
+

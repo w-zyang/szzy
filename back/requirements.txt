@@ -1,0 +1,23 @@
+flask==2.0.1
+werkzeug==2.0.1
+python-pptx==0.6.21
+requests==2.26.0
+python-dotenv==0.19.0
+flask-cors==3.0.10
+pillow==8.3.1
+numpy==1.21.2
+jieba==0.42.1
+scikit-learn==0.24.2
+scipy==1.7.1 
+baidu-aip==2.2.18.0  # 百度AI开放平台SDK
+retry==0.9.2  # 网络请求重试工具 
+pdf2image==1.16.0  # PDF转图片工具
+comtypes==1.1.11  # Windows平台COM接口支持
+pywin32==310; sys_platform == 'win32'  # Windows COM接口支持，用于PowerPoint操作
+python-pptx==0.6.21  # PowerPoint处理库
+matplotlib==3.5.1  # 图表生成库
+seaborn==0.11.2  # 增强数据可视化库
+opencv-python==4.5.5.64  # 图像处理库
+tqdm==4.62.3  # 进度条库
+colorama==0.4.4  # 终端颜色库
+networkx==2.6.3  # 网络图绘制库 
