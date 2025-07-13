@@ -43,10 +43,6 @@ except ImportError:
     HAS_NUMPY = False
     logger.warning("未找到numpy库，部分高级功能可能不可用")
 
-# 强制使用简单分词方法（临时解决方案）
-HAS_JIEBA = False
-logger.info("强制使用简单分词方法代替jieba")
-
 # 添加一些常用的中文停用词
 STOPWORDS = set([
     "的", "了", "和", "是", "在", "有", "与", "这", "那", "个", "们", "中", "to", "the", "and", "in", "of", "a", "for",
