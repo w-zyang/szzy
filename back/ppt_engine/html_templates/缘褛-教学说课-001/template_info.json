@@ -1,0 +1,6301 @@
+{
+  "name": "缘褛-教学说课-001.pptx",
+  "slide_count": 24,
+  "slide_width": 9144000,
+  "slide_height": 5143500,
+  "slides": [
+    {
+      "index": 0,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 7,
+          "name": "组合 6",
+          "type": "GROUP (6)",
+          "left": 0,
+          "top": 4131943,
+          "width": 9144000,
+          "height": 1012007,
+          "content_type": "shape"
+        },
+        {
+          "id": 11,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 1448436,
+          "top": 917575,
+          "width": 6247130,
+          "height": 800219,
+          "content_type": "text",
+          "text": "教育培训工作计划模板",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 46.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 12,
+          "name": "矩形 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2083166,
+          "top": 2578164,
+          "width": 4977670,
+          "height": 553998,
+          "content_type": "text",
+          "text": "Professional custom all kinds of industry ppt template, this work belongs to fly impression design original, do not download after the network communication.",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 12",
+          "type": "TEXT_BOX (17)",
+          "left": 3787775,
+          "top": 3030855,
+          "width": 1722755,
+          "height": 299085,
+          "content_type": "text",
+          "text": "汇报人：代用名",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "直接连接符 13",
+          "type": "LINE (9)",
+          "left": 3218075,
+          "top": 3169208,
+          "width": 548640,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 15,
+          "name": "直接连接符 14",
+          "type": "LINE (9)",
+          "left": 5118492,
+          "top": 3164933,
+          "width": 548640,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "Dustin O'Halloran - We Move Lightly",
+          "type": "PICTURE (13)",
+          "left": -609600,
+          "top": 101266,
+          "width": 609600,
+          "height": 609600,
+          "content_type": "image"
+        }
+      ],
+      "suitable_for": [
+        "cover"
+      ]
+    },
+    {
+      "index": 1,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 7,
+          "name": "组合 6",
+          "type": "GROUP (6)",
+          "left": -2241550,
+          "top": 2221865,
+          "width": 5145405,
+          "height": 701040,
+          "content_type": "shape"
+        },
+        {
+          "id": 4,
+          "name": "组合 3",
+          "type": "GROUP (6)",
+          "left": 6221095,
+          "top": 2222500,
+          "width": 5145405,
+          "height": 701040,
+          "content_type": "shape"
+        },
+        {
+          "id": 24,
+          "name": "MH_Number_1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4334293,
+          "top": 1577641,
+          "width": 269970,
+          "height": 269970,
+          "content_type": "text",
+          "text": "1",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 15.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 25,
+          "name": "MH_Entry_1",
+          "type": "FREEFORM (5)",
+          "left": 4941330,
+          "top": 1534286,
+          "width": 1600752,
+          "height": 408940,
+          "content_type": "text",
+          "text": "个人基本信息\nANNUAL WORK SUMMARY",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "MH_Number_2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4334293,
+          "top": 2212905,
+          "width": 269970,
+          "height": 269970,
+          "content_type": "text",
+          "text": "2",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 15.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 27,
+          "name": "MH_Entry_2",
+          "type": "FREEFORM (5)",
+          "left": 4941330,
+          "top": 2169550,
+          "width": 1600752,
+          "height": 408940,
+          "content_type": "text",
+          "text": "工作岗位认知\nCOMPLETION OF WORK",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "MH_Number_3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4334293,
+          "top": 2848169,
+          "width": 269970,
+          "height": 269970,
+          "content_type": "text",
+          "text": "3",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 15.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 29,
+          "name": "MH_Entry_3",
+          "type": "FREEFORM (5)",
+          "left": 4941330,
+          "top": 2804814,
+          "width": 1600752,
+          "height": 408940,
+          "content_type": "text",
+          "text": "胜任能力分析\nSUCCESSFUL PROJECT",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 30,
+          "name": "MH_Number_4",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4334293,
+          "top": 3483432,
+          "width": 269970,
+          "height": 269970,
+          "content_type": "text",
+          "text": "4",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 15.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 31,
+          "name": "MH_Entry_4",
+          "type": "FREEFORM (5)",
+          "left": 4941330,
+          "top": 3440077,
+          "width": 1600752,
+          "height": 408940,
+          "content_type": "text",
+          "text": "职业目标规划\nNEXT YEAR WORK PLAN",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 32,
+          "name": "MH_Others_1",
+          "type": "TEXT_BOX (17)",
+          "left": 2018203,
+          "top": 1987930,
+          "width": 1335452,
+          "height": 590550,
+          "content_type": "text",
+          "text": "目 录",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 38.4,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 33,
+          "name": "MH_Others_2",
+          "type": "TEXT_BOX (17)",
+          "left": 1857526,
+          "top": 2598668,
+          "width": 1656810,
+          "height": 350520,
+          "content_type": "text",
+          "text": "CONTENTS",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 22.75,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 2,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 4,
+          "name": "图片 3",
+          "type": "PICTURE (13)",
+          "left": 2302745,
+          "top": 701449,
+          "width": 4538510,
+          "height": 4001054,
+          "content_type": "image"
+        },
+        {
+          "id": 5,
+          "name": "文本框 4",
+          "type": "TEXT_BOX (17)",
+          "left": 3431381,
+          "top": 1518497,
+          "width": 2281238,
+          "height": 852805,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 49.5,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 6,
+          "name": "组合 8",
+          "type": "GROUP (6)",
+          "left": 3330178,
+          "top": 2436469,
+          "width": 2483644,
+          "height": 835231,
+          "content_type": "shape"
+        },
+        {
+          "id": 9,
+          "name": "直接连接符 8",
+          "type": "LINE (9)",
+          "left": 3367088,
+          "top": 2349554,
+          "width": 2409825,
+          "height": 0,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 3,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 2,
+          "name": "Object 5",
+          "type": "CHART (3)",
+          "left": 1298327,
+          "top": 1601415,
+          "width": 1697853,
+          "height": 1698383,
+          "content_type": "shape"
+        },
+        {
+          "id": 64518,
+          "name": "AutoShape 6",
+          "type": "FREEFORM (5)",
+          "left": 1590146,
+          "top": 1920293,
+          "width": 1086095,
+          "height": 1086095,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 64519,
+          "name": "AutoShape 7",
+          "type": "FREEFORM (5)",
+          "left": 1499947,
+          "top": 3365875,
+          "width": 1265962,
+          "height": 153670,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 64520,
+          "name": "AutoShape 8",
+          "type": "FREEFORM (5)",
+          "left": 1499947,
+          "top": 3545456,
+          "width": 1265962,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 3,
+          "name": "Object 9",
+          "type": "CHART (3)",
+          "left": 2957449,
+          "top": 1623700,
+          "width": 1675569,
+          "height": 1675569,
+          "content_type": "shape"
+        },
+        {
+          "id": 64522,
+          "name": "AutoShape 10",
+          "type": "FREEFORM (5)",
+          "left": 3252450,
+          "top": 1925068,
+          "width": 1085565,
+          "height": 1086095,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 64523,
+          "name": "AutoShape 11",
+          "type": "FREEFORM (5)",
+          "left": 3162251,
+          "top": 3365875,
+          "width": 1265962,
+          "height": 153670,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 64524,
+          "name": "AutoShape 12",
+          "type": "FREEFORM (5)",
+          "left": 3162251,
+          "top": 3545456,
+          "width": 1265962,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 4,
+          "name": "Object 13",
+          "type": "CHART (3)",
+          "left": 4567755,
+          "top": 1622637,
+          "width": 1677692,
+          "height": 1677692,
+          "content_type": "shape"
+        },
+        {
+          "id": 64526,
+          "name": "AutoShape 14",
+          "type": "FREEFORM (5)",
+          "left": 4863289,
+          "top": 1925068,
+          "width": 1086095,
+          "height": 1086095,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 64527,
+          "name": "AutoShape 15",
+          "type": "FREEFORM (5)",
+          "left": 4773620,
+          "top": 3365875,
+          "width": 1265962,
+          "height": 153670,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 64528,
+          "name": "AutoShape 16",
+          "type": "FREEFORM (5)",
+          "left": 4773620,
+          "top": 3545456,
+          "width": 1265962,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 5,
+          "name": "Object 17",
+          "type": "CHART (3)",
+          "left": 6147820,
+          "top": 1599292,
+          "width": 1724383,
+          "height": 1724383,
+          "content_type": "shape"
+        },
+        {
+          "id": 64530,
+          "name": "AutoShape 18",
+          "type": "FREEFORM (5)",
+          "left": 6467229,
+          "top": 1912865,
+          "width": 1086095,
+          "height": 1086095,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 64531,
+          "name": "AutoShape 19",
+          "type": "FREEFORM (5)",
+          "left": 6377030,
+          "top": 3365875,
+          "width": 1265962,
+          "height": 153670,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 64532,
+          "name": "AutoShape 20",
+          "type": "FREEFORM (5)",
+          "left": 6377030,
+          "top": 3545456,
+          "width": 1265962,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 64533,
+          "name": "Group 21",
+          "type": "GROUP (6)",
+          "left": 1957838,
+          "top": 2292759,
+          "width": 5229387,
+          "height": 326837,
+          "content_type": "shape"
+        },
+        {
+          "id": 6,
+          "name": "椭圆 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 14,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "个人基本信息",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 4,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 121,
+          "name": "Group 120",
+          "type": "GROUP (6)",
+          "left": 1629327,
+          "top": 2095472,
+          "width": 228556,
+          "height": 1101521,
+          "content_type": "shape"
+        },
+        {
+          "id": 130,
+          "name": "Group 129",
+          "type": "GROUP (6)",
+          "left": 1819787,
+          "top": 1454810,
+          "width": 838046,
+          "height": 838046,
+          "content_type": "shape"
+        },
+        {
+          "id": 64,
+          "name": "Group 63",
+          "type": "GROUP (6)",
+          "left": 3457788,
+          "top": 2292854,
+          "width": 228556,
+          "height": 1101521,
+          "content_type": "shape"
+        },
+        {
+          "id": 131,
+          "name": "Group 130",
+          "type": "GROUP (6)",
+          "left": 3153040,
+          "top": 1454810,
+          "width": 838046,
+          "height": 838046,
+          "content_type": "shape"
+        },
+        {
+          "id": 85,
+          "name": "Group 84",
+          "type": "GROUP (6)",
+          "left": 4733902,
+          "top": 2292854,
+          "width": 228556,
+          "height": 1101521,
+          "content_type": "shape"
+        },
+        {
+          "id": 132,
+          "name": "Group 131",
+          "type": "GROUP (6)",
+          "left": 4429155,
+          "top": 1454810,
+          "width": 838046,
+          "height": 838046,
+          "content_type": "shape"
+        },
+        {
+          "id": 93,
+          "name": "Group 92",
+          "type": "GROUP (6)",
+          "left": 6029062,
+          "top": 2292854,
+          "width": 228556,
+          "height": 1101521,
+          "content_type": "shape"
+        },
+        {
+          "id": 133,
+          "name": "Group 132",
+          "type": "GROUP (6)",
+          "left": 5724314,
+          "top": 1454810,
+          "width": 838046,
+          "height": 838046,
+          "content_type": "shape"
+        },
+        {
+          "id": 100,
+          "name": "Group 99",
+          "type": "GROUP (6)",
+          "left": 7295652,
+          "top": 2292854,
+          "width": 228556,
+          "height": 1101521,
+          "content_type": "shape"
+        },
+        {
+          "id": 134,
+          "name": "Group 133",
+          "type": "GROUP (6)",
+          "left": 6990906,
+          "top": 1454810,
+          "width": 838046,
+          "height": 838046,
+          "content_type": "shape"
+        },
+        {
+          "id": 161,
+          "name": "Right Arrow 160",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2734020,
+          "top": 1690325,
+          "width": 352361,
+          "height": 367017,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 162,
+          "name": "Right Arrow 161",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4038702,
+          "top": 1690325,
+          "width": 352361,
+          "height": 367017,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 163,
+          "name": "Right Arrow 162",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5324341,
+          "top": 1690325,
+          "width": 352361,
+          "height": 367017,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 164,
+          "name": "Right Arrow 163",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6609976,
+          "top": 1690325,
+          "width": 352361,
+          "height": 367017,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 51,
+          "name": "Text Placeholder 7",
+          "type": "TEXT_BOX (17)",
+          "left": 1106181,
+          "top": 3267165,
+          "width": 946554,
+          "height": 237644,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 52,
+          "name": "Text Placeholder 2",
+          "type": "TEXT_BOX (17)",
+          "left": 1106181,
+          "top": 3544012,
+          "width": 1247913,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 55,
+          "name": "Text Placeholder 7",
+          "type": "TEXT_BOX (17)",
+          "left": 3016261,
+          "top": 3497458,
+          "width": 946554,
+          "height": 237644,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 56,
+          "name": "Text Placeholder 2",
+          "type": "TEXT_BOX (17)",
+          "left": 3016261,
+          "top": 3774306,
+          "width": 1247913,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 57,
+          "name": "Text Placeholder 7",
+          "type": "TEXT_BOX (17)",
+          "left": 4330288,
+          "top": 3497458,
+          "width": 946554,
+          "height": 237644,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 58,
+          "name": "Text Placeholder 2",
+          "type": "TEXT_BOX (17)",
+          "left": 4330288,
+          "top": 3774306,
+          "width": 1247913,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 59,
+          "name": "Text Placeholder 7",
+          "type": "TEXT_BOX (17)",
+          "left": 5644314,
+          "top": 3497458,
+          "width": 946554,
+          "height": 237644,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 60,
+          "name": "Text Placeholder 2",
+          "type": "TEXT_BOX (17)",
+          "left": 5644314,
+          "top": 3774306,
+          "width": 1247913,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 63,
+          "name": "Text Placeholder 7",
+          "type": "TEXT_BOX (17)",
+          "left": 6958341,
+          "top": 3497458,
+          "width": 946554,
+          "height": 237644,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 65,
+          "name": "Text Placeholder 2",
+          "type": "TEXT_BOX (17)",
+          "left": 6958341,
+          "top": 3774306,
+          "width": 1247913,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "椭圆 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 132698,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 14,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "个人基本信息",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 5,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 5,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 3390108,
+          "top": 1864266,
+          "width": 709154,
+          "height": 709154,
+          "content_type": "shape"
+        },
+        {
+          "id": 26,
+          "name": "Straight Connector 25",
+          "type": "LINE (9)",
+          "left": 2387590,
+          "top": 2218821,
+          "width": 1000401,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 60,
+          "name": "Group 59",
+          "type": "GROUP (6)",
+          "left": 2230053,
+          "top": 1795467,
+          "width": 846756,
+          "height": 846756,
+          "content_type": "shape"
+        },
+        {
+          "id": 32,
+          "name": "Rounded Rectangle 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 1696913,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 33,
+          "name": "Rounded Rectangle 32",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 2122702,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 34,
+          "name": "Rounded Rectangle 33",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 2541135,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 57,
+          "name": "Group 56",
+          "type": "GROUP (6)",
+          "left": 4984533,
+          "top": 3219210,
+          "width": 709154,
+          "height": 709154,
+          "content_type": "shape"
+        },
+        {
+          "id": 59,
+          "name": "Group 58",
+          "type": "GROUP (6)",
+          "left": 4984533,
+          "top": 1869643,
+          "width": 709154,
+          "height": 709154,
+          "content_type": "shape"
+        },
+        {
+          "id": 66,
+          "name": "Straight Connector 65",
+          "type": "LINE (9)",
+          "left": 2387590,
+          "top": 3550577,
+          "width": 1000401,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 67,
+          "name": "Group 66",
+          "type": "GROUP (6)",
+          "left": 2230053,
+          "top": 3127221,
+          "width": 846756,
+          "height": 846756,
+          "content_type": "shape"
+        },
+        {
+          "id": 71,
+          "name": "Rounded Rectangle 70",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 3028667,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 72,
+          "name": "Rounded Rectangle 71",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 3454457,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 73,
+          "name": "Rounded Rectangle 72",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1259946,
+          "top": 3872892,
+          "width": 1127627,
+          "height": 216642,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 74,
+          "name": "Group 73",
+          "type": "GROUP (6)",
+          "left": 3387991,
+          "top": 3203034,
+          "width": 709154,
+          "height": 709154,
+          "content_type": "shape"
+        },
+        {
+          "id": 77,
+          "name": "Straight Connector 76",
+          "type": "LINE (9)",
+          "left": 5685618,
+          "top": 2218673,
+          "width": 1000401,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 78,
+          "name": "Group 77",
+          "type": "GROUP (6)",
+          "left": 6028053,
+          "top": 1795318,
+          "width": 846756,
+          "height": 846756,
+          "content_type": "shape"
+        },
+        {
+          "id": 82,
+          "name": "Rounded Rectangle 81",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 1696768,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 83,
+          "name": "Rounded Rectangle 82",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 2122557,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 84,
+          "name": "Rounded Rectangle 83",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 2540991,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 85,
+          "name": "Straight Connector 84",
+          "type": "LINE (9)",
+          "left": 5685618,
+          "top": 3565052,
+          "width": 1000401,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 86,
+          "name": "Group 85",
+          "type": "GROUP (6)",
+          "left": 6028053,
+          "top": 3141696,
+          "width": 846756,
+          "height": 846756,
+          "content_type": "shape"
+        },
+        {
+          "id": 90,
+          "name": "Rounded Rectangle 89",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 3043146,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 91,
+          "name": "Rounded Rectangle 90",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 3468935,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 92,
+          "name": "Rounded Rectangle 91",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6711986,
+          "top": 3887371,
+          "width": 1137177,
+          "height": 216786,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.55,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 93,
+          "name": "Freeform 5",
+          "type": "FREEFORM (5)",
+          "left": 3671482,
+          "top": 1915385,
+          "width": 1801082,
+          "height": 1840124,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 132698,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 14,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "个人基本信息",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 6,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 11,
+          "name": "TextBox 10",
+          "type": "TEXT_BOX (17)",
+          "left": 683077,
+          "top": 4034346,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "10%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 12,
+          "name": "TextBox 11",
+          "type": "TEXT_BOX (17)",
+          "left": 1623506,
+          "top": 4030693,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "20%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "TextBox 12",
+          "type": "TEXT_BOX (17)",
+          "left": 2563934,
+          "top": 4034346,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "30%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "TextBox 13",
+          "type": "TEXT_BOX (17)",
+          "left": 3504363,
+          "top": 4033489,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "40%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "TextBox 14",
+          "type": "TEXT_BOX (17)",
+          "left": 4444792,
+          "top": 4034346,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "50%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 16,
+          "name": "TextBox 15",
+          "type": "TEXT_BOX (17)",
+          "left": 5385221,
+          "top": 4030693,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "60%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 17,
+          "name": "TextBox 16",
+          "type": "TEXT_BOX (17)",
+          "left": 6325650,
+          "top": 4030693,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "70%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 18,
+          "name": "TextBox 17",
+          "type": "TEXT_BOX (17)",
+          "left": 7266078,
+          "top": 4030693,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "80%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 19,
+          "name": "TextBox 18",
+          "type": "TEXT_BOX (17)",
+          "left": 8206510,
+          "top": 4030693,
+          "width": 208280,
+          "height": 109220,
+          "content_type": "text",
+          "text": "90%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 1.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 20,
+          "name": "Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 700293,
+          "top": 3551744,
+          "width": 1582442,
+          "height": 411435,
+          "content_type": "text",
+          "text": "2017",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 21,
+          "name": "Rectangle 20",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2282734,
+          "top": 3551744,
+          "width": 2574106,
+          "height": 411435,
+          "content_type": "text",
+          "text": "20XX",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 22,
+          "name": "Rectangle 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4856841,
+          "top": 3551744,
+          "width": 3586867,
+          "height": 411435,
+          "content_type": "text",
+          "text": "2019",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 23,
+          "name": "Freeform 22",
+          "type": "FREEFORM (5)",
+          "left": 6959022,
+          "top": 1843733,
+          "width": 402283,
+          "height": 427425,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 24,
+          "name": "Freeform 23",
+          "type": "FREEFORM (5)",
+          "left": 4325812,
+          "top": 1858400,
+          "width": 492376,
+          "height": 398092,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 25,
+          "name": "Freeform 24",
+          "type": "FREEFORM (5)",
+          "left": 1815534,
+          "top": 1816495,
+          "width": 328949,
+          "height": 481901,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 4,
+          "name": "Group 3",
+          "type": "GROUP (6)",
+          "left": 1155339,
+          "top": 2436683,
+          "width": 1649340,
+          "height": 612846,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 3747332,
+          "top": 2436684,
+          "width": 1649340,
+          "height": 612846,
+          "content_type": "shape"
+        },
+        {
+          "id": 6,
+          "name": "Group 5",
+          "type": "GROUP (6)",
+          "left": 6339323,
+          "top": 2436684,
+          "width": 1649340,
+          "height": 612846,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54610,
+          "top": 129540,
+          "width": 628650,
+          "height": 414020,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 7,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "个人基本信息",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 7,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 2,
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 2302745,
+          "top": 701449,
+          "width": 4538510,
+          "height": 4001054,
+          "content_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 3431381,
+          "top": 1518497,
+          "width": 2281238,
+          "height": 852805,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 49.5,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 10,
+          "name": "组合 8",
+          "type": "GROUP (6)",
+          "left": 3330178,
+          "top": 2436469,
+          "width": 2483644,
+          "height": 835231,
+          "content_type": "shape"
+        },
+        {
+          "id": 13,
+          "name": "直接连接符 12",
+          "type": "LINE (9)",
+          "left": 3367088,
+          "top": 2349554,
+          "width": 2409825,
+          "height": 0,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 8,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 13,
+          "name": "Group 12",
+          "type": "GROUP (6)",
+          "left": 6079568,
+          "top": 2520995,
+          "width": 1281065,
+          "height": 1104367,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "Group 7",
+          "type": "GROUP (6)",
+          "left": 6079568,
+          "top": 1354144,
+          "width": 1281065,
+          "height": 1104367,
+          "content_type": "shape"
+        },
+        {
+          "id": 14,
+          "name": "Group 13",
+          "type": "GROUP (6)",
+          "left": 6787235,
+          "top": 2552644,
+          "width": 1281065,
+          "height": 1104367,
+          "content_type": "shape"
+        },
+        {
+          "id": 15,
+          "name": "Group 14",
+          "type": "GROUP (6)",
+          "left": 5371901,
+          "top": 2552644,
+          "width": 1281065,
+          "height": 1104367,
+          "content_type": "shape"
+        },
+        {
+          "id": 19,
+          "name": "Isosceles Triangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1383651,
+          "top": 3888054,
+          "width": 337345,
+          "height": 240342,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Isosceles Triangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3297678,
+          "top": 3888054,
+          "width": 337345,
+          "height": 240342,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 21,
+          "name": "Isosceles Triangle 20",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5211706,
+          "top": 3888054,
+          "width": 337345,
+          "height": 240342,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 22,
+          "name": "Isosceles Triangle 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7125734,
+          "top": 3888054,
+          "width": 337345,
+          "height": 240342,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 24,
+          "name": "Rectangle 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1001356,
+          "top": 4160047,
+          "width": 1199328,
+          "height": 511810,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 25,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2910911,
+          "top": 4160047,
+          "width": 1199328,
+          "height": 511810,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "Rectangle 25",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4820465,
+          "top": 4160047,
+          "width": 1199328,
+          "height": 511810,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "Rectangle 27",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6730020,
+          "top": 4160047,
+          "width": 1199328,
+          "height": 511810,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 29,
+          "name": "TextBox 28",
+          "type": "TEXT_BOX (17)",
+          "left": 977732,
+          "top": 2503522,
+          "width": 1071880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 30,
+          "name": "Rectangle 29",
+          "type": "AUTO_SHAPE (1)",
+          "left": 977732,
+          "top": 2715841,
+          "width": 3974803,
+          "height": 406400,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 157463,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "工作岗位认知",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 9,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 59,
+          "name": "Group 58",
+          "type": "GROUP (6)",
+          "left": 4807787,
+          "top": 1469225,
+          "width": 2993195,
+          "height": 3147605,
+          "content_type": "shape"
+        },
+        {
+          "id": 63,
+          "name": "TextBox 62",
+          "type": "TEXT_BOX (17)",
+          "left": 1183836,
+          "top": 1747205,
+          "width": 1071880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 65,
+          "name": "Rectangle 64",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1180334,
+          "top": 1935330,
+          "width": 3374057,
+          "height": 301625,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 66,
+          "name": "Donut 65",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1242946,
+          "top": 2740862,
+          "width": 515196,
+          "height": 515196,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 67,
+          "name": "Freeform 66",
+          "type": "FREEFORM (5)",
+          "left": 1389262,
+          "top": 2881265,
+          "width": 222562,
+          "height": 234390,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 68,
+          "name": "Freeform 67",
+          "type": "FREEFORM (5)",
+          "left": 1369101,
+          "top": 3965811,
+          "width": 252666,
+          "height": 204284,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 69,
+          "name": "Freeform 68",
+          "type": "FREEFORM (5)",
+          "left": 3317228,
+          "top": 3964018,
+          "width": 168804,
+          "height": 247292,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 70,
+          "name": "Freeform 69",
+          "type": "FREEFORM (5)",
+          "left": 3310023,
+          "top": 2890405,
+          "width": 178480,
+          "height": 216111,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 71,
+          "name": "Donut 70",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3144033,
+          "top": 3819646,
+          "width": 515196,
+          "height": 515196,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 72,
+          "name": "Donut 71",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1239092,
+          "top": 3819753,
+          "width": 515196,
+          "height": 515196,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 73,
+          "name": "Donut 72",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3139976,
+          "top": 2740862,
+          "width": 515196,
+          "height": 515196,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 74,
+          "name": "TextBox 73",
+          "type": "TEXT_BOX (17)",
+          "left": 1771055,
+          "top": 2959887,
+          "width": 690880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 75,
+          "name": "TextBox 74",
+          "type": "TEXT_BOX (17)",
+          "left": 1771055,
+          "top": 2768439,
+          "width": 436880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "80%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 76,
+          "name": "TextBox 75",
+          "type": "TEXT_BOX (17)",
+          "left": 3689636,
+          "top": 2959887,
+          "width": 690880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 77,
+          "name": "TextBox 76",
+          "type": "TEXT_BOX (17)",
+          "left": 3689636,
+          "top": 2768439,
+          "width": 436880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "60%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 78,
+          "name": "TextBox 77",
+          "type": "TEXT_BOX (17)",
+          "left": 1771055,
+          "top": 4045004,
+          "width": 690880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 79,
+          "name": "TextBox 78",
+          "type": "TEXT_BOX (17)",
+          "left": 1771055,
+          "top": 3841769,
+          "width": 436880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "93%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 80,
+          "name": "TextBox 79",
+          "type": "TEXT_BOX (17)",
+          "left": 3689636,
+          "top": 4045004,
+          "width": 690880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 81,
+          "name": "TextBox 80",
+          "type": "TEXT_BOX (17)",
+          "left": 3689636,
+          "top": 3841769,
+          "width": 436880,
+          "height": 275590,
+          "content_type": "text",
+          "text": "55%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 82,
+          "name": "Rectangle 81",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1205173,
+          "top": 3263389,
+          "width": 1706862,
+          "height": 406400,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 83,
+          "name": "Rectangle 82",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1205173,
+          "top": 4346799,
+          "width": 1706862,
+          "height": 406400,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 84,
+          "name": "Rectangle 83",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3099794,
+          "top": 3263389,
+          "width": 1706862,
+          "height": 406400,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 85,
+          "name": "Rectangle 84",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3095436,
+          "top": 4346799,
+          "width": 1706862,
+          "height": 406400,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 157463,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 64,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "工作岗位认知",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 10,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 15,
+          "name": "Group 14",
+          "type": "GROUP (6)",
+          "left": 1418386,
+          "top": 1359058,
+          "width": 1585717,
+          "height": 2195066,
+          "content_type": "shape"
+        },
+        {
+          "id": 14,
+          "name": "Group 13",
+          "type": "GROUP (6)",
+          "left": 2695851,
+          "top": 2070843,
+          "width": 211222,
+          "height": 211222,
+          "content_type": "shape"
+        },
+        {
+          "id": 20,
+          "name": "Group 19",
+          "type": "GROUP (6)",
+          "left": 4655854,
+          "top": 3004544,
+          "width": 110582,
+          "height": 433381,
+          "content_type": "shape"
+        },
+        {
+          "id": 24,
+          "name": "Group 23",
+          "type": "GROUP (6)",
+          "left": 4655854,
+          "top": 2388460,
+          "width": 110582,
+          "height": 433381,
+          "content_type": "shape"
+        },
+        {
+          "id": 28,
+          "name": "Group 27",
+          "type": "GROUP (6)",
+          "left": 4655854,
+          "top": 1709650,
+          "width": 110582,
+          "height": 433381,
+          "content_type": "shape"
+        },
+        {
+          "id": 33,
+          "name": "Straight Connector 32",
+          "type": "LINE (9)",
+          "left": 3133287,
+          "top": 1917719,
+          "width": 1522578,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 34,
+          "name": "Elbow Connector 33",
+          "type": "LINE (9)",
+          "left": 3133086,
+          "top": 2116846,
+          "width": 1522784,
+          "height": 489001,
+          "content_type": "shape"
+        },
+        {
+          "id": 35,
+          "name": "Elbow Connector 34",
+          "type": "LINE (9)",
+          "left": 3133287,
+          "top": 2332839,
+          "width": 1522578,
+          "height": 895369,
+          "content_type": "shape"
+        },
+        {
+          "id": 48,
+          "name": "Group 179",
+          "type": "GROUP (6)",
+          "left": 4879460,
+          "top": 1714538,
+          "width": 154415,
+          "height": 395196,
+          "content_type": "shape"
+        },
+        {
+          "id": 55,
+          "name": "Group 259",
+          "type": "GROUP (6)",
+          "left": 4856877,
+          "top": 2368541,
+          "width": 199612,
+          "height": 428535,
+          "content_type": "shape"
+        },
+        {
+          "id": 60,
+          "name": "Group 179",
+          "type": "GROUP (6)",
+          "left": 4903329,
+          "top": 3100640,
+          "width": 106665,
+          "height": 272991,
+          "content_type": "shape"
+        },
+        {
+          "id": 64,
+          "name": "TextBox 63",
+          "type": "TEXT_BOX (17)",
+          "left": 5981623,
+          "top": 3084086,
+          "width": 2043099,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 67,
+          "name": "TextBox 66",
+          "type": "TEXT_BOX (17)",
+          "left": 5981623,
+          "top": 1732131,
+          "width": 2043099,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 70,
+          "name": "TextBox 69",
+          "type": "TEXT_BOX (17)",
+          "left": 5981623,
+          "top": 2408108,
+          "width": 2043100,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 72,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5104122,
+          "top": 1668246,
+          "width": 650875,
+          "height": 472440,
+          "content_type": "text",
+          "text": "35%",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 25.6,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 73,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5122635,
+          "top": 2329886,
+          "width": 650875,
+          "height": 472440,
+          "content_type": "text",
+          "text": "50%",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 25.6,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 74,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5078535,
+          "top": 2992304,
+          "width": 650875,
+          "height": 472440,
+          "content_type": "text",
+          "text": "15%",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 25.6,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 112,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 2084663,
+          "top": 3883714,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 113,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 2084678,
+          "top": 4061574,
+          "width": 1438955,
+          "height": 420370,
+          "content_type": "text",
+          "text": "点击添加相关标题文字Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 114,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 1685143,
+          "top": 4102046,
+          "width": 322580,
+          "height": 350520,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 22.75,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 115,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 4151644,
+          "top": 3883714,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 116,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 4151652,
+          "top": 4061574,
+          "width": 1438955,
+          "height": 420370,
+          "content_type": "text",
+          "text": "点击添加相关标题文字Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 117,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 3694036,
+          "top": 4102046,
+          "width": 322580,
+          "height": 350520,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 22.75,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 118,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 6207551,
+          "top": 3883714,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 119,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 6207558,
+          "top": 4061574,
+          "width": 1438955,
+          "height": 420370,
+          "content_type": "text",
+          "text": "点击添加相关标题文字Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 120,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5757292,
+          "top": 4102046,
+          "width": 322580,
+          "height": 350520,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 22.75,
+            "bold": false,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 157463,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "工作岗位认知",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 11,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 74,
+          "name": "Group 73",
+          "type": "GROUP (6)",
+          "left": 2520872,
+          "top": 1697807,
+          "width": 4187681,
+          "height": 534626,
+          "content_type": "shape"
+        },
+        {
+          "id": 79,
+          "name": "Group 78",
+          "type": "GROUP (6)",
+          "left": 2845325,
+          "top": 2166744,
+          "width": 3451784,
+          "height": 534626,
+          "content_type": "shape"
+        },
+        {
+          "id": 84,
+          "name": "Group 83",
+          "type": "GROUP (6)",
+          "left": 3214837,
+          "top": 2660800,
+          "width": 3475516,
+          "height": 534626,
+          "content_type": "shape"
+        },
+        {
+          "id": 89,
+          "name": "Group 88",
+          "type": "GROUP (6)",
+          "left": 3681487,
+          "top": 3140286,
+          "width": 3541337,
+          "height": 651423,
+          "content_type": "shape"
+        },
+        {
+          "id": 45,
+          "name": "TextBox 44",
+          "type": "TEXT_BOX (17)",
+          "left": 1098799,
+          "top": 4236564,
+          "width": 6955188,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 46,
+          "name": "Straight Connector 45",
+          "type": "LINE (9)",
+          "left": 1156594,
+          "top": 4172035,
+          "width": 6805261,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 31,
+          "name": "Group 30",
+          "type": "GROUP (6)",
+          "left": 1222208,
+          "top": 1395323,
+          "width": 2761178,
+          "height": 2419134,
+          "content_type": "shape"
+        },
+        {
+          "id": 32,
+          "name": "Text Box 34",
+          "type": "TEXT_BOX (17)",
+          "left": 2163770,
+          "top": 2483599,
+          "width": 508000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 33,
+          "name": "Text Box 35",
+          "type": "TEXT_BOX (17)",
+          "left": 2163770,
+          "top": 1978065,
+          "width": 508000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 41,
+          "name": "Rectangle 36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2163770,
+          "top": 3521834,
+          "width": 508000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 42,
+          "name": "Rectangle 37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2163770,
+          "top": 2936434,
+          "width": 508000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "文字内容",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 157463,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "工作岗位认知",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 12,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 6,
+          "name": "Group 5",
+          "type": "GROUP (6)",
+          "left": 2883529,
+          "top": 2856256,
+          "width": 1785348,
+          "height": 833059,
+          "content_type": "shape"
+        },
+        {
+          "id": 9,
+          "name": "Group 8",
+          "type": "GROUP (6)",
+          "left": 3466223,
+          "top": 1870444,
+          "width": 2187199,
+          "height": 2164426,
+          "content_type": "shape"
+        },
+        {
+          "id": 24,
+          "name": "TextBox 23",
+          "type": "TEXT_BOX (17)",
+          "left": 6304166,
+          "top": 3495214,
+          "width": 297180,
+          "height": 386715,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 25,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6719040,
+          "top": 3647359,
+          "width": 1327935,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "TextBox 25",
+          "type": "TEXT_BOX (17)",
+          "left": 6715517,
+          "top": 3434449,
+          "width": 933450,
+          "height": 193040,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 27,
+          "name": "TextBox 26",
+          "type": "TEXT_BOX (17)",
+          "left": 6304166,
+          "top": 2629655,
+          "width": 297180,
+          "height": 386715,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "Rectangle 27",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6719040,
+          "top": 2781800,
+          "width": 1327935,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 29,
+          "name": "TextBox 28",
+          "type": "TEXT_BOX (17)",
+          "left": 6715517,
+          "top": 2568890,
+          "width": 933450,
+          "height": 193040,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 30,
+          "name": "TextBox 29",
+          "type": "TEXT_BOX (17)",
+          "left": 6304166,
+          "top": 1705125,
+          "width": 297180,
+          "height": 386715,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 31,
+          "name": "Rectangle 30",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6719040,
+          "top": 1857270,
+          "width": 1327935,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 32,
+          "name": "TextBox 31",
+          "type": "TEXT_BOX (17)",
+          "left": 6715517,
+          "top": 1644359,
+          "width": 933450,
+          "height": 193040,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 37,
+          "name": "Rectangle 36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1420609,
+          "top": 2309977,
+          "width": 1015211,
+          "height": 420370,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 38,
+          "name": "Sun 37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1690034,
+          "top": 1791454,
+          "width": 476361,
+          "height": 476361,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 39,
+          "name": "Rectangle 38",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1420609,
+          "top": 3510809,
+          "width": 1015211,
+          "height": 420370,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 40,
+          "name": "Sun 39",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1690034,
+          "top": 2992286,
+          "width": 476361,
+          "height": 476361,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 157463,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 4,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "工作岗位认知",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 13,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 2,
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 2302745,
+          "top": 701449,
+          "width": 4538510,
+          "height": 4001054,
+          "content_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 3431381,
+          "top": 1518497,
+          "width": 2281238,
+          "height": 852805,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 49.5,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 10,
+          "name": "组合 8",
+          "type": "GROUP (6)",
+          "left": 3330178,
+          "top": 2436469,
+          "width": 2483644,
+          "height": 835231,
+          "content_type": "shape"
+        },
+        {
+          "id": 13,
+          "name": "直接连接符 12",
+          "type": "LINE (9)",
+          "left": 3367088,
+          "top": 2349554,
+          "width": 2409825,
+          "height": 0,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 14,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 15,
+          "name": "Group 14",
+          "type": "GROUP (6)",
+          "left": 1051560,
+          "top": 1620611,
+          "width": 2713680,
+          "height": 2713680,
+          "content_type": "shape"
+        },
+        {
+          "id": 37,
+          "name": "TextBox 36",
+          "type": "TEXT_BOX (17)",
+          "left": 4031274,
+          "top": 1966636,
+          "width": 1076938,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 38,
+          "name": "Freeform 5",
+          "type": "FREEFORM (5)",
+          "left": 4031274,
+          "top": 2795807,
+          "width": 451401,
+          "height": 430613,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 39,
+          "name": "Freeform 13",
+          "type": "FREEFORM (5)",
+          "left": 6163200,
+          "top": 2787099,
+          "width": 295344,
+          "height": 448028,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 40,
+          "name": "Rectangle 39",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4031274,
+          "top": 2155212,
+          "width": 4099095,
+          "height": 420370,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 41,
+          "name": "TextBox 40",
+          "type": "TEXT_BOX (17)",
+          "left": 4579135,
+          "top": 2919190,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "42%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 42,
+          "name": "TextBox 41",
+          "type": "TEXT_BOX (17)",
+          "left": 6520914,
+          "top": 2919190,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "58%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 43,
+          "name": "Rectangle 42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4031274,
+          "top": 3659728,
+          "width": 1927892,
+          "height": 525780,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 44,
+          "name": "TextBox 43",
+          "type": "TEXT_BOX (17)",
+          "left": 4031274,
+          "top": 3458759,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 45,
+          "name": "TextBox 44",
+          "type": "TEXT_BOX (17)",
+          "left": 6165236,
+          "top": 3458759,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 46,
+          "name": "Rectangle 45",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6165236,
+          "top": 3659728,
+          "width": 1965134,
+          "height": 525780,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "胜任能力分析",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 15,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 1954,
+          "name": "Group 1954",
+          "type": "GROUP (6)",
+          "left": 4048473,
+          "top": 1571377,
+          "width": 1047055,
+          "height": 2726854,
+          "content_type": "shape"
+        },
+        {
+          "id": 35,
+          "name": "Rectangle 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5193128,
+          "top": 1830730,
+          "width": 1569454,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 36,
+          "name": "TextBox 51",
+          "type": "TEXT_BOX (17)",
+          "left": 5193128,
+          "top": 1617820,
+          "width": 954953,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 37,
+          "name": "Rectangle 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2354778,
+          "top": 2522255,
+          "width": 1569454,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 38,
+          "name": "TextBox 51",
+          "type": "TEXT_BOX (17)",
+          "left": 2969279,
+          "top": 2309345,
+          "width": 954953,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 39,
+          "name": "Rectangle 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5193128,
+          "top": 3151852,
+          "width": 1569454,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 40,
+          "name": "TextBox 51",
+          "type": "TEXT_BOX (17)",
+          "left": 5193128,
+          "top": 2938943,
+          "width": 954953,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 41,
+          "name": "Rectangle 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2354778,
+          "top": 3843377,
+          "width": 1569454,
+          "height": 314960,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 42,
+          "name": "TextBox 51",
+          "type": "TEXT_BOX (17)",
+          "left": 2969279,
+          "top": 3630468,
+          "width": 954953,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "胜任能力分析",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 16,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 2,
+          "name": "Group 3",
+          "type": "GROUP (6)",
+          "left": -10321,
+          "top": 2119818,
+          "width": 3524764,
+          "height": 959121,
+          "content_type": "shape"
+        },
+        {
+          "id": 30,
+          "name": "Group 29",
+          "type": "GROUP (6)",
+          "left": 347473,
+          "top": 814944,
+          "width": 6937818,
+          "height": 3568872,
+          "content_type": "shape"
+        },
+        {
+          "id": 36,
+          "name": "Rectangle 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1792093,
+          "top": 3984816,
+          "width": 5493197,
+          "height": 301625,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 37,
+          "name": "椭圆 36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 38,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 39,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "胜任能力分析",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 17,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 69,
+          "name": "Freeform 68",
+          "type": "FREEFORM (5)",
+          "left": 1696145,
+          "top": 1485785,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 71,
+          "name": "Freeform 70",
+          "type": "FREEFORM (5)",
+          "left": 1696145,
+          "top": 2499182,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 73,
+          "name": "Freeform 72",
+          "type": "FREEFORM (5)",
+          "left": 1696145,
+          "top": 3512579,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 46,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 5029175,
+          "top": 1485785,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 63,
+          "name": "Freeform 62",
+          "type": "FREEFORM (5)",
+          "left": 5029175,
+          "top": 2499182,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 65,
+          "name": "Freeform 64",
+          "type": "FREEFORM (5)",
+          "left": 5029175,
+          "top": 3512579,
+          "width": 2418680,
+          "height": 789104,
+          "content_type": "text",
+          "text": "\n",
+          "text_style": {
+            "alignment": "None",
+            "level": 1
+          }
+        },
+        {
+          "id": 62,
+          "name": "Left-Right Arrow 61",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4229926,
+          "top": 1736964,
+          "width": 724396,
+          "height": 286742,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 66,
+          "name": "Left-Right Arrow 65",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4229926,
+          "top": 2750361,
+          "width": 724396,
+          "height": 286742,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 67,
+          "name": "Left-Right Arrow 66",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4229926,
+          "top": 3763759,
+          "width": 724396,
+          "height": 286742,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 74,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 2206030,
+          "top": 1631254,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 75,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 1809904,
+          "top": 1750284,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 78,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 2206030,
+          "top": 2641368,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 79,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 1809904,
+          "top": 2760399,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 80,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 2206030,
+          "top": 3663414,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 81,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 1809904,
+          "top": 3782444,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 84,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 7004098,
+          "top": 1750284,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 87,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5253862,
+          "top": 1631254,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 90,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 7004098,
+          "top": 2760399,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 91,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5253862,
+          "top": 2641368,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 92,
+          "name": "Freeform 45",
+          "type": "FREEFORM (5)",
+          "left": 7004098,
+          "top": 3791555,
+          "width": 310951,
+          "height": 310951,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 93,
+          "name": "Text Placeholder 3",
+          "type": "TEXT_BOX (17)",
+          "left": 5253862,
+          "top": 3672524,
+          "width": 1680209,
+          "height": 499745,
+          "content_type": "text",
+          "text": "请替换文字内容\u000bPlease replace text, click add relevant headline, modify the text content, also can copy your content to this directly. ",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 68,
+          "name": "Rounded Rectangle 67",
+          "type": "AUTO_SHAPE (1)",
+          "left": 686013,
+          "top": 1429263,
+          "width": 1018072,
+          "height": 907968,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 70,
+          "name": "Rounded Rectangle 69",
+          "type": "AUTO_SHAPE (1)",
+          "left": 686013,
+          "top": 2442663,
+          "width": 1018072,
+          "height": 907966,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 72,
+          "name": "Rounded Rectangle 71",
+          "type": "AUTO_SHAPE (1)",
+          "left": 686013,
+          "top": 3456061,
+          "width": 1018072,
+          "height": 907966,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 45,
+          "name": "Rounded Rectangle 44",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7439915,
+          "top": 1429263,
+          "width": 1018072,
+          "height": 907968,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 48,
+          "name": "Rounded Rectangle 47",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7439915,
+          "top": 2442663,
+          "width": 1018072,
+          "height": 907966,
+          "content_type": "text",
+          "text": "05",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 64,
+          "name": "Rounded Rectangle 63",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7439915,
+          "top": 3456061,
+          "width": 1018072,
+          "height": 907966,
+          "content_type": "text",
+          "text": "06",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "胜任能力分析",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 18,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 2,
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 2302745,
+          "top": 701449,
+          "width": 4538510,
+          "height": 4001054,
+          "content_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 3431381,
+          "top": 1518497,
+          "width": 2281238,
+          "height": 852805,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 49.5,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 10,
+          "name": "组合 8",
+          "type": "GROUP (6)",
+          "left": 3330178,
+          "top": 2436469,
+          "width": 2483644,
+          "height": 835231,
+          "content_type": "shape"
+        },
+        {
+          "id": 13,
+          "name": "直接连接符 12",
+          "type": "LINE (9)",
+          "left": 3367088,
+          "top": 2349554,
+          "width": 2409825,
+          "height": 0,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 19,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 5,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 3585934,
+          "top": 2395975,
+          "width": 1964095,
+          "height": 1775346,
+          "content_type": "shape"
+        },
+        {
+          "id": 26,
+          "name": "Group 130",
+          "type": "GROUP (6)",
+          "left": 6534586,
+          "top": 1695447,
+          "width": 1542422,
+          "height": 487771,
+          "content_type": "shape"
+        },
+        {
+          "id": 29,
+          "name": "Group 131",
+          "type": "GROUP (6)",
+          "left": 6534586,
+          "top": 2469534,
+          "width": 1542422,
+          "height": 526174,
+          "content_type": "shape"
+        },
+        {
+          "id": 32,
+          "name": "Group 144",
+          "type": "GROUP (6)",
+          "left": 6534586,
+          "top": 3282019,
+          "width": 1542422,
+          "height": 506974,
+          "content_type": "shape"
+        },
+        {
+          "id": 35,
+          "name": "Group 145",
+          "type": "GROUP (6)",
+          "left": 6534586,
+          "top": 4075301,
+          "width": 1542422,
+          "height": 487771,
+          "content_type": "shape"
+        },
+        {
+          "id": 38,
+          "name": "Group 113",
+          "type": "GROUP (6)",
+          "left": 1066993,
+          "top": 1682792,
+          "width": 1542422,
+          "height": 513085,
+          "content_type": "shape"
+        },
+        {
+          "id": 41,
+          "name": "Group 117",
+          "type": "GROUP (6)",
+          "left": 1091033,
+          "top": 2466372,
+          "width": 1542422,
+          "height": 519555,
+          "content_type": "shape"
+        },
+        {
+          "id": 44,
+          "name": "Group 118",
+          "type": "GROUP (6)",
+          "left": 1091033,
+          "top": 3256421,
+          "width": 1542422,
+          "height": 526024,
+          "content_type": "shape"
+        },
+        {
+          "id": 47,
+          "name": "Group 119",
+          "type": "GROUP (6)",
+          "left": 1091033,
+          "top": 4052940,
+          "width": 1542422,
+          "height": 532496,
+          "content_type": "shape"
+        },
+        {
+          "id": 50,
+          "name": "Group 108",
+          "type": "GROUP (6)",
+          "left": 2752825,
+          "top": 3294518,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 53,
+          "name": "Group 111",
+          "type": "GROUP (6)",
+          "left": 2752825,
+          "top": 4087803,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 56,
+          "name": "Group 114",
+          "type": "GROUP (6)",
+          "left": 2752825,
+          "top": 2501235,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 59,
+          "name": "Group 117",
+          "type": "GROUP (6)",
+          "left": 2752825,
+          "top": 1707951,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 62,
+          "name": "Group 120",
+          "type": "GROUP (6)",
+          "left": 5934273,
+          "top": 1707951,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 65,
+          "name": "Group 123",
+          "type": "GROUP (6)",
+          "left": 5934273,
+          "top": 2501235,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 68,
+          "name": "Group 126",
+          "type": "GROUP (6)",
+          "left": 5934273,
+          "top": 4087803,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 71,
+          "name": "Group 129",
+          "type": "GROUP (6)",
+          "left": 5934273,
+          "top": 3294518,
+          "width": 468996,
+          "height": 455568,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 4,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "职业目标规划",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 20,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 6,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 1536756,
+          "top": 1398372,
+          "width": 1296080,
+          "height": 1819986,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 2785385,
+          "top": 1398372,
+          "width": 1296080,
+          "height": 1819986,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 17,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 1135587,
+          "top": 2080867,
+          "width": 987489,
+          "height": 1137492,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 22,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 2123076,
+          "top": 1170874,
+          "width": 1458090,
+          "height": 2047484,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 27,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 3447095,
+          "top": 1714459,
+          "width": 1296080,
+          "height": 1503899,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 28,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 4059895,
+          "top": 1398372,
+          "width": 1296080,
+          "height": 1819986,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 29,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 4861899,
+          "top": 2080867,
+          "width": 987489,
+          "height": 1137492,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 31,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 5368244,
+          "top": 1398372,
+          "width": 1296080,
+          "height": 1819986,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 6703814,
+          "top": 1398372,
+          "width": 1296080,
+          "height": 1819986,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 34,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 5980457,
+          "top": 1170874,
+          "width": 1458090,
+          "height": 2047484,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 5,
+          "name": "Group 136",
+          "type": "GROUP (6)",
+          "left": 1331842,
+          "top": 3335924,
+          "width": 541020,
+          "height": 603856,
+          "content_type": "shape"
+        },
+        {
+          "id": 10,
+          "name": "Group 137",
+          "type": "GROUP (6)",
+          "left": 1973414,
+          "top": 3335921,
+          "width": 541020,
+          "height": 886183,
+          "content_type": "shape"
+        },
+        {
+          "id": 13,
+          "name": "Group 136",
+          "type": "GROUP (6)",
+          "left": 2614984,
+          "top": 3335924,
+          "width": 541020,
+          "height": 603856,
+          "content_type": "shape"
+        },
+        {
+          "id": 15,
+          "name": "Group 137",
+          "type": "GROUP (6)",
+          "left": 3256555,
+          "top": 3335921,
+          "width": 541020,
+          "height": 886183,
+          "content_type": "shape"
+        },
+        {
+          "id": 18,
+          "name": "Group 136",
+          "type": "GROUP (6)",
+          "left": 3898126,
+          "top": 3335924,
+          "width": 541020,
+          "height": 603856,
+          "content_type": "shape"
+        },
+        {
+          "id": 20,
+          "name": "Group 137",
+          "type": "GROUP (6)",
+          "left": 4539697,
+          "top": 3335921,
+          "width": 541020,
+          "height": 886183,
+          "content_type": "shape"
+        },
+        {
+          "id": 23,
+          "name": "Group 136",
+          "type": "GROUP (6)",
+          "left": 5181268,
+          "top": 3335924,
+          "width": 541020,
+          "height": 603856,
+          "content_type": "shape"
+        },
+        {
+          "id": 25,
+          "name": "Group 137",
+          "type": "GROUP (6)",
+          "left": 5822839,
+          "top": 3335921,
+          "width": 541020,
+          "height": 886183,
+          "content_type": "shape"
+        },
+        {
+          "id": 33,
+          "name": "Group 136",
+          "type": "GROUP (6)",
+          "left": 6464410,
+          "top": 3335924,
+          "width": 541020,
+          "height": 603856,
+          "content_type": "shape"
+        },
+        {
+          "id": 36,
+          "name": "Group 137",
+          "type": "GROUP (6)",
+          "left": 7105978,
+          "top": 3335921,
+          "width": 541020,
+          "height": 886183,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 4,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "职业目标规划",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 21,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 4,
+          "name": "Rectangle 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7151186,
+          "top": 2574922,
+          "width": 541369,
+          "height": 1265343,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 5,
+          "name": "Oval 4",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7151186,
+          "top": 3569582,
+          "width": 541369,
+          "height": 541369,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 6,
+          "name": "Rectangle 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6390690,
+          "top": 1775761,
+          "width": 541369,
+          "height": 2064506,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Oval 6",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6390690,
+          "top": 3569582,
+          "width": 541369,
+          "height": 541369,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 8,
+          "name": "Rectangle 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5630197,
+          "top": 2093707,
+          "width": 541369,
+          "height": 1746559,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "Oval 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5630197,
+          "top": 3569582,
+          "width": 541369,
+          "height": 541369,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 10,
+          "name": "Rectangle 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4869702,
+          "top": 2927244,
+          "width": 541369,
+          "height": 913022,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Oval 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4869702,
+          "top": 3569582,
+          "width": 541369,
+          "height": 541369,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Rectangle 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4109207,
+          "top": 2574922,
+          "width": 541369,
+          "height": 1265343,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "Oval 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4109207,
+          "top": 3569582,
+          "width": 541369,
+          "height": 541369,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0
+          }
+        },
+        {
+          "id": 14,
+          "name": "Group 13",
+          "type": "GROUP (6)",
+          "left": 7284412,
+          "top": 3700224,
+          "width": 274914,
+          "height": 275384,
+          "content_type": "shape"
+        },
+        {
+          "id": 24,
+          "name": "Group 23",
+          "type": "GROUP (6)",
+          "left": 6532611,
+          "top": 3697705,
+          "width": 257526,
+          "height": 274914,
+          "content_type": "shape"
+        },
+        {
+          "id": 28,
+          "name": "Group 27",
+          "type": "GROUP (6)",
+          "left": 5762483,
+          "top": 3724426,
+          "width": 275384,
+          "height": 231680,
+          "content_type": "shape"
+        },
+        {
+          "id": 32,
+          "name": "Group 31",
+          "type": "GROUP (6)",
+          "left": 5002693,
+          "top": 3702807,
+          "width": 274914,
+          "height": 274914,
+          "content_type": "shape"
+        },
+        {
+          "id": 36,
+          "name": "Group 35",
+          "type": "GROUP (6)",
+          "left": 4242433,
+          "top": 3741278,
+          "width": 274914,
+          "height": 214762,
+          "content_type": "shape"
+        },
+        {
+          "id": 44,
+          "name": "TextBox 43",
+          "type": "TEXT_BOX (17)",
+          "left": 4126524,
+          "top": 4166570,
+          "width": 506730,
+          "height": 104775,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 45,
+          "name": "TextBox 44",
+          "type": "TEXT_BOX (17)",
+          "left": 4886786,
+          "top": 4166570,
+          "width": 506730,
+          "height": 104775,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 46,
+          "name": "TextBox 45",
+          "type": "TEXT_BOX (17)",
+          "left": 5651039,
+          "top": 4166570,
+          "width": 506730,
+          "height": 104775,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 47,
+          "name": "TextBox 46",
+          "type": "TEXT_BOX (17)",
+          "left": 7168267,
+          "top": 4164049,
+          "width": 506730,
+          "height": 104775,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 48,
+          "name": "TextBox 47",
+          "type": "TEXT_BOX (17)",
+          "left": 6408008,
+          "top": 4164353,
+          "width": 506730,
+          "height": 104775,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 49,
+          "name": "TextBox 48",
+          "type": "TEXT_BOX (17)",
+          "left": 6534374,
+          "top": 1483093,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "96%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 50,
+          "name": "TextBox 49",
+          "type": "TEXT_BOX (17)",
+          "left": 4252890,
+          "top": 2284678,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "50%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 51,
+          "name": "TextBox 50",
+          "type": "TEXT_BOX (17)",
+          "left": 5012537,
+          "top": 2663621,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "35%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 52,
+          "name": "TextBox 51",
+          "type": "TEXT_BOX (17)",
+          "left": 7293349,
+          "top": 2325313,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "46%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 53,
+          "name": "TextBox 52",
+          "type": "TEXT_BOX (17)",
+          "left": 5758137,
+          "top": 1839591,
+          "width": 254000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "82%",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 54,
+          "name": "TextBox 53",
+          "type": "TEXT_BOX (17)",
+          "left": 1395623,
+          "top": 2377319,
+          "width": 889000,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 55,
+          "name": "TextBox 54",
+          "type": "TEXT_BOX (17)",
+          "left": 1395548,
+          "top": 2904616,
+          "width": 361315,
+          "height": 260985,
+          "content_type": "text",
+          "text": "85%",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 14.2,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 56,
+          "name": "Rectangle 55",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1392501,
+          "top": 2551527,
+          "width": 2496255,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 57,
+          "name": "Rectangle 56",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1766441,
+          "top": 2942630,
+          "width": 1204687,
+          "height": 184150,
+          "content_type": "text",
+          "text": "请替换文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 9.95,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 58,
+          "name": "Rectangle 57",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1392500,
+          "top": 3136227,
+          "width": 2496256,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 59,
+          "name": "Straight Connector 58",
+          "type": "LINE (9)",
+          "left": 1445759,
+          "top": 3477824,
+          "width": 2435152,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 60,
+          "name": "Group 59",
+          "type": "GROUP (6)",
+          "left": 1499214,
+          "top": 3694871,
+          "width": 302406,
+          "height": 302406,
+          "content_type": "shape"
+        },
+        {
+          "id": 63,
+          "name": "Rectangle 62",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1878567,
+          "top": 3676571,
+          "width": 1974819,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 64,
+          "name": "Rectangle 63",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1399465,
+          "top": 4080335,
+          "width": 2453921,
+          "height": 210185,
+          "content_type": "text",
+          "text": "Please replace text, click add relevant headline, modify the text content, also can copy your content to this directly.",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 5.7,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 65,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "职业目标规划",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 22,
+      "layout_name": "标题幻灯片",
+      "elements": [
+        {
+          "id": 61,
+          "name": "Group 60",
+          "type": "GROUP (6)",
+          "left": 3499354,
+          "top": 3759569,
+          "width": 397902,
+          "height": 396938,
+          "content_type": "shape"
+        },
+        {
+          "id": 60,
+          "name": "Group 59",
+          "type": "GROUP (6)",
+          "left": 3630058,
+          "top": 1763982,
+          "width": 1077670,
+          "height": 1077670,
+          "content_type": "shape"
+        },
+        {
+          "id": 62,
+          "name": "Group 61",
+          "type": "GROUP (6)",
+          "left": 4055888,
+          "top": 2732139,
+          "width": 1495238,
+          "height": 1501173,
+          "content_type": "shape"
+        },
+        {
+          "id": 59,
+          "name": "Group 58",
+          "type": "GROUP (6)",
+          "left": 4872476,
+          "top": 1944170,
+          "width": 397902,
+          "height": 398384,
+          "content_type": "shape"
+        },
+        {
+          "id": 58,
+          "name": "Group 57",
+          "type": "GROUP (6)",
+          "left": 5448767,
+          "top": 1754941,
+          "width": 2280511,
+          "height": 406960,
+          "content_type": "shape"
+        },
+        {
+          "id": 67,
+          "name": "Group 66",
+          "type": "GROUP (6)",
+          "left": 1342746,
+          "top": 3620653,
+          "width": 2029760,
+          "height": 406959,
+          "content_type": "shape"
+        },
+        {
+          "id": 63,
+          "name": "Group 62",
+          "type": "GROUP (6)",
+          "left": 5622187,
+          "top": 3307684,
+          "width": 2119248,
+          "height": 801029,
+          "content_type": "shape"
+        },
+        {
+          "id": 4,
+          "name": "Group 3",
+          "type": "GROUP (6)",
+          "left": 1487633,
+          "top": 1864389,
+          "width": 2119248,
+          "height": 801029,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 116761,
+          "top": 102133,
+          "width": 467849,
+          "height": 468873,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 54545,
+          "top": 124443,
+          "width": 613381,
+          "height": 414020,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "id": 64,
+          "name": "文本框 128",
+          "type": "TEXT_BOX (17)",
+          "left": 559845,
+          "top": 129523,
+          "width": 2396991,
+          "height": 414020,
+          "content_type": "text",
+          "text": "职业目标规划",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 21.0,
+            "bold": true,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 23,
+      "layout_name": "First Slide",
+      "elements": [
+        {
+          "id": 11,
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 1839596,
+          "top": 1317625,
+          "width": 5424170,
+          "height": 1260475,
+          "content_type": "text",
+          "text": "谢谢聆听",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 76.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 12,
+          "name": "矩形 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2083166,
+          "top": 2578164,
+          "width": 4977670,
+          "height": 553998,
+          "content_type": "text",
+          "text": "Professional custom all kinds of industry ppt template, this work belongs to fly impression design original, do not download after the network communication.",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 12",
+          "type": "TEXT_BOX (17)",
+          "left": 3787775,
+          "top": 3030855,
+          "width": 1722755,
+          "height": 299085,
+          "content_type": "text",
+          "text": "汇报人：代用名",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "直接连接符 13",
+          "type": "LINE (9)",
+          "left": 3218075,
+          "top": 3169208,
+          "width": 548640,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 15,
+          "name": "直接连接符 14",
+          "type": "LINE (9)",
+          "left": 5118492,
+          "top": 3164933,
+          "width": 548640,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 2,
+          "name": "组合 1",
+          "type": "GROUP (6)",
+          "left": 0,
+          "top": 4131943,
+          "width": 9144000,
+          "height": 1012007,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "conclusion"
+      ]
+    }
+  ]
+}

@@ -1,30 +1,29 @@
 @echo off
-chcp 65001 > nul
-echo 启动PPT引擎服务...
+echo 正在启动PPT生成引擎...
 
-REM 检查Python是否安装
-where python >nul 2>nul
-if %errorlevel% neq 0 (
-    echo Python未安装，请先安装Python 3.8或更高版本。
+:: 检查虚拟环境
+if exist venv\Scripts\activate.bat (
+    echo 使用虚拟环境
+    call venv\Scripts\activate
+) else (
+    echo 未找到虚拟环境，使用系统Python
+)
+
+:: 预处理所有模板
+echo 预处理PPT模板...
+python preprocess_templates.py
+if %ERRORLEVEL% NEQ 0 (
+    echo 模板预处理失败，但仍将尝试启动应用
+)
+
+:: 启动Flask应用
+echo 启动Web服务...
+python app.py
+
+:: 如果正常退出，提示完成
+if %ERRORLEVEL% EQU 0 (
+    echo PPT引擎已关闭
+) else (
+    echo PPT引擎异常退出，错误代码: %ERRORLEVEL%
     pause
-    exit /b
-)
-
-REM 创建虚拟环境(如果不存在)
-if not exist venv (
-    echo 创建虚拟环境...
-    python -m venv venv
-)
-
-REM 激活虚拟环境
-call venv\Scripts\activate.bat
-
-REM 安装依赖
-echo 安装依赖...
-pip install -r requirements.txt
-
-REM 运行PPT引擎设置脚本
-python setup_ppt_engine.py
-
-echo PPT引擎服务已启动!
-pause 
+) 

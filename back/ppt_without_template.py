@@ -204,13 +204,97 @@ def create_image_slide(prs, slide_data):
     
     # 添加图片
     try:
-        image_data = get_image_for_slide(slide_data)
-        if image_data:
+        # 获取图片
+        image_source = None
+        
+        # 检查是否已有image_url
+        if slide_data.get('image_url'):
+            image_source = slide_data.get('image_url')
+        # 然后检查image字段
+        elif slide_data.get('image'):
+            image_source = slide_data.get('image')
+        
+        # 如果没有找到图片源，尝试调用服务生成
+        if not image_source:
+            image_source = get_image_for_slide(slide_data)
+        
+        # 添加图片到幻灯片
+        if image_source:
             left = Inches(2)
             top = Inches(2.5)
             width = Inches(6)
             height = Inches(4)
-            slide.shapes.add_picture(BytesIO(image_data), left, top, width, height)
+            
+            # 处理不同类型的图片源
+            if isinstance(image_source, bytes):
+                # 如果是二进制数据，直接使用
+                slide.shapes.add_picture(BytesIO(image_source), left, top, width, height)
+                
+            elif isinstance(image_source, str):
+                # 处理字符串类型的图片源
+                if image_source.startswith('file://'):
+                    # 本地文件路径，去掉file://前缀
+                    file_path = image_source[7:]
+                    if os.path.exists(file_path):
+                        try:
+                            # 使用Pillow打开图片，然后保存为内存缓冲区
+                            from PIL import Image
+                            img = Image.open(file_path)
+                            
+                            # 保存为内存缓冲区
+                            img_io = BytesIO()
+                            img_format = img.format if img.format else 'PNG'
+                            img.save(img_io, format=img_format)
+                            img_io.seek(0)
+                            
+                            # 添加到幻灯片
+                            slide.shapes.add_picture(img_io, left, top, width, height)
+                        except Exception as e:
+                            logger.error(f"处理本地图片失败: {str(e)}")
+                            raise e
+                    else:
+                        logger.error(f"图片文件不存在: {file_path}")
+                        raise FileNotFoundError(f"图片文件不存在: {file_path}")
+                        
+                elif image_source.startswith(('http://', 'https://')):
+                    # 网络URL，下载图片
+                    response = requests.get(image_source, timeout=10)
+                    response.raise_for_status()
+                    slide.shapes.add_picture(BytesIO(response.content), left, top, width, height)
+                    
+                elif os.path.exists(image_source):
+                    # 直接使用本地文件路径
+                    slide.shapes.add_picture(image_source, left, top, width, height)
+                    
+                else:
+                    # 未知格式，可能是图片描述，尝试生成图片
+                    image_data = get_image_for_slide(slide_data)
+                    if isinstance(image_data, bytes):
+                        slide.shapes.add_picture(BytesIO(image_data), left, top, width, height)
+                    elif isinstance(image_data, str) and os.path.exists(image_data.replace('file://', '')):
+                        file_path = image_data.replace('file://', '')
+                        slide.shapes.add_picture(file_path, left, top, width, height)
+                    else:
+                        raise ValueError(f"无法处理的图片格式: {type(image_data)}")
+            else:
+                logger.error(f"无法处理的图片源类型: {type(image_source)}")
+                raise TypeError(f"无法处理的图片源类型: {type(image_source)}")
+                
+        else:
+            logger.warning("未找到图片源")
+            # 添加提示文本
+            left = Inches(2)
+            top = Inches(3.5)
+            width = Inches(6)
+            height = Inches(1)
+            error_box = slide.shapes.add_textbox(left, top, width, height)
+            error_box.text_frame.text = "未提供图片"
+            for paragraph in error_box.text_frame.paragraphs:
+                paragraph.alignment = PP_ALIGN.CENTER
+                for run in paragraph.runs:
+                    run.font.size = safe_font_size(20)
+                    run.font.italic = True
+                    run.font.color.rgb = RGBColor(192, 0, 0)
     except Exception as e:
         logger.error(f"添加图片失败: {str(e)}")
         # 添加错误提示
@@ -219,7 +303,7 @@ def create_image_slide(prs, slide_data):
         width = Inches(6)
         height = Inches(1)
         error_box = slide.shapes.add_textbox(left, top, width, height)
-        error_box.text_frame.text = "图片加载失败"
+        error_box.text_frame.text = f"图片加载失败: {str(e)}"
         for paragraph in error_box.text_frame.paragraphs:
             paragraph.alignment = PP_ALIGN.CENTER
             for run in paragraph.runs:

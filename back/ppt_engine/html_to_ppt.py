@@ -251,24 +251,55 @@ class HTMLToPPTConverter:
     
     def _add_image_to_presentation(self, presentation, image_data):
         """
-        将图像添加到演示文稿中
+        将图像添加到演示文稿
         
         Args:
             presentation: 演示文稿对象
             image_data: 图像数据
+            
+        Returns:
+            添加的幻灯片对象
         """
-        # 创建空白幻灯片
-        blank_layout = presentation.slide_layouts[6]  # 6 = 空白布局
-        slide = presentation.slides.add_slide(blank_layout)
-        
-        # 设置图片位置和大小
-        left = 0
-        top = 0
-        width = presentation.slide_width
-        height = presentation.slide_height
-        
-        # 添加图片
-        slide.shapes.add_picture(BytesIO(image_data), left, top, width, height)
+        try:
+            # 添加空白幻灯片
+            slide = presentation.slides.add_slide(presentation.slide_layouts[6])  # 空白布局
+            
+            # 图片位置和大小
+            width = presentation.slide_width
+            height = presentation.slide_height
+            
+            # 使用PIL打开图像并确保正确尺寸
+            if isinstance(image_data, bytes):
+                # 如果是图像数据
+                image = Image.open(BytesIO(image_data))
+            elif isinstance(image_data, str) and image_data.startswith('file://'):
+                # 处理file://开头的路径
+                file_path = image_data[7:]
+                image = Image.open(file_path)
+            else:
+                logger.error(f"不支持的图像数据类型: {type(image_data)}")
+                return None
+            
+            # 调整图像比例
+            img_ratio = image.width / image.height
+            slide_ratio = width / height
+            
+            # 保存为临时文件
+            temp_img = BytesIO()
+            image.save(temp_img, format='PNG')
+            temp_img.seek(0)
+            
+            # 添加图像到幻灯片，覆盖整个幻灯片
+            slide.shapes.add_picture(temp_img, 0, 0, width=width, height=height)
+            
+            logger.info("成功添加图片到幻灯片")
+            
+            return slide
+        except Exception as e:
+            logger.error(f"添加图片到幻灯片失败: {str(e)}")
+            import traceback
+            logger.error(traceback.format_exc())
+            return None
     
     def close(self):
         """关闭浏览器"""

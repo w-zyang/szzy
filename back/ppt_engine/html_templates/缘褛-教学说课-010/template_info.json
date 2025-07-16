@@ -1,0 +1,5030 @@
+{
+  "name": "缘褛-教学说课-010.pptx",
+  "slide_count": 24,
+  "slide_width": 9144000,
+  "slide_height": 5145088,
+  "slides": [
+    {
+      "index": 0,
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "id": 4,
+          "name": "文本框 3",
+          "type": "TEXT_BOX (17)",
+          "left": 653174,
+          "top": 2392274,
+          "width": 4566898,
+          "height": 623248,
+          "content_type": "text",
+          "text": "教学机构PPT模板",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 36.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "TextBox 11",
+          "type": "TEXT_BOX (17)",
+          "left": 617170,
+          "top": 3121159,
+          "width": 4854422,
+          "height": 315481,
+          "content_type": "text",
+          "text": "Your content to play here, or through your copy, paste in this box, and select only the text. Your content to play here, or through your copy, paste in this box, and select only the text.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 8,
+          "name": "直接连接符 7",
+          "type": "LINE (9)",
+          "left": 726181,
+          "top": 3012058,
+          "width": 4012809,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 19,
+          "name": "TextBox 11",
+          "type": "TEXT_BOX (17)",
+          "left": 683568,
+          "top": 3544652,
+          "width": 2147210,
+          "height": 191135,
+          "content_type": "text",
+          "text": "汇报人：代用名        时间：20xxx月x日",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "moving",
+          "type": "PICTURE (13)",
+          "left": -720588,
+          "top": 2267744,
+          "width": 609600,
+          "height": 609600,
+          "content_type": "image"
+        },
+        {
+          "id": 15,
+          "name": "原创设计师QQ598969553                 _16",
+          "type": "TEXT_BOX (17)",
+          "left": 683568,
+          "top": 2068488,
+          "width": 2844316,
+          "height": 354328,
+          "content_type": "text",
+          "text": "单击此处添加您所在公司名称",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 11,
+          "name": "图片 10",
+          "type": "PICTURE (13)",
+          "left": 5256076,
+          "top": 951925,
+          "width": 3690822,
+          "height": 3503945,
+          "content_type": "image"
+        }
+      ],
+      "suitable_for": [
+        "cover"
+      ]
+    },
+    {
+      "index": 1,
+      "layout_name": "空白",
+      "elements": [
+        {
+          "id": 102,
+          "name": "直接连接符 20",
+          "type": "LINE (9)",
+          "left": 3597890,
+          "top": 2007441,
+          "width": 638687,
+          "height": 707983,
+          "content_type": "shape"
+        },
+        {
+          "id": 103,
+          "name": "直接连接符 20",
+          "type": "LINE (9)",
+          "left": 4816568,
+          "top": 2007441,
+          "width": 638687,
+          "height": 707983,
+          "content_type": "shape"
+        },
+        {
+          "id": 104,
+          "name": "直接连接符 20",
+          "type": "LINE (9)",
+          "left": 4989598,
+          "top": 1931234,
+          "width": 2279648,
+          "height": 899527,
+          "content_type": "shape"
+        },
+        {
+          "id": 105,
+          "name": "直接连接符 20",
+          "type": "LINE (9)",
+          "left": 1973195,
+          "top": 1931234,
+          "width": 2138325,
+          "height": 838292,
+          "content_type": "shape"
+        },
+        {
+          "id": 101,
+          "name": "Freeform 27",
+          "type": "FREEFORM (5)",
+          "left": 3178356,
+          "top": 2450517,
+          "width": 770620,
+          "height": 890462,
+          "content_type": "text",
+          "text": "\n02",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 106,
+          "name": "TextBox 105",
+          "type": "TEXT_BOX (17)",
+          "left": 2922283,
+          "top": 3634168,
+          "width": 1260331,
+          "height": 253879,
+          "content_type": "text",
+          "text": "自我评价",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 107,
+          "name": "TextBox 106",
+          "type": "TEXT_BOX (17)",
+          "left": 6876235,
+          "top": 3643227,
+          "width": 1478539,
+          "height": 253879,
+          "content_type": "text",
+          "text": "工作规划和展望",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 108,
+          "name": "TextBox 107",
+          "type": "TEXT_BOX (17)",
+          "left": 1012104,
+          "top": 3634169,
+          "width": 1260331,
+          "height": 253879,
+          "content_type": "text",
+          "text": "工作评价",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 109,
+          "name": "TextBox 108",
+          "type": "TEXT_BOX (17)",
+          "left": 4837636,
+          "top": 3640484,
+          "width": 1260331,
+          "height": 253879,
+          "content_type": "text",
+          "text": "工作体会",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 110,
+          "name": "TextBox 109",
+          "type": "TEXT_BOX (17)",
+          "left": 2710526,
+          "top": 3899760,
+          "width": 1610610,
+          "height": 353650,
+          "content_type": "text",
+          "text": "点击添加相关标题文字，点击添加相关标题文字",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 7.45,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 111,
+          "name": "TextBox 110",
+          "type": "TEXT_BOX (17)",
+          "left": 6751106,
+          "top": 3923380,
+          "width": 1627755,
+          "height": 353650,
+          "content_type": "text",
+          "text": "点击添加相关标题文字，点击添加相关标题文字",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 7.45,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 112,
+          "name": "TextBox 111",
+          "type": "TEXT_BOX (17)",
+          "left": 906225,
+          "top": 3899760,
+          "width": 1615730,
+          "height": 353650,
+          "content_type": "text",
+          "text": "点击添加相关标题文字，点击添加相关标题文字",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 7.45,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 113,
+          "name": "TextBox 112",
+          "type": "TEXT_BOX (17)",
+          "left": 4645132,
+          "top": 3927564,
+          "width": 1637477,
+          "height": 353650,
+          "content_type": "text",
+          "text": "点击添加相关标题文字，点击添加相关标题文字",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 7.45,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 2,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 3961805,
+          "top": 884580,
+          "width": 1197610,
+          "height": 1383859,
+          "content_type": "shape"
+        },
+        {
+          "id": 122,
+          "name": "Freeform 27",
+          "type": "FREEFORM (5)",
+          "left": 7202433,
+          "top": 2450517,
+          "width": 770620,
+          "height": 890462,
+          "content_type": "text",
+          "text": "\n04",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 126,
+          "name": "Freeform 27",
+          "type": "FREEFORM (5)",
+          "left": 1239226,
+          "top": 2465384,
+          "width": 770620,
+          "height": 890462,
+          "content_type": "text",
+          "text": "\n01",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 134,
+          "name": "Freeform 27",
+          "type": "FREEFORM (5)",
+          "left": 5067986,
+          "top": 2491491,
+          "width": 770620,
+          "height": 890462,
+          "content_type": "text",
+          "text": "\n03",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 2,
+      "layout_name": "空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 2644968,
+          "top": 1812679,
+          "width": 1197610,
+          "height": 1383859,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 4283968,
+          "top": 1816460,
+          "width": 1210588,
+          "height": 400110,
+          "content_type": "text",
+          "text": "工作评价",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 20.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "矩形 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4561002,
+          "top": 2152155,
+          "width": 1669047,
+          "height": 253916,
+          "content_type": "text",
+          "text": "PROJECT INTRODUCTION",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-ea",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "直接连接符 6",
+          "type": "LINE (9)",
+          "left": 4310174,
+          "top": 2470958,
+          "width": 341906,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4204732,
+          "top": 2498527,
+          "width": 3276364,
+          "height": 507831,
+          "content_type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh sit amet sem vulputate venenatisbibendum ",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 9,
+          "name": "矩形 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4283968,
+          "top": 3048218,
+          "width": 1111558,
+          "height": 305711,
+          "content_type": "text",
+          "text": "PART ONE",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-lt",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 3,
+      "layout_name": "5_空白",
+      "elements": [
+        {
+          "id": 3,
+          "name": "MH_Other_1",
+          "type": "FREEFORM (5)",
+          "left": 4467445,
+          "top": 1433227,
+          "width": 694149,
+          "height": 694363,
+          "content_type": "text",
+          "text": "A",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 24.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 5,
+          "name": "MH_SubTitle_1",
+          "type": "FREEFORM (5)",
+          "left": 5077710,
+          "top": 986970,
+          "width": 1488842,
+          "height": 586320,
+          "content_type": "text",
+          "text": "单击编辑标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "MH_Other_2",
+          "type": "FREEFORM (5)",
+          "left": 3979257,
+          "top": 2177743,
+          "width": 704618,
+          "height": 704626,
+          "content_type": "text",
+          "text": "B",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 24.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "MH_SubTitle_2",
+          "type": "FREEFORM (5)",
+          "left": 2550512,
+          "top": 1731004,
+          "width": 1513865,
+          "height": 594059,
+          "content_type": "text",
+          "text": "单击编辑标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 8,
+          "name": "MH_Other_1",
+          "type": "FREEFORM (5)",
+          "left": 4467451,
+          "top": 2941022,
+          "width": 694148,
+          "height": 694365,
+          "content_type": "text",
+          "text": "C",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 24.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 9,
+          "name": "MH_SubTitle_1",
+          "type": "FREEFORM (5)",
+          "left": 5077714,
+          "top": 2494771,
+          "width": 1488842,
+          "height": 586324,
+          "content_type": "text",
+          "text": "单击编辑标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 10,
+          "name": "MH_Other_2",
+          "type": "FREEFORM (5)",
+          "left": 3979256,
+          "top": 3685538,
+          "width": 704622,
+          "height": 704628,
+          "content_type": "text",
+          "text": "D",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 24.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 11,
+          "name": "MH_SubTitle_2",
+          "type": "FREEFORM (5)",
+          "left": 2550514,
+          "top": 3238797,
+          "width": 1513862,
+          "height": 594065,
+          "content_type": "text",
+          "text": "单击编辑标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 12,
+          "name": "文本框 11",
+          "type": "TEXT_BOX (17)",
+          "left": 5328084,
+          "top": 1623320,
+          "width": 2486843,
+          "height": 369332,
+          "content_type": "text",
+          "text": "单击此处可编辑内容，根据您的需要自由拉伸文本框大小",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 12",
+          "type": "TEXT_BOX (17)",
+          "left": 5328084,
+          "top": 3125167,
+          "width": 2486843,
+          "height": 369332,
+          "content_type": "text",
+          "text": "单击此处可编辑内容，根据您的需要自由拉伸文本框大小",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 1339601,
+          "top": 2397471,
+          "width": 2486843,
+          "height": 369332,
+          "content_type": "text",
+          "text": "单击此处可编辑内容，根据您的需要自由拉伸文本框大小",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 1339601,
+          "top": 3899318,
+          "width": 2486843,
+          "height": 369332,
+          "content_type": "text",
+          "text": "单击此处可编辑内容，根据您的需要自由拉伸文本框大小",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 4,
+      "layout_name": "8_空白",
+      "elements": [
+        {
+          "id": 47,
+          "name": "椭圆 46",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2899397,
+          "top": 1551628,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 51,
+          "name": "椭圆 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2888228,
+          "top": 2590286,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 55,
+          "name": "椭圆 54",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2888228,
+          "top": 3580400,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 59,
+          "name": "椭圆 58",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5958671,
+          "top": 1551628,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 63,
+          "name": "椭圆 62",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5947503,
+          "top": 2590286,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 67,
+          "name": "椭圆 66",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5947503,
+          "top": 3580400,
+          "width": 473410,
+          "height": 473554,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 2,
+          "name": "组合 2050",
+          "type": "GROUP (6)",
+          "left": 3388432,
+          "top": 1134586,
+          "width": 2520281,
+          "height": 3394643,
+          "content_type": "shape"
+        },
+        {
+          "id": 3,
+          "name": "组合 2048",
+          "type": "GROUP (6)",
+          "left": 6633500,
+          "top": 1444088,
+          "width": 1311128,
+          "height": 3228428,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "组合 2047",
+          "type": "GROUP (6)",
+          "left": 1010537,
+          "top": 1505090,
+          "width": 1519446,
+          "height": 2990071,
+          "content_type": "shape"
+        },
+        {
+          "id": 2054,
+          "name": "TextBox 2053",
+          "type": "TEXT_BOX (17)",
+          "left": 2903374,
+          "top": 1590392,
+          "width": 516500,
+          "height": 415572,
+          "content_type": "text",
+          "text": "01",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Humnst777 BlkCn BT",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 101,
+          "name": "TextBox 100",
+          "type": "TEXT_BOX (17)",
+          "left": 2887525,
+          "top": 2619315,
+          "width": 532348,
+          "height": 415572,
+          "content_type": "text",
+          "text": "02",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "DFGothic-EB",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 102,
+          "name": "TextBox 101",
+          "type": "TEXT_BOX (17)",
+          "left": 2899398,
+          "top": 3595443,
+          "width": 664492,
+          "height": 415572,
+          "content_type": "text",
+          "text": "03",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "DFGothic-EB",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 103,
+          "name": "TextBox 102",
+          "type": "TEXT_BOX (17)",
+          "left": 5967928,
+          "top": 3602571,
+          "width": 692305,
+          "height": 415572,
+          "content_type": "text",
+          "text": "06",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "DFGothic-EB",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 104,
+          "name": "TextBox 103",
+          "type": "TEXT_BOX (17)",
+          "left": 5964046,
+          "top": 2640966,
+          "width": 768194,
+          "height": 415572,
+          "content_type": "text",
+          "text": "05",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "DFGothic-EB",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 105,
+          "name": "TextBox 104",
+          "type": "TEXT_BOX (17)",
+          "left": 5963408,
+          "top": 1567710,
+          "width": 624817,
+          "height": 415572,
+          "content_type": "text",
+          "text": "04",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "DFGothic-EB",
+            "font_size": 21.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 5,
+      "layout_name": "5_空白",
+      "elements": [
+        {
+          "id": 6,
+          "name": "Rectangle 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1284849,
+          "top": 1970949,
+          "width": 1084319,
+          "height": 1198839,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Rectangle 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3135625,
+          "top": 1987510,
+          "width": 1084319,
+          "height": 1198839,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 8,
+          "name": "Rectangle 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4948114,
+          "top": 1939008,
+          "width": 1084319,
+          "height": 1198839,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "Rectangle 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6761281,
+          "top": 1926820,
+          "width": 1084319,
+          "height": 1198839,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "图片占位符 10",
+          "type": "PLACEHOLDER (14)",
+          "left": 1299164,
+          "top": 1963738,
+          "width": 1055688,
+          "height": 1055687,
+          "content_type": "shape"
+        },
+        {
+          "id": 15,
+          "name": "图片占位符 14",
+          "type": "PLACEHOLDER (14)",
+          "left": 3231015,
+          "top": 1979613,
+          "width": 1057275,
+          "height": 1057275,
+          "content_type": "shape"
+        },
+        {
+          "id": 17,
+          "name": "图片占位符 16",
+          "type": "PLACEHOLDER (14)",
+          "left": 6853509,
+          "top": 1979613,
+          "width": 1055687,
+          "height": 1039811,
+          "content_type": "shape"
+        },
+        {
+          "id": 20,
+          "name": "图片占位符 19",
+          "type": "PLACEHOLDER (14)",
+          "left": 5011853,
+          "top": 1979613,
+          "width": 1089604,
+          "height": 1039811,
+          "content_type": "shape"
+        },
+        {
+          "id": 12,
+          "name": "Text Placeholder 22",
+          "type": "TEXT_BOX (17)",
+          "left": 1074078,
+          "top": 3400466,
+          "width": 1553705,
+          "height": 252198,
+          "content_type": "text",
+          "text": "单击此处添加标题",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "Text Placeholder 24",
+          "type": "TEXT_BOX (17)",
+          "left": 1074078,
+          "top": 3667041,
+          "width": 1481697,
+          "height": 885723,
+          "content_type": "text",
+          "text": "在此录入上述图表的综合描述说明，在此录入上述图表的综合描述说明",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 19,
+          "name": "Text Placeholder 22",
+          "type": "TEXT_BOX (17)",
+          "left": 2967751,
+          "top": 3400466,
+          "width": 1553705,
+          "height": 252198,
+          "content_type": "text",
+          "text": "单击此处添加标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 21,
+          "name": "Text Placeholder 24",
+          "type": "TEXT_BOX (17)",
+          "left": 2967753,
+          "top": 3667041,
+          "width": 1481696,
+          "height": 885723,
+          "content_type": "text",
+          "text": "在此录入上述图表的综合描述说明，在此录入上述图表的综合描述说明",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "Text Placeholder 22",
+          "type": "TEXT_BOX (17)",
+          "left": 4799640,
+          "top": 3400466,
+          "width": 1553705,
+          "height": 252198,
+          "content_type": "text",
+          "text": "单击此处添加标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "Text Placeholder 24",
+          "type": "TEXT_BOX (17)",
+          "left": 4799642,
+          "top": 3667041,
+          "width": 1481696,
+          "height": 885723,
+          "content_type": "text",
+          "text": "在此录入上述图表的综合描述说明，在此录入上述图表的综合描述说明",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 33,
+          "name": "Text Placeholder 22",
+          "type": "TEXT_BOX (17)",
+          "left": 6693312,
+          "top": 3400466,
+          "width": 1553705,
+          "height": 252198,
+          "content_type": "text",
+          "text": "单击此处添加标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 35,
+          "name": "Text Placeholder 24",
+          "type": "TEXT_BOX (17)",
+          "left": 6693314,
+          "top": 3667041,
+          "width": 1481696,
+          "height": 885723,
+          "content_type": "text",
+          "text": "在此录入上述图表的综合描述说明，在此录入上述图表的综合描述说明",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 27,
+          "name": "文本框 37",
+          "type": "TEXT_BOX (17)",
+          "left": 494110,
+          "top": 349975,
+          "width": 1836172,
+          "height": 315475,
+          "content_type": "text",
+          "text": "工作评价",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 16.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 29,
+          "name": "椭圆 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7949,
+          "top": 276559,
+          "width": 423777,
+          "height": 423777,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 30,
+          "name": "椭圆 29",
+          "type": "AUTO_SHAPE (1)",
+          "left": 62384,
+          "top": 285120,
+          "width": 423777,
+          "height": 423777,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 6,
+      "layout_name": "1_标题幻灯片",
+      "elements": [
+        {
+          "id": 5,
+          "name": "Freeform 471",
+          "type": "FREEFORM (5)",
+          "left": 4905326,
+          "top": 2932038,
+          "width": 725090,
+          "height": 554906,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 6,
+          "name": "Freeform 476",
+          "type": "FREEFORM (5)",
+          "left": 1352501,
+          "top": 1204207,
+          "width": 781050,
+          "height": 565624,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Oval 493",
+          "type": "FREEFORM (5)",
+          "left": 1352501,
+          "top": 2990388,
+          "width": 547688,
+          "height": 496557,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 8,
+          "name": "Freeform 497",
+          "type": "FREEFORM (5)",
+          "left": 4905326,
+          "top": 1204207,
+          "width": 422672,
+          "height": 583485,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "直接连接符 8",
+          "type": "LINE (9)",
+          "left": 1352501,
+          "top": 1838896,
+          "width": 2782490,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 10,
+          "name": "直接连接符 9",
+          "type": "LINE (9)",
+          "left": 4905328,
+          "top": 1838896,
+          "width": 2759869,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 11,
+          "name": "直接连接符 10",
+          "type": "LINE (9)",
+          "left": 1352501,
+          "top": 3606022,
+          "width": 2782490,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 12,
+          "name": "直接连接符 11",
+          "type": "LINE (9)",
+          "left": 4905328,
+          "top": 3606022,
+          "width": 2759869,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 13,
+          "name": "TextBox 498",
+          "type": "TEXT_BOX (17)",
+          "left": 3006192,
+          "top": 1410786,
+          "width": 1215717,
+          "height": 284644,
+          "content_type": "text",
+          "text": "点击添加内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "TextBox 499",
+          "type": "TEXT_BOX (17)",
+          "left": 6537585,
+          "top": 1410786,
+          "width": 1215717,
+          "height": 284644,
+          "content_type": "text",
+          "text": "点击添加内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "TextBox 500",
+          "type": "TEXT_BOX (17)",
+          "left": 3006192,
+          "top": 3154693,
+          "width": 1215717,
+          "height": 284644,
+          "content_type": "text",
+          "text": "点击添加内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 16,
+          "name": "TextBox 501",
+          "type": "TEXT_BOX (17)",
+          "left": 6537585,
+          "top": 3154693,
+          "width": 1215717,
+          "height": 284644,
+          "content_type": "text",
+          "text": "点击添加内容",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 17,
+          "name": "TextBox 503",
+          "type": "TEXT_BOX (17)",
+          "left": 1259633,
+          "top": 1906770,
+          "width": 3045619,
+          "height": 669298,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字，在此录入上述图表的描述说明。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 18,
+          "name": "TextBox 504",
+          "type": "TEXT_BOX (17)",
+          "left": 4829127,
+          "top": 1906770,
+          "width": 3045619,
+          "height": 669298,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字，在此录入上述图表的描述说明。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 19,
+          "name": "TextBox 505",
+          "type": "TEXT_BOX (17)",
+          "left": 1259633,
+          "top": 3681041,
+          "width": 3045619,
+          "height": 669298,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字，在此录入上述图表的描述说明。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 20,
+          "name": "TextBox 506",
+          "type": "TEXT_BOX (17)",
+          "left": 4829127,
+          "top": 3681041,
+          "width": 3045619,
+          "height": 669298,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字，在此录入上述图表的描述说明。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 10.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 7,
+      "layout_name": "空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 2500952,
+          "top": 1812679,
+          "width": 1197610,
+          "height": 1383859,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 4139952,
+          "top": 1816460,
+          "width": 1210588,
+          "height": 400110,
+          "content_type": "text",
+          "text": "自我评价",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 20.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "矩形 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4416986,
+          "top": 2152155,
+          "width": 1669047,
+          "height": 253916,
+          "content_type": "text",
+          "text": "PROJECT INTRODUCTION",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-ea",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "直接连接符 6",
+          "type": "LINE (9)",
+          "left": 4166158,
+          "top": 2470958,
+          "width": 341906,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4060716,
+          "top": 2498527,
+          "width": 3276364,
+          "height": 507831,
+          "content_type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh sit amet sem vulputate venenatisbibendum ",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 9,
+          "name": "矩形 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4139952,
+          "top": 3048218,
+          "width": 1111558,
+          "height": 305711,
+          "content_type": "text",
+          "text": "PART TWO",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-lt",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 8,
+      "layout_name": "6_空白",
+      "elements": [
+        {
+          "id": 19,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 1267848,
+          "top": 2238442,
+          "width": 1074685,
+          "height": 1082027,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Freeform 8",
+          "type": "FREEFORM (5)",
+          "left": 1139686,
+          "top": 2155619,
+          "width": 432544,
+          "height": 496931,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 21,
+          "name": "Oval 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1481450,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 23,
+          "name": "Freeform 11",
+          "type": "FREEFORM (5)",
+          "left": 7571770,
+          "top": 2906358,
+          "width": 432544,
+          "height": 496931,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 24,
+          "name": "Oval 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7015072,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 26,
+          "name": "Oval 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2588175,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 27,
+          "name": "Freeform 15",
+          "type": "FREEFORM (5)",
+          "left": 3481297,
+          "top": 2238442,
+          "width": 1074685,
+          "height": 1082027,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 28,
+          "name": "Oval 16",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3694899,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 30,
+          "name": "Oval 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4801623,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 31,
+          "name": "Freeform 19",
+          "type": "FREEFORM (5)",
+          "left": 5694745,
+          "top": 2238442,
+          "width": 1074685,
+          "height": 1082027,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Oval 20",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5908347,
+          "top": 2453512,
+          "width": 647481,
+          "height": 651887,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 33,
+          "name": "Freeform 21",
+          "type": "FREEFORM (5)",
+          "left": 7215323,
+          "top": 2657893,
+          "width": 240302,
+          "height": 245794,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 34,
+          "name": "Freeform 22",
+          "type": "FREEFORM (5)",
+          "left": 1673691,
+          "top": 2652550,
+          "width": 262998,
+          "height": 253809,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 35,
+          "name": "Freeform 23",
+          "type": "FREEFORM (5)",
+          "left": 6121948,
+          "top": 2649878,
+          "width": 216272,
+          "height": 259152,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 36,
+          "name": "Freeform 24",
+          "type": "FREEFORM (5)",
+          "left": 2780415,
+          "top": 2655222,
+          "width": 262998,
+          "height": 248465,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 37,
+          "name": "Freeform 25",
+          "type": "FREEFORM (5)",
+          "left": 3887139,
+          "top": 2647207,
+          "width": 262998,
+          "height": 264495,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 38,
+          "name": "Freeform 26",
+          "type": "FREEFORM (5)",
+          "left": 4983184,
+          "top": 2636520,
+          "width": 284358,
+          "height": 285868,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 39,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1094041,
+          "top": 3874779,
+          "width": 1615150,
+          "height": 724814,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 44,
+          "name": "直接连接符 43",
+          "type": "LINE (9)",
+          "left": 1805190,
+          "top": 3435649,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 45,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3307491,
+          "top": 3874779,
+          "width": 1615150,
+          "height": 724814,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 46,
+          "name": "直接连接符 45",
+          "type": "LINE (9)",
+          "left": 4018640,
+          "top": 3435649,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 47,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5532531,
+          "top": 3874779,
+          "width": 1615150,
+          "height": 724814,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 48,
+          "name": "直接连接符 47",
+          "type": "LINE (9)",
+          "left": 6243680,
+          "top": 3435649,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 49,
+          "name": "直接连接符 48",
+          "type": "LINE (9)",
+          "left": 2911914,
+          "top": 1752898,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 50,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2200766,
+          "top": 1127679,
+          "width": 1615150,
+          "height": 544765,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 51,
+          "name": "直接连接符 50",
+          "type": "LINE (9)",
+          "left": 5114094,
+          "top": 1752898,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 52,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4402946,
+          "top": 1127679,
+          "width": 1615150,
+          "height": 544765,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 53,
+          "name": "直接连接符 52",
+          "type": "LINE (9)",
+          "left": 7331514,
+          "top": 1752898,
+          "width": 0,
+          "height": 367078,
+          "content_type": "shape"
+        },
+        {
+          "id": 56,
+          "name": "Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6620366,
+          "top": 1127679,
+          "width": 1615150,
+          "height": 544765,
+          "content_type": "text",
+          "text": "单击添加标题\n您的内容打在这里，或者通过复制您的文本后",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": null,
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 9,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "椭圆 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 975191,
+          "top": 4110349,
+          "width": 216582,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "椭圆 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1573552,
+          "top": 3565800,
+          "width": 216582,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 4,
+          "name": "椭圆 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2365445,
+          "top": 3054746,
+          "width": 215391,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 5,
+          "name": "椭圆 4",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2966310,
+          "top": 3637471,
+          "width": 216582,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 6,
+          "name": "椭圆 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4402022,
+          "top": 3266605,
+          "width": 215391,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "椭圆 6",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5091874,
+          "top": 2833962,
+          "width": 215391,
+          "height": 220282,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 8,
+          "name": "椭圆 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5618992,
+          "top": 2299346,
+          "width": 216582,
+          "height": 220283,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "椭圆 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6733054,
+          "top": 1610359,
+          "width": 216582,
+          "height": 220282,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 10,
+          "name": "椭圆 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7580831,
+          "top": 1164662,
+          "width": 215391,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "文本框 30",
+          "type": "TEXT_BOX (17)",
+          "left": 822009,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "3月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 12,
+          "name": "文本框 31",
+          "type": "TEXT_BOX (17)",
+          "left": 1435033,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "4月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "文本框 32",
+          "type": "TEXT_BOX (17)",
+          "left": 2207175,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "5月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 14,
+          "name": "文本框 33",
+          "type": "TEXT_BOX (17)",
+          "left": 2784327,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "6月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "文本框 34",
+          "type": "TEXT_BOX (17)",
+          "left": 4282544,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "8月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 16,
+          "name": "文本框 35",
+          "type": "TEXT_BOX (17)",
+          "left": 5001989,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "9月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 17,
+          "name": "文本框 36",
+          "type": "TEXT_BOX (17)",
+          "left": 5599541,
+          "top": 4598634,
+          "width": 667436,
+          "height": 269276,
+          "content_type": "text",
+          "text": "10月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 18,
+          "name": "文本框 37",
+          "type": "TEXT_BOX (17)",
+          "left": 6623626,
+          "top": 4598634,
+          "width": 667436,
+          "height": 269276,
+          "content_type": "text",
+          "text": "11月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 19,
+          "name": "文本框 38",
+          "type": "TEXT_BOX (17)",
+          "left": 7471082,
+          "top": 4598634,
+          "width": 667436,
+          "height": 269276,
+          "content_type": "text",
+          "text": "12月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 20,
+          "name": "文本框 39",
+          "type": "TEXT_BOX (17)",
+          "left": 1309947,
+          "top": 4061312,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 21,
+          "name": "文本框 40",
+          "type": "TEXT_BOX (17)",
+          "left": 361725,
+          "top": 3510316,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 22,
+          "name": "文本框 41",
+          "type": "TEXT_BOX (17)",
+          "left": 2009036,
+          "top": 2732263,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 23,
+          "name": "文本框 42",
+          "type": "TEXT_BOX (17)",
+          "left": 2905086,
+          "top": 3327844,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 24,
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 4660601,
+          "top": 3262871,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 25,
+          "name": "文本框 44",
+          "type": "TEXT_BOX (17)",
+          "left": 5352766,
+          "top": 2843635,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "文本框 45",
+          "type": "TEXT_BOX (17)",
+          "left": 5931891,
+          "top": 2286339,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 27,
+          "name": "文本框 46",
+          "type": "TEXT_BOX (17)",
+          "left": 7048651,
+          "top": 1602951,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "直接连接符 27",
+          "type": "LINE (9)",
+          "left": 1167634,
+          "top": 3748208,
+          "width": 431403,
+          "height": 402794,
+          "content_type": "shape"
+        },
+        {
+          "id": 29,
+          "name": "直接连接符 28",
+          "type": "LINE (9)",
+          "left": 1764649,
+          "top": 3186482,
+          "width": 602861,
+          "height": 418382,
+          "content_type": "shape"
+        },
+        {
+          "id": 30,
+          "name": "直接连接符 29",
+          "type": "LINE (9)",
+          "left": 2563083,
+          "top": 3227436,
+          "width": 425311,
+          "height": 453235,
+          "content_type": "shape"
+        },
+        {
+          "id": 31,
+          "name": "椭圆 30",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3593870,
+          "top": 4014973,
+          "width": 216582,
+          "height": 221473,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 32,
+          "name": "直接连接符 31",
+          "type": "LINE (9)",
+          "left": 3160808,
+          "top": 3815745,
+          "width": 436183,
+          "height": 284135,
+          "content_type": "shape"
+        },
+        {
+          "id": 33,
+          "name": "直接连接符 32",
+          "type": "LINE (9)",
+          "left": 3795181,
+          "top": 3446955,
+          "width": 630377,
+          "height": 620974,
+          "content_type": "shape"
+        },
+        {
+          "id": 34,
+          "name": "直接连接符 33",
+          "type": "LINE (9)",
+          "left": 4593878,
+          "top": 3011506,
+          "width": 520136,
+          "height": 296223,
+          "content_type": "shape"
+        },
+        {
+          "id": 35,
+          "name": "直接连接符 34",
+          "type": "LINE (9)",
+          "left": 5285125,
+          "top": 2477651,
+          "width": 356828,
+          "height": 399050,
+          "content_type": "shape"
+        },
+        {
+          "id": 36,
+          "name": "直接连接符 35",
+          "type": "LINE (9)",
+          "left": 5812612,
+          "top": 1781145,
+          "width": 937912,
+          "height": 560180,
+          "content_type": "shape"
+        },
+        {
+          "id": 37,
+          "name": "直接连接符 36",
+          "type": "LINE (9)",
+          "left": 6932166,
+          "top": 1309537,
+          "width": 652635,
+          "height": 350318,
+          "content_type": "shape"
+        },
+        {
+          "id": 38,
+          "name": "文本框 39",
+          "type": "TEXT_BOX (17)",
+          "left": 3866505,
+          "top": 4004156,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 39,
+          "name": "文本框 33",
+          "type": "TEXT_BOX (17)",
+          "left": 3447614,
+          "top": 4598634,
+          "width": 569653,
+          "height": 269276,
+          "content_type": "text",
+          "text": "7月份",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 13.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 40,
+          "name": "文本框 46",
+          "type": "TEXT_BOX (17)",
+          "left": 7155774,
+          "top": 844219,
+          "width": 1061775,
+          "height": 253887,
+          "content_type": "text",
+          "text": "添加文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Calibri",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 41,
+          "name": "组合 60",
+          "type": "GROUP (6)",
+          "left": 408567,
+          "top": 4464485,
+          "width": 8053955,
+          "height": 76692,
+          "content_type": "shape"
+        },
+        {
+          "id": 53,
+          "name": "矩形 52",
+          "type": "AUTO_SHAPE (1)",
+          "left": 976610,
+          "top": 1219953,
+          "width": 3163567,
+          "height": 992551,
+          "content_type": "text",
+          "text": "点击添加小标题\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。\n您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴，并选择只保留文字。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 10,
+      "layout_name": "46_标题和内容",
+      "elements": [
+        {
+          "id": 4,
+          "name": "Rectangle 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0,
+          "top": 1195391,
+          "width": 3392882,
+          "height": 3392882,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 29,
+          "name": "组合 28",
+          "type": "GROUP (6)",
+          "left": 3221853,
+          "top": 1411419,
+          "width": 1863207,
+          "height": 462926,
+          "content_type": "shape"
+        },
+        {
+          "id": 7,
+          "name": "Oval 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4650678,
+          "top": 3796005,
+          "width": 434387,
+          "height": 434387,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 8,
+          "name": "Freeform: Shape 9",
+          "type": "FREEFORM (5)",
+          "left": 4783354,
+          "top": 3963924,
+          "width": 148106,
+          "height": 114857,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "Freeform: Shape 10",
+          "type": "FREEFORM (5)",
+          "left": 4754640,
+          "top": 3935210,
+          "width": 234249,
+          "height": 179087,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 10,
+          "name": "Freeform: Shape 11",
+          "type": "FREEFORM (5)",
+          "left": 4935238,
+          "top": 3970724,
+          "width": 21158,
+          "height": 21914,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Freeform: Shape 12",
+          "type": "FREEFORM (5)",
+          "left": 4927682,
+          "top": 4064423,
+          "width": 28715,
+          "height": 6800,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Freeform: Shape 13",
+          "type": "FREEFORM (5)",
+          "left": 4935239,
+          "top": 4042510,
+          "width": 28715,
+          "height": 7556,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "Freeform: Shape 14",
+          "type": "FREEFORM (5)",
+          "left": 4935239,
+          "top": 4021352,
+          "width": 28715,
+          "height": 6800,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 14,
+          "name": "Freeform: Shape 15",
+          "type": "FREEFORM (5)",
+          "left": 4813580,
+          "top": 3992639,
+          "width": 43072,
+          "height": 28715,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 15,
+          "name": "Oval 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4650678,
+          "top": 2951943,
+          "width": 434387,
+          "height": 434387,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 16,
+          "name": "Freeform: Shape 19",
+          "type": "FREEFORM (5)",
+          "left": 4756152,
+          "top": 3065834,
+          "width": 214603,
+          "height": 229715,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 17,
+          "name": "Freeform: Shape 20",
+          "type": "FREEFORM (5)",
+          "left": 4784865,
+          "top": 3094547,
+          "width": 157174,
+          "height": 143572,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 18,
+          "name": "Freeform: Shape 21",
+          "type": "FREEFORM (5)",
+          "left": 4870253,
+          "top": 3116462,
+          "width": 43072,
+          "height": 43071,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 19,
+          "name": "Oval 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4650678,
+          "top": 2107880,
+          "width": 434387,
+          "height": 434387,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Freeform: Shape 25",
+          "type": "FREEFORM (5)",
+          "left": 4806401,
+          "top": 2271975,
+          "width": 114102,
+          "height": 114858,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 21,
+          "name": "Freeform: Shape 26",
+          "type": "FREEFORM (5)",
+          "left": 4835115,
+          "top": 2300689,
+          "width": 31737,
+          "height": 32492,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 22,
+          "name": "Freeform: Shape 27",
+          "type": "FREEFORM (5)",
+          "left": 4748973,
+          "top": 2222103,
+          "width": 228959,
+          "height": 193445,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 23,
+          "name": "TextBox 33",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 2058948,
+          "width": 3524263,
+          "height": 253915,
+          "content_type": "text",
+          "text": "标题文本预设",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 16.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 24,
+          "name": "TextBox 34",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 2312864,
+          "width": 3524263,
+          "height": 208471,
+          "content_type": "text",
+          "text": "此部分内容作为文字排版占位显示（建议使用主题字体）",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 25,
+          "name": "TextBox 36",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 2917461,
+          "width": 3524263,
+          "height": 253915,
+          "content_type": "text",
+          "text": "标题文本预设",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 16.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 26,
+          "name": "TextBox 37",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 3171377,
+          "width": 3524263,
+          "height": 208471,
+          "content_type": "text",
+          "text": "此部分内容作为文字排版占位显示（建议使用主题字体）",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 27,
+          "name": "TextBox 39",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 3747072,
+          "width": 3524263,
+          "height": 253915,
+          "content_type": "text",
+          "text": "标题文本预设",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 16.0,
+            "bold": true,
+            "italic": null
+          }
+        },
+        {
+          "id": 28,
+          "name": "TextBox 40",
+          "type": "TEXT_BOX (17)",
+          "left": 5081893,
+          "top": 4000988,
+          "width": 3524263,
+          "height": 208471,
+          "content_type": "text",
+          "text": "此部分内容作为文字排版占位显示（建议使用主题字体）",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 30,
+          "name": "Title 1",
+          "type": "TEXT_BOX (17)",
+          "left": 611560,
+          "top": 176438,
+          "width": 2129944,
+          "height": 379477,
+          "content_type": "text",
+          "text": "工作完成情况",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null,
+            "color": "#002060"
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 11,
+      "layout_name": "仅标题",
+      "elements": [
+        {
+          "id": 57,
+          "name": "组合 56",
+          "type": "GROUP (6)",
+          "left": 3652826,
+          "top": 1299105,
+          "width": 1725699,
+          "height": 3133671,
+          "content_type": "shape"
+        },
+        {
+          "id": 59,
+          "name": "组合 58",
+          "type": "GROUP (6)",
+          "left": 6925250,
+          "top": 1299105,
+          "width": 1653763,
+          "height": 3133671,
+          "content_type": "shape"
+        },
+        {
+          "id": 55,
+          "name": "组合 54",
+          "type": "GROUP (6)",
+          "left": 518012,
+          "top": 1299105,
+          "width": 1640076,
+          "height": 3133671,
+          "content_type": "shape"
+        },
+        {
+          "id": 60,
+          "name": "组合 59",
+          "type": "GROUP (6)",
+          "left": 2131544,
+          "top": 903992,
+          "width": 1644385,
+          "height": 3374777,
+          "content_type": "shape"
+        },
+        {
+          "id": 58,
+          "name": "组合 57",
+          "type": "GROUP (6)",
+          "left": 5345899,
+          "top": 903992,
+          "width": 1640544,
+          "height": 3374777,
+          "content_type": "shape"
+        },
+        {
+          "id": 61,
+          "name": "Title 1",
+          "type": "TEXT_BOX (17)",
+          "left": 611560,
+          "top": 176438,
+          "width": 2129944,
+          "height": 379477,
+          "content_type": "text",
+          "text": "成功项目展示",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 18.0,
+            "bold": null,
+            "italic": null,
+            "color": "#002060"
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 12,
+      "layout_name": "空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 2608964,
+          "top": 1812679,
+          "width": 1197610,
+          "height": 1383859,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 4247964,
+          "top": 1816460,
+          "width": 1210588,
+          "height": 400110,
+          "content_type": "text",
+          "text": "工作体会",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 20.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "矩形 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4524998,
+          "top": 2152155,
+          "width": 1669047,
+          "height": 253916,
+          "content_type": "text",
+          "text": "PROJECT INTRODUCTION",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-ea",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "直接连接符 6",
+          "type": "LINE (9)",
+          "left": 4274170,
+          "top": 2470958,
+          "width": 341906,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4168728,
+          "top": 2498527,
+          "width": 3276364,
+          "height": 507831,
+          "content_type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh sit amet sem vulputate venenatisbibendum ",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 9,
+          "name": "矩形 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4247964,
+          "top": 3048218,
+          "width": 1111558,
+          "height": 305711,
+          "content_type": "text",
+          "text": "PART  THREE",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-lt",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 13,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 1",
+          "type": "GROUP (6)",
+          "left": 3132531,
+          "top": 1517742,
+          "width": 2878940,
+          "height": 2867077,
+          "content_type": "shape"
+        },
+        {
+          "id": 12,
+          "name": "组合 87",
+          "type": "GROUP (6)",
+          "left": 1248745,
+          "top": 1692645,
+          "width": 2531167,
+          "height": 742774,
+          "content_type": "shape"
+        },
+        {
+          "id": 14,
+          "name": "组合 93",
+          "type": "GROUP (6)",
+          "left": 1248745,
+          "top": 3485955,
+          "width": 2531167,
+          "height": 742773,
+          "content_type": "shape"
+        },
+        {
+          "id": 16,
+          "name": "组合 99",
+          "type": "GROUP (6)",
+          "left": 6073281,
+          "top": 1584632,
+          "width": 2531167,
+          "height": 742773,
+          "content_type": "shape"
+        },
+        {
+          "id": 18,
+          "name": "组合 105",
+          "type": "GROUP (6)",
+          "left": 6073281,
+          "top": 3377942,
+          "width": 2531167,
+          "height": 742774,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 14,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 48,
+          "name": "图片 47",
+          "type": "PICTURE (13)",
+          "left": 403744,
+          "top": 1498683,
+          "width": 2088232,
+          "height": 2781365,
+          "content_type": "image"
+        },
+        {
+          "id": 49,
+          "name": "图片 48",
+          "type": "PICTURE (13)",
+          "left": 2697597,
+          "top": 1503651,
+          "width": 1988722,
+          "height": 2776397,
+          "content_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "组合 73",
+          "type": "GROUP (6)",
+          "left": 4877783,
+          "top": 1544427,
+          "width": 3575655,
+          "height": 2828132,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "image"
+      ]
+    },
+    {
+      "index": 15,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 1511248,
+          "top": 3032338,
+          "width": 1388987,
+          "height": 786414,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 2446885,
+          "top": 2796004,
+          "width": 1388987,
+          "height": 1022749,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 3382522,
+          "top": 2339012,
+          "width": 1388987,
+          "height": 1479742,
+          "content_type": "shape"
+        },
+        {
+          "id": 11,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 4318159,
+          "top": 3112326,
+          "width": 1388987,
+          "height": 706426,
+          "content_type": "shape"
+        },
+        {
+          "id": 14,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 5253797,
+          "top": 2106990,
+          "width": 1388987,
+          "height": 1711763,
+          "content_type": "shape"
+        },
+        {
+          "id": 17,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 6189435,
+          "top": 2646895,
+          "width": 1388987,
+          "height": 1171859,
+          "content_type": "shape"
+        },
+        {
+          "id": 20,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 2950475,
+          "top": 1343162,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 23,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 3876437,
+          "top": 1350358,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 26,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 4808068,
+          "top": 1343290,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 29,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 5756006,
+          "top": 1343162,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 32,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 6693089,
+          "top": 1345534,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 35,
+          "name": "Group 4",
+          "type": "GROUP (6)",
+          "left": 2004849,
+          "top": 1343162,
+          "width": 394788,
+          "height": 476604,
+          "content_type": "shape"
+        },
+        {
+          "id": 38,
+          "name": "Straight Connector 125",
+          "type": "LINE (9)",
+          "left": 2205740,
+          "top": 1912128,
+          "width": 0,
+          "height": 1120212,
+          "content_type": "shape"
+        },
+        {
+          "id": 39,
+          "name": "Straight Connector 126",
+          "type": "LINE (9)",
+          "left": 3140133,
+          "top": 1912126,
+          "width": 1246,
+          "height": 883879,
+          "content_type": "shape"
+        },
+        {
+          "id": 40,
+          "name": "Straight Connector 127",
+          "type": "LINE (9)",
+          "left": 4077016,
+          "top": 1912127,
+          "width": 0,
+          "height": 426884,
+          "content_type": "shape"
+        },
+        {
+          "id": 41,
+          "name": "Straight Connector 129",
+          "type": "LINE (9)",
+          "left": 5012652,
+          "top": 1912128,
+          "width": 0,
+          "height": 1200200,
+          "content_type": "shape"
+        },
+        {
+          "id": 42,
+          "name": "Straight Connector 135",
+          "type": "LINE (9)",
+          "left": 5948291,
+          "top": 1912127,
+          "width": 0,
+          "height": 213442,
+          "content_type": "shape"
+        },
+        {
+          "id": 43,
+          "name": "Straight Connector 136",
+          "type": "LINE (9)",
+          "left": 6890186,
+          "top": 1912128,
+          "width": 1246,
+          "height": 734767,
+          "content_type": "shape"
+        },
+        {
+          "id": 45,
+          "name": "TextBox 44",
+          "type": "TEXT_BOX (17)",
+          "left": 1295636,
+          "top": 3930274,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 62,
+          "name": "矩形 61",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1243631,
+          "top": 4161018,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 63,
+          "name": "TextBox 62",
+          "type": "TEXT_BOX (17)",
+          "left": 2333186,
+          "top": 3904801,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 64,
+          "name": "矩形 63",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2281180,
+          "top": 4135544,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 65,
+          "name": "TextBox 64",
+          "type": "TEXT_BOX (17)",
+          "left": 3398606,
+          "top": 3904801,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 66,
+          "name": "矩形 65",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3346598,
+          "top": 4135544,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 67,
+          "name": "TextBox 66",
+          "type": "TEXT_BOX (17)",
+          "left": 4501634,
+          "top": 3898714,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 68,
+          "name": "矩形 67",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4449628,
+          "top": 4129458,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 69,
+          "name": "TextBox 68",
+          "type": "TEXT_BOX (17)",
+          "left": 5646967,
+          "top": 3878155,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 70,
+          "name": "矩形 69",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5594959,
+          "top": 4108899,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 71,
+          "name": "TextBox 70",
+          "type": "TEXT_BOX (17)",
+          "left": 6781442,
+          "top": 3857596,
+          "width": 846386,
+          "height": 185628,
+          "content_type": "text",
+          "text": "请替换文字内",
+          "text_style": {
+            "alignment": "JUSTIFY (4)",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 11.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 72,
+          "name": "矩形 71",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6729436,
+          "top": 4088341,
+          "width": 1016495,
+          "height": 434979,
+          "content_type": "text",
+          "text": "也可以直接复制你的内容到此。请替换文字内容，修改文字内容，也",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "Arial",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 16,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 97",
+          "type": "GROUP (6)",
+          "left": 4590167,
+          "top": 556048,
+          "width": 2164652,
+          "height": 2418594,
+          "content_type": "shape"
+        },
+        {
+          "id": 4,
+          "name": "组合 103",
+          "type": "GROUP (6)",
+          "left": 4488764,
+          "top": 2741910,
+          "width": 2418267,
+          "height": 1607808,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "组合 108",
+          "type": "GROUP (6)",
+          "left": 2228943,
+          "top": 961441,
+          "width": 2418267,
+          "height": 1607808,
+          "content_type": "shape"
+        },
+        {
+          "id": 6,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 2374086,
+          "top": 2341325,
+          "width": 2164653,
+          "height": 2418594,
+          "content_type": "shape"
+        },
+        {
+          "id": 7,
+          "name": "组合 118",
+          "type": "GROUP (6)",
+          "left": 1800173,
+          "top": 844652,
+          "width": 497106,
+          "height": 497173,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "组合 125",
+          "type": "GROUP (6)",
+          "left": 6896400,
+          "top": 842681,
+          "width": 497106,
+          "height": 497173,
+          "content_type": "shape"
+        },
+        {
+          "id": 9,
+          "name": "组合 128",
+          "type": "GROUP (6)",
+          "left": 6896400,
+          "top": 3889237,
+          "width": 497106,
+          "height": 497173,
+          "content_type": "shape"
+        },
+        {
+          "id": 11,
+          "name": "组合 133",
+          "type": "GROUP (6)",
+          "left": 1842556,
+          "top": 3889237,
+          "width": 497106,
+          "height": 497173,
+          "content_type": "shape"
+        },
+        {
+          "id": 139,
+          "name": "TextBox 65",
+          "type": "TEXT_BOX (17)",
+          "left": 1224210,
+          "top": 1504354,
+          "width": 1610089,
+          "height": 276969,
+          "content_type": "text",
+          "text": "请输入标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 140,
+          "name": "TextBox 65",
+          "type": "TEXT_BOX (17)",
+          "left": 6331399,
+          "top": 1467594,
+          "width": 1610089,
+          "height": 276969,
+          "content_type": "text",
+          "text": "请输入标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 141,
+          "name": "TextBox 65",
+          "type": "TEXT_BOX (17)",
+          "left": 1308555,
+          "top": 3556853,
+          "width": 1610089,
+          "height": 276969,
+          "content_type": "text",
+          "text": "请输入标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 142,
+          "name": "矩形 141",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2418147,
+          "top": 3889237,
+          "width": 1477381,
+          "height": 346203,
+          "content_type": "text",
+          "text": "在此输入你的文字内容\n在此输入你的文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 143,
+          "name": "TextBox 65",
+          "type": "TEXT_BOX (17)",
+          "left": 6331399,
+          "top": 3556852,
+          "width": 1610089,
+          "height": 276969,
+          "content_type": "text",
+          "text": "请输入标题",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 144,
+          "name": "矩形 143",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2434622,
+          "top": 939692,
+          "width": 1477381,
+          "height": 346203,
+          "content_type": "text",
+          "text": "在此输入你的文字内容\n在此输入你的文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 145,
+          "name": "矩形 144",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5243725,
+          "top": 956169,
+          "width": 1477381,
+          "height": 346203,
+          "content_type": "text",
+          "text": "在此输入你的文字内容\n在此输入你的文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 146,
+          "name": "矩形 145",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5342579,
+          "top": 3922192,
+          "width": 1477381,
+          "height": 346203,
+          "content_type": "text",
+          "text": "在此输入你的文字内容\n在此输入你的文字内容",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 17,
+      "layout_name": "7_空白",
+      "elements": [
+        {
+          "id": 67,
+          "name": "Oval 66",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3281905,
+          "top": 1754510,
+          "width": 1915688,
+          "height": 1916278,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        },
+        {
+          "id": 42,
+          "name": "Chart 41",
+          "type": "CHART (3)",
+          "left": 3381885,
+          "top": 1867479,
+          "width": 1729162,
+          "height": 1745638,
+          "content_type": "shape"
+        },
+        {
+          "id": 3,
+          "name": "Group 24",
+          "type": "GROUP (6)",
+          "left": 4065435,
+          "top": 1851663,
+          "width": 1223622,
+          "height": 376369,
+          "content_type": "shape"
+        },
+        {
+          "id": 4,
+          "name": "Group 25",
+          "type": "GROUP (6)",
+          "left": 4712243,
+          "top": 2842874,
+          "width": 576815,
+          "height": 31633,
+          "content_type": "shape"
+        },
+        {
+          "id": 6,
+          "name": "Group 17",
+          "type": "GROUP (6)",
+          "left": 3106638,
+          "top": 3128573,
+          "width": 819284,
+          "height": 31633,
+          "content_type": "shape"
+        },
+        {
+          "id": 34,
+          "name": "Subtitle 2",
+          "type": "TEXT_BOX (17)",
+          "left": 5399136,
+          "top": 1724046,
+          "width": 2127820,
+          "height": 924840,
+          "content_type": "text",
+          "text": "20%\n单击添加标题\n点击输入详细的内容文本，点击输入详细的内容文本",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Oswald Regular",
+            "font_size": 22.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 35,
+          "name": "Subtitle 2",
+          "type": "TEXT_BOX (17)",
+          "left": 5399135,
+          "top": 2698299,
+          "width": 2177581,
+          "height": 993031,
+          "content_type": "text",
+          "text": "80%\n单击添加标题\n点击输入详细的内容文本，点击输入详细的内容文本",
+          "text_style": {
+            "alignment": "LEFT (1)",
+            "level": 0,
+            "font_name": "Oswald Regular",
+            "font_size": 15.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 37,
+          "name": "Subtitle 2",
+          "type": "TEXT_BOX (17)",
+          "left": 1116532,
+          "top": 1972868,
+          "width": 1931302,
+          "height": 924840,
+          "content_type": "text",
+          "text": "50%\n单击添加标题\n点击输入详细的内容文本，点击输入详细的内容文本",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Oswald Regular",
+            "font_size": 15.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 38,
+          "name": "Subtitle 2",
+          "type": "TEXT_BOX (17)",
+          "left": 1243288,
+          "top": 2974330,
+          "width": 1804546,
+          "height": 924840,
+          "content_type": "text",
+          "text": "40%\n单击添加标题\n点击输入详细的内容文本，点击输入详细的内容文本",
+          "text_style": {
+            "alignment": "RIGHT (3)",
+            "level": 0,
+            "font_name": "Oswald Regular",
+            "font_size": 22.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "Group 12",
+          "type": "GROUP (6)",
+          "left": 3106639,
+          "top": 2085601,
+          "width": 616215,
+          "height": 605594,
+          "content_type": "shape"
+        },
+        {
+          "id": 68,
+          "name": "Oval 67",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4082116,
+          "top": 2575390,
+          "width": 327951,
+          "height": 328052,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 18,
+      "layout_name": "空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 113",
+          "type": "GROUP (6)",
+          "left": 2411403,
+          "top": 1812679,
+          "width": 1197610,
+          "height": 1383859,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 3887924,
+          "top": 1816460,
+          "width": 1980029,
+          "height": 400110,
+          "content_type": "text",
+          "text": "工作规划和展望",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 20.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "矩形 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4327437,
+          "top": 2152155,
+          "width": 1669047,
+          "height": 253916,
+          "content_type": "text",
+          "text": "PROJECT INTRODUCTION",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-ea",
+            "font_size": 10.5,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "直接连接符 6",
+          "type": "LINE (9)",
+          "left": 4076609,
+          "top": 2470958,
+          "width": 341906,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 8,
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3971167,
+          "top": 2498527,
+          "width": 3276364,
+          "height": 507831,
+          "content_type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh sit amet sem vulputate venenatisbibendum ",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": null,
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 9,
+          "name": "矩形 8",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4050403,
+          "top": 3048218,
+          "width": 1111558,
+          "height": 305711,
+          "content_type": "text",
+          "text": "PART FOUR",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "+mj-lt",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 19,
+      "layout_name": "8_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "组合 3",
+          "type": "GROUP (6)",
+          "left": 1020486,
+          "top": 1527098,
+          "width": 1675228,
+          "height": 2631074,
+          "content_type": "shape"
+        },
+        {
+          "id": 3,
+          "name": "组合 11",
+          "type": "GROUP (6)",
+          "left": 2824180,
+          "top": 1527098,
+          "width": 1675228,
+          "height": 2631074,
+          "content_type": "shape"
+        },
+        {
+          "id": 4,
+          "name": "组合 18",
+          "type": "GROUP (6)",
+          "left": 4620417,
+          "top": 1527098,
+          "width": 1675228,
+          "height": 2631074,
+          "content_type": "shape"
+        },
+        {
+          "id": 12,
+          "name": "组合 25",
+          "type": "GROUP (6)",
+          "left": 6424110,
+          "top": 1527098,
+          "width": 1675228,
+          "height": 2631074,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 20,
+      "layout_name": "8_空白",
+      "elements": [
+        {
+          "id": 12,
+          "name": "PA_Chart 11",
+          "type": "CHART (3)",
+          "left": 773473,
+          "top": 1704956,
+          "width": 3539239,
+          "height": 2437846,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "PA_淘宝店chenying0907 12",
+          "type": "GROUP (6)",
+          "left": 4341537,
+          "top": 1704954,
+          "width": 4301567,
+          "height": 715750,
+          "content_type": "shape"
+        },
+        {
+          "id": 6,
+          "name": "PA_淘宝店chenying0907 16",
+          "type": "GROUP (6)",
+          "left": 4341537,
+          "top": 2591329,
+          "width": 4301567,
+          "height": 715749,
+          "content_type": "shape"
+        },
+        {
+          "id": 7,
+          "name": "PA_淘宝店chenying0907 20",
+          "type": "GROUP (6)",
+          "left": 4341537,
+          "top": 3477703,
+          "width": 4301567,
+          "height": 715749,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 21,
+      "layout_name": "8_空白",
+      "elements": [
+        {
+          "id": 4,
+          "name": "组合 3",
+          "type": "GROUP (6)",
+          "left": 2140522,
+          "top": 1159642,
+          "width": 2135558,
+          "height": 3141275,
+          "content_type": "shape"
+        },
+        {
+          "id": 5,
+          "name": "组合 4",
+          "type": "GROUP (6)",
+          "left": 5085058,
+          "top": 1067308,
+          "width": 2180045,
+          "height": 3017330,
+          "content_type": "shape"
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 22,
+      "layout_name": "8_空白",
+      "elements": [
+        {
+          "id": 2,
+          "name": "Freeform 6",
+          "type": "FREEFORM (5)",
+          "left": 4436382,
+          "top": 2198429,
+          "width": 288119,
+          "height": 285654,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 3,
+          "name": "Freeform 7",
+          "type": "FREEFORM (5)",
+          "left": 4445755,
+          "top": 3038616,
+          "width": 283186,
+          "height": 276280,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 4,
+          "name": "Freeform 8",
+          "type": "FREEFORM (5)",
+          "left": 4454143,
+          "top": 3872884,
+          "width": 271345,
+          "height": 314762,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 5,
+          "name": "Oval 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4274562,
+          "top": 2447575,
+          "width": 624587,
+          "height": 624591,
+          "content_type": "text",
+          "text": "标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 6,
+          "name": "Oval 10",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5211443,
+          "top": 2336075,
+          "width": 536277,
+          "height": 535786,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Oval 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4274562,
+          "top": 3280855,
+          "width": 624587,
+          "height": 624591,
+          "content_type": "text",
+          "text": "标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 8,
+          "name": "Oval 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3567090,
+          "top": 2924157,
+          "width": 535784,
+          "height": 536280,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 9,
+          "name": "Oval 13",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4343138,
+          "top": 4156071,
+          "width": 503716,
+          "height": 504705,
+          "content_type": "text",
+          "text": "标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 10,
+          "name": "Oval 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5479335,
+          "top": 3588710,
+          "width": 432672,
+          "height": 432181,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Freeform 15",
+          "type": "FREEFORM (5)",
+          "left": 4439836,
+          "top": 1327652,
+          "width": 271838,
+          "height": 314762,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Oval 16",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4260254,
+          "top": 1609853,
+          "width": 625081,
+          "height": 624591,
+          "content_type": "text",
+          "text": "标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 13,
+          "name": "Oval 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3629746,
+          "top": 1574825,
+          "width": 389257,
+          "height": 389259,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 14,
+          "name": "Oval 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4327844,
+          "top": 854522,
+          "width": 504702,
+          "height": 504705,
+          "content_type": "text",
+          "text": "标题",
+          "text_style": {
+            "alignment": "CENTER (2)",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 12.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "Oval 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5190229,
+          "top": 1201847,
+          "width": 432672,
+          "height": 432674,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 16,
+          "name": "Oval 20",
+          "type": "AUTO_SHAPE (1)",
+          "left": 2897114,
+          "top": 2185601,
+          "width": 432179,
+          "height": 432181,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 17,
+          "name": "Oval 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5872045,
+          "top": 1680896,
+          "width": 374457,
+          "height": 379885,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 18,
+          "name": "组合 17",
+          "type": "GROUP (6)",
+          "left": 2790053,
+          "top": 2735634,
+          "width": 1483974,
+          "height": 520986,
+          "content_type": "shape"
+        },
+        {
+          "id": 21,
+          "name": "组合 20",
+          "type": "GROUP (6)",
+          "left": 4885335,
+          "top": 1894169,
+          "width": 1484507,
+          "height": 520986,
+          "content_type": "shape"
+        },
+        {
+          "id": 24,
+          "name": "组合 23",
+          "type": "GROUP (6)",
+          "left": 2790054,
+          "top": 3588710,
+          "width": 1484507,
+          "height": 520986,
+          "content_type": "shape"
+        },
+        {
+          "id": 27,
+          "name": "组合 26",
+          "type": "GROUP (6)",
+          "left": 4832546,
+          "top": 3887438,
+          "width": 1484507,
+          "height": 520986,
+          "content_type": "shape"
+        },
+        {
+          "id": 30,
+          "name": "组合 29",
+          "type": "GROUP (6)",
+          "left": 2847334,
+          "top": 1113535,
+          "width": 1484507,
+          "height": 520986,
+          "content_type": "shape"
+        },
+        {
+          "id": 33,
+          "name": "TextBox 32",
+          "type": "TEXT_BOX (17)",
+          "left": 6452266,
+          "top": 2254148,
+          "width": 1936157,
+          "height": 429366,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 34,
+          "name": "TextBox 33",
+          "type": "TEXT_BOX (17)",
+          "left": 6369841,
+          "top": 3280855,
+          "width": 1936157,
+          "height": 429366,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 35,
+          "name": "TextBox 34",
+          "type": "TEXT_BOX (17)",
+          "left": 1061964,
+          "top": 3961138,
+          "width": 1936157,
+          "height": 429366,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 36,
+          "name": "TextBox 35",
+          "type": "TEXT_BOX (17)",
+          "left": 1061964,
+          "top": 2916285,
+          "width": 1936157,
+          "height": 429366,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 37,
+          "name": "TextBox 36",
+          "type": "TEXT_BOX (17)",
+          "left": 1061964,
+          "top": 1374028,
+          "width": 1936157,
+          "height": 429366,
+          "content_type": "text",
+          "text": "您的内容打在这里，或者通过复制您的文本后，在此框中选择粘贴。",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 9.0,
+            "bold": null,
+            "italic": null
+          }
+        }
+      ],
+      "suitable_for": [
+        "general"
+      ]
+    },
+    {
+      "index": 23,
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "id": 4,
+          "name": "文本框 3",
+          "type": "TEXT_BOX (17)",
+          "left": 653174,
+          "top": 2392274,
+          "width": 4566898,
+          "height": 623248,
+          "content_type": "text",
+          "text": "演讲完毕 谢谢观看",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 36.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 7,
+          "name": "TextBox 11",
+          "type": "TEXT_BOX (17)",
+          "left": 617170,
+          "top": 3121159,
+          "width": 4854422,
+          "height": 315481,
+          "content_type": "text",
+          "text": "Your content to play here, or through your copy, paste in this box, and select only the text. Your content to play here, or through your copy, paste in this box, and select only the text.",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 8,
+          "name": "直接连接符 7",
+          "type": "LINE (9)",
+          "left": 726181,
+          "top": 3012058,
+          "width": 4012809,
+          "height": 0,
+          "content_type": "shape"
+        },
+        {
+          "id": 17,
+          "name": "文本框 16",
+          "type": "TEXT_BOX (17)",
+          "left": 611560,
+          "top": 1204392,
+          "width": 2448272,
+          "height": 992579,
+          "content_type": "text",
+          "text": "",
+          "text_style": {
+            "alignment": "None",
+            "level": 0
+          }
+        },
+        {
+          "id": 19,
+          "name": "TextBox 11",
+          "type": "TEXT_BOX (17)",
+          "left": 683568,
+          "top": 3544652,
+          "width": 2147210,
+          "height": 191135,
+          "content_type": "text",
+          "text": "汇报人：代用名       时间：20xxx月x日",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 8.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 15,
+          "name": "原创设计师QQ598969553                 _16",
+          "type": "TEXT_BOX (17)",
+          "left": 683568,
+          "top": 2068488,
+          "width": 2844316,
+          "height": 354328,
+          "content_type": "text",
+          "text": "单击此处添加您所在公司名称",
+          "text_style": {
+            "alignment": "None",
+            "level": 0,
+            "font_name": "微软雅黑",
+            "font_size": 14.0,
+            "bold": null,
+            "italic": null
+          }
+        },
+        {
+          "id": 11,
+          "name": "图片 10",
+          "type": "PICTURE (13)",
+          "left": 5256076,
+          "top": 951925,
+          "width": 3690822,
+          "height": 3503945,
+          "content_type": "image"
+        }
+      ],
+      "suitable_for": [
+        "conclusion"
+      ]
+    }
+  ]
+}

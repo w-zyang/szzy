@@ -13,7 +13,7 @@ from flask_cors import CORS
 from datetime import datetime
 from dotenv import load_dotenv
 from knowledge_retrieval import get_retriever  # 导入知识库检索模块
-from image_service import get_image_for_slide  # 导入图片服务模块
+from image_service import get_image_for_slide, ImageService  # 导入图片服务模块
 from io import BytesIO
 from PIL import Image
 import tempfile
@@ -36,7 +36,27 @@ logger = logging.getLogger("ppt_generation")
 # 加载环境变量
 load_dotenv()
 
-app = Flask(__name__)
+# 配置文件路径
+CONFIG_FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
+
+# 如果配置文件不存在，创建默认配置
+if not os.path.exists(CONFIG_FILE_PATH):
+    default_config = {
+        "AI_IMAGE_API_KEY": "",  # 这里填入您的API密钥
+        "AI_IMAGE_API_URL": "",  # 这里填入API URL
+        "USE_AI_IMAGES": True,
+        "TEMPLATE_DIR": os.path.join(os.path.dirname(os.path.abspath(__file__)), "ppt_templates")
+    }
+    
+    try:
+        with open(CONFIG_FILE_PATH, 'w', encoding='utf-8') as f:
+            json.dump(default_config, f, indent=4, ensure_ascii=False)
+        logger.info(f"创建了默认配置文件: {CONFIG_FILE_PATH}")
+    except Exception as e:
+        logger.error(f"创建配置文件失败: {str(e)}")
+
+# 初始化应用
+app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app, resources={
     r"/api/*": {"origins": "*"},
     r"/uploads/*": {"origins": "*"},
@@ -867,58 +887,57 @@ def generate_outline():
 
 def preprocess_outline_data(outline):
     """
-    预处理大纲数据，确保数据格式正确
+    预处理大纲数据，确保其格式正确
     
     Args:
-        outline: 大纲数据列表
+        outline: 原始大纲数据
         
     Returns:
-        处理后的大纲数据列表
+        processed_outline: 处理后的大纲数据
     """
-    processed_outline = []
+    logger.info("预处理大纲数据")
     
-    for slide in outline:
-        # 确保slide是字典
+    if not outline:
+        return []
+        
+    # 如果是字符串，尝试解析JSON
+    if isinstance(outline, str):
+        try:
+            outline = json.loads(outline)
+        except:
+            logger.warning("解析大纲JSON失败，尝试作为纯文本处理")
+            # 按行拆分，创建简单的幻灯片大纲
+            lines = outline.strip().split('\n')
+            outline = []
+            for i, line in enumerate(lines):
+                if i == 0:  # 第一行作为标题
+                    outline.append({"type": "title", "title": line, "subtitle": ""})
+                else:  # 其他行作为内容页
+                    outline.append({"type": "content", "title": line, "content": ""})
+                    
+    # 确保是列表
+    if not isinstance(outline, list):
+        outline = [outline]
+        
+    # 处理每个幻灯片
+    for i, slide in enumerate(outline):
+        # 确保是字典
         if not isinstance(slide, dict):
-            logger.warning(f"跳过非字典类型的幻灯片数据: {slide}")
+            outline[i] = {"type": "content", "title": str(slide), "content": ""}
             continue
             
-        # 确保title和content字段存在且为字符串
-        if 'title' not in slide:
-            slide['title'] = ""
-        elif not isinstance(slide['title'], str):
-            slide['title'] = str(slide['title'])
-            
-        if 'content' not in slide:
-            slide['content'] = ""
-        elif not isinstance(slide['content'], str):
-            slide['content'] = str(slide['content'])
-            
-        # 处理keypoints字段
-        if 'keypoints' in slide and slide['keypoints']:
-            if not isinstance(slide['keypoints'], list):
-                # 如果keypoints不是列表，转换为列表
-                slide['keypoints'] = [str(slide['keypoints'])]
+        # 添加默认类型
+        if 'type' not in slide:
+            # 判断幻灯片类型
+            if i == 0:
+                slide['type'] = 'title'  # 第一张默认为标题页
+            elif i == len(outline) - 1:
+                slide['type'] = 'conclusion'  # 最后一张默认为结论页
             else:
-                # 确保keypoints中的每个元素都是字符串或列表
-                processed_keypoints = []
-                for point in slide['keypoints']:
-                    if isinstance(point, list):
-                        # 如果是嵌套列表，确保每个元素都是字符串
-                        processed_point = [str(item) if item is not None else "" for item in point]
-                        processed_keypoints.append(processed_point)
-                    else:
-                        # 如果不是列表，转换为字符串
-                        processed_keypoints.append(str(point) if point is not None else "")
-                slide['keypoints'] = processed_keypoints
+                slide['type'] = 'content'  # 其他默认为内容页
                 
-        # 确保layout字段存在
-        if 'layout' not in slide or not slide['layout']:
-            slide['layout'] = 'content'  # 默认布局
-            
-        processed_outline.append(slide)
-    
-    return processed_outline
+    logger.info(f"预处理完成，共 {len(outline)} 张幻灯片")
+    return outline
 
 # 修改gen_pptx_python函数，集成HTML中间格式方法
 @app.route('/api/aiPpt/gen-pptx-python', methods=['POST'])
@@ -1200,123 +1219,144 @@ def gen_pptx_without_template():
 
 @app.route('/api/aiPpt/gen-pptx-enhanced', methods=['POST'])
 def gen_pptx_enhanced():
-    """使用增强版PPT生成器生成PPTX"""
-    logger.info("=== 开始生成PPT(增强版) ===")
+    """生成增强版PPT（使用HTML中间格式）"""
+    start_time = time.time()
+    logger.info("=== 开始生成增强版PPT ===")
+    
     try:
-        data = request.json
-        logger.info(f"接收到的请求数据: {json.dumps(data, ensure_ascii=False)[:200]}...")
-        
+        # 解析请求数据
+        data = request.get_json()
         if not data:
-            logger.error("请求数据为空")
-            return jsonify({"error": "请求数据为空"}), 400
+            return jsonify({"error": "请提供有效的大纲数据"}), 400
+        
+        # 提取主题和模板名称
+        theme = data.get('theme', '')
+        template_name = data.get('template_name', '')
+        outline = data.get('outline', [])
+        
+        if not outline or not isinstance(outline, list):
+            return jsonify({"error": "请提供有效的大纲数据"}), 400
             
-        if not data.get('outline'):
-            logger.error("缺少大纲数据")
-            return jsonify({"error": "缺少大纲数据"}), 400
+        # 预处理大纲数据
+        processed_outline = preprocess_outline_data_enhanced(outline)
         
-        outline = data.get('outline')
-        template_name = data.get('template')
-        topic = data.get('topic', '')
-        
-        logger.info(f"主题: {topic}")
-        logger.info(f"模板名称: {template_name}")
-        logger.info(f"大纲页数: {len(outline)}")
-        
-        # 检查大纲数据，确保至少有一页有效内容
-        valid_outline = []
-        for slide in outline:
-            # 确保每个幻灯片至少有标题或内容
-            if not slide.get('title') and not slide.get('content'):
-                # 如果既没有标题也没有内容，使用主题作为标题
-                slide['title'] = topic or "未命名幻灯片"
-            # 确保有layout字段
-            if not slide.get('layout'):
-                slide['layout'] = 'keypoints'  # 默认使用要点布局
-            valid_outline.append(slide)
-        
-        # 使用有效的大纲
-        outline = valid_outline
-        
-        # 预处理大纲数据，确保数据格式正确
-        outline = preprocess_outline_data(outline)
-        logger.info(f"处理后的大纲页数: {len(outline)}")
-        
-        # 生成唯一的文件名
+        # 确定输出路径
         timestamp = int(time.time())
-        filename = f"test_app_{timestamp}.pptx"
-        output_path = os.path.join(UPLOAD_FOLDER, filename)
+        output_filename = f"enhanced_{timestamp}.pptx"
+        output_path = os.path.join(UPLOAD_FOLDER, output_filename)
         
         # 确定模板路径
         template_path = None
         if template_name:
-            template_path = os.path.join(TEMPLATE_FOLDER, f"{template_name}.pptx")
-            if not os.path.exists(template_path):
-                logger.warning(f"模板不存在: {template_path}")
-                template_path = None
-                
-        # 尝试使用HTML中间格式生成PPT
+            # 检查是否是完整路径
+            if os.path.exists(template_name):
+                template_path = template_name
+            else:
+                # 尝试在模板目录中查找
+                possible_template = os.path.join(TEMPLATE_FOLDER, template_name)
+                if os.path.exists(possible_template):
+                    template_path = possible_template
+                else:
+                    # 尝试添加.pptx后缀查找
+                    if not template_name.endswith('.pptx'):
+                        possible_template = os.path.join(TEMPLATE_FOLDER, f"{template_name}.pptx")
+                        if os.path.exists(possible_template):
+                            template_path = possible_template
+            
+            if not template_path:
+                logger.warning(f"模板不存在: {template_name}")
+        
+        # 使用统一生成器生成PPT
         try:
-            # 优先使用HTML中间格式方法
-            logger.info("尝试使用HTML中间格式方法生成增强版PPT")
+            from ppt_engine.unified_generator import generate_ppt_from_outline
+            logger.info(f"使用HTML中间格式生成PPT，模板: {template_path}")
+            ppt_path = generate_ppt_from_outline(processed_outline, template_path, output_path)
             
-            # 导入PPT引擎
-            try:
-                from ppt_engine.unified_generator import generate_ppt_from_outline
-                html_ppt_success = generate_ppt_from_outline(outline, template_path, output_path)
+            if not ppt_path or not os.path.exists(ppt_path):
+                logger.error("HTML中间格式生成PPT失败，尝试使用备用方法")
+                raise Exception("HTML中间格式生成失败")
                 
-                if html_ppt_success and os.path.exists(output_path):
-                    logger.info(f"HTML中间格式方法生成PPT成功: {output_path}")
-                    ppt_url = f"/uploads/{filename}"
-                    logger.info(f"PPT URL: {ppt_url}")
-                    logger.info("=== PPT生成完成 ===")
-                    return jsonify({"pptUrl": ppt_url})
-            except ImportError:
-                logger.warning("未找到ppt_engine模块，将使用传统方法")
-            except Exception as e:
-                logger.warning(f"HTML中间格式方法生成PPT失败: {str(e)}")
-                logger.warning(traceback.format_exc())
-            
-            # 如果HTML方法失败，回退到原始方法
-            logger.info("回退到原始增强方法生成PPT")
+            logger.info(f"成功使用HTML中间格式生成PPT: {ppt_path}")
         except Exception as e:
-            logger.warning(f"HTML中间格式方法出错: {str(e)}")
-            logger.warning(traceback.format_exc())
-        
-        # 调用增强版PPT生成器
-        try:
-            # 导入增强版PPT生成器
-            from enhanced_ppt_generator import generate_ppt
+            # 如果HTML中间格式生成失败，回退到原始方法
+            logger.error(f"HTML中间格式生成失败: {str(e)}")
+            logger.error(traceback.format_exc())
             
-            # 直接调用函数
-            success = generate_ppt(outline, output_path, template_path)
-            if not success:
-                logger.error("PPT生成函数执行失败")
-                return jsonify({"error": "PPT生成失败"}), 500
-                
-            logger.info("PPT生成函数执行成功")
-                
-        except Exception as e:
-            logger.error(f"PPT生成过程中发生异常: {str(e)}")
-            logger.error(f"异常详情: {traceback.format_exc()}")
-            return jsonify({"error": f"PPT生成失败: {str(e)}"}), 500
+            # 使用原始方法生成（不带模板）
+            from ppt_without_template import create_ppt_without_template
+            logger.info("回退到原始方法生成PPT")
+            ppt_path = create_ppt_without_template(processed_outline, output_path)
         
-        # 确保文件已生成
-        if not os.path.exists(output_path):
-            logger.error(f"PPT文件未生成: {output_path}")
-            return jsonify({"error": "PPT生成失败，文件未创建"}), 500
+        # 检查生成的PPT文件是否存在
+        if not os.path.exists(ppt_path):
+            return jsonify({"error": "生成PPT失败，请重试"}), 500
             
-        file_size = os.path.getsize(output_path)
-        logger.info(f"PPT文件已生成，大小: {file_size} 字节")
+        # 计算生成时间
+        generation_time = time.time() - start_time
         
-        ppt_url = f"/uploads/{filename}"
-        logger.info(f"PPT URL: {ppt_url}")
+        # 构造响应数据
+        file_url = f"/uploads/{os.path.basename(ppt_path)}"
+        file_size = os.path.getsize(ppt_path)
+        
+        response_data = {
+            "file_url": file_url,
+            "file_name": os.path.basename(ppt_path),
+            "file_size": file_size,
+            "generation_time": generation_time,
+            "status": "success"
+        }
+        
+        logger.info(f"PPT生成成功: {ppt_path}, 大小: {file_size} 字节, 生成时间: {generation_time:.2f}秒")
         logger.info("=== PPT生成完成 ===")
         
-        return jsonify({"pptUrl": ppt_url})
+        return jsonify(response_data), 200
+        
     except Exception as e:
-        logger.error(f"PPT生成过程中发生异常: {str(e)}")
-        logger.error(f"异常详情: {traceback.format_exc()}")
-        return jsonify({"error": f"PPT生成失败: {str(e)}"}), 500
+        logger.error(f"PPT生成异常: {str(e)}")
+        logger.error(traceback.format_exc())
+        return jsonify({"error": f"生成PPT时发生错误: {str(e)}"}), 500
+
+def preprocess_outline_data_enhanced(outline_data):
+    """预处理增强版大纲数据，添加缺失的字段"""
+    if not outline_data:
+        return []
+
+    # 确保数据是列表类型
+    if not isinstance(outline_data, list):
+        if isinstance(outline_data, dict):
+            outline_data = [outline_data]
+        else:
+            logger.error(f"大纲数据格式不正确: {type(outline_data)}")
+            return []
+
+    # 处理每个幻灯片数据
+    for slide in outline_data:
+        # 确保基本字段存在
+        if 'title' not in slide:
+            slide['title'] = '未命名幻灯片'
+            
+        if 'content' not in slide:
+            slide['content'] = ''
+
+        # 处理要点列表
+        if 'bullet_points' not in slide:
+            slide['bullet_points'] = []
+
+        # 添加类型字段
+        if 'type' not in slide:
+            # 尝试根据内容推断类型
+            if slide.get('image') or slide.get('image_url'):
+                slide['type'] = 'image'
+            elif slide.get('table') or slide.get('chart'):
+                slide['type'] = 'table'
+            else:
+                slide['type'] = 'content'
+                
+            # 特殊处理第一张幻灯片
+            if outline_data.index(slide) == 0:
+                slide['type'] = 'cover'
+
+    return outline_data
 
 # 保持原始的HTML中间格式API端点
 @app.route('/api/aiPpt/generate-html-ppt', methods=['POST'])
@@ -1443,10 +1483,10 @@ def gen_educational_ppt():
         logger.error(f"异常详情: {traceback.format_exc()}")
         return jsonify({"error": f"请求处理失败: {str(e)}"}), 500
 
-# 辅助函数：预处理大纲数据
-def preprocess_outline_data(outline):
+# 辅助函数：预处理大纲数据（旧版）- 函数名已修改，使用新版本在上面定义
+def preprocess_outline_data_legacy(outline):
     """
-    预处理大纲数据，确保格式正确
+    预处理大纲数据，确保格式正确（旧版本，保留兼容）
     
     Args:
         outline: 原始大纲数据
@@ -1949,6 +1989,150 @@ ONLY返回符合JSON格式的思维导图数据，不要有其他任何文本说
         logger.error(f"生成思维导图出错: {str(e)}")
         logger.error(traceback.format_exc())
         return jsonify({"success": False, "error": f"生成思维导图失败: {str(e)}"}), 500
+
+def create_image_description(slide, topic):
+    """为幻灯片创建图片描述"""
+    title = slide.get('title', '')
+    content = slide.get('content', '')
+    slide_type = slide.get('type', '').lower()
+    
+    # 构建基础描述
+    image_desc = f"{topic}：{title}" if topic else title
+    
+    # 添加内容摘要
+    if content:
+        # 限制长度
+        content_summary = content[:100] + ("..." if len(content) > 100 else "")
+        image_desc += f"，{content_summary}"
+        
+    # 添加要点关键词
+    keypoints = slide.get('keypoints', slide.get('bullet_points', []))
+    if keypoints and len(keypoints) > 0:
+        # 最多使用3个要点
+        points = []
+        for i, point in enumerate(keypoints):
+            if i >= 3:
+                break
+            if isinstance(point, dict):
+                points.append(point.get('text', ''))
+            else:
+                points.append(str(point))
+                
+        if points:
+            points_text = "，".join(points)
+            image_desc += f"，要点：{points_text}"
+    
+    # 根据幻灯片类型添加关键词增强描述
+    if slide_type == 'cover':
+        image_desc += "，高清封面图，专业PPT"
+    elif slide_type == 'conclusion':
+        image_desc += "，总结图，专业PPT"
+    elif 'compare' in slide.get('layout', '').lower():
+        image_desc += "，对比图，专业PPT"
+        
+    # 增加通用质量描述
+    image_desc += "，高质量，教育场景，专业插图"
+    
+    logger.info(f"创建图片描述: {image_desc}")
+    return image_desc
+
+# 添加增强版PPT生成API
+@app.route('/api/enhancedPpt/generate', methods=['POST'])
+def generate_enhanced_ppt():
+    """新的增强型PPT生成API，使用自定义模板和AI生成图片"""
+    logger.info("=== 开始使用增强型PPT生成 ===")
+    try:
+        data = request.json
+        if not data:
+            return jsonify({"error": "请提供有效的JSON数据"}), 400
+            
+        # 提取参数
+        topic = data.get('topic')
+        subject = data.get('subject', '')
+        outline = data.get('outline')
+        template_name = data.get('template')
+        theme = data.get('theme', 'edu')  # 默认使用教育主题
+        
+        # 检查必要参数
+        if not topic and not outline:
+            return jsonify({"error": "必须提供主题或大纲"}), 400
+        
+        # 生成唯一文件名
+        timestamp = int(time.time())
+        output_filename = f"enhanced_ppt_{timestamp}.pptx"
+        output_path = os.path.join(UPLOAD_FOLDER, output_filename)
+        
+        # 确定模板路径
+        template_path = None
+        if template_name:
+            # 首先在用户自定义模板目录中查找模板
+            user_template_path = os.path.join(app.root_path, "ppt_templates", f"{template_name}.pptx")
+            if os.path.exists(user_template_path):
+                template_path = user_template_path
+                logger.info(f"使用自定义模板: {template_path}")
+            else:
+                # 如果在自定义目录中未找到，则在默认模板目录中查找
+                default_template_path = os.path.join(app.root_path, "ppt_engine", "default_templates", f"{template_name}.pptx")
+                if os.path.exists(default_template_path):
+                    template_path = default_template_path
+                    logger.info(f"使用默认模板: {template_path}")
+                else:
+                    return jsonify({"error": f"模板不存在: {template_name}"}), 404
+        
+        # 导入PPT引擎
+        try:
+            from ppt_engine.core import PPTEngineCore
+        except ImportError:
+            logger.warning("未找到ppt_engine模块，尝试导入本地模块")
+            # 本地ppt_engine目录的路径
+            engine_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ppt_engine")
+            if os.path.exists(engine_dir):
+                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                from ppt_engine.core import PPTEngineCore
+            else:
+                return jsonify({"error": "缺少PPT引擎模块"}), 500
+        
+        # 初始化PPT引擎
+        ppt_engine = PPTEngineCore({
+            'output_dir': UPLOAD_FOLDER,
+            'use_ai_images': True,  # 启用AI图像生成
+            'template_dir': os.path.join(app.root_path, "ppt_templates")  # 指定用户自定义模板目录
+        })
+        
+        # 生成PPT
+        try:
+            if outline:
+                # 使用现有大纲
+                logger.info("使用提供的大纲生成PPT")
+                output_path = ppt_engine.create_presentation(outline, template_path, theme)
+            else:
+                # 使用主题自动生成
+                logger.info(f"使用主题'{topic}'自动生成PPT")
+                output_path = ppt_engine.generate_from_topic(topic, subject, template_path, theme)
+                
+            if not output_path or not os.path.exists(output_path):
+                logger.error("PPT生成失败")
+                return jsonify({"error": "PPT生成失败，请检查参数"}), 500
+                
+            logger.info(f"PPT生成成功: {output_path}")
+            
+            # 返回文件路径
+            return jsonify({
+                "success": True, 
+                "message": "PPT生成成功",
+                "file_path": f"/uploads/{os.path.basename(output_path)}",
+                "file_name": os.path.basename(output_path)
+            })
+            
+        except Exception as e:
+            logger.error(f"PPT生成过程中发生异常: {str(e)}")
+            logger.error(traceback.format_exc())
+            return jsonify({"error": f"PPT生成失败: {str(e)}"}), 500
+            
+    except Exception as e:
+        logger.error(f"处理请求过程中发生异常: {str(e)}")
+        logger.error(traceback.format_exc())
+        return jsonify({"error": str(e)}), 500
 
 # 如果直接运行此文件，则启动应用
 if __name__ == '__main__':

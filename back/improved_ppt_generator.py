@@ -221,9 +221,8 @@ class ImageComponent(SlideComponentBase):
     
     def apply(self, slide, data, context=None):
         """应用图片组件"""
-        if not data.get('image') and not context.get('image_service'):
-            return slide
-            
+        logger.info(f"处理图片组件，数据: {data.get('title', '')}")
+        
         try:
             # 查找图片占位符
             image_placeholder = None
@@ -234,28 +233,96 @@ class ImageComponent(SlideComponentBase):
                     
             # 确定图片数据
             image_data = None
+            image_path = None
+            image_url = None
             
             # 如果提供了图片URL或数据
             if data.get('image'):
                 image_url = data['image']
-                if isinstance(image_url, str) and (image_url.startswith('http://') or image_url.startswith('https://')):
-                    # 从URL下载图片
-                    response = requests.get(image_url, stream=True)
-                    response.raise_for_status()
-                    image_data = response.content
-                elif isinstance(image_url, bytes):
-                    # 直接使用字节数据
-                    image_data = image_url
-                elif os.path.exists(image_url):
-                    # 从本地文件加载
-                    with open(image_url, 'rb') as f:
-                        image_data = f.read()
+                logger.info(f"幻灯片提供了图片信息: {image_url[:100] if isinstance(image_url, str) else type(image_url)}")
+                
+                # 处理不同类型的图片数据
+                if isinstance(image_url, str):
+                    if image_url.startswith('http://') or image_url.startswith('https://'):
+                        # 从URL下载图片
+                        try:
+                            logger.info(f"尝试下载图片URL: {image_url}")
+                            response = requests.get(image_url, stream=True, timeout=10)
+                            response.raise_for_status()
+                            image_data = response.content
+                            logger.info(f"成功下载图片，大小: {len(image_data)} 字节")
+                        except Exception as e:
+                            logger.warning(f"下载图片失败: {str(e)}")
+                    elif image_url.startswith('/'):
+                        # 本地路径，构建完整路径
+                        local_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                                 image_url.lstrip('/'))
+                        logger.info(f"处理本地图片路径: {local_path}")
+                        if os.path.exists(local_path):
+                            try:
+                                with open(local_path, 'rb') as f:
+                                    image_data = f.read()
+                                logger.info(f"成功加载本地图片，大小: {len(image_data)} 字节")
+                            except Exception as e:
+                                logger.warning(f"读取本地图片失败: {str(e)}")
+                        else:
+                            logger.warning(f"本地图片路径不存在: {local_path}")
+                    else:
+                        # 可能是图片描述而非URL，尝试使用图片服务生成
+                        logger.info(f"检测到图片描述，尝试生成图片: {image_url}")
             
-            # 如果没有图片数据但有图片服务，尝试获取相关图片
-            elif context and context.get('image_service'):
+            # 如果没有有效的图片数据，尝试使用图片服务
+            if not image_data and context and context.get('image_service'):
                 image_service = context['image_service']
-                prompt = f"{data.get('title', '')} {data.get('content', '')}"
-                image_data = image_service.get_image_for_slide(data)
+                logger.info("使用图片服务生成图片")
+                
+                # 构建图片描述
+                if isinstance(data.get('image'), str) and not data['image'].startswith(('http://', 'https://', '/')):
+                    # 如果已有图片描述，直接使用
+                    image_prompt = data['image']
+                else:
+                    # 否则从幻灯片内容构建描述
+                    image_prompt = f"{data.get('title', '')}"
+                    if data.get('content'):
+                        image_prompt += f" - {data.get('content', '')[:100]}"
+                    if data.get('keypoints'):
+                        points_str = ", ".join([str(p) for p in data.get('keypoints', [])[:3]])
+                        image_prompt += f" - {points_str}"
+                
+                logger.info(f"图片生成提示词: {image_prompt}")
+                
+                # 调用图片服务获取图片
+                try:
+                    # 直接使用图片服务的图片生成函数
+                    image_url = image_service.generate_image(image_prompt)
+                    logger.info(f"图片生成成功，URL: {image_url}")
+                    
+                    # 从URL加载图片数据
+                    if image_url:
+                        if image_url.startswith('http'):
+                            # 网络URL
+                            response = requests.get(image_url, timeout=10)
+                            response.raise_for_status()
+                            image_data = response.content
+                        elif image_url.startswith('/'):
+                            # 本地路径
+                            local_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                                     image_url.lstrip('/'))
+                            if os.path.exists(local_path):
+                                with open(local_path, 'rb') as f:
+                                    image_data = f.read()
+                except Exception as e:
+                    logger.error(f"图片生成/获取失败: {str(e)}")
+            
+            # 如果还是没有图片数据，尝试使用默认图片
+            if not image_data:
+                logger.warning("无法获取或生成图片，使用默认图片")
+                default_image_path = self._get_default_image(data)
+                if default_image_path and os.path.exists(default_image_path):
+                    with open(default_image_path, 'rb') as f:
+                        image_data = f.read()
+                else:
+                    logger.error(f"默认图片不存在: {default_image_path}")
             
             # 如果有图片数据，添加到幻灯片
             if image_data:
@@ -277,6 +344,9 @@ class ImageComponent(SlideComponentBase):
                 
                 # 添加图片
                 slide.shapes.add_picture(BytesIO(image_data), left, top, width, height)
+                logger.info("图片已成功添加到幻灯片")
+            else:
+                logger.error("无法获取有效的图片数据")
             
         except Exception as e:
             logger.error(f"添加图片失败: {str(e)}")
@@ -297,6 +367,64 @@ class ImageComponent(SlideComponentBase):
                     run.font.color.rgb = RGBColor(192, 0, 0)
                     
         return slide
+        
+    def _get_default_image(self, slide_data):
+        """获取适合幻灯片内容的默认图片"""
+        # 默认图片目录
+        default_images_dir = DEFAULT_IMAGES_DIR
+        if not os.path.exists(default_images_dir):
+            return None
+        
+        # 根据幻灯片类型选择默认图片
+        slide_type = slide_data.get('type', '').lower()
+        
+        # 映射幻灯片类型到默认图片
+        type_to_image = {
+            'cover': 'cover.jpg',
+            'title': 'cover.jpg',
+            'conclusion': 'conclusion.jpg',
+            'summary': 'summary.jpg'
+        }
+        
+        # 检查标题关键词
+        title = slide_data.get('title', '').lower()
+        keywords_map = {
+            'biology': ['生物', '细胞', '植物', '动物'],
+            'cell': ['细胞', '生物结构'],
+            'plant_cell': ['植物细胞', '植物'],
+            'animal_cell': ['动物细胞', '动物']
+        }
+        
+        # 根据标题关键词选择图片
+        selected_image = None
+        for image_key, keywords in keywords_map.items():
+            for keyword in keywords:
+                if keyword in title:
+                    selected_image = f"{image_key}.jpg"
+                    break
+            if selected_image:
+                break
+        
+        # 如果根据关键词没找到，使用类型映射
+        if not selected_image and slide_type in type_to_image:
+            selected_image = type_to_image[slide_type]
+        
+        # 如果都没有匹配，使用通用默认图片
+        if not selected_image:
+            selected_image = 'default.jpg'
+        
+        # 构建完整路径
+        image_path = os.path.join(default_images_dir, selected_image)
+        if os.path.exists(image_path):
+            return image_path
+            
+        # 如果指定图片不存在，使用任何可用的图片
+        images = [f for f in os.listdir(default_images_dir) 
+                 if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
+        if images:
+            return os.path.join(default_images_dir, images[0])
+                
+        return None
 
 class TableComponent(SlideComponentBase):
     """表格组件"""
@@ -710,6 +838,8 @@ def generate_ppt(slides_data, output_path, template_path=None, theme=None, image
         bool: 成功返回True，失败返回False
     """
     try:
+        logger.info("开始生成PPT，共 %d 张幻灯片", len(slides_data))
+        
         # 创建PPT生成器
         generator = PPTGenerator(template_path)
         
@@ -722,12 +852,21 @@ def generate_ppt(slides_data, output_path, template_path=None, theme=None, image
         
         # 创建上下文
         context = {}
+        # 确保图片服务传入上下文
         if image_service:
+            logger.info("已提供图片服务，将用于生成图片")
             context['image_service'] = image_service
+        else:
+            logger.warning("未提供图片服务，将使用默认图片")
             
         # 生成PPT
         success = generator.create_ppt(slides_data, output_path, context)
         
+        if success:
+            logger.info("PPT生成成功: %s", output_path)
+        else:
+            logger.error("PPT生成失败")
+            
         return success
         
     except Exception as e:

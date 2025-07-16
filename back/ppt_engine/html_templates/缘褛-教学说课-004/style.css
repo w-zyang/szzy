@@ -1,0 +1,76 @@
+/* PPT模板自动生成的样式表 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+.slide-container {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.element {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.content {
+  font-size: 18px;
+}
+
+/* 幻灯片类型特定样式 */
+[data-purpose*="cover"] .title {
+  font-size: 42px;
+  text-align: center;
+}
+
+[data-purpose*="conclusion"] .title {
+  font-size: 36px;
+}
+
+/* 表格样式 */
+table.slide-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.slide-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.slide-table th, table.slide-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* 列表样式 */
+ul.slide-list {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+ul.slide-list li {
+  margin-bottom: 10px;
+}

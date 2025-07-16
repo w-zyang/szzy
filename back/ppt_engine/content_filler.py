@@ -235,7 +235,7 @@ class ContentFiller:
             # 基本字段
             "title": slide_data.get("title", ""),
             "content": "",
-            "image_url": slide_data.get("image", ""),
+            "image_url": "",
             "table_html": "",
             "bullet_points": "",
             # 添加原始数据，以便高级模板可以访问
@@ -248,52 +248,84 @@ class ContentFiller:
             data["content"] = markdown(content)
             
         # 处理项目符号列表
-        bullet_points = slide_data.get("bullet_points", slide_data.get("keypoints", []))
-        if bullet_points:
-            bullet_html = "<ul class='slide-list'>"
-            for point in bullet_points:
-                if isinstance(point, dict) and "text" in point:
-                    # 支持多级列表
-                    level = point.get("level", 0)
-                    class_attr = f" class='level-{level}'" if level > 0 else ""
-                    style_attr = f" style='margin-left:{level*20}px;'" if level > 0 else ""
-                    bullet_html += f"<li{class_attr}{style_attr}>{point['text']}</li>"
-                else:
-                    bullet_html += f"<li>{point}</li>"
-            bullet_html += "</ul>"
-            data["bullet_points"] = bullet_html
-            
-        # 处理表格
-        table_data = slide_data.get("table", [])
-        if table_data and isinstance(table_data, list):
-            table_html = "<table class='slide-table'>"
-            
-            # 检查是否有标题行
-            if len(table_data) > 1:
-                # 使用第一行作为标题
-                table_html += "<thead><tr>"
-                for cell in table_data[0]:
-                    table_html += f"<th>{cell}</th>"
-                table_html += "</tr></thead>"
+        keypoints = []
+        
+        # 从不同可能的字段中获取要点
+        for field in ["keypoints", "bullet_points", "points"]:
+            points = slide_data.get(field, [])
+            if points:
+                # 处理不同格式的要点
+                for point in points:
+                    if isinstance(point, dict):
+                        point_text = point.get("text", "") or point.get("content", "")
+                        keypoints.append(point_text)
+                    elif isinstance(point, str):
+                        keypoints.append(point)
                 
-                # 数据行
-                table_html += "<tbody>"
-                for row in table_data[1:]:
-                    table_html += "<tr>"
-                    for cell in row:
-                        table_html += f"<td>{cell}</td>"
-                    table_html += "</tr>"
-                table_html += "</tbody>"
+                # 只使用一个字段的要点，避免重复
+                if keypoints:
+                    break
+                    
+        data["keypoints"] = keypoints
+        
+        # 处理图片URL
+        image_url = None
+        # 优先检查image_url字段
+        if "image_url" in slide_data:
+            image_url = slide_data["image_url"]
+        # 其次检查image字段
+        elif "image" in slide_data:
+            image = slide_data["image"]
+            if isinstance(image, str):
+                # 如果image字段是字符串，可能是URL或文件路径
+                image_url = image
+            elif isinstance(image, dict) and "url" in image:
+                # 如果image字段是字典，尝试获取url字段
+                image_url = image["url"]
+                
+        if image_url:
+            # 处理file://开头的路径
+            if isinstance(image_url, str) and image_url.startswith("file://"):
+                # 使用绝对路径
+                data["image_url"] = image_url
             else:
-                # 只有一行数据
-                table_html += "<tbody><tr>"
-                for cell in table_data[0]:
-                    table_html += f"<td>{cell}</td>"
-                table_html += "</tr></tbody>"
+                # 非file://开头的URL直接使用
+                data["image_url"] = image_url
                 
-            table_html += "</table>"
-            data["table_html"] = table_html
-            
+        # 处理表格
+        table_data = slide_data.get("table", None)
+        if table_data:
+            if isinstance(table_data, str):
+                # 如果表格数据是HTML字符串，直接使用
+                data["table_html"] = table_data
+            elif isinstance(table_data, (list, tuple)):
+                # 如果表格数据是列表或元组，构造HTML表格
+                table_html = "<table border='1' cellpadding='4'>"
+                
+                # 添加表头（第一行）
+                if len(table_data) > 0:
+                    table_html += "<thead><tr>"
+                    for cell in table_data[0]:
+                        table_html += f"<th>{cell}</th>"
+                    table_html += "</tr></thead>"
+                    
+                # 添加表格内容（剩余行）
+                if len(table_data) > 1:
+                    table_html += "<tbody>"
+                    for row in table_data[1:]:
+                        table_html += "<tr>"
+                        for cell in row:
+                            table_html += f"<td>{cell}</td>"
+                        table_html += "</tr>"
+                    table_html += "</tbody>"
+                    
+                table_html += "</table>"
+                data["table_html"] = table_html
+                
+        # 添加布局信息
+        data["layout"] = slide_data.get("layout", "")
+        data["type"] = slide_data.get("type", "")
+                
         return data
         
 def fill_outline_content(outline, templates_dir):

@@ -1,76 +1,56 @@
 @echo off
-chcp 65001 > nul
-echo 正在启动PPT生成服务 - Flask后端...
+echo ===========================================
+echo           PPT生成系统启动脚本
+echo ===========================================
 
-REM 检查Python是否安装
-where python >nul 2>nul
-if %errorlevel% neq 0 (
-    echo Python未安装，请先安装Python 3.8或更高版本。
-    pause
-    exit /b
-)
+cd /d %~dp0
 
-REM 检查虚拟环境是否存在，如果不存在则创建
-if not exist venv (
-    echo 正在创建虚拟环境...
-    python -m venv venv
-)
-
-REM 激活虚拟环境
-call venv\Scripts\activate.bat
-
-REM 安装依赖
-echo 正在安装依赖...
-pip install -r requirements.txt
-
-REM 设置百度API密钥
-set BAIDU_API_KEY=bce-v3/ALTAK-Pn2ZJoOSPteqL1Lz76w6p/8968c88fc79f367ed266bccca3baa34643381e6f
-echo 已设置百度API密钥
-
-REM 检查模板和默认图片目录
-if not exist ppt_templates (
-    echo 正在创建PPT模板目录...
-    mkdir ppt_templates
-)
-
-if not exist default_images (
-    echo 正在创建默认图片目录...
-    mkdir default_images
-)
-
-REM 检查插件目录
-if not exist ppt_plugins (
-    echo 正在创建PPT插件目录...
-    mkdir ppt_plugins
-)
-
-REM 询问用户是否要生成演示PPT
-echo.
-echo 选择操作:
-echo 1. 启动Web服务
-echo 2. 使用改进版PPT生成器生成演示PPT
-echo 3. 查看可用主题列表
-echo.
-set /p choice="请输入选项 (默认 1): "
-
-if "%choice%"=="2" (
-    echo 正在生成演示PPT...
-    python demo_improved_ppt.py
-    echo.
-    echo 演示PPT已生成，按任意键启动Web服务...
-    pause >nul
-    python run.py
-) else if "%choice%"=="3" (
-    echo 查看可用主题列表...
-    python demo_improved_ppt.py --list-themes
-    echo.
-    echo 按任意键返回主菜单...
-    pause >nul
-    call %0
+:: 检查虚拟环境
+if exist venv\Scripts\activate.bat (
+    echo [信息] 使用虚拟环境...
+    call venv\Scripts\activate
 ) else (
-    REM 启动Flask应用
-    echo 正在启动Web服务...
-    python run.py
+    echo [警告] 未找到虚拟环境，使用系统Python...
 )
 
-pause 
+:: 检查Python是否可用
+python --version > nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo [错误] 未找到Python，请确保已安装Python并添加到系统路径
+    pause
+    exit /b 1
+)
+
+:: 检查依赖
+echo [信息] 检查依赖项...
+pip install -q -r requirements.txt
+if %ERRORLEVEL% NEQ 0 (
+    echo [警告] 部分依赖安装可能失败，但将继续启动...
+)
+
+:: 预处理所有模板
+echo [信息] 预处理PPT模板...
+python preprocess_templates.py
+if %ERRORLEVEL% NEQ 0 (
+    echo [警告] 模板预处理失败，但仍将尝试启动应用...
+)
+
+:: 创建必要目录
+echo [信息] 确保必要目录存在...
+if not exist uploads mkdir uploads
+if not exist image_cache mkdir image_cache
+
+:: 启动应用
+echo [信息] 启动Web服务...
+echo ===========================================
+echo PPT生成系统已启动，按Ctrl+C终止服务
+echo ===========================================
+python app.py
+
+:: 捕获退出代码
+if %ERRORLEVEL% EQU 0 (
+    echo [信息] 服务正常关闭
+) else (
+    echo [错误] 服务异常退出，错误代码: %ERRORLEVEL%
+    pause
+) 

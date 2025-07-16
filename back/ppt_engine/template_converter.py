@@ -251,8 +251,7 @@ class PPTTemplateConverter:
         Returns:
             HTML模板目录路径
         """
-        # 分析模板
-        template_info = self.analyze_ppt_template(template_path)
+        logger.info(f"将PPT模板转换为HTML模板: {template_path}")
         
         # 确定输出目录
         if output_dir is None:
@@ -262,49 +261,144 @@ class PPTTemplateConverter:
         # 确保输出目录存在
         os.makedirs(output_dir, exist_ok=True)
         
+        # 分析模板
+        template_info = self.analyze_ppt_template(template_path)
+        logger.info(f"模板分析完成，包含{len(template_info['slides'])}个幻灯片")
+        
         # 保存模板信息
         info_path = os.path.join(output_dir, "template_info.json")
         with open(info_path, 'w', encoding='utf-8') as f:
             json.dump(template_info, f, ensure_ascii=False, indent=2)
+            
+        # 创建必要的HTML模板文件
+        created_templates = []
         
-        # 为每个幻灯片生成HTML模板
-        html_templates = {}
-        for slide_info in template_info["slides"]:
-            slide_index = slide_info["index"]
-            purposes = slide_info["suitable_for"]
+        # 检查是否有封面页
+        cover_slides = [s for s in template_info["slides"] if "cover" in s["suitable_for"]]
+        if cover_slides:
+            cover_html = self._create_html_template(cover_slides[0], template_info)
+            cover_path = os.path.join(output_dir, "cover.html")
+            with open(cover_path, 'w', encoding='utf-8') as f:
+                f.write(cover_html)
+            created_templates.append(("cover", cover_path))
+            logger.info("已创建封面页HTML模板")
             
-            # 创建HTML内容
-            html_content = self._create_html_template(slide_info, template_info)
+        # 创建结论页
+        conclusion_slides = [s for s in template_info["slides"] if "conclusion" in s["suitable_for"]]
+        if conclusion_slides:
+            conclusion_html = self._create_html_template(conclusion_slides[0], template_info)
+            conclusion_path = os.path.join(output_dir, "conclusion.html")
+            with open(conclusion_path, 'w', encoding='utf-8') as f:
+                f.write(conclusion_html)
+            created_templates.append(("conclusion", conclusion_path))
+            logger.info("已创建结论页HTML模板")
             
-            # 确定文件名
-            if "cover" in purposes:
-                filename = "cover.html"
-            elif "conclusion" in purposes:
-                filename = "conclusion.html"
-            else:
-                purpose_str = "_".join(purposes) if purposes else f"slide_{slide_index}"
-                filename = f"{purpose_str}.html"
+        # 创建内容页
+        content_slides = [s for s in template_info["slides"] if "content" in s["suitable_for"] and "cover" not in s["suitable_for"]]
+        if content_slides:
+            content_html = self._create_html_template(content_slides[0], template_info)
+            content_path = os.path.join(output_dir, "content.html")
+            with open(content_path, 'w', encoding='utf-8') as f:
+                f.write(content_html)
+            created_templates.append(("content", content_path))
+            logger.info("已创建内容页HTML模板")
+            
+        # 创建图片页
+        image_slides = [s for s in template_info["slides"] if "image" in s["suitable_for"]]
+        if image_slides:
+            image_html = self._create_html_template(image_slides[0], template_info)
+            image_path = os.path.join(output_dir, "image.html")
+            with open(image_path, 'w', encoding='utf-8') as f:
+                f.write(image_html)
+            created_templates.append(("image", image_path))
+            logger.info("已创建图片页HTML模板")
+            
+        # 创建表格页
+        table_slides = [s for s in template_info["slides"] if "table" in s["suitable_for"]]
+        if table_slides:
+            table_html = self._create_html_template(table_slides[0], template_info)
+            table_path = os.path.join(output_dir, "table.html")
+            with open(table_path, 'w', encoding='utf-8') as f:
+                f.write(table_html)
+            created_templates.append(("table", table_path))
+            logger.info("已创建表格页HTML模板")
+            
+        # 如果没有找到合适的模板，创建通用模板
+        if not created_templates:
+            # 使用第一张幻灯片
+            if template_info["slides"]:
+                general_html = self._create_html_template(template_info["slides"][0], template_info)
+                general_path = os.path.join(output_dir, "general.html")
+                with open(general_path, 'w', encoding='utf-8') as f:
+                    f.write(general_html)
+                created_templates.append(("general", general_path))
+                logger.info("已创建通用HTML模板")
                 
-            # 保存HTML模板
-            file_path = os.path.join(output_dir, filename)
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(html_content)
-            
-            # 记录模板路径
-            for purpose in purposes:
-                if purpose not in html_templates:
-                    html_templates[purpose] = []
-                html_templates[purpose].append(file_path)
-                
-            logger.info(f"已生成HTML模板: {file_path}")
-        
-        # 生成主样式表
-        css_content = self._generate_css(template_info)
+        # 创建CSS文件
+        css = self._generate_css(template_info)
         css_path = os.path.join(output_dir, "style.css")
         with open(css_path, 'w', encoding='utf-8') as f:
-            f.write(css_content)
-        
-        logger.info(f"模板转换完成，输出目录: {output_dir}")
+            f.write(css)
+            
+        # 创建默认模板（如果没有特定用途的模板）
+        if not os.path.exists(os.path.join(output_dir, "content.html")):
+            # 复制general.html为content.html
+            if os.path.exists(os.path.join(output_dir, "general.html")):
+                with open(os.path.join(output_dir, "general.html"), 'r', encoding='utf-8') as f:
+                    general_html = f.read()
+                    
+                with open(os.path.join(output_dir, "content.html"), 'w', encoding='utf-8') as f:
+                    f.write(general_html)
+                    
+                logger.info("已创建默认内容页HTML模板")
+                
+        # 如果没有封面页，创建基本的封面页模板
+        if not os.path.exists(os.path.join(output_dir, "cover.html")):
+            cover_html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cover</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .slide-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        .title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            color: #2c3e50;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container" data-purpose="cover">
+        <h1 class="title">{{ title }}</h1>
+        <div class="subtitle">{{ content }}</div>
+        <div class="image-container">
+            <img class="slide-image" src="{{ image_url }}" alt="Cover Image">
+        </div>
+    </div>
+</body>
+</html>"""
+            with open(os.path.join(output_dir, "cover.html"), 'w', encoding='utf-8') as f:
+                f.write(cover_html)
+                
+            logger.info("已创建基本封面页HTML模板")
+            
+        logger.info(f"模板转换完成，已创建{len(created_templates)}个HTML模板")
         return output_dir
     
     def _create_html_template(self, slide_info, template_info):

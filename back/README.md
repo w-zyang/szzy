@@ -1,116 +1,200 @@
-# PPT生成服务 - Flask后端
+# PPT自动生成系统
 
-这是一个基于Flask的PPT生成服务后端，提供与原Node.js/TypeScript后端相同的API功能。
+本系统能够根据用户输入的主题或大纲，自动生成精美的PPT演示文稿。
 
-## 功能特点
+## 新增功能: 增强型PPT生成
 
-- 阿里云百炼AI生成PPT大纲
-- PPT模板管理（上传、获取）
-- 基于模板的PPT自动生成
-- 静态文件服务
-- 模板预览图自动生成
+我们最近对PPT生成系统进行了重大升级，添加了以下核心功能：
 
-## 目录结构
+1. **自定义模板支持**：现在系统可以使用位于`/back/ppt_templates`目录下的自定义PPT模板
+2. **AI图片生成**：不再依赖网络搜索图片，而是使用AI根据内容生成符合主题的高质量图片
+3. **HTML中间格式**：通过HTML中间格式实现更灵活的布局和内容展示
 
-```
-back/
-├── app.py              # Flask应用主文件
-├── run.py              # 启动脚本
-├── requirements.txt    # 依赖包列表
-├── ppt_fill_template.py # PPT模板填充脚本
-├── generate_preview.py  # 模板预览图生成脚本
-├── regenerate_all_previews.py # 批量重新生成所有预览图
-├── templates/          # Flask模板目录
-├── static/             # 静态文件目录
-├── uploads/            # 上传文件存储目录
-└── ppt_templates/      # PPT模板存储目录
-    └── previews/       # 模板预览图存储目录
-```
+### 如何使用新功能
 
-## 安装依赖
+1. 将您的PPT模板文件(.pptx)和对应的JSON配置文件放在`/back/ppt_templates`目录下
+2. 在`/back/config.json`中配置AI图片生成API的密钥和URL
+3. 调用新的API端点：`/api/enhancedPpt/generate`
 
-```bash
-pip install -r requirements.txt
+API请求示例：
+
+```json
+{
+  "topic": "植物细胞结构",
+  "subject": "生物学",
+  "template": "绿色圆点",
+  "theme": "edu"
+}
 ```
 
-## 环境变量配置
+也可以直接提供大纲：
 
-创建一个`.env`文件，包含以下配置：
-
+```json
+{
+  "outline": [
+    {
+      "type": "title",
+      "title": "植物细胞结构",
+      "subtitle": "生物学基础知识"
+    },
+    {
+      "type": "content",
+      "title": "植物细胞的主要结构",
+      "content": ["细胞壁", "细胞膜", "细胞质", "细胞核", "叶绿体"]
+    }
+  ],
+  "template": "绿色圆点"
+}
 ```
-PORT=5000
-DEBUG=True
-ALIYUN_API_KEY=your-api-key-here
-```
 
-## 启动服务
+## 原有功能说明
 
-```bash
-python run.py
-```
+系统支持以下功能:
 
-默认情况下，服务将在 http://localhost:5000 上运行。
+1. 从主题生成完整PPT
+2. 从详细大纲生成PPT
+3. 支持多种模板
+4. 整合知识库增强内容
 
 ## API接口
 
-### 健康检查
-- GET `/api/health`
+### 1. 从主题生成PPT
 
-### PPT模板管理
-- GET `/api/aiPpt/ppt/templates` - 获取所有可用模板
-- POST `/api/aiPpt/ppt/upload-template` - 上传新模板
-- GET `/api/aiPpt/ppt/template-preview/<template_name>` - 获取模板预览图
+```
+POST /api/aiPpt/generate-outline
+Content-Type: application/json
 
-### PPT生成
-- POST `/api/aiPpt/generate-outline` - 生成PPT大纲
-- POST `/api/aiPpt/gen-pptx-python` - 生成PPT文件
-
-### 文件访问
-- GET `/uploads/<filename>` - 访问生成的PPT文件
-- GET `/ppt_templates/<filename>` - 访问模板文件
-- GET `/ppt_templates/previews/<filename>` - 访问模板预览图
-
-## 模板预览图生成
-
-系统会自动为上传的PPT模板生成预览图，显示模板第一页的实际效果。预览图生成支持多种方法：
-
-1. **PowerPoint COM对象**（仅Windows平台）
-2. **LibreOffice**（跨平台）
-3. **python-pptx**（跨平台，效果较差）
-
-可以使用以下命令手动生成预览图：
-
-```bash
-# 生成单个模板预览图
-python generate_preview.py ppt_templates/模板文件.pptx
-
-# 重新生成所有模板预览图
-python regenerate_all_previews.py
+{
+    "topic": "人工智能发展历史",
+    "subject": "计算机科学",
+    "depth": "comprehensive",
+    "style": "academic"
+}
 ```
 
-## 模板元数据功能
+### 2. 根据大纲生成PPT
 
-系统会分析PPT模板并生成JSON元数据文件，用于智能填充模板。元数据包含模板的结构信息、布局特性、占位符位置等关键信息，帮助AI系统更准确地理解和使用模板。
+```
+POST /api/aiPpt/gen-pptx-python
+Content-Type: application/json
 
-### 生成模板元数据
-
-```bash
-# 分析单个模板
-python ppt_template_analyzer.py ppt_templates/模板文件.pptx
-
-# 分析目录中的所有模板
-python ppt_template_analyzer.py ppt_templates/
+{
+    "outline": [内容大纲],
+    "template": "template_name"
+}
 ```
 
-### 元数据功能特点
+## 环境配置
 
-1. **自动分析模板结构**：识别标题、内容、图片、表格等元素的位置和属性
-2. **智能布局匹配**：根据内容类型自动选择最合适的模板幻灯片
-3. **元素智能定位**：准确放置文本、图片、表格等内容
-4. **模板适用性评估**：分析模板适合哪些类型的内容
+运行环境需要:
 
-详细说明请参考 [TEMPLATE_METADATA.md](TEMPLATE_METADATA.md)
+1. Python 3.8+
+2. 必要的依赖库 (见requirements.txt)
+3. PowerPoint (用于模板)
+4. 网络连接 (用于API调用)
 
-## 与原Node.js后端的兼容性
+## 启动应用
 
-本Flask后端完全兼容原有Node.js/TypeScript后端的API接口，可以无缝替换。 
+```bash
+# 安装依赖
+pip install -r requirements.txt
+
+# 运行应用
+python app.py
+```
+
+或者使用提供的批处理脚本:
+
+```bash
+# Windows
+start_app.bat
+
+# Linux/Mac
+./start.sh
+```
+
+## 常见问题
+
+### Q: 如何添加新模板?
+A: 将PowerPoint模板文件(.pptx)放在`ppt_templates`目录中，系统会自动识别。
+
+### Q: 是否支持自定义主题?
+A: 是的，新版本支持"green"、"blue"、"purple"、"dark"和"edu"等多种预设主题，您也可以在配置文件中自定义新主题。
+
+### Q: 如何配置AI图片生成?
+A: 在`config.json`文件中设置`AI_IMAGE_API_KEY`和`AI_IMAGE_API_URL`参数。
+
+### 技术支持
+
+如有问题或需要帮助，请创建issue或联系系统管理员。 
+
+## PPT生成系统后端
+
+### 功能特性
+
+- 基于AI生成PPT内容和结构
+- 支持使用模板生成精美PPT
+- 整合知识库增强内容质量
+- 自动生成相关图片
+- 支持自定义PPT生成配置
+
+### 系统改进
+
+系统最近进行了多项改进：
+
+1. 优化了HTML中间格式生成路径，解决了大块空白区域问题
+2. 修复了模板应用逻辑，确保模板能正确被应用到生成的PPT中
+3. 改进了图片生成集成，确保图片能正确生成并插入PPT
+4. 增加了模板预处理功能，将PPT模板预先转换为HTML模板，提高生成效率和稳定性
+
+### 快速开始
+
+1. 安装依赖:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. 运行启动脚本:
+   ```
+   # Windows
+   start_ppt_engine.bat
+   
+   # Linux/Mac
+   ./start_ppt_engine.sh
+   ```
+   
+   启动脚本会首先预处理所有PPT模板，将其转换为HTML模板，然后启动PPT引擎服务。
+
+3. 访问API:
+   ```
+   http://localhost:5000/api/health
+   ```
+
+### 模板管理
+
+系统支持使用PPT模板生成幻灯片:
+
+1. 将PPTX模板文件放入 `ppt_templates` 目录
+2. 模板会被自动预处理为HTML格式，存储在 `ppt_engine/html_templates/{template_name}` 目录下
+3. 通过API指定模板名称即可使用模板生成PPT
+
+### 模板预处理
+
+系统通过预处理将PPT模板转换为HTML模板，提高生成效率:
+
+```
+python preprocess_templates.py [--force]
+```
+
+参数:
+- `--force`: 强制重新生成已存在的模板
+
+### API文档
+
+主要API端点:
+
+- `/api/aiPpt/generate-outline` - 生成PPT大纲
+- `/api/aiPpt/gen-pptx-enhanced` - 生成增强版PPT
+- `/api/aiPpt/ppt/templates` - 获取可用模板列表
+
+详细API文档请参阅 [API文档](API_DOC.md)。 

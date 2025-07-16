@@ -1,36 +1,31 @@
 #!/bin/bash
+echo "正在启动PPT生成引擎..."
 
-echo "=== PPT引擎启动脚本 ==="
-echo
+# 切换到脚本所在目录
+cd "$(dirname "$0")"
 
-# 检查Python环境
-if ! command -v python3 &> /dev/null; then
-    echo "错误: Python3未安装或不在PATH中"
-    exit 1
+# 检查虚拟环境
+if [ -f "venv/bin/activate" ]; then
+    echo "使用虚拟环境"
+    source venv/bin/activate
+else
+    echo "未找到虚拟环境，使用系统Python"
 fi
 
-# 检查是否需要安装依赖
-if [ ! -d "ppt_engine" ]; then
-    echo "未找到ppt_engine目录，开始安装..."
-    python3 setup_ppt_engine.py
-    if [ $? -ne 0 ]; then
-        echo "安装依赖失败，请手动运行setup_ppt_engine.py"
-        exit 1
-    fi
+# 预处理所有模板
+echo "预处理PPT模板..."
+python preprocess_templates.py
+if [ $? -ne 0 ]; then
+    echo "模板预处理失败，但仍将尝试启动应用"
 fi
 
-echo
-echo "=== PPT引擎使用说明 ==="
-echo
-echo "命令行方式:"
-echo "python3 -m ppt_engine.unified_generator -o 大纲.json -t 模板.pptx -p 输出.pptx"
-echo
-echo "API方式:"
-echo "POST /api/aiPpt/generate-html-ppt"
-echo
-echo "按Ctrl+C退出..."
+# 启动Flask应用
+echo "启动Web服务..."
+python app.py
 
-# 保持脚本运行
-while true; do
-    sleep 1
-done 
+# 检查退出状态
+if [ $? -eq 0 ]; then
+    echo "PPT引擎已正常关闭"
+else
+    echo "PPT引擎异常退出，错误代码: $?"
+fi 

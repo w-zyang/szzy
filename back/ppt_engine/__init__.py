@@ -34,3 +34,11 @@ from .template_converter import PPTTemplateConverter
 from .content_filler import ContentFiller
 from .html_to_ppt import HTMLToPPTConverter
 from .unified_generator import UnifiedPPTGenerator, generate_ppt_from_outline 
+from .core import PPTEngineCore
+
+__all__ = [
+    'HTMLToPPTConverter',
+    'UnifiedPPTGenerator',
+    'generate_ppt_from_outline',
+    'PPTEngineCore'
+] 

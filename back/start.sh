@@ -1,29 +1,55 @@
 #!/bin/bash
-echo "正在启动PPT生成服务 - Flask后端..."
 
-# 检查Python是否安装
-if ! command -v python3 &> /dev/null; then
-    echo "Python未安装，请先安装Python 3.8或更高版本。"
+echo "==========================================="
+echo "           PPT生成系统启动脚本"
+echo "==========================================="
+
+# 切换到脚本所在目录
+cd "$(dirname "$0")"
+
+# 检查虚拟环境
+if [ -f "venv/bin/activate" ]; then
+    echo "[信息] 使用虚拟环境..."
+    source venv/bin/activate
+else
+    echo "[警告] 未找到虚拟环境，使用系统Python..."
+fi
+
+# 检查Python是否可用
+if ! command -v python &> /dev/null; then
+    echo "[错误] 未找到Python，请确保已安装Python并添加到系统路径"
     exit 1
 fi
 
-# 检查虚拟环境是否存在，如果不存在则创建
-if [ ! -d "venv" ]; then
-    echo "正在创建虚拟环境..."
-    python3 -m venv venv
+# 检查依赖
+echo "[信息] 检查依赖项..."
+pip install -q -r requirements.txt
+if [ $? -ne 0 ]; then
+    echo "[警告] 部分依赖安装可能失败，但将继续启动..."
 fi
 
-# 激活虚拟环境
-source venv/bin/activate
+# 预处理所有模板
+echo "[信息] 预处理PPT模板..."
+python preprocess_templates.py
+if [ $? -ne 0 ]; then
+    echo "[警告] 模板预处理失败，但仍将尝试启动应用..."
+fi
 
-# 安装依赖
-echo "正在安装依赖..."
-pip install -r requirements.txt
+# 创建必要目录
+echo "[信息] 确保必要目录存在..."
+mkdir -p uploads
+mkdir -p image_cache
 
-# 设置百度API密钥
-export BAIDU_API_KEY="bce-v3/ALTAK-Pn2ZJoOSPteqL1Lz76w6p/8968c88fc79f367ed266bccca3baa34643381e6f"
-echo "已设置百度API密钥"
+# 启动应用
+echo "[信息] 启动Web服务..."
+echo "==========================================="
+echo "PPT生成系统已启动，按Ctrl+C终止服务"
+echo "==========================================="
+python app.py
 
-# 启动Flask应用
-echo "正在启动服务..."
-python run.py 
+# 捕获退出代码
+if [ $? -eq 0 ]; then
+    echo "[信息] 服务正常关闭"
+else
+    echo "[错误] 服务异常退出，错误代码: $?"
+fi 
