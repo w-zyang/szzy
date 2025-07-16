@@ -557,15 +557,15 @@ def generate_outline():
         else:
             # JSON格式
             logger.info("接收到JSON格式请求")
-            data = request.json
-            topic = data.get('topic')
-            background = data.get('background')
-            pages = data.get('pages')
-            role = data.get('role')
-            scene = data.get('scene')
-            deep_think = data.get('deepThink')
-            web_search = data.get('webSearch')
-            template = data.get('template')
+            data = request.json or {}
+            topic = data.get('topic', '')
+            background = data.get('background', '')
+            pages = data.get('pages', 8)
+            role = data.get('role', '')
+            scene = data.get('scene', '')
+            deep_think = data.get('deepThink', False)
+            web_search = data.get('webSearch', False)
+            template = data.get('template', '')
             subject = data.get('subject', '') # 新增学科参数
         
         logger.info(f"主题: {topic}")
@@ -607,7 +607,7 @@ def generate_outline():
                     logger.error(f"读取模板描述失败: {str(e)}")
         
         # 获取增强内容
-        enhanced_context = request.form.get('enhancedContext', '')
+        enhanced_context = request.form.get('enhancedContext', '') if request.content_type and 'multipart/form-data' in request.content_type else ''
         
         # 如果没有提供增强内容，尝试从知识库获取
         if not enhanced_context:
@@ -623,7 +623,7 @@ def generate_outline():
                 mapped_subject = subject_mapping.get(subject)
                 
                 retriever = get_retriever()
-                enhanced_context = retriever.get_relevant_content(topic, subject=mapped_subject)
+                enhanced_context = retriever.get_relevant_content(topic or "", subject=mapped_subject)
                 logger.info(f"自动从知识库获取增强内容，长度: {len(enhanced_context)}")
             except Exception as e:
                 logger.warning(f"获取知识库增强内容失败: {str(e)}")
@@ -642,7 +642,9 @@ def generate_outline():
             prompt += f"\n\n演讲场景：{scene}"
             
         # 添加增强内容
-        enhanced_context = request.form.get('enhancedContext') if request.content_type and 'multipart/form-data' in request.content_type else data.get('enhancedContext')
+        enhanced_context_from_form = request.form.get('enhancedContext', '') if request.content_type and 'multipart/form-data' in request.content_type else None
+        enhanced_context_from_json = data.get('enhancedContext', '') if data else None
+        enhanced_context = enhanced_context or enhanced_context_from_form or enhanced_context_from_json or ''
         
         if enhanced_context:
             logger.info("使用RAG增强内容")
@@ -1761,6 +1763,189 @@ def get_resources():
         # 处理前端可能发送的undefined类型请求
         return jsonify([])
     return jsonify([])  # 默认返回空数组
+
+# 添加思维导图生成API端点
+@app.route('/api/mindmap/generate', methods=['POST'])
+@app.route('/api/resource/mindmap/generate', methods=['POST'])
+def generate_mindmap():
+    """生成思维导图"""
+    logger.info("=== 请求生成思维导图 ===")
+    try:
+        data = request.json
+        if not data:
+            logger.error("请求数据为空")
+            return jsonify({"success": False, "error": "请求数据为空"}), 400
+            
+        # 获取请求参数
+        topic = data.get('topic', '') or data.get('content', '')
+        depth = int(data.get('depth', 4))
+        style = data.get('style', 'classic')
+        language = data.get('language', 'zh')
+        subject = data.get('subject', '')
+        chapter = data.get('chapter', '')
+        
+        logger.info(f"生成思维导图参数: topic={topic}, depth={depth}, style={style}, language={language}")
+        
+        if not topic.strip():
+            return jsonify({"success": False, "error": "主题内容不能为空"}), 400
+        
+        # 调用百炼API生成思维导图
+        headers = {
+            'Authorization': f'Bearer {API_KEY}',
+            'Content-Type': 'application/json'
+        }
+        
+        # 构造提示词
+        prompt = f"""
+请根据以下内容，生成一个思维导图的数据结构：
+
+{topic}
+
+如果内容涉及{subject}学科的{chapter}章节，请重点关注其中的知识结构。
+
+请生成一个JSON格式的思维导图结构，深度为{depth}层，格式如下：
+```json
+[
+  {{
+    "id": "root",
+    "title": "核心主题",
+    "level": 0,
+    "children": [
+      {{
+        "id": "branch-1",
+        "title": "分支1",
+        "level": 1,
+        "children": [
+          {{
+            "id": "leaf-1",
+            "title": "叶节点1",
+            "level": 2
+          }}
+        ]
+      }},
+      {{
+        "id": "branch-2",
+        "title": "分支2",
+        "level": 1
+      }}
+    ]
+  }}
+]
+```
+
+ONLY返回符合JSON格式的思维导图数据，不要有其他任何文本说明。每个节点必须包含id、title、level字段，子节点放在children数组中。
+        """
+        
+        payload = {
+            'model': 'qwen-max',
+            'parameters': {
+                'temperature': 0.5,
+                'top_p': 0.8,
+                'result_format': 'message'
+            },
+            'input': {
+                'messages': [
+                    {
+                        'role': 'system',
+                        'content': '你是一个专业的教育内容结构分析专家，擅长将复杂内容组织为清晰的思维导图。'
+                    },
+                    {
+                        'role': 'user',
+                        'content': prompt
+                    }
+                ]
+            }
+        }
+        
+        logger.info("正在调用百炼API生成思维导图...")
+        response = requests.post(API_URL, headers=headers, json=payload)
+        
+        if response.status_code != 200:
+            logger.error(f"API请求失败: {response.status_code}, {response.text}")
+            return jsonify({
+                "success": False,
+                "error": f"生成思维导图失败: API返回错误 {response.status_code}"
+            }), 500
+            
+        result = response.json()
+        logger.info("API请求成功，解析返回结果")
+        
+        # 解析返回的消息内容
+        ai_message = ""
+        try:
+            ai_message = result.get('output', {}).get('choices', [{}])[0].get('message', {}).get('content', '')
+        except (AttributeError, IndexError, TypeError):
+            logger.error(f"解析API响应失败，响应结果: {result}")
+            return jsonify({
+                "success": False, 
+                "error": "解析API响应失败"
+            }), 500
+        
+        if not ai_message:
+            return jsonify({
+                "success": False,
+                "error": "API响应为空"
+            }), 500
+        
+        # 从返回的内容中提取JSON
+        import re
+        json_match = re.search(r'```json\s*([\s\S]*?)\s*```|(\[[\s\S]*\])', ai_message)
+        
+        if json_match:
+            # 提取匹配到的JSON内容
+            json_text = json_match.group(1) or json_match.group(2)
+            try:
+                mindmap_data = json.loads(json_text)
+                
+                # 计算统计数据
+                def count_nodes(nodes):
+                    if not nodes:
+                        return 0
+                    total = len(nodes)
+                    for node in nodes:
+                        if 'children' in node and node['children']:
+                            total += count_nodes(node['children'])
+                    return total
+                
+                def get_max_depth(nodes, current_depth=0):
+                    if not nodes:
+                        return current_depth
+                    max_depth = current_depth
+                    for node in nodes:
+                        if 'children' in node and node['children']:
+                            depth = get_max_depth(node['children'], current_depth + 1)
+                            max_depth = max(max_depth, depth)
+                    return max_depth
+                
+                total_nodes = count_nodes(mindmap_data)
+                max_depth = get_max_depth(mindmap_data)
+                branches = len(mindmap_data[0].get('children', [])) if mindmap_data and len(mindmap_data) > 0 else 0
+                
+                return jsonify({
+                    "success": True,
+                    "mindMap": mindmap_data,
+                    "totalNodes": total_nodes,
+                    "depth": max_depth,
+                    "branches": branches
+                })
+            except json.JSONDecodeError as e:
+                logger.error(f"JSON解析错误: {str(e)}, 原始内容: {json_text}")
+                return jsonify({
+                    "success": False,
+                    "error": f"思维导图数据格式错误: {str(e)}",
+                    "rawContent": ai_message
+                }), 500
+        else:
+            logger.error(f"未找到有效的JSON内容: {ai_message}")
+            return jsonify({
+                "success": False,
+                "error": "生成的内容格式不正确，未找到有效的思维导图数据",
+                "rawContent": ai_message
+            }), 500
+    except Exception as e:
+        logger.error(f"生成思维导图出错: {str(e)}")
+        logger.error(traceback.format_exc())
+        return jsonify({"success": False, "error": f"生成思维导图失败: {str(e)}"}), 500
 
 # 如果直接运行此文件，则启动应用
 if __name__ == '__main__':
