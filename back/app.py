@@ -541,18 +541,21 @@ def generate_outline():
     logger.info("=== 开始生成大纲 ===")
     
     try:
+        # 初始化data变量，避免未定义错误
+        data = {}
+        
         # 支持FormData和JSON两种格式
         if request.content_type and 'multipart/form-data' in request.content_type:
             # FormData格式
             logger.info("接收到FormData格式请求")
-            topic = request.form.get('topic')
-            background = request.form.get('background')
-            pages = request.form.get('pages')
-            role = request.form.get('role')
-            scene = request.form.get('scene')
+            topic = request.form.get('topic', '')
+            background = request.form.get('background', '')
+            pages = request.form.get('pages', '8')
+            role = request.form.get('role', '')
+            scene = request.form.get('scene', '')
             deep_think = request.form.get('deepThink') == 'true'
             web_search = request.form.get('webSearch') == 'true'
-            template = request.form.get('template')
+            template = request.form.get('template', '')
             subject = request.form.get('subject', '') # 新增学科参数
         else:
             # JSON格式
@@ -642,8 +645,8 @@ def generate_outline():
             prompt += f"\n\n演讲场景：{scene}"
             
         # 添加增强内容
-        enhanced_context_from_form = request.form.get('enhancedContext', '') if request.content_type and 'multipart/form-data' in request.content_type else None
-        enhanced_context_from_json = data.get('enhancedContext', '') if data else None
+        enhanced_context_from_form = request.form.get('enhancedContext', '') if request.content_type and 'multipart/form-data' in request.content_type else ''
+        enhanced_context_from_json = data.get('enhancedContext', '') if data else ''
         enhanced_context = enhanced_context or enhanced_context_from_form or enhanced_context_from_json or ''
         
         if enhanced_context:
