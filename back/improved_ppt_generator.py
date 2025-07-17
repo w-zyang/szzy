@@ -222,7 +222,7 @@ class ImageComponent(SlideComponentBase):
     def apply(self, slide, data, context=None):
         """应用图片组件"""
         logger.info(f"处理图片组件，数据: {data.get('title', '')}")
-        
+            
         try:
             # 查找图片占位符
             image_placeholder = None
@@ -244,12 +244,12 @@ class ImageComponent(SlideComponentBase):
                 # 处理不同类型的图片数据
                 if isinstance(image_url, str):
                     if image_url.startswith('http://') or image_url.startswith('https://'):
-                        # 从URL下载图片
+                    # 从URL下载图片
                         try:
                             logger.info(f"尝试下载图片URL: {image_url}")
                             response = requests.get(image_url, stream=True, timeout=10)
-                            response.raise_for_status()
-                            image_data = response.content
+                    response.raise_for_status()
+                    image_data = response.content
                             logger.info(f"成功下载图片，大小: {len(image_data)} 字节")
                         except Exception as e:
                             logger.warning(f"下载图片失败: {str(e)}")
@@ -261,7 +261,7 @@ class ImageComponent(SlideComponentBase):
                         if os.path.exists(local_path):
                             try:
                                 with open(local_path, 'rb') as f:
-                                    image_data = f.read()
+                        image_data = f.read()
                                 logger.info(f"成功加载本地图片，大小: {len(image_data)} 字节")
                             except Exception as e:
                                 logger.warning(f"读取本地图片失败: {str(e)}")
@@ -866,7 +866,7 @@ def generate_ppt(slides_data, output_path, template_path=None, theme=None, image
             logger.info("PPT生成成功: %s", output_path)
         else:
             logger.error("PPT生成失败")
-            
+        
         return success
         
     except Exception as e:

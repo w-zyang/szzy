@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Microsoft YaHei', Arial, sans-serif; }
+        .slide-container { width: 100vw; height: 100vh; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+        .title { font-size: 36px; font-weight: bold; color: #333; margin-bottom: 20px; }
+        .table-container { margin: 20px 0; overflow: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px; text-align: left; border: 1px solid #ddd; }
+        th { background-color: #0066cc; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="slide-container" data-purpose="table,data">
+        <h1 class="title">{{ title }}</h1>
+        <div class="table-container">
+            {{ table_html }}
+        </div>
+    </div>
+</body>
+</html>

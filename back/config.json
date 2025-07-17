@@ -1,8 +1,10 @@
 {
-    "AI_IMAGE_API_KEY": "sk-676f45b6cbd54100ae82656f9ac596d3",
+    "AI_IMAGE_API_KEY": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "AI_IMAGE_API_URL": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis",
     "USE_AI_IMAGES": true,
-    "BAIDU_API_KEY": "",
-    "BAIDU_SECRET_KEY": "",
-    "TEMPLATE_DIR": "D:\\szzy\\back\\ppt_templates"
+    "BAIDU_API_KEY": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "BAIDU_SECRET_KEY": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "TEMPLATE_DIR": "D:\\szzy\\back\\ppt_templates",
+    "DEBUG": true,
+    "USE_DEFAULT_IMAGES": true
 }

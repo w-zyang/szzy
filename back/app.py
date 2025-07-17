@@ -67,14 +67,14 @@ CORS(app, resources={
 UPLOAD_FOLDER = os.environ.get('UPLOAD_FOLDER', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads'))
 TEMPLATE_FOLDER = os.environ.get('TEMPLATE_FOLDER', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ppt_templates'))
 TEMPLATE_PREVIEWS_FOLDER = os.path.join(TEMPLATE_FOLDER, 'previews')
-IMAGE_CACHE_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'image_cache')
+IMAGE_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'image_cache')
 ALLOWED_EXTENSIONS = {'pptx', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 # 确保目录存在
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(TEMPLATE_FOLDER, exist_ok=True)
 os.makedirs(TEMPLATE_PREVIEWS_FOLDER, exist_ok=True)
-os.makedirs(IMAGE_CACHE_FOLDER, exist_ok=True)
+os.makedirs(IMAGE_CACHE_DIR, exist_ok=True)
 
 # 创建README文件（如果不存在）
 readme_path = os.path.join(TEMPLATE_FOLDER, 'README.md')
@@ -1248,26 +1248,59 @@ def gen_pptx_enhanced():
         # 确定模板路径
         template_path = None
         if template_name:
+            logger.info(f"请求使用模板: {template_name}")
             # 检查是否是完整路径
             if os.path.exists(template_name):
                 template_path = template_name
+                logger.info(f"使用完整路径的模板: {template_path}")
             else:
                 # 尝试在模板目录中查找
                 possible_template = os.path.join(TEMPLATE_FOLDER, template_name)
                 if os.path.exists(possible_template):
                     template_path = possible_template
+                    logger.info(f"在模板目录中找到模板: {template_path}")
                 else:
                     # 尝试添加.pptx后缀查找
                     if not template_name.endswith('.pptx'):
                         possible_template = os.path.join(TEMPLATE_FOLDER, f"{template_name}.pptx")
                         if os.path.exists(possible_template):
                             template_path = possible_template
+                            logger.info(f"添加.pptx后缀找到模板: {template_path}")
             
             if not template_path:
-                logger.warning(f"模板不存在: {template_name}")
+                logger.warning(f"找不到指定的模板: {template_name}，将使用默认模板或不使用模板")
+                # 尝试使用默认模板
+                default_template = os.path.join(TEMPLATE_FOLDER, "绿色圆点.pptx")
+                if os.path.exists(default_template):
+                    template_path = default_template
+                    logger.info(f"使用默认模板: {template_path}")
+        else:
+            logger.info("未指定模板，尝试使用默认模板")
+            # 尝试使用默认模板
+            default_template = os.path.join(TEMPLATE_FOLDER, "绿色圆点.pptx")
+            if os.path.exists(default_template):
+                template_path = default_template
+                logger.info(f"使用默认模板: {template_path}")
         
         # 使用统一生成器生成PPT
         try:
+            # 检查必要的目录是否存在
+            html_templates_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 
+                                             "ppt_engine", "html_templates")
+            os.makedirs(html_templates_dir, exist_ok=True)
+            
+            # 首先预处理模板，确保HTML模板已生成
+            if template_path:
+                from preprocess_templates import preprocess_template
+                html_template_dir = os.path.join(html_templates_dir, 
+                                               os.path.splitext(os.path.basename(template_path))[0])
+                                               
+                logger.info(f"预处理模板: {template_path} -> {html_template_dir}")
+                success = preprocess_template(template_path, html_templates_dir)
+                if not success:
+                    logger.warning(f"模板预处理失败，可能会影响渲染效果")
+            
+            # 导入并使用统一生成器
             from ppt_engine.unified_generator import generate_ppt_from_outline
             logger.info(f"使用HTML中间格式生成PPT，模板: {template_path}")
             ppt_path = generate_ppt_from_outline(processed_outline, template_path, output_path)
@@ -1283,12 +1316,19 @@ def gen_pptx_enhanced():
             logger.error(traceback.format_exc())
             
             # 使用原始方法生成（不带模板）
-            from ppt_without_template import create_ppt_without_template
-            logger.info("回退到原始方法生成PPT")
-            ppt_path = create_ppt_without_template(processed_outline, output_path)
+            try:
+                # 导入无模板生成函数
+                from ppt_without_template import create_ppt_without_template
+                logger.info("回退到原始方法生成PPT")
+                ppt_path = create_ppt_without_template(processed_outline, output_path)
+            except Exception as import_error:
+                logger.error(f"导入或使用备用方法失败: {str(import_error)}")
+                logger.error(traceback.format_exc())
+                return jsonify({"error": "生成PPT失败，请重试"}), 500
         
         # 检查生成的PPT文件是否存在
         if not os.path.exists(ppt_path):
+            logger.error(f"生成的PPT文件不存在: {ppt_path}")
             return jsonify({"error": "生成PPT失败，请重试"}), 500
             
         # 计算生成时间
@@ -1303,10 +1343,12 @@ def gen_pptx_enhanced():
             "file_name": os.path.basename(ppt_path),
             "file_size": file_size,
             "generation_time": generation_time,
-            "status": "success"
+            "status": "success",
+            "template_used": os.path.basename(template_path) if template_path else "none"
         }
         
         logger.info(f"PPT生成成功: {ppt_path}, 大小: {file_size} 字节, 生成时间: {generation_time:.2f}秒")
+        logger.info(f"使用的模板: {template_path if template_path else '无'}")
         logger.info("=== PPT生成完成 ===")
         
         return jsonify(response_data), 200
@@ -2136,10 +2178,33 @@ def generate_enhanced_ppt():
 
 # 如果直接运行此文件，则启动应用
 if __name__ == '__main__':
-    # 获取端口，默认为5000
-    port = int(os.environ.get('PORT', 5000))
-    # 是否开启调试模式
-    debug = os.environ.get('DEBUG', 'True').lower() == 'true'
+    # 设置日志格式
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler("app.log"),
+            logging.StreamHandler()
+        ]
+    )
     
-    # 启动应用，监听所有网络接口
-    app.run(host='0.0.0.0', port=port, debug=debug) 
+    # 确保必要的目录存在
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+    os.makedirs(TEMPLATE_FOLDER, exist_ok=True)
+    os.makedirs(IMAGE_CACHE_DIR, exist_ok=True)
+    
+    # 预处理所有模板
+    logger.info("启动前预处理所有PPT模板...")
+    try:
+        from preprocess_templates import preprocess_all_templates
+        preprocess_all_templates()
+        logger.info("模板预处理完成")
+    except Exception as e:
+        logger.error(f"模板预处理失败: {str(e)}")
+        logger.error(traceback.format_exc())
+        logger.warning("将继续启动应用，但模板功能可能受影响")
+    
+    # 启动应用
+    port = int(os.environ.get('PORT', 5000))
+    logger.info(f"启动Web服务，端口: {port}")
+    app.run(host='0.0.0.0', port=port, debug=True) 

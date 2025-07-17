@@ -2,90 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Content</title>
+    <title>内容</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
-        }
-        .slide-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            background-color: white;
-            color: #333;
-        }
-        .slide-header {
-            padding: 20px 50px;
-            text-align: center;
-        }
-        .slide-title {
-            font-size: 36px;
-            font-weight: bold;
-            color: #2c78c9;
-            margin: 0;
-        }
-        .slide-content {
-            flex: 1;
-            display: flex;
-            padding: 20px 50px;
-        }
-        .slide-text {
-            flex: 1;
-            font-size: 24px;
-            line-height: 1.5;
-        }
-        .slide-image-container {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-        .slide-image {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .slide-list {
-            list-style-type: disc;
-            margin-left: 30px;
-            padding: 0;
-        }
-        .slide-list li {
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
-        .slide-footer {
-            padding: 10px;
-            font-size: 14px;
-            text-align: center;
-        }
+        body { margin: 0; padding: 0; font-family: 'Microsoft YaHei', Arial, sans-serif; }
+        .slide-container { width: 100vw; height: 100vh; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+        .title { font-size: 36px; font-weight: bold; color: #333; margin-bottom: 20px; }
+        .content { font-size: 24px; color: #333; line-height: 1.5; }
     </style>
 </head>
 <body>
-    <div class="slide-container" data-purpose="content">
-        <div class="slide-header">
-            <h1 class="slide-title">{{ title }}</h1>
-        </div>
-        <div class="slide-content">
-            <div class="slide-text">
-                {{ content|safe }}
-                {{ bullet_points|safe }}
-                {{ table_html|safe }}
-            </div>
-            <div class="slide-image-container">
-                {% if image_url %}
-                <img src="{{ image_url }}" alt="Slide Image" class="slide-image">
-                {% endif %}
-            </div>
-        </div>
+    <div class="slide-container" data-purpose="content,text">
+        <h1 class="title">{{ title }}</h1>
+        <div class="content">{{ content }}</div>
     </div>
 </body>
-</html> 
+</html>

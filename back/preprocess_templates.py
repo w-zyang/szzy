@@ -48,6 +48,23 @@ def preprocess_template(template_path, output_dir):
         
         logger.info(f"开始处理模板: {template_name}")
         
+        # 检查模板文件是否存在
+        if not os.path.exists(template_path):
+            logger.error(f"模板文件不存在: {template_path}")
+            return False
+            
+        # 确保输出目录存在
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # 检查是否已经存在转换好的模板
+        if os.path.exists(html_output_dir) and os.path.exists(os.path.join(html_output_dir, "template_info.json")):
+            # 检查模板修改时间是否比HTML更早
+            if os.path.getmtime(template_path) <= os.path.getmtime(os.path.join(html_output_dir, "template_info.json")):
+                logger.info(f"模板 {template_name} 已经转换，跳过处理")
+                return True
+            else:
+                logger.info(f"模板文件已更新，重新处理: {template_name}")
+        
         # 创建转换器
         converter = PPTTemplateConverter(os.path.dirname(template_path), output_dir)
         
@@ -55,7 +72,7 @@ def preprocess_template(template_path, output_dir):
         result = converter.convert_to_html_template(template_path, html_output_dir)
         
         if result:
-            logger.info(f"模板 {template_name} 转换成功")
+            logger.info(f"模板 {template_name} 转换成功: {html_output_dir}")
             return True
         else:
             logger.error(f"模板 {template_name} 转换失败")
@@ -283,81 +300,101 @@ def prepare_default_templates(html_templates_dir):
     logger.info("默认HTML模板已创建")
 
 def preprocess_all_templates():
-    """预处理所有模板"""
-    # 获取项目根目录
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    """预处理所有PPT模板，转换为HTML格式"""
+    logger.info("开始预处理所有PPT模板...")
     
-    # 模板目录和输出目录
-    templates_dir = os.path.join(script_dir, "ppt_templates")
-    html_templates_dir = os.path.join(script_dir, "ppt_engine", "html_templates")
+    # 确定模板目录
+    templates_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ppt_templates")
+    html_templates_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ppt_engine", "html_templates")
     
     # 确保目录存在
     os.makedirs(templates_dir, exist_ok=True)
     os.makedirs(html_templates_dir, exist_ok=True)
     
-    # 准备默认HTML模板
-    prepare_default_templates(html_templates_dir)
+    # 获取所有PPTX文件
+    pptx_files = glob.glob(os.path.join(templates_dir, "*.pptx"))
     
-    # 查找所有PPT模板
-    template_files = glob.glob(os.path.join(templates_dir, "*.pptx"))
-    
-    if not template_files:
-        logger.warning(f"没有在 {templates_dir} 找到PPT模板")
+    if not pptx_files:
+        logger.warning("未找到任何PPTX模板文件")
+        # 准备默认模板
+        prepare_default_templates(html_templates_dir)
         return
+        
+    logger.info(f"找到 {len(pptx_files)} 个PPTX模板文件")
     
-    logger.info(f"找到 {len(template_files)} 个PPT模板，开始预处理")
-    
-    # 批量处理模板
+    # 使用线程池并行处理
     successful = 0
     failed = 0
     
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        results = []
-        for template_path in template_files:
-            results.append(executor.submit(preprocess_template, template_path, html_templates_dir))
+    with ThreadPoolExecutor(max_workers=min(4, len(pptx_files))) as executor:
+        # 提交所有任务
+        future_to_template = {
+            executor.submit(preprocess_template, template_path, html_templates_dir): template_path
+            for template_path in pptx_files
+        }
         
-        for result in results:
-            if result.result():
-                successful += 1
-            else:
+        # 获取结果
+        for future in future_to_template:
+            template_path = future_to_template[future]
+            template_name = os.path.basename(template_path)
+            try:
+                result = future.result()
+                if result:
+                    successful += 1
+                    logger.info(f"成功处理模板: {template_name}")
+                else:
+                    failed += 1
+                    logger.error(f"处理模板失败: {template_name}")
+            except Exception as e:
                 failed += 1
+                logger.error(f"处理模板 {template_name} 时出错: {str(e)}")
+                
+    # 准备默认模板
+    prepare_default_templates(html_templates_dir)
     
-    logger.info(f"预处理完成，成功: {successful}, 失败: {failed}")
+    # 总结
+    logger.info(f"模板预处理完成: {successful} 个成功, {failed} 个失败")
+    
+    # 检查是否至少有一个模板成功处理
+    if successful == 0:
+        logger.warning("没有成功处理任何模板，将使用默认模板")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="预处理PPT模板，将其转换为HTML格式")
-    parser.add_argument("--templates-dir", help="PPT模板目录")
-    parser.add_argument("--output-dir", help="HTML模板输出目录")
+    # 配置命令行参数
+    parser = argparse.ArgumentParser(description="预处理PPT模板")
+    parser.add_argument("-t", "--template", help="单个模板文件路径")
+    parser.add_argument("-a", "--all", action="store_true", help="处理所有模板")
+    parser.add_argument("-v", "--verbose", action="store_true", help="显示详细日志")
     
     args = parser.parse_args()
     
-    # 如果指定了目录，处理单个目录
-    if args.templates_dir and args.output_dir:
-        # 查找所有PPT模板
-        template_files = glob.glob(os.path.join(args.templates_dir, "*.pptx"))
+    # 设置日志级别
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
         
-        if not template_files:
-            logger.warning(f"没有在 {args.templates_dir} 找到PPT模板")
+    # 处理模板
+    if args.template:
+        # 处理单个模板
+        template_path = args.template
+        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ppt_engine", "html_templates")
+        
+        if not os.path.exists(template_path):
+            logger.error(f"模板文件不存在: {template_path}")
             sys.exit(1)
             
-        logger.info(f"找到 {len(template_files)} 个PPT模板，开始预处理")
+        logger.info(f"开始处理模板: {template_path}")
+        result = preprocess_template(template_path, output_dir)
         
-        # 批量处理模板
-        successful = 0
-        failed = 0
-        
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            results = []
-            for template_path in template_files:
-                results.append(executor.submit(preprocess_template, template_path, args.output_dir))
-            
-            for result in results:
-                if result.result():
-                    successful += 1
-                else:
-                    failed += 1
-        
-        logger.info(f"预处理完成，成功: {successful}, 失败: {failed}")
-    else:
+        if result:
+            logger.info(f"模板处理成功: {template_path}")
+            sys.exit(0)
+        else:
+            logger.error(f"模板处理失败: {template_path}")
+            sys.exit(1)
+    elif args.all:
         # 处理所有模板
+        preprocess_all_templates()
+    else:
+        # 默认处理所有模板
+        logger.info("未指定参数，将处理所有模板")
         preprocess_all_templates() 

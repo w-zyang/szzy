@@ -282,15 +282,29 @@ class ContentFiller:
             elif isinstance(image, dict) and "url" in image:
                 # 如果image字段是字典，尝试获取url字段
                 image_url = image["url"]
+            elif isinstance(image, dict) and "data" in image:
+                # 如果包含data字段（可能是base64编码的数据URL）
+                image_url = image["data"]
                 
         if image_url:
-            # 处理file://开头的路径
-            if isinstance(image_url, str) and image_url.startswith("file://"):
-                # 使用绝对路径
-                data["image_url"] = image_url
-            else:
-                # 非file://开头的URL直接使用
-                data["image_url"] = image_url
+            # 处理不同类型的图片源
+            if isinstance(image_url, str):
+                if image_url.startswith("data:"):
+                    # 数据URL，直接使用
+                    data["image_url"] = image_url
+                elif image_url.startswith("file://"):
+                    # 确保file://路径格式正确，移除多余的斜杠
+                    file_path = image_url.replace("file:///", "file://")
+                    data["image_url"] = file_path
+                elif image_url.startswith(("/", "\\")) or ":" in image_url:
+                    # 绝对路径，转换为file://格式
+                    abs_path = os.path.abspath(image_url)
+                    data["image_url"] = f"file://{abs_path}"
+                else:
+                    # 相对路径、URL或其他格式，直接使用
+                    data["image_url"] = image_url
+                    
+            logger.info(f"处理图片URL: {data['image_url']}")
                 
         # 处理表格
         table_data = slide_data.get("table", None)
@@ -357,6 +371,12 @@ def fill_outline_content(outline, templates_dir):
         logger.error("无效的大纲格式")
         return []
     
+    # 提取所有幻灯片标题用于导航栏
+    slide_titles = []
+    for i, slide_data in enumerate(slides):
+        title = slide_data.get("title", f"幻灯片 {i+1}")
+        slide_titles.append({"index": i, "title": title})
+    
     # 填充每个幻灯片
     filled_slides = []
     for i, slide_data in enumerate(slides):
@@ -364,13 +384,123 @@ def fill_outline_content(outline, templates_dir):
         if "index" not in slide_data:
             slide_data["index"] = i
             
+        # 添加导航信息
+        slide_data["navigation"] = slide_titles
+        slide_data["current_index"] = i
+        slide_data["total_slides"] = len(slides)
+            
         # 填充内容
         html = filler.fill_slide_content(slide_data)
         if html:
+            # 添加导航栏
+            html = _add_navigation_to_html(html, slide_titles, i)
+            
+            # 添加幻灯片编号
+            html = _add_slide_number(html, i+1, len(slides))
+            
             filled_slides.append(html)
             
     logger.info(f"成功填充了 {len(filled_slides)} 张幻灯片")
     return filled_slides
+
+def _add_navigation_to_html(html, slide_titles, current_index):
+    """
+    向HTML添加导航栏
+    
+    Args:
+        html: HTML内容
+        slide_titles: 幻灯片标题列表
+        current_index: 当前幻灯片索引
+        
+    Returns:
+        添加导航栏后的HTML
+    """
+    # 创建导航HTML
+    nav_html = '<div class="slide-nav">\n'
+    for i, slide in enumerate(slide_titles):
+        active_class = ' class="active"' if i == current_index else ''
+        nav_html += f'  <div class="slide-nav-item"{active_class}>{i+1}. {slide["title"]}</div>\n'
+    nav_html += '</div>\n'
+    
+    # 查找插入位置
+    if '<div class="slide-nav">' in html:
+        # 已有导航栏占位符，替换它
+        html = re.sub(r'<div class="slide-nav">.*?</div>\s*', nav_html, html, flags=re.DOTALL)
+    else:
+        # 没有导航栏占位符，在slide-container后插入
+        html = html.replace('<div class="slide', '<div class="slide-with-nav slide', 1)
+        
+    return html
+
+def _add_slide_number(html, current, total):
+    """
+    向HTML添加幻灯片编号
+    
+    Args:
+        html: HTML内容
+        current: 当前幻灯片编号
+        total: 总幻灯片数
+        
+    Returns:
+        添加编号后的HTML
+    """
+    # 创建幻灯片编号HTML
+    number_html = f'<div class="slide-number">{current}/{total}</div>'
+    
+    # 在</body>前插入
+    if '</body>' in html:
+        html = html.replace('</body>', f'{number_html}</body>')
+    else:
+        html += number_html
+        
+    # 添加样式
+    style_html = """
+<style>
+.slide-number {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.slide-with-nav {
+    position: relative;
+}
+.slide-with-nav .slide-content {
+    margin-left: 150px;
+}
+.slide-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    padding: 20px 0;
+    overflow-y: auto;
+}
+.slide-nav-item {
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.slide-nav-item.active {
+    background-color: #2E7D32;
+    color: white;
+}
+</style>
+"""
+    
+    # 在</head>前插入
+    if '</head>' in html:
+        html = html.replace('</head>', f'{style_html}</head>')
+    
+    return html
     
 if __name__ == "__main__":
     import sys

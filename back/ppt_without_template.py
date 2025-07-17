@@ -16,6 +16,9 @@ from pptx.enum.text import PP_ALIGN
 from io import BytesIO
 import requests
 from image_service import get_image_for_slide
+import tempfile
+import re
+import base64
 
 # 配置日志
 logging.basicConfig(

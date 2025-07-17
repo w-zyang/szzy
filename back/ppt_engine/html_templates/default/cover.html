@@ -2,78 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Cover</title>
+    <title>封面</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
-        }
-        .slide-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            color: #333;
-        }
-        .slide-title {
-            font-size: 48px;
-            font-weight: bold;
-            color: #2c78c9;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .slide-subtitle {
-            font-size: 30px;
-            color: #555;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .slide-image-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .slide-image {
-            max-width: 100%;
-            max-height: 100%;
-            opacity: 0.3;
-            object-fit: cover;
-        }
-        .slide-content {
-            position: relative;
-            z-index: 1;
-            padding: 40px;
-            background-color: rgba(255, 255, 255, 0.7);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 80%;
-        }
+        body { margin: 0; padding: 0; font-family: 'Microsoft YaHei', Arial, sans-serif; }
+        .slide-container { width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+        .title { font-size: 48px; font-weight: bold; color: #333; margin-bottom: 20px; text-align: center; }
+        .subtitle { font-size: 24px; color: #666; text-align: center; }
     </style>
 </head>
 <body>
     <div class="slide-container" data-purpose="cover">
-        <div class="slide-image-container">
-            {% if image_url %}
-            <img src="{{ image_url }}" alt="Cover Image" class="slide-image">
-            {% endif %}
-        </div>
-        <div class="slide-content">
-            <h1 class="slide-title">{{ title }}</h1>
-            <div class="slide-subtitle">{{ content }}</div>
-        </div>
+        <h1 class="title">{{ title }}</h1>
+        <div class="subtitle">{{ content }}</div>
     </div>
 </body>
-</html> 
+</html>

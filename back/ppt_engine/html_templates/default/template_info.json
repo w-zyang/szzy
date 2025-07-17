@@ -1,0 +1,74 @@
+{
+  "name": "默认模板",
+  "description": "系统默认HTML模板",
+  "version": "1.0",
+  "author": "系统",
+  "slides": [
+    {
+      "name": "封面",
+      "suitable_for": [
+        "cover"
+      ],
+      "elements": [
+        "title",
+        "subtitle"
+      ]
+    },
+    {
+      "name": "内容",
+      "suitable_for": [
+        "content",
+        "text"
+      ],
+      "elements": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "name": "要点",
+      "suitable_for": [
+        "bullet",
+        "keypoints"
+      ],
+      "elements": [
+        "title",
+        "bullet_points"
+      ]
+    },
+    {
+      "name": "图片",
+      "suitable_for": [
+        "image",
+        "picture"
+      ],
+      "elements": [
+        "title",
+        "content",
+        "image"
+      ]
+    },
+    {
+      "name": "表格",
+      "suitable_for": [
+        "table",
+        "data"
+      ],
+      "elements": [
+        "title",
+        "table"
+      ]
+    },
+    {
+      "name": "总结",
+      "suitable_for": [
+        "conclusion",
+        "summary"
+      ],
+      "elements": [
+        "title",
+        "content"
+      ]
+    }
+  ]
+}

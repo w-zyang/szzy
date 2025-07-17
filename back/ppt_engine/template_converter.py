@@ -249,158 +249,70 @@ class PPTTemplateConverter:
             output_dir: 输出目录路径，如果为None则使用默认目录
             
         Returns:
-            HTML模板目录路径
+            HTML模板目录路径，转换失败则返回None
         """
-        logger.info(f"将PPT模板转换为HTML模板: {template_path}")
-        
-        # 确定输出目录
-        if output_dir is None:
+        try:
+            # 检查模板文件是否存在
+            if not os.path.exists(template_path):
+                logger.error(f"模板文件不存在: {template_path}")
+                return None
+                
+            # 获取模板名称
             template_name = os.path.splitext(os.path.basename(template_path))[0]
-            output_dir = os.path.join(self.html_templates_dir, template_name)
             
-        # 确保输出目录存在
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # 分析模板
-        template_info = self.analyze_ppt_template(template_path)
-        logger.info(f"模板分析完成，包含{len(template_info['slides'])}个幻灯片")
-        
-        # 保存模板信息
-        info_path = os.path.join(output_dir, "template_info.json")
-        with open(info_path, 'w', encoding='utf-8') as f:
-            json.dump(template_info, f, ensure_ascii=False, indent=2)
+            # 确定输出目录
+            if output_dir is None:
+                output_dir = os.path.join(self.html_templates_dir, template_name)
             
-        # 创建必要的HTML模板文件
-        created_templates = []
-        
-        # 检查是否有封面页
-        cover_slides = [s for s in template_info["slides"] if "cover" in s["suitable_for"]]
-        if cover_slides:
-            cover_html = self._create_html_template(cover_slides[0], template_info)
-            cover_path = os.path.join(output_dir, "cover.html")
-            with open(cover_path, 'w', encoding='utf-8') as f:
-                f.write(cover_html)
-            created_templates.append(("cover", cover_path))
-            logger.info("已创建封面页HTML模板")
+            logger.info(f"开始转换模板: {template_path} -> {output_dir}")
             
-        # 创建结论页
-        conclusion_slides = [s for s in template_info["slides"] if "conclusion" in s["suitable_for"]]
-        if conclusion_slides:
-            conclusion_html = self._create_html_template(conclusion_slides[0], template_info)
-            conclusion_path = os.path.join(output_dir, "conclusion.html")
-            with open(conclusion_path, 'w', encoding='utf-8') as f:
-                f.write(conclusion_html)
-            created_templates.append(("conclusion", conclusion_path))
-            logger.info("已创建结论页HTML模板")
+            # 确保输出目录存在
+            os.makedirs(output_dir, exist_ok=True)
             
-        # 创建内容页
-        content_slides = [s for s in template_info["slides"] if "content" in s["suitable_for"] and "cover" not in s["suitable_for"]]
-        if content_slides:
-            content_html = self._create_html_template(content_slides[0], template_info)
-            content_path = os.path.join(output_dir, "content.html")
-            with open(content_path, 'w', encoding='utf-8') as f:
-                f.write(content_html)
-            created_templates.append(("content", content_path))
-            logger.info("已创建内容页HTML模板")
-            
-        # 创建图片页
-        image_slides = [s for s in template_info["slides"] if "image" in s["suitable_for"]]
-        if image_slides:
-            image_html = self._create_html_template(image_slides[0], template_info)
-            image_path = os.path.join(output_dir, "image.html")
-            with open(image_path, 'w', encoding='utf-8') as f:
-                f.write(image_html)
-            created_templates.append(("image", image_path))
-            logger.info("已创建图片页HTML模板")
-            
-        # 创建表格页
-        table_slides = [s for s in template_info["slides"] if "table" in s["suitable_for"]]
-        if table_slides:
-            table_html = self._create_html_template(table_slides[0], template_info)
-            table_path = os.path.join(output_dir, "table.html")
-            with open(table_path, 'w', encoding='utf-8') as f:
-                f.write(table_html)
-            created_templates.append(("table", table_path))
-            logger.info("已创建表格页HTML模板")
-            
-        # 如果没有找到合适的模板，创建通用模板
-        if not created_templates:
-            # 使用第一张幻灯片
-            if template_info["slides"]:
-                general_html = self._create_html_template(template_info["slides"][0], template_info)
-                general_path = os.path.join(output_dir, "general.html")
-                with open(general_path, 'w', encoding='utf-8') as f:
-                    f.write(general_html)
-                created_templates.append(("general", general_path))
-                logger.info("已创建通用HTML模板")
+            # 分析模板
+            template_info = self.analyze_ppt_template(template_path)
+            if not template_info:
+                logger.error("分析模板失败")
+                return None
                 
-        # 创建CSS文件
-        css = self._generate_css(template_info)
-        css_path = os.path.join(output_dir, "style.css")
-        with open(css_path, 'w', encoding='utf-8') as f:
-            f.write(css)
-            
-        # 创建默认模板（如果没有特定用途的模板）
-        if not os.path.exists(os.path.join(output_dir, "content.html")):
-            # 复制general.html为content.html
-            if os.path.exists(os.path.join(output_dir, "general.html")):
-                with open(os.path.join(output_dir, "general.html"), 'r', encoding='utf-8') as f:
-                    general_html = f.read()
+            # 保存模板信息
+            info_path = os.path.join(output_dir, "template_info.json")
+            with open(info_path, 'w', encoding='utf-8') as f:
+                json.dump(template_info, f, ensure_ascii=False, indent=2)
+                
+            # 为每个幻灯片创建HTML模板
+            for slide_info in template_info["slides"]:
+                html_content = self._create_html_template(slide_info, template_info)
+                if html_content:
+                    # 保存HTML文件
+                    slide_index = slide_info["index"]
+                    purpose = "_".join(slide_info["suitable_for"])
+                    html_filename = f"slide_{slide_index + 1}_{purpose}.html"
+                    html_path = os.path.join(output_dir, html_filename)
                     
-                with open(os.path.join(output_dir, "content.html"), 'w', encoding='utf-8') as f:
-                    f.write(general_html)
-                    
-                logger.info("已创建默认内容页HTML模板")
+                    with open(html_path, 'w', encoding='utf-8') as f:
+                        f.write(html_content)
+                        
+            # 生成CSS文件
+            css_content = self._generate_css(template_info)
+            css_path = os.path.join(output_dir, "styles.css")
+            with open(css_path, 'w', encoding='utf-8') as f:
+                f.write(css_content)
                 
-        # 如果没有封面页，创建基本的封面页模板
-        if not os.path.exists(os.path.join(output_dir, "cover.html")):
-            cover_html = """<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Cover</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .slide-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #f5f5f5;
-        }
-        .title {
-            font-size: 2.5em;
-            font-weight: bold;
-            margin-bottom: 0.5em;
-            color: #2c3e50;
-        }
-        .subtitle {
-            font-size: 1.5em;
-            color: #7f8c8d;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container" data-purpose="cover">
-        <h1 class="title">{{ title }}</h1>
-        <div class="subtitle">{{ content }}</div>
-        <div class="image-container">
-            <img class="slide-image" src="{{ image_url }}" alt="Cover Image">
-        </div>
-    </div>
-</body>
-</html>"""
-            with open(os.path.join(output_dir, "cover.html"), 'w', encoding='utf-8') as f:
-                f.write(cover_html)
-                
-            logger.info("已创建基本封面页HTML模板")
+            # 创建通用模板文件
+            self._create_common_templates(output_dir, template_info)
             
-        logger.info(f"模板转换完成，已创建{len(created_templates)}个HTML模板")
-        return output_dir
-    
+            logger.info(f"模板转换成功: {template_path} -> {output_dir}")
+            logger.info(f"生成了 {len(template_info['slides'])} 个HTML模板文件")
+            
+            # 返回HTML模板目录路径
+            return output_dir
+        except Exception as e:
+            logger.error(f"转换模板失败: {str(e)}")
+            import traceback
+            logger.error(traceback.format_exc())
+            return None
+            
     def _create_html_template(self, slide_info, template_info):
         """
         为幻灯片创建HTML模板
@@ -499,84 +411,642 @@ class PPTTemplateConverter:
         Returns:
             CSS内容
         """
-        css = """/* PPT模板自动生成的样式表 */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
-}
+        # 提取幻灯片尺寸
+        width = template_info.get("slide_width", 960)
+        height = template_info.get("slide_height", 540)
+        
+        # 计算宽高比
+        aspect_ratio = height / width
+        
+        # 提取主题颜色
+        primary_color = "#2E7D32"  # 默认绿色
+        secondary_color = "#4CAF50"
+        text_color = "#333333"
+        background_color = "#FFFFFF"
+        
+        # 尝试从模板中提取颜色
+        for slide in template_info.get("slides", []):
+            for element in slide.get("elements", []):
+                if element.get("content_type") == "text" and element.get("text_style", {}).get("color"):
+                    text_color = element.get("text_style", {}).get("color")
+                    break
+        
+        # 生成CSS
+        css = f"""
+/* 全局样式 */
+* {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
 
-.slide-container {
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  margin: 0 auto;
-  overflow: hidden;
-  background: #ffffff;
-}
+body {{
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}}
 
-.element {
-  position: absolute;
-  box-sizing: border-box;
-}
+/* 幻灯片容器 */
+.slide {{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: {background_color};
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    aspect-ratio: {1/aspect_ratio};
+}}
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
+/* 标题样式 */
+.title {{
+    font-size: 36px;
+    font-weight: bold;
+    color: {primary_color};
+    margin-bottom: 20px;
+    text-align: left;
+}}
 
-.text {
-  overflow: hidden;
-  line-height: 1.5;
-}
+/* 内容样式 */
+.content {{
+    font-size: 24px;
+    color: {text_color};
+    line-height: 1.5;
+    margin-bottom: 20px;
+}}
 
-.title {
-  font-weight: bold;
-  font-size: 36px;
-}
+/* 子标题样式 */
+.subtitle {{
+    font-size: 28px;
+    color: {secondary_color};
+    margin-bottom: 15px;
+}}
 
-.content {
-  font-size: 18px;
-}
+/* 项目符号列表 */
+.bullet-points {{
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 24px;
+    color: {text_color};
+    line-height: 1.5;
+}}
 
-/* 幻灯片类型特定样式 */
-[data-purpose*="cover"] .title {
-  font-size: 42px;
-  text-align: center;
-}
+.bullet-points li {{
+    margin-bottom: 10px;
+    position: relative;
+}}
 
-[data-purpose*="conclusion"] .title {
-  font-size: 36px;
-}
+/* 图片容器 */
+.image-container {{
+    text-align: center;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}}
+
+.image-container img {{
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}}
 
 /* 表格样式 */
-table.slide-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+table {{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}}
 
-table.slide-table th {
-  background-color: #f0f0f0;
-  font-weight: bold;
-  text-align: center;
-}
+th, td {{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}}
 
-table.slide-table th, table.slide-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
+th {{
+    background-color: {primary_color};
+    color: white;
+}}
 
-/* 列表样式 */
-ul.slide-list {
-  margin: 0;
-  padding: 0 0 0 20px;
-}
+tr:nth-child(even) {{
+    background-color: #f2f2f2;
+}}
 
-ul.slide-list li {
-  margin-bottom: 10px;
-}
+/* 特殊幻灯片样式 */
+.cover-slide {{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}}
+
+.cover-slide .title {{
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}}
+
+.cover-slide .subtitle {{
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}}
+
+.conclusion-slide {{
+    background-color: #f9f9f9;
+}}
+
+.conclusion-slide .title {{
+    color: {primary_color};
+}}
+
+/* 响应式设计 */
+@media (max-width: 768px) {{
+    .slide {{
+        padding: 20px;
+    }}
+    
+    .title {{
+        font-size: 28px;
+    }}
+    
+    .content, .bullet-points {{
+        font-size: 18px;
+    }}
+    
+    .cover-slide .title {{
+        font-size: 36px;
+    }}
+    
+    .cover-slide .subtitle {{
+        font-size: 24px;
+    }}
+}}
+
+/* 导航栏样式 - 模拟PPT左侧导航 */
+.slide-nav {{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    padding: 20px 0;
+}}
+
+.slide-nav-item {{
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}}
+
+.slide-nav-item.active {{
+    background-color: {primary_color};
+    color: white;
+}}
+
+/* 带导航的幻灯片内容区域 */
+.with-nav .slide-content {{
+    margin-left: 150px;
+}}
 """
         return css
+
+    def _create_common_templates(self, output_dir, template_info):
+        """
+        创建通用HTML模板文件（封面、内容、结论等）
+        
+        Args:
+            output_dir: 输出目录
+            template_info: 模板信息
+        """
+        # 创建封面模板
+        cover_html = self._create_cover_template(template_info)
+        with open(os.path.join(output_dir, "cover.html"), 'w', encoding='utf-8') as f:
+            f.write(cover_html)
+            
+        # 创建内容模板
+        content_html = self._create_content_template(template_info)
+        with open(os.path.join(output_dir, "content.html"), 'w', encoding='utf-8') as f:
+            f.write(content_html)
+            
+        # 创建图文模板
+        image_html = self._create_image_template(template_info)
+        with open(os.path.join(output_dir, "image.html"), 'w', encoding='utf-8') as f:
+            f.write(image_html)
+            
+        # 创建表格模板
+        table_html = self._create_table_template(template_info)
+        with open(os.path.join(output_dir, "table.html"), 'w', encoding='utf-8') as f:
+            f.write(table_html)
+            
+        # 创建结论模板
+        conclusion_html = self._create_conclusion_template(template_info)
+        with open(os.path.join(output_dir, "conclusion.html"), 'w', encoding='utf-8') as f:
+            f.write(conclusion_html)
+            
+        logger.info(f"已创建通用模板文件: cover.html, content.html, image.html, table.html, conclusion.html")
+        
+    def _create_cover_template(self, template_info):
+        """创建封面模板"""
+        html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>封面</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .cover-slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            padding: 40px;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+        }
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .author {
+            font-size: 18px;
+            margin-top: 40px;
+            color: #666;
+        }
+        .image-container {
+            margin: 30px 0;
+            max-width: 80%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide cover-slide">
+        <h1 class="title">{{ title }}</h1>
+        <div class="subtitle">{{ content }}</div>
+        {% if image_url %}
+        <div class="image-container">
+            <img src="{{ image_url }}" alt="{{ title }}">
+        </div>
+        {% endif %}
+        {% if slide_data.author %}
+        <div class="author">{{ slide_data.author }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>"""
+        return html
+        
+    def _create_content_template(self, template_info):
+        """创建内容模板"""
+        html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>内容</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+        .bullet-points {
+            list-style-type: disc;
+            margin-left: 30px;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .bullet-points li {
+            margin-bottom: 15px;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide content-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            {% if bullet_points and bullet_points|length > 0 %}
+            <ul class="bullet-points">
+                {% for point in bullet_points %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>"""
+        return html
+        
+    def _create_image_template(self, template_info):
+        """创建图文模板"""
+        html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>图文</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E7D32;
+        }
+        .content-container {
+            display: flex;
+            flex: 1;
+        }
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide image-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content-container">
+                <div class="text-content">
+                    <div class="content">{{ content }}</div>
+                </div>
+                {% if image_url %}
+                <div class="image-container">
+                    <img src="{{ image_url }}" alt="{{ title }}">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>"""
+        return html
+        
+    def _create_conclusion_template(self, template_info):
+        """创建结论模板"""
+        html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>结论</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .conclusion-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+            background-color: #f9f9f9;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+            text-align: center;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin: 20px auto;
+            max-width: 80%;
+            text-align: center;
+        }
+        .image-container {
+            margin: 20px auto;
+            text-align: center;
+            max-width: 60%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide conclusion-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            {% if image_url %}
+            <div class="image-container">
+                <img src="{{ image_url }}" alt="{{ title }}">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>"""
+        return html
+
+    def _create_table_template(self, template_info):
+        """创建表格模板"""
+        html = """<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .table-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E7D32;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .table-container {
+            flex: 1;
+            overflow: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #2E7D32;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide table-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            <div class="table-container">
+                {% if table_html %}
+                {{ table_html|safe }}
+                {% else %}
+                <table>
+                    <thead>
+                        <tr>
+                            {% for header in table[0] %}
+                            <th>{{ header }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in table[1:] %}
+                        <tr>
+                            {% for cell in row %}
+                            <td>{{ cell }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>"""
+        return html
 
 def convert_template(template_path, output_dir=None):
     """

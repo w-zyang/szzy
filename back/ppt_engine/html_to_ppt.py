@@ -268,29 +268,86 @@ class HTMLToPPTConverter:
             width = presentation.slide_width
             height = presentation.slide_height
             
-            # 使用PIL打开图像并确保正确尺寸
+            # 处理不同类型的图像数据
             if isinstance(image_data, bytes):
                 # 如果是图像数据
                 image = Image.open(BytesIO(image_data))
-            elif isinstance(image_data, str) and image_data.startswith('file://'):
-                # 处理file://开头的路径
-                file_path = image_data[7:]
-                image = Image.open(file_path)
+                logger.info("使用二进制图像数据")
+            elif isinstance(image_data, str):
+                if image_data.startswith('file://'):
+                    # 处理file://开头的路径，确保正确提取路径
+                    file_path = image_data[7:]
+                    # 在Windows上，可能需要额外处理
+                    if os.name == 'nt' and file_path.startswith('/'):
+                        file_path = file_path[1:]  # 移除开头的/
+                    logger.info(f"从file://路径加载图像: {file_path}")
+                    
+                    # 检查文件是否存在
+                    if not os.path.exists(file_path):
+                        logger.warning(f"图像文件不存在: {file_path}")
+                        # 尝试使用默认图像
+                        default_img_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                                      "default_images", "default.jpg")
+                        if os.path.exists(default_img_path):
+                            file_path = default_img_path
+                            logger.info(f"使用默认图像: {file_path}")
+                        else:
+                            # 创建空白图像
+                            image = Image.new('RGB', (800, 600), color=(255, 255, 255))
+                            logger.info("创建空白图像替代")
+                    else:
+                        image = Image.open(file_path)
+                elif image_data.startswith('data:image/'):
+                    # 处理data URL
+                    logger.info("从数据URL加载图像")
+                    import base64
+                    try:
+                        # 提取base64部分
+                        base64_data = image_data.split(',')[1]
+                        image_bytes = base64.b64decode(base64_data)
+                        image = Image.open(BytesIO(image_bytes))
+                    except Exception as e:
+                        logger.error(f"处理数据URL失败: {str(e)}")
+                        # 创建空白图像
+                        image = Image.new('RGB', (800, 600), color=(255, 255, 255))
+                elif os.path.exists(image_data):
+                    # 处理直接的文件路径
+                    logger.info(f"从文件路径加载图像: {image_data}")
+                    image = Image.open(image_data)
+                else:
+                    logger.warning(f"无法识别的图像数据: {image_data[:30]}...")
+                    # 创建一个空白图像作为占位符
+                    image = Image.new('RGB', (800, 600), color=(255, 255, 255))
             else:
                 logger.error(f"不支持的图像数据类型: {type(image_data)}")
-                return None
+                # 创建一个空白图像
+                image = Image.new('RGB', (800, 600), color=(255, 255, 255))
             
             # 调整图像比例
             img_ratio = image.width / image.height
             slide_ratio = width / height
+            
+            # 计算合适的图像尺寸和位置
+            if img_ratio > slide_ratio:
+                # 图像更宽，按宽度缩放
+                img_width = width * 0.8
+                img_height = img_width / img_ratio
+                left = width * 0.1
+                top = (height - img_height) / 2
+            else:
+                # 图像更高，按高度缩放
+                img_height = height * 0.8
+                img_width = img_height * img_ratio
+                top = height * 0.1
+                left = (width - img_width) / 2
             
             # 保存为临时文件
             temp_img = BytesIO()
             image.save(temp_img, format='PNG')
             temp_img.seek(0)
             
-            # 添加图像到幻灯片，覆盖整个幻灯片
-            slide.shapes.add_picture(temp_img, 0, 0, width=width, height=height)
+            # 添加图像到幻灯片，使用计算的位置和尺寸
+            slide.shapes.add_picture(temp_img, left, top, width=img_width, height=img_height)
             
             logger.info("成功添加图片到幻灯片")
             
@@ -299,7 +356,13 @@ class HTMLToPPTConverter:
             logger.error(f"添加图片到幻灯片失败: {str(e)}")
             import traceback
             logger.error(traceback.format_exc())
-            return None
+            
+            # 尝试添加一个空白幻灯片作为替代
+            try:
+                slide = presentation.slides.add_slide(presentation.slide_layouts[6])
+                return slide
+            except:
+                return None
     
     def close(self):
         """关闭浏览器"""

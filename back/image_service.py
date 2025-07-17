@@ -149,7 +149,7 @@ class ImageService:
     def generate_image(self, prompt, slide_data=None):
         """
         生成图片
-
+        
         Args:
             prompt: 图片描述
             slide_data: 幻灯片数据，用于提取更多上下文
@@ -158,6 +158,22 @@ class ImageService:
             图片文件路径或数据URI
         """
         logger.info(f"开始生成图片，提示词: {prompt}")
+        
+        # 检查是否配置了使用默认图片
+        use_default_images = False
+        try:
+            # 尝试从配置文件读取设置
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json'), 'r') as f:
+                config = json.load(f)
+                use_default_images = config.get('USE_DEFAULT_IMAGES', False)
+        except:
+            pass
+            
+        # 如果配置了直接使用默认图片，则跳过API调用
+        if use_default_images:
+            logger.info("配置为使用默认图片，跳过API调用")
+            default_image = self._get_default_image_for_prompt(prompt, slide_data)
+            return default_image
         
         # 增强提示词
         enhanced_prompt = self._enhance_prompt_from_slide_data(prompt, slide_data)
@@ -187,15 +203,6 @@ class ImageService:
         except Exception as e:
             logger.error(f"百度图片生成API请求失败: {str(e)}")
         
-        # 尝试使用备用方法生成图片
-        try:
-            image_path = self._generate_with_backup_service(enhanced_prompt)
-            if image_path:
-                self.image_cache[cache_key] = image_path
-                return image_path
-        except Exception as e:
-            logger.error(f"备用图片生成服务请求失败: {str(e)}")
-        
         # 如果生成失败，使用默认图片
         default_image = self._get_default_image_for_prompt(prompt, slide_data)
         logger.info(f"生成失败，使用默认图片: {default_image}")
@@ -214,41 +221,83 @@ class ImageService:
             增强后的提示词
         """
         if not slide_data:
-            return prompt
+            return f"{prompt}，高清，专业，适合PPT演示，简洁背景"
             
         # 提取标题和内容
         title = slide_data.get('title', '')
         content = slide_data.get('content', '')
-        keypoints = slide_data.get('keypoints', [])
+        keypoints = []
+        
+        # 获取要点列表
+        for field in ["keypoints", "bullet_points", "points"]:
+            points = slide_data.get(field, [])
+            if points:
+                if isinstance(points, list):
+                    keypoints = points
+                break
         
         # 构建增强提示词
-        enhanced_parts = [prompt]
+        enhanced_parts = []
         
-        if title and title not in prompt:
+        # 添加标题
+        if title:
             enhanced_parts.append(title)
             
-        # 提取内容中的关键信息
+        # 添加内容摘要
         if content and len(content) > 10:
             # 使用jieba提取关键词
             if HAS_JIEBA:
                 try:
-                    keywords = jieba.analyse.extract_tags(content, topK=5)
+                    keywords = jieba.analyse.extract_tags(content, topK=8)
                     if keywords:
                         enhanced_parts.append(" ".join(keywords))
                 except:
-                    pass
+                    # 如果jieba失败，添加内容的前50个字符
+                    enhanced_parts.append(content[:50])
+            else:
+                # 如果没有jieba，添加内容的前50个字符
+                enhanced_parts.append(content[:50])
             
         # 添加要点
         if keypoints and len(keypoints) > 0:
-            # 只使用前2-3个要点
-            short_points = keypoints[:min(3, len(keypoints))]
-            enhanced_parts.append(" ".join(short_points))
+            # 处理不同格式的要点
+            point_texts = []
+            for point in keypoints[:3]:  # 只使用前3个要点
+                if isinstance(point, dict):
+                    point_text = point.get("text", "") or point.get("content", "")
+                    if point_text:
+                        point_texts.append(point_text)
+                elif isinstance(point, str):
+                    point_texts.append(point)
             
-        # 组合提示词，添加图像质量要求
-        combined_prompt = " - ".join([p for p in enhanced_parts if p])
-        enhanced_prompt = f"{combined_prompt}，高清，专业，适合PPT演示，简洁背景"
+            if point_texts:
+                enhanced_parts.append(" ".join(point_texts))
+            
+        # 组合提示词
+        if enhanced_parts:
+            combined_prompt = " - ".join(enhanced_parts)
+        else:
+            combined_prompt = prompt
+            
+        # 添加图像风格和质量要求
+        style_requirements = "高清晰度，专业，适合PPT演示，简洁背景，矢量风格，图表风格" if "图表" in prompt else "高清晰度，专业，适合PPT演示，简洁背景"
         
-        return enhanced_prompt
+        # 检查是否是特定类型的内容
+        if any(keyword in combined_prompt.lower() for keyword in ["细胞", "生物", "植物", "动物", "解剖"]):
+            style_requirements += "，科学插图风格，精确，教科书风格"
+        elif any(keyword in combined_prompt.lower() for keyword in ["数学", "公式", "计算", "统计"]):
+            style_requirements += "，图表风格，清晰，数据可视化"
+        elif any(keyword in combined_prompt.lower() for keyword in ["历史", "古代", "文化"]):
+            style_requirements += "，历史插图风格，准确，教育性"
+            
+        # 确定幻灯片类型
+        slide_type = slide_data.get('type', '').lower()
+        if slide_type == 'cover' or slide_data.get('layout', '') == 'cover':
+            style_requirements += "，封面设计，吸引人，大标题"
+        elif slide_type == 'conclusion' or slide_data.get('layout', '') == 'conclusion':
+            style_requirements += "，总结风格，概括性，清晰"
+            
+        return f"{combined_prompt}，{style_requirements}"
     
     def _get_default_image_for_prompt(self, prompt, slide_data=None):
         """
@@ -357,9 +406,9 @@ class ImageService:
         """
         if not self.aliyun_api_key:
             logger.warning("未配置阿里云API密钥")
-            return None
-            
-        logger.info(f"尝试使用阿里云API生成图片")
+        return None
+        
+        logger.info(f"尝试使用阿里云API生成图片: {prompt[:100]}...")
             
         # API端点
         api_url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis"
@@ -370,15 +419,27 @@ class ImageService:
             "Authorization": f"Bearer {self.aliyun_api_key}"
         }
         
+        # 确定合适的图片风格
+        style = "photo"  # 默认风格
+        if any(keyword in prompt.lower() for keyword in ["图表", "数据", "统计", "比较"]):
+            style = "flat"  # 扁平化风格适合图表
+        elif any(keyword in prompt.lower() for keyword in ["卡通", "动画", "儿童"]):
+            style = "cartoon"  # 卡通风格
+        elif any(keyword in prompt.lower() for keyword in ["科学", "教育", "教学", "学术"]):
+            style = "illustration"  # 插图风格适合教育内容
+            
+        # 确定图片尺寸 - 使用16:9比例更适合PPT
+        size = "1024*576"  # 16:9比例
+        
         # 请求参数
         data = {
             "model": "wanx-v1",
             "input": {
-                "prompt": f"{prompt}，高清，专业，适合PPT演示，简洁背景"
+                "prompt": prompt
             },
             "parameters": {
-                "style": "photo",
-                "size": "1024*1024",
+                "style": style,
+                "size": size,
                 "n": 1,
                 "seed": random.randint(1, 10000)
             }
@@ -405,76 +466,6 @@ class ImageService:
             return None
         except Exception as e:
             logger.error(f"阿里云图片生成API请求失败: {str(e)}")
-            return None
-    
-    def _generate_with_backup_service(self, prompt):
-        """
-        使用备用服务生成图片
-        
-        Args:
-            prompt: 图片描述
-            
-        Returns:
-            图片文件路径
-        """
-        logger.info(f"尝试使用备用图片生成服务: {prompt}")
-        
-        # 备用API端点 (这里使用Stable Diffusion API作为示例)
-        api_url = "https://api.stability.ai/v1/generation/stable-diffusion-v1-5/text-to-image"
-        
-        # 请求头 (需要API密钥)
-        headers = {
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "Api-Key": os.environ.get("STABILITY_API_KEY", "")
-        }
-        
-        # 请求参数
-        data = {
-            "text_prompts": [
-                {
-                    "text": f"{prompt}，高质量，适合PPT展示",
-                    "weight": 1.0
-                }
-            ],
-            "cfg_scale": 7,
-            "height": 768,
-            "width": 1024,
-            "samples": 1,
-            "steps": 30
-        }
-        
-        try:
-            # 发送请求
-            response = requests.post(api_url, headers=headers, json=data, timeout=60)
-            response.raise_for_status()
-            
-            # 解析响应
-            result = response.json()
-            
-            # 提取图片数据
-            if "artifacts" in result and len(result["artifacts"]) > 0:
-                # 获取Base64编码的图片数据
-                base64_image = result["artifacts"][0]["base64"]
-                
-                # 解码图片数据
-                image_data = base64.b64decode(base64_image)
-                
-                # 保存到文件
-                timestamp = int(time.time())
-                image_filename = f"generated_{timestamp}.png"
-                image_path = os.path.join(IMAGE_CACHE_DIR, image_filename)
-                
-                with open(image_path, "wb") as f:
-                    f.write(image_data)
-                    
-                logger.info(f"成功生成图片: {image_path}")
-                return f"file://{os.path.abspath(image_path)}"
-                
-            logger.warning(f"备用API返回数据格式不正确: {result}")
-            return None
-        except Exception as e:
-            logger.error(f"备用图片生成服务请求失败: {str(e)}")
             return None
     
     def _enhance_image(self, image_path):
@@ -576,14 +567,27 @@ class ImageService:
             'Content-Type': 'application/json'
         }
         
+        # 构建负面提示词
+        negative_prompt = "低质量，模糊，变形，扭曲，错误布局，糟糕的解剖结构，糟糕的透视，艺术风格，水印，文字，签名"
+        
+        # 根据提示词内容调整参数
+        size = '1024x576'  # 默认16:9比例适合PPT
+        steps = 20
+        
+        # 根据内容类型调整采样器和步数
+        sampler = 'DPM++ 2M Karras'
+        if any(keyword in prompt.lower() for keyword in ["细节", "精细", "高清晰度"]):
+            steps = 30  # 增加步数以获得更多细节
+            sampler = 'DPM++ SDE Karras'  # 更适合细节丰富的图像
+            
         # 请求参数
         data = {
-            'prompt': f"{prompt}，高清，适合PPT演示，专业",
-            'negative_prompt': "低质量，模糊，变形",
-            'size': '1024x1024',  # 可选 768x768, 1024x1024
+            'prompt': prompt,
+            'negative_prompt': negative_prompt,
+            'size': size,
             'n': 1,
-            'steps': 20,
-            'sampler': 'DPM++ 2M Karras',
+            'steps': steps,
+            'sampler': sampler,
             'seed': random.randint(1, 10000)
         }
         
@@ -603,8 +607,8 @@ class ImageService:
             # 检查是否有错误
             if 'error_code' in result:
                 logger.error(f"百度API错误: {result.get('error_code')}, {result.get('error_msg')}")
-                return None
-                
+            return None
+            
             # 提取图片数据
             if 'data' in result and 'img' in result['data']:
                 # 获取Base64编码的图片数据
@@ -614,7 +618,7 @@ class ImageService:
                 image_data = base64.b64decode(base64_image)
                 
                 # 保存到文件
-                timestamp = int(time.time())
+                        timestamp = int(time.time())
                 image_filename = f"baidu_generated_{timestamp}.png"
                 image_path = os.path.join(IMAGE_CACHE_DIR, image_filename)
                 
@@ -690,7 +694,7 @@ def extract_keywords(text, top_k=5):
     
     # 如果jieba失败或不可用，使用简单的词频统计
     words = simple_chinese_tokenize(text)
-    word_freq = {}
+        word_freq = {}
     
     for word in words:
         if len(word) > 1 and word.lower() not in STOPWORDS:
@@ -699,10 +703,10 @@ def extract_keywords(text, top_k=5):
                 word_freq[word] += 1
             else:
                 word_freq[word] = 1
-                
-    # 按词频排序
-    sorted_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
-    
+        
+        # 按词频排序
+        sorted_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+        
     # 返回top_k个关键词
     return [word for word, _ in sorted_words[:top_k]]
 
@@ -785,9 +789,9 @@ def _get_default_image_bytes(slide_data):
     Returns:
         默认图片的数据URI或文件路径
     """
-    # 初始化图片服务
-    image_service = ImageService()
-    
+# 初始化图片服务
+image_service = ImageService()
+
     # 构建默认图片描述
     image_prompt = _build_image_prompt(slide_data)
     
