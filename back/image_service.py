@@ -250,7 +250,7 @@ class ImageService:
                 try:
                     keywords = jieba.analyse.extract_tags(content, topK=8)
                     if keywords:
-                        enhanced_parts.append(" ".join(keywords))
+                        enhanced_parts.append(" ".join([str(k) for k in keywords]))
                 except:
                     # 如果jieba失败，添加内容的前50个字符
                     enhanced_parts.append(content[:50])
@@ -607,7 +607,7 @@ class ImageService:
             # 检查是否有错误
             if 'error_code' in result:
                 logger.error(f"百度API错误: {result.get('error_code')}, {result.get('error_msg')}")
-            return None
+                return None
             
             # 提取图片数据
             if 'data' in result and 'img' in result['data']:
@@ -618,7 +618,7 @@ class ImageService:
                 image_data = base64.b64decode(base64_image)
                 
                 # 保存到文件
-                        timestamp = int(time.time())
+                timestamp = int(time.time())
                 image_filename = f"baidu_generated_{timestamp}.png"
                 image_path = os.path.join(IMAGE_CACHE_DIR, image_filename)
                 
@@ -694,7 +694,7 @@ def extract_keywords(text, top_k=5):
     
     # 如果jieba失败或不可用，使用简单的词频统计
     words = simple_chinese_tokenize(text)
-        word_freq = {}
+    word_freq = {}
     
     for word in words:
         if len(word) > 1 and word.lower() not in STOPWORDS:
@@ -703,10 +703,10 @@ def extract_keywords(text, top_k=5):
                 word_freq[word] += 1
             else:
                 word_freq[word] = 1
-        
-        # 按词频排序
-        sorted_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
-        
+    
+    # 按词频排序
+    sorted_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+    
     # 返回top_k个关键词
     return [word for word, _ in sorted_words[:top_k]]
 
@@ -775,7 +775,7 @@ def _build_image_prompt(slide_data):
     
     # 增强提示词
     if keywords:
-        prompt = f"{prompt} - {', '.join(keywords)}"
+        prompt = f"{prompt} - {', '.join([str(k) for k in keywords])}"
     
     return prompt
 
@@ -789,8 +789,8 @@ def _get_default_image_bytes(slide_data):
     Returns:
         默认图片的数据URI或文件路径
     """
-# 初始化图片服务
-image_service = ImageService()
+    # 初始化图片服务
+    image_service = ImageService()
 
     # 构建默认图片描述
     image_prompt = _build_image_prompt(slide_data)

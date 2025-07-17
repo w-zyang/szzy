@@ -244,12 +244,11 @@ class ImageComponent(SlideComponentBase):
                 # 处理不同类型的图片数据
                 if isinstance(image_url, str):
                     if image_url.startswith('http://') or image_url.startswith('https://'):
-                    # 从URL下载图片
                         try:
                             logger.info(f"尝试下载图片URL: {image_url}")
                             response = requests.get(image_url, stream=True, timeout=10)
-                    response.raise_for_status()
-                    image_data = response.content
+                            response.raise_for_status()
+                            image_data = response.content
                             logger.info(f"成功下载图片，大小: {len(image_data)} 字节")
                         except Exception as e:
                             logger.warning(f"下载图片失败: {str(e)}")
@@ -261,7 +260,7 @@ class ImageComponent(SlideComponentBase):
                         if os.path.exists(local_path):
                             try:
                                 with open(local_path, 'rb') as f:
-                        image_data = f.read()
+                                    image_data = f.read()
                                 logger.info(f"成功加载本地图片，大小: {len(image_data)} 字节")
                             except Exception as e:
                                 logger.warning(f"读取本地图片失败: {str(e)}")
