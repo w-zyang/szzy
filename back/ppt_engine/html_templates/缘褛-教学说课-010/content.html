@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>内容</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+        .bullet-points {
+            list-style-type: disc;
+            margin-left: 30px;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .bullet-points li {
+            margin-bottom: 15px;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide content-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            {% if bullet_points and bullet_points|length > 0 %}
+            <ul class="bullet-points">
+                {% for point in bullet_points %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

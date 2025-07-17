@@ -2,8 +2,11 @@
     "AI_IMAGE_API_KEY": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "AI_IMAGE_API_URL": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis",
     "USE_AI_IMAGES": true,
-    "BAIDU_API_KEY": "xxxxxxxxxxxxxxxxxxxxxxxx",
-    "BAIDU_SECRET_KEY": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    
+    "_comment_baidu": "百度语音识别API需要传统格式的API KEY和SECRET KEY (非bce-v3格式)",
+    "BAIDU_API_KEY": "5MApzRUIs9RYlagFvFzWMVYi",
+    "BAIDU_SECRET_KEY": "gJSfLATT9uVdbJe5ug3c4xO5mmh98FAY",
+    
     "TEMPLATE_DIR": "D:\\szzy\\back\\ppt_templates",
     "DEBUG": true,
     "USE_DEFAULT_IMAGES": true

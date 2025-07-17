@@ -1,16 +1,14 @@
 import React, { useState, useRef } from 'react';
-import { Input, Upload, Button, Card, Typography, message, Tabs, Row, Col, Space } from 'antd';
-import { AudioOutlined, CameraOutlined, FileImageOutlined, SoundOutlined, StopOutlined } from '@ant-design/icons';
+import { Tabs, Input, Button, Upload, message, Space, Typography } from 'antd';
+import { FileImageOutlined, SoundOutlined, FileTextOutlined, UploadOutlined, StopOutlined } from '@ant-design/icons';
+import type { UploadProps } from 'antd';
+import AudioRecorder from './AudioRecorder';
 
 const { TextArea } = Input;
-const { Title, Text } = Typography;
+const { Text } = Typography;
 
 interface MultimodalInputProps {
-  onSubmit: (data: {
-    type: 'text' | 'voice' | 'image';
-    content: string;
-    file?: File;
-  }) => void;
+  onSubmit: (data: {type: string, content: string | File}) => void;
   placeholder?: string;
   loading?: boolean;
 }
@@ -18,12 +16,8 @@ interface MultimodalInputProps {
 export default function MultimodalInput({ onSubmit, placeholder = "请输入内容或选择其他输入方式", loading = false }: MultimodalInputProps) {
   const [activeTab, setActiveTab] = useState('text');
   const [textContent, setTextContent] = useState('');
-  const [isRecording, setIsRecording] = useState(false);
-  const [audioFile, setAudioFile] = useState<File | null>(null);
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const audioChunksRef = useRef<Blob[]>([]);
 
   // 文本输入处理
   const handleTextSubmit = () => {
@@ -37,78 +31,43 @@ export default function MultimodalInput({ onSubmit, placeholder = "请输入内�
     });
   };
 
-  // 语音录制处理
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      mediaRecorderRef.current = new MediaRecorder(stream);
-      audioChunksRef.current = [];
-
-      mediaRecorderRef.current.ondataavailable = (event) => {
-        audioChunksRef.current.push(event.data);
-      };
-
-      mediaRecorderRef.current.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/wav' });
-        const audioFile = new File([audioBlob], 'recording.wav', { type: 'audio/wav' });
-        setAudioFile(audioFile);
-        stream.getTracks().forEach(track => track.stop());
-      };
-
-      mediaRecorderRef.current.start();
-      setIsRecording(true);
-      message.success('开始录音...');
-    } catch (error) {
-      message.error('无法访问麦克风，请检查权限设置');
-    }
-  };
-
-  const stopRecording = () => {
-    if (mediaRecorderRef.current && isRecording) {
-      mediaRecorderRef.current.stop();
-      setIsRecording(false);
-      message.success('录音完成');
-    }
-  };
-
-  const handleVoiceSubmit = () => {
-    if (!audioFile) {
-      message.warning('请先录制语音');
+  // 语音输入处理
+  const handleVoiceSubmit = (text: string) => {
+    if (!text.trim()) {
+      message.warning('语音识别内容为空');
       return;
     }
+    
     onSubmit({
-      type: 'voice',
-      content: '语音输入内容',
-      file: audioFile
+      type: 'text',
+      content: text
     });
   };
 
-  // 图像上传处理
-  const handleImageUpload = (file: File) => {
-    if (!file.type.startsWith('image/')) {
-      message.error('请上传图像文件');
-      return false;
+  // 图片上传处理
+  const handleImageChange: UploadProps['onChange'] = (info) => {
+    if (info.file.status === 'done') {
+      message.success(`${info.file.name} 上传成功`);
+      setImageFile(info.file.originFileObj as File);
+      
+      // 创建预览URL
+      if (info.file.originFileObj) {
+        const url = URL.createObjectURL(info.file.originFileObj);
+        setImagePreview(url);
+      }
+    } else if (info.file.status === 'error') {
+      message.error(`${info.file.name} 上传失败`);
     }
-    
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      setImagePreview(e.target?.result as string);
-    };
-    reader.readAsDataURL(file);
-    
-    setImageFile(file);
-    return false; // 阻止默认上传行为
   };
 
   const handleImageSubmit = () => {
     if (!imageFile) {
-      message.warning('请先上传图像');
+      message.warning('请先上传图片');
       return;
     }
     onSubmit({
       type: 'image',
-      content: '图像输入内容',
-      file: imageFile
+      content: imageFile
     });
   };
 
@@ -116,26 +75,21 @@ export default function MultimodalInput({ onSubmit, placeholder = "请输入内�
     {
       key: 'text',
       label: (
-        <Space>
-          <FileImageOutlined />
-          文本输入
-        </Space>
+        <span>
+          <FileTextOutlined />
+          文字
+        </span>
       ),
       children: (
-        <div>
+        <div style={{ padding: '20px 0' }}>
           <TextArea
+            rows={4}
             value={textContent}
-            onChange={(e) => setTextContent(e.target.value)}
+            onChange={e => setTextContent(e.target.value)}
             placeholder={placeholder}
-            rows={6}
             style={{ marginBottom: 16 }}
           />
-          <Button
-            type="primary"
-            onClick={handleTextSubmit}
-            loading={loading}
-            size="large"
-          >
+          <Button type="primary" onClick={handleTextSubmit} loading={loading}>
             提交文本
           </Button>
         </div>
@@ -144,111 +98,75 @@ export default function MultimodalInput({ onSubmit, placeholder = "请输入内�
     {
       key: 'voice',
       label: (
-        <Space>
-          <AudioOutlined />
-          语音输入
-        </Space>
+        <span>
+          <SoundOutlined />
+          语音
+        </span>
       ),
       children: (
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
-          <div style={{ marginBottom: 20 }}>
-            <Text type="secondary">点击按钮开始录音，支持语音转文本</Text>
-          </div>
-          <Space direction="vertical" size="large">
-            <Button
-              type={isRecording ? "danger" : "primary"}
-              icon={isRecording ? <StopOutlined /> : <SoundOutlined />}
-              size="large"
-              onClick={isRecording ? stopRecording : startRecording}
-              style={{ width: 120, height: 120, borderRadius: '50%' }}
-            >
-              {isRecording ? '停止录音' : '开始录音'}
-            </Button>
-            {audioFile && (
-              <div>
-                <audio controls src={URL.createObjectURL(audioFile)} style={{ marginBottom: 16 }} />
-                <br />
-                <Button
-                  type="primary"
-                  onClick={handleVoiceSubmit}
-                  loading={loading}
-                  size="large"
-                >
-                  提交语音
-                </Button>
-              </div>
-            )}
-          </Space>
+          <AudioRecorder 
+            onAudioText={handleVoiceSubmit}
+            buttonText="开始录音"
+            placeholder="点击开始录音，支持语音转文本"
+          />
         </div>
       )
     },
     {
       key: 'image',
       label: (
-        <Space>
-          <CameraOutlined />
-          图像输入
-        </Space>
+        <span>
+          <FileImageOutlined />
+          图片
+        </span>
       ),
       children: (
-        <div>
-          <Row gutter={16}>
-            <Col span={12}>
-              <Upload
-                accept="image/*"
-                beforeUpload={handleImageUpload}
-                showUploadList={false}
-                style={{ width: '100%' }}
-              >
-                <Button
-                  icon={<FileImageOutlined />}
-                  size="large"
-                  style={{ width: '100%', height: 100 }}
-                >
-                  点击上传图像
-                </Button>
-              </Upload>
-            </Col>
-            <Col span={12}>
-              {imagePreview && (
-                <div style={{ textAlign: 'center' }}>
-                  <img
-                    src={imagePreview}
-                    alt="预览"
-                    style={{ maxWidth: '100%', maxHeight: 150, objectFit: 'contain' }}
-                  />
-                </div>
-              )}
-            </Col>
-          </Row>
-          <div style={{ marginTop: 16, textAlign: 'center' }}>
-            <Text type="secondary">支持图像识别、OCR文字提取等功能</Text>
-          </div>
-          {imageFile && (
-            <div style={{ marginTop: 16, textAlign: 'center' }}>
-              <Button
-                type="primary"
-                onClick={handleImageSubmit}
-                loading={loading}
-                size="large"
-              >
-                提交图像
+        <div style={{ textAlign: 'center', padding: '20px 0' }}>
+          <Space direction="vertical" size="large">
+            <Upload
+              name="file"
+              action="/api/upload"
+              onChange={handleImageChange}
+              showUploadList={false}
+              maxCount={1}
+            >
+              <Button icon={<UploadOutlined />} size="large">
+                选择图片
               </Button>
-            </div>
-          )}
+            </Upload>
+            
+            {imagePreview && (
+              <div style={{ marginTop: 16 }}>
+                <img 
+                  src={imagePreview} 
+                  alt="预览" 
+                  style={{ maxWidth: '100%', maxHeight: 200 }} 
+                />
+                <br />
+                <Button
+                  type="primary"
+                  onClick={handleImageSubmit}
+                  style={{ marginTop: 16 }}
+                  loading={loading}
+                >
+                  提交图片
+                </Button>
+              </div>
+            )}
+          </Space>
         </div>
       )
     }
   ];
 
   return (
-    <Card title="多模态输入" style={{ marginBottom: 24 }}>
-      <Tabs
-        activeKey={activeTab}
+    <div className="multimodal-input">
+      <Tabs 
+        activeKey={activeTab} 
         onChange={setActiveTab}
         items={tabItems}
-        size="large"
       />
-    </Card>
+    </div>
   );
 } 

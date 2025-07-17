@@ -1,0 +1,183 @@
+
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 幻灯片容器 */
+.slide {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    aspect-ratio: 1.7772290775201514;
+}
+
+/* 标题样式 */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2E7D32;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* 内容样式 */
+.content {
+    font-size: 24px;
+    color: #393939;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* 子标题样式 */
+.subtitle {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* 项目符号列表 */
+.bullet-points {
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #393939;
+    line-height: 1.5;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* 图片容器 */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2E7D32;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* 特殊幻灯片样式 */
+.cover-slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.cover-slide .title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cover-slide .subtitle {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.conclusion-slide {
+    background-color: #f9f9f9;
+}
+
+.conclusion-slide .title {
+    color: #2E7D32;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .slide {
+        padding: 20px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+    
+    .content, .bullet-points {
+        font-size: 18px;
+    }
+    
+    .cover-slide .title {
+        font-size: 36px;
+    }
+    
+    .cover-slide .subtitle {
+        font-size: 24px;
+    }
+}
+
+/* 导航栏样式 - 模拟PPT左侧导航 */
+.slide-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.slide-nav-item {
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+
+.slide-nav-item.active {
+    background-color: #2E7D32;
+    color: white;
+}
+
+/* 带导航的幻灯片内容区域 */
+.with-nav .slide-content {
+    margin-left: 150px;
+}

@@ -374,8 +374,8 @@ export default function MainContentHome() {
       description: '智能配音',
       icon: <AudioOutlined style={{ fontSize: 20, color: '#ff7a45' }} />,
       color: '#fff2e8',
-      route: '/voice-ai',
-      badge: 'AI'
+      route: '/voice',
+      badge: 'NEW'
     },
     {
       title: '在线编辑',

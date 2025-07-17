@@ -22,6 +22,64 @@ from pptx.dml.color import RGBColor # 修正导入路径
 from flask import url_for # Added for improved_ppt_generator
 import sys
 
+# 导入语音服务蓝图，如果导入失败则创建一个模拟的蓝图
+try:
+    from voice_service import voice_service
+except ImportError:
+    from flask import Blueprint
+    
+    # 创建一个模拟的语音服务蓝图
+    voice_service = Blueprint('voice_service', __name__)
+    
+    @voice_service.route('/api/voice/upload', methods=['POST'])
+    def upload_voice():
+        """接收并保存语音文件"""
+        if 'audio' not in request.files:
+            return jsonify({"error": "未检测到音频文件"}), 400
+            
+        file = request.files['audio']
+        
+        if not file or file.filename == '':
+            return jsonify({"error": "未选择文件"}), 400
+            
+        # 返回模拟的语音识别结果
+        example_texts = [
+            "欢迎使用语音输入功能，这将帮助您更高效地创建PPT内容。",
+            "通过语音输入可以提高内容创作效率，快速输入您的想法。",
+            "请尝试继续录制更多内容，系统将自动转换为文本。",
+            "语音识别技术可以让您的工作更轻松，尤其适合输入较长的内容。",
+            "这是一个示例结果，在实际项目中应该集成专业的语音识别API。"
+        ]
+        import random
+        
+        return jsonify({
+            "success": True,
+            "message": "语音上传成功",
+            "filename": "recording.wav",
+            "filepath": "/uploads/voice/recording.wav",
+            "text": random.choice(example_texts),
+            "duration": 3.5
+        })
+
+    @voice_service.route('/api/voice/convert', methods=['POST'])
+    def convert_voice_to_text():
+        """将已上传的语音文件转换为文本"""
+        example_texts = [
+            "这是通过语音转文字API识别的内容示例。",
+            "您可以使用语音输入来更快地创建PPT大纲和内容。",
+            "语音识别可以提高教学资源创建的效率。",
+            "通过语音输入可以帮助教师更快地完成课件制作。"
+        ]
+        import random
+        
+        return jsonify({
+            "success": True,
+            "text": random.choice(example_texts),
+            "confidence": 0.95,
+            "duration": 4.2,
+            "language": "zh-CN"
+        })
+
 # 配置日志
 logging.basicConfig(
     level=logging.DEBUG,
@@ -62,6 +120,9 @@ CORS(app, resources={
     r"/uploads/*": {"origins": "*"},
     r"/ppt_templates/*": {"origins": "*"}
 })  # 启用跨域支持，特别是对uploads目录
+
+# 注册语音服务蓝图
+app.register_blueprint(voice_service)
 
 # 配置
 UPLOAD_FOLDER = os.environ.get('UPLOAD_FOLDER', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads'))

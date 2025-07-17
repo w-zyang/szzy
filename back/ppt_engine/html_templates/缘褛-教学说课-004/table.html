@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .table-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E7D32;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .table-container {
+            flex: 1;
+            overflow: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #2E7D32;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide table-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            <div class="table-container">
+                {% if table_html %}
+                {{ table_html|safe }}
+                {% else %}
+                <table>
+                    <thead>
+                        <tr>
+                            {% for header in table[0] %}
+                            <th>{{ header }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in table[1:] %}
+                        <tr>
+                            {% for cell in row %}
+                            <td>{{ cell }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

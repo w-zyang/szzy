@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>标题幻灯片</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>封面</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .cover-slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            padding: 40px;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+        }
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .author {
+            font-size: 18px;
+            margin-top: 40px;
+            color: #666;
+        }
+        .image-container {
+            margin: 30px 0;
+            max-width: 80%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
-  <div class="slide-container" data-purpose="cover">
-    <div id="element_7" class="element shape " style="position:absolute; left:0.0px; top:4.5187478127734035px; width:10.0px; height:1.1067443132108485px;"></div>
-    <div id="element_11" class="element text " style="position:absolute; left:1.5840288713910762px; top:1.0034722222222223px; width:6.831944444444445px; height:0.8751301399825022px;">教育培训工作计划模板</div>
-    <div id="element_12" class="element text " style="position:absolute; left:2.278178040244969px; top:2.819514435695538px; width:5.443646106736658px; height:0.6058595800524934px;">Professional custom all kinds of industry ppt template, this work belongs to fly impression design original, do not download after the network communication.</div>
-    <div id="element_13" class="element text " style="position:absolute; left:4.142361111111111px; top:3.314583333333333px; width:1.8840277777777779px; height:0.32708333333333334px;">汇报人：代用名</div>
-    <div id="element_14" class="element shape " style="position:absolute; left:3.519329615048119px; top:3.46588801399825px; width:0.6px; height:0.0px;"></div>
-    <div id="element_15" class="element shape " style="position:absolute; left:5.59765091863517px; top:3.4612128171478567px; width:0.6px; height:0.0px;"></div>
-    <div id="element_2" class="element image " style="position:absolute; left:-0.6666666666666666px; top:0.11074584426946632px; width:0.6666666666666666px; height:0.6666666666666666px;"><img src="{{image_url}}" alt="幻灯片图片" style="width:100%; height:100%; object-fit:contain;"></div>
-  </div>
+    <div class="slide cover-slide">
+        <h1 class="title">{{ title }}</h1>
+        <div class="subtitle">{{ content }}</div>
+        {% if image_url %}
+        <div class="image-container">
+            <img src="{{ image_url }}" alt="{{ title }}">
+        </div>
+        {% endif %}
+        {% if slide_data.author %}
+        <div class="author">{{ slide_data.author }}</div>
+        {% endif %}
+    </div>
 </body>
 </html>

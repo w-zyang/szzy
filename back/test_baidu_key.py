@@ -10,22 +10,27 @@ import os
 import sys
 import requests
 import json
-from dotenv import load_dotenv
+import traceback
 
-# 加载环境变量（如果有.env文件）
-load_dotenv()
+# 读取配置文件
+def load_config():
+    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
+    if os.path.exists(config_path):
+        with open(config_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
 
-# 获取百度API密钥（优先使用环境变量）
-BAIDU_API_KEY = os.environ.get('BAIDU_API_KEY', 'bce-v3/ALTAK-Pn2ZJoOSPteqL1Lz76w6p/8968c88fc79f367ed266bccca3baa34643381e6f')
+# 获取百度API密钥
+config = load_config()
+BAIDU_API_KEY = config.get('BAIDU_API_KEY', '')
+BAIDU_SECRET_KEY = config.get('BAIDU_SECRET_KEY', '')
 
 print(f"使用的百度API密钥: {BAIDU_API_KEY}")
+print(f"使用的百度SECRET密钥: {BAIDU_SECRET_KEY}")
 
 # 测试百度API密钥是否有效
 def test_baidu_key():
     print("正在测试百度API密钥...")
-    
-    # 百度API使用的是OAuth 2.0认证，需要先获取access_token
-    # 对于bce-v3格式的密钥，我们使用百度智能云的方式进行认证
     
     try:
         # 使用百度智能云API进行简单测试
@@ -33,10 +38,12 @@ def test_baidu_key():
         params = {
             "grant_type": "client_credentials",
             "client_id": BAIDU_API_KEY,  # API Key
-            "client_secret": ""  # 对于bce-v3格式，可能不需要secret
+            "client_secret": BAIDU_SECRET_KEY  # Secret Key
         }
         
         print("正在获取访问令牌...")
+        print(f"请求参数: {params}")
+        
         response = requests.post(url, params=params)
         
         print(f"响应状态码: {response.status_code}")
@@ -56,6 +63,7 @@ def test_baidu_key():
             
     except Exception as e:
         print(f"\n❌ 测试过程中发生错误: {str(e)}")
+        print(traceback.format_exc())
     
     return False
 
@@ -63,8 +71,8 @@ if __name__ == "__main__":
     success = test_baidu_key()
     
     if success:
-        print("\n您可以使用以下命令测试图片搜索功能:")
-        print("python baidu_api_test.py \"测试关键词\"")
+        print("\n您可以使用以下命令测试语音识别功能:")
+        print("python test_speech_recognition.py test.wav")
     else:
         print("\n请检查API密钥是否正确，或者尝试以下操作:")
         print("1. 确认您的百度智能云账户已开通相关服务")

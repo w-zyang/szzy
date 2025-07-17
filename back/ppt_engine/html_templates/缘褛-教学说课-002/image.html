@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>1_仅标题</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>图文</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E7D32;
+        }
+        .content-container {
+            display: flex;
+            flex: 1;
+        }
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
 </head>
 <body>
-  <div class="slide-container" data-purpose="image">
-    <div id="element_8" class="element image " style="position:absolute; left:0.0037664041994750655px; top:0.0px; width:9.99420384951881px; height:5.6267366579177605px;"><img src="{{image_url}}" alt="幻灯片图片" style="width:100%; height:100%; object-fit:contain;"></div>
-    <div id="element_6" class="element text " style="position:absolute; left:3.310459317585302px; top:2.861275153105862px; width:2.8671806649168854px; height:0.424174321959755px;">教学分析</div>
-    <div id="element_7" class="element text " style="position:absolute; left:3.310459317585302px; top:3.310236220472441px; width:3.3441360454943134px; height:0.24238517060367454px;">CLICK TO ADD CAPTION TEXT</div>
-    <div id="element_2" class="element text " style="position:absolute; left:4.1534328521434825px; top:1.5533858267716536px; width:1.181233595800525px; height:1.181233595800525px;">01</div>
-  </div>
+    <div class="slide image-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content-container">
+                <div class="text-content">
+                    <div class="content">{{ content }}</div>
+                </div>
+                {% if image_url %}
+                <div class="image-container">
+                    <img src="{{ image_url }}" alt="{{ title }}">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,27 +1,32 @@
-# 百度图片搜索API集成指南
+# 百度API集成指南
 
-本文档将指导您如何在PPT生成系统中设置和使用百度图片搜索API。
+本文档将指导您如何在PPT生成系统中设置和使用百度API，包括图片搜索和语音识别功能。
 
 ## 1. 申请百度AI开放平台账号
 
 1. 访问[百度AI开放平台](https://ai.baidu.com/)
 2. 注册/登录账号
 3. 创建应用，获取API Key和Secret Key
-4. 开通图像搜索服务
+4. 开通所需服务（图像搜索、语音识别等）
 
-## 2. 配置环境变量
+## 2. 配置API密钥
 
-在项目的`.env`文件中添加以下配置:
+在项目的`config.json`文件中添加以下配置:
 
+```json
+{
+    "BAIDU_API_KEY": "your_baidu_api_key_here",
+    "BAIDU_SECRET_KEY": "your_baidu_secret_key_here"
+}
 ```
-# 百度图片搜索API配置
-BAIDU_API_KEY=your_baidu_api_key_here
-BAIDU_SECRET_KEY=your_baidu_secret_key_here
-```
+
+**重要提示：** 百度语音识别API需要使用传统格式的API Key和Secret Key，不支持bce-v3格式的密钥。
 
 ## 3. 测试百度API
 
-您可以使用提供的测试脚本验证百度API是否工作正常:
+### 测试图片搜索API
+
+您可以使用提供的测试脚本验证百度图片搜索API是否工作正常:
 
 ```bash
 python baidu_api_test.py "测试关键词"
@@ -29,34 +34,76 @@ python baidu_api_test.py "测试关键词"
 
 如果配置正确，您将看到一些与"测试关键词"相关的图片URL。
 
-## 4. 功能说明
+### 测试语音识别API
+
+您可以使用提供的测试脚本验证百度语音识别API是否工作正常:
+
+```bash
+python test_speech_recognition.py test.wav
+```
+
+其中，`test.wav`是您想要识别的音频文件。如果配置正确，您将看到识别出的文本内容。
+
+## 4. 语音识别功能
+
+### 支持的音频格式
+
+- WAV（推荐）
+- MP3
+- PCM
+- AMR
+- M4A（可能需要转换）
+
+### 使用限制
+
+- 单个音频文件大小不超过10MB
+- 音频时长建议控制在60秒内
+- 支持的采样率：8000Hz或16000Hz（推荐16000Hz）
+- 支持的声道数：单声道（1）
+
+### 错误代码对照表
+
+| 错误代码 | 含义 |
+| ------- | --- |
+| 3300 | 输入参数不正确 |
+| 3301 | 音频质量过差 |
+| 3302 | 鉴权失败 |
+| 3303 | 后端处理超时 |
+| 3304 | 用户请求超过并发限制 |
+| 3305 | 用户请求超过频率限制 |
+| 3307 | 服务正忙 |
+| 3308 | 音频过长 |
+| 3309 | 音频数据问题 |
+| 3310 | 输入的音频文件过大 |
+| 3311 | 采样率参数不正确 |
+| 3312 | 音频格式参数不正确 |
+
+## 5. 图片搜索功能
 
 添加百度图片搜索API后，系统将尝试从以下来源获取图片(按优先级排序):
 
 1. Unsplash API (如果配置了)
 2. Bing图片搜索 (如果配置了)
-3. 百度图片搜索 (如果配置了) - 新增
+3. 百度图片搜索 (如果配置了)
 4. Pixabay API
 5. Pexels API
 
 系统会并行查询这些来源，优先使用最先返回结果的API。这提高了图片获取的成功率和多样性。
 
-## 5. 故障排除
+## 6. 故障排除
 
 如果遇到问题，请检查:
 
 1. API密钥是否正确配置
-2. 网络连接是否正常
-3. 查看日志文件`ppt_generation.log`中的详细错误信息
-
-## 6. 注意事项
-
-- 百度API有调用频率限制，请合理使用
-- 图片使用需遵守百度AI开放平台的服务条款
-- 确保添加了必要的依赖库：`pip install baidu-aip retry`
+2. 是否已开通相应的服务（图片搜索、语音识别等）
+3. 网络连接是否正常
+4. 查看日志文件(`ppt_generation.log`和`speech_recognition.log`)中的详细错误信息
+5. 确认使用的API密钥类型是否匹配（语音识别需要传统格式密钥）
 
 ## 7. 相关文件
 
 - `image_service.py`: 包含图片搜索和生成功能
-- `baidu_api_test.py`: 百度API测试脚本
-- `requirements.txt`: 项目依赖清单，已更新 
+- `speech_recognition_service.py`: 包含语音识别功能
+- `baidu_api_test.py`: 百度图片搜索API测试脚本
+- `test_speech_recognition.py`: 百度语音识别API测试脚本
+- `requirements.txt`: 项目依赖清单 

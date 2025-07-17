@@ -1,17 +1,70 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>标题和内容</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>结论</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .conclusion-slide {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            height: 100%;
+            background-color: #f9f9f9;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2E7D32;
+            text-align: center;
+        }
+        .content {
+            font-size: 24px;
+            line-height: 1.5;
+            margin: 20px auto;
+            max-width: 80%;
+            text-align: center;
+        }
+        .image-container {
+            margin: 20px auto;
+            text-align: center;
+            max-width: 60%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+        }
+        .slide-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .slide-content {
+            margin-left: 150px;
+        }
+    </style>
 </head>
 <body>
-  <div class="slide-container" data-purpose="conclusion">
-    <div id="element_12" class="element image " style="position:absolute; left:1.456299212598425px; top:2.377445319335083px; width:7.729166666666667px; height:2.8854166666666665px;"><img src="{{image_url}}" alt="幻灯片图片" style="width:100%; height:100%; object-fit:contain;"></div>
-    <div id="element_8" class="element text " style="position:absolute; left:2.7522790901137357px; top:1.1627646544181978px; width:4.964558180227471px; height:0.7449912510936133px;">演讲完毕  谢谢观看</div>
-    <div id="element_9" class="element text " style="position:absolute; left:2.755656167979003px; top:1.983040244969379px; width:4.921806649168854px; height:0.32425634295713035px;">CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS</div>
-    <div id="element_10" class="element text " style="position:absolute; left:3.833286307961505px; top:2.4044367891513563px; width:2.7416918197725284px; height:0.2048611111111111px;">汇报人：代用名    时间：2020年x月x日</div>
-  </div>
+    <div class="slide conclusion-slide">
+        <div class="slide-nav">
+            <!-- 导航占位符 -->
+        </div>
+        <div class="slide-content">
+            <h1 class="title">{{ title }}</h1>
+            <div class="content">{{ content }}</div>
+            {% if image_url %}
+            <div class="image-container">
+                <img src="{{ image_url }}" alt="{{ title }}">
+            </div>
+            {% endif %}
+        </div>
+    </div>
 </body>
 </html>

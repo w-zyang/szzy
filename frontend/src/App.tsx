@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Layout, Menu, Card, Row, Col, Button, Typography, Divider, Badge, Modal, message } from 'antd';
 import {
-  UserOutlined, FileTextOutlined, VideoCameraOutlined, RobotOutlined, FileSearchOutlined, GiftOutlined, TeamOutlined, AppstoreOutlined, StarOutlined, CrownOutlined, ReadOutlined, BookOutlined
+  UserOutlined, FileTextOutlined, VideoCameraOutlined, RobotOutlined, FileSearchOutlined, GiftOutlined, TeamOutlined, AppstoreOutlined, StarOutlined, CrownOutlined, ReadOutlined, BookOutlined, AudioOutlined
 } from '@ant-design/icons';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import PPTPage from './PPTPage';
@@ -22,6 +22,7 @@ import ResourceManagementPage from './ResourceManagementPage';
 import CaseGenerationPage from './CaseGenerationPage';
 import ResourceCreationCenter from './ResourceCreationCenter';
 import MindMapPage from './MindMapPage';
+import VoiceRecorderDemo from './VoiceRecorderDemo';
 import './App.css';
 
 const { Header, Sider, Content } = Layout;
@@ -43,6 +44,7 @@ const menuGroups = [
       { key: 'resources', icon: <FileSearchOutlined />, label: '资源管理中心' },
       { key: 'tutorial', icon: <ReadOutlined />, label: '教程中心' },
       { key: 'digital', icon: <RobotOutlined />, label: '数字人专区' },
+      { key: 'voice', icon: <AudioOutlined />, label: '语音录制工具' }
     ]
   },
   {
@@ -88,6 +90,7 @@ function MainLayout() {
     else if (location.pathname.startsWith('/mycustom')) setSelected('custom');
     else if (location.pathname.startsWith('/myquestion')) setSelected('question');
     else if (location.pathname.startsWith('/custom')) setSelected('digital');
+    else if (location.pathname.startsWith('/voice')) setSelected('voice');
     else setSelected('space');
   }, [location]);
   const handleMenu = (e: any) => {
@@ -104,6 +107,7 @@ function MainLayout() {
       case 'ppt': navigate('/myppt'); break;
       case 'custom': navigate('/mycustom'); break;
       case 'question': navigate('/myquestion'); break;
+      case 'voice': navigate('/voice'); break;
       default: navigate('/');
     }
   };
@@ -164,6 +168,7 @@ function MainContent() {
         <Route path="/case" element={<CaseGenerationPage />} />
         <Route path="/creation-center" element={<ResourceCreationCenter />} />
         <Route path="/mindmap" element={<MindMapPage />} />
+        <Route path="/voice" element={<VoiceRecorderDemo />} />
       </Routes>
     </div>
   );

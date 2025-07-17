@@ -13,6 +13,7 @@ import {
   DeleteOutlined, EditOutlined, CopyOutlined, ShareAltOutlined, 
   HeartOutlined, FireOutlined, CrownOutlined, RocketOutlined, PlusOutlined
 } from '@ant-design/icons';
+import AudioRecorder from './components/AudioRecorder';
 
 const { Title, Text, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -121,6 +122,7 @@ export default function ResourceCreationCenter() {
     previewUrl: string;
   }[]>([]);
   const [loadingTemplates, setLoadingTemplates] = useState(false);
+  const [topicRecognizedText, setTopicRecognizedText] = useState('');
 
   // 模板预览图映射 - 默认预览图，实际应从服务器获取
   const templatePreviewImages: Record<string, string> = {
@@ -209,7 +211,7 @@ export default function ResourceCreationCenter() {
   const MultimodalInput = ({ onInput }: { onInput: (data: any) => void }) => {
     const [inputType, setInputType] = useState<'text' | 'voice' | 'image'>('text');
     const [textInput, setTextInput] = useState('');
-    const [recording, setRecording] = useState(false);
+    const [recognizedText, setRecognizedText] = useState('');
 
     const handleTextInput = () => {
       if (textInput.trim()) {
@@ -218,12 +220,43 @@ export default function ResourceCreationCenter() {
       }
     };
 
-    const handleVoiceInput = () => {
-      setRecording(!recording);
-      // 这里实现语音输入逻辑
-      if (recording) {
-        onInput({ type: 'voice', content: '语音输入内容...' });
-      }
+    const handleVoiceSubmit = (audioFile: File) => {
+      // 创建FormData对象
+      const formData = new FormData();
+      formData.append('audio', audioFile);
+      
+      // 调用后端API进行语音识别
+      fetch('/api/voice/upload', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('语音上传失败');
+        }
+        return response.json();
+      })
+      .then(result => {
+        if (result.success && result.text) {
+          // 设置识别结果
+          setRecognizedText(result.text);
+          
+          // 传递给父组件
+          onInput({ type: 'voice', content: result.text });
+          message.success('语音识别成功');
+        } else {
+          throw new Error(result.error || '无法识别语音内容');
+        }
+      })
+      .catch(error => {
+        console.error('语音处理错误:', error);
+        message.error('语音处理失败: ' + error.message);
+      });
+    };
+
+    const handleAudioText = (text: string) => {
+      setRecognizedText(text);
+      onInput({ type: 'voice', content: text });
     };
 
     const handleImageUpload = (file: File) => {
@@ -286,22 +319,16 @@ export default function ResourceCreationCenter() {
         )}
 
         {inputType === 'voice' && (
-          <div style={{ textAlign: 'center', padding: 20 }}>
-            <Button
-              type="primary"
-              danger={recording}
-              icon={recording ? <LoadingOutlined /> : <AudioOutlined />}
-              size="large"
-              onClick={handleVoiceInput}
-              style={{ 
-                borderRadius: 50,
-                height: 60,
-                width: 60
-              }}
-            />
-            <div style={{ marginTop: 12, color: '#666' }}>
-              {recording ? '正在录音...' : '点击开始录音'}
+          <div style={{ padding: '10px 0' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 16 }}>
+              <AudioRecorder onAudioText={handleAudioText} buttonText="开始录音" placeholder="点击按钮开始录音" />
             </div>
+            {recognizedText && (
+              <div style={{ marginTop: 16, padding: 12, background: '#f0f7ff', borderRadius: 8, border: '1px solid #d7e6ff' }}>
+                <div style={{ fontWeight: 'bold', marginBottom: 4 }}>语音识别结果:</div>
+                <div style={{ fontSize: 16 }}>{recognizedText}</div>
+              </div>
+            )}
           </div>
         )}
 
@@ -1126,14 +1153,73 @@ export default function ResourceCreationCenter() {
 
     const currentType = resourceTypes.find(t => t.key === selectedType);
     
+    const handleTopicVoiceText = (text: string) => {
+      setTopicRecognizedText(text);
+      // 更新表单中的topic字段
+      form.setFieldsValue({ topic: text });
+    };
+    
     const getTypeSpecificForm = () => {
       switch (selectedType) {
         case 'ppt':
           return (
             <div>
-              <Form.Item name="topic" label="主题内容" rules={[{ required: true, message: '请输入主题内容' }]}>
+              <Form.Item name="topic" label={
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  <span>主题内容</span>
+                  <Tooltip title="使用语音输入">
+                    <Button 
+                      type="text" 
+                      icon={<AudioOutlined />}
+                      onClick={() => {
+                        Modal.confirm({
+                          title: '语音输入',
+                          width: 500,
+                          icon: <AudioOutlined style={{ color: '#1890ff' }} />,
+                          content: (
+                            <div style={{ padding: '20px 0' }}>
+                              <AudioRecorder 
+                                onAudioText={handleTopicVoiceText} 
+                                buttonText="开始录音" 
+                                placeholder="点击按钮开始语音输入PPT主题"
+                              />
+                            </div>
+                          ),
+                          footer: null
+                        });
+                      }}
+                      size="small"
+                    />
+                  </Tooltip>
+                </div>
+              } rules={[{ required: true, message: '请输入主题内容' }]}>
                 <TextArea rows={4} placeholder="请输入PPT的主题和主要内容..." />
               </Form.Item>
+              
+              {topicRecognizedText && (
+                <div style={{ 
+                  marginTop: -16, 
+                  marginBottom: 16, 
+                  padding: 10, 
+                  background: '#f0f7ff', 
+                  borderRadius: 4, 
+                  fontSize: 14,
+                  color: '#0057b7'
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span>最近的语音输入:</span>
+                    <Button 
+                      type="text" 
+                      size="small" 
+                      icon={<DeleteOutlined />} 
+                      onClick={() => setTopicRecognizedText('')}
+                    >
+                      清除
+                    </Button>
+                  </div>
+                  <div style={{ marginTop: 4 }}>{topicRecognizedText}</div>
+                </div>
+              )}
               
               {/* 模板预览 */}
               <div style={{ marginBottom: 20 }}>
